@@ -47,8 +47,11 @@
     move-result-object p2
 
     check-cast p2, Lcom/inventec/controls/MmcFontTextView;
+
     const/4 v0, 0x1
+
     sput-boolean v0, Lcom/inventec/iMobile12/a2/b;->f:Z
+
     sget-boolean v0, Lcom/inventec/iMobile12/a2/b;->f:Z
 
     const/4 v1, 0x5

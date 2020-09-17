@@ -34,6 +34,7 @@
     .locals 2
 
     const/4 v1, 0x1
+
     sput-boolean v1, Lcom/inventec/iMobile12/a2/b;->f:Z
 
     :try_start_0
@@ -86,7 +87,9 @@
 
 .method public static a(Ljava/lang/Exception;)V
     .locals 1
+
     const/4 v0, 0x1
+    sput-boolean v0, Lcom/inventec/iMobile12/a2/b;->f:Z
     :try_start_0
     sget-boolean v0, Lcom/inventec/iMobile12/a2/b;->f:Z
 
@@ -113,6 +116,7 @@
     .locals 18
 
     const/4 v0, 0x1
+
     sput-boolean v0, Lcom/inventec/iMobile12/a2/b;->f:Z
 
     move-object/from16 v0, p0

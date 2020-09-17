@@ -1,4 +1,3 @@
-
 .class public Lcom/inventec/iMobile12/a2/g;
 .super Ljava/lang/Object;
 .source ""
@@ -74,12 +73,11 @@
 
     move-object/from16 v2, p2
 
-
     sput-object v1, Lcom/inventec/iMobile12/a2/g;->a:Ljava/lang/String;
 
     sput-object v2, Lcom/inventec/iMobile12/a2/g;->b:Ljava/lang/String;
 
-    const/16 v3, 0
+    const/16 v3, 0x0
 
     return v3
 
@@ -717,8 +715,6 @@
 
     if-ne v0, v4, :cond_1c
 
-    # invoke-virtual {v6, v4}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
-
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v0
@@ -1007,8 +1003,6 @@
     invoke-static {v0}, Lcom/inventec/iMobile12/a2/b;->a(Ljava/lang/String;)V
 
     if-eqz v6, :cond_28
-
-    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_28
     move/from16 v5, v22
@@ -1400,8 +1394,6 @@
 
     if-eqz v6, :cond_3a
 
-    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
-
     :cond_3a
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1536,8 +1528,6 @@
     invoke-static {v0}, Lcom/inventec/iMobile12/a2/b;->a(Ljava/lang/String;)V
 
     if-eqz v6, :cond_42
-
-    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_42
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1838,8 +1828,6 @@
     if-nez v4, :cond_51
 
     if-eqz v6, :cond_4f
-
-    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_4f
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -3037,7 +3025,7 @@
 
     invoke-static {v3, v4}, Ljava/lang/Thread;->sleep(J)V
 
-    invoke-virtual {v0, v6}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v0, v6}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     invoke-static {v3, v4}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
@@ -3807,7 +3795,7 @@
 
 .method public static getMac()Ljava/lang/String;
     .locals 1
-    const-string v0, "6C:C7:EC:2B:91:DD"
+    const-string v0, "6C:C7:EC:2B:00:00"
     return-object v0
 .end method
 
@@ -3819,7 +3807,9 @@
     move-result-object p0
 
     const/4 v2, 0x0
+
     const-string v0, "0"
+
     invoke-static {}, Lcom/inventec/iMobile12/a2/g;->getMac()Ljava/lang/String;
 
     move-result-object p0
