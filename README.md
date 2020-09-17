@@ -1,1 +1,1 @@
-# remote-ctrl-gsm
+# mitsubishi GSM remote control
