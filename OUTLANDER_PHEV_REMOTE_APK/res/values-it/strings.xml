@@ -69,7 +69,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
     <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
     <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
-    <string name="app_name">Remote Ctrl</string>
+    <string name="app_name">GSM Remote Ctrl</string>
     <string name="bartitle3">Stato</string>
     <string name="bartitle5">Impostaz.</string>
     <string name="bgdark" />
@@ -179,7 +179,7 @@ La modalità selezionata verrà applicata sulla impostazione del timer attualmen
     <string name="evmchacwarn5no">No</string>
     <string name="evmchacwarn5yes">Sì</string>
     <string name="evmchargeTimerSch">Programma Timer di Ricarica</string>
-    <string name="evmchargetschstr">"È possibile annullare temporaneamente il timer deselezionandolo. 
+    <string name="evmchargetschstr">"È possibile annullare temporaneamente il timer deselezionandolo.
 Per interrompere l'impostazione riselezionare il comando."</string>
     <string name="evmchargstatusstr">Stato di Ricarica</string>
     <string name="evmchtempcancellstr">Annullamento temporaneo</string>
@@ -693,7 +693,7 @@ Per riscaldare la batteria si prega di impostare la macchina allo stato di READY
 
 Si prega di collegare il cavo di ricarica alla presa di corrente per riscaldare la batteria."</string>
     <string name="topbattwarminginfo_stop_1">"Il veicolo non può essere utilizzato a causa della bassa temperatura della batteria di trazione.
-Il riscaldamento della batteria è necessario ma non è possible nelle condizioni attuali. 
+Il riscaldamento della batteria è necessario ma non è possible nelle condizioni attuali.
 
 Si prega di attendere fino ad aumento della temperatura esterna."</string>
     <string name="topbattwarminginfo_stop_2">"Il veicolo non può essere utilizzato a causa della bassa temperatura della batteria di trazione.

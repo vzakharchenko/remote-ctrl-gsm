@@ -177,7 +177,7 @@
 
     move-result v4
 
-    sget-object v6, Lcom/inventec/iMobile2/n1;->SwitchView:[I
+    sget-object v6, Lcom/inventec/iMobile12/n1;->SwitchView:[I
 
     invoke-virtual {p1, p2, v6}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

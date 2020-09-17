@@ -1,5 +1,5 @@
 .class Lcom/kostal/car2017/frmEVChargeSet10$c;
-.super Lcom/inventec/iMobile2/z1/w;
+.super Lcom/inventec/iMobile12/z1/w;
 .source ""
 
 
@@ -49,14 +49,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/kostal/car2017/frmEVChargeSet10;Lcom/inventec/iMobile2/z1/e;)V
+.method public constructor <init>(Lcom/kostal/car2017/frmEVChargeSet10;Lcom/inventec/iMobile12/z1/e;)V
     .locals 5
 
     iput-object p1, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
     const v0, 0x7f09009a
 
-    invoke-direct {p0, p2, v0}, Lcom/inventec/iMobile2/z1/w;-><init>(Lcom/inventec/iMobile2/z1/e;I)V
+    invoke-direct {p0, p2, v0}, Lcom/inventec/iMobile12/z1/w;-><init>(Lcom/inventec/iMobile12/z1/e;I)V
 
     const/4 v0, 0x0
 
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->n:Ljava/util/List;
 
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v1, 0x7f0700bb
 
@@ -136,7 +136,7 @@
 
     iput-object v1, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->e:Lcom/inventec/controls/MmcFontTextView;
 
-    invoke-virtual {p1}, Lcom/inventec/iMobile2/z1/e;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Lcom/inventec/iMobile12/z1/e;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -148,7 +148,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->b()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->b()I
 
     move-result v1
 
@@ -160,7 +160,7 @@
 
     if-eq v1, v2, :cond_0
 
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->b()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->b()I
 
     move-result v1
 
@@ -169,13 +169,13 @@
     if-ne v1, v2, :cond_1
 
     :cond_0
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->c()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->c()I
 
     move-result v1
 
     if-ne v1, v4, :cond_1
 
-    iget-object v1, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v1, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,9 +189,9 @@
 
     check-cast v2, Landroid/widget/RelativeLayout$LayoutParams;
 
-    iget-object v3, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v3, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
-    invoke-virtual {v3}, Lcom/inventec/iMobile2/z1/e;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Lcom/inventec/iMobile12/z1/e;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -211,7 +211,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->b()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->b()I
 
     move-result v1
 
@@ -219,13 +219,13 @@
 
     if-ne v1, v2, :cond_2
 
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->c()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->c()I
 
     move-result v1
 
     if-ne v1, v4, :cond_2
 
-    iget-object v1, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v1, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,9 +239,9 @@
 
     check-cast v2, Landroid/widget/RelativeLayout$LayoutParams;
 
-    iget-object v3, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v3, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
-    invoke-virtual {v3}, Lcom/inventec/iMobile2/z1/e;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Lcom/inventec/iMobile12/z1/e;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -250,7 +250,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->b()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->b()I
 
     move-result v1
 
@@ -258,13 +258,13 @@
 
     if-ne v1, v2, :cond_3
 
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->c()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->c()I
 
     move-result v1
 
     if-ne v1, v4, :cond_3
 
-    iget-object v1, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v1, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -278,9 +278,9 @@
 
     check-cast v2, Landroid/widget/RelativeLayout$LayoutParams;
 
-    iget-object v3, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v3, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
-    invoke-virtual {v3}, Lcom/inventec/iMobile2/z1/e;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Lcom/inventec/iMobile12/z1/e;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -289,7 +289,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->b()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->b()I
 
     move-result v1
 
@@ -297,7 +297,7 @@
 
     if-ne v1, v2, :cond_4
 
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->c()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->c()I
 
     move-result v1
 
@@ -306,7 +306,7 @@
     goto :goto_1
 
     :cond_4
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->b()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->b()I
 
     move-result v1
 
@@ -314,7 +314,7 @@
 
     if-ne v1, v2, :cond_5
 
-    invoke-virtual {p0}, Lcom/inventec/iMobile2/z1/w;->c()I
+    invoke-virtual {p0}, Lcom/inventec/iMobile12/z1/w;->c()I
 
     move-result v1
 
@@ -344,7 +344,7 @@
 
     invoke-virtual {v0, v1}, Lcom/inventec/controls/MyButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v1, 0x7f07005f
 
@@ -374,7 +374,7 @@
 
     invoke-virtual {v0, v1}, Lcom/inventec/controls/MyButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v1, 0x7f070065
 
@@ -392,7 +392,7 @@
 
     invoke-virtual {v0, v1}, Lcom/inventec/controls/MyButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v1, 0x7f070067
 
@@ -434,7 +434,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v1, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v2, 0x7f0700bf
 
@@ -446,7 +446,7 @@
 
     iput-object v1, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->j:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v1, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v2, 0x7f0700bd
 
@@ -500,7 +500,7 @@
     :goto_2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->b:Landroid/view/View;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->b:Landroid/view/View;
 
     const v1, 0x7f070184
 
@@ -567,10 +567,10 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic a(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -723,10 +723,10 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic b(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -749,10 +749,10 @@
     return-object p0
 .end method
 
-.method static synthetic c(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic c(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -925,7 +925,7 @@
     :cond_6
     const/4 v12, 0x6
 
-    invoke-static {v12, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v12, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v12
 
@@ -946,7 +946,7 @@
 
     if-eqz v12, :cond_7
 
-    invoke-static {v13, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v13, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v12
 
@@ -977,7 +977,7 @@
     goto :goto_8
 
     :cond_8
-    invoke-static {v6, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v6, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v6
 
@@ -992,7 +992,7 @@
     :goto_8
     if-eqz v12, :cond_9
 
-    invoke-static {v10, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v10, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v6
 
@@ -1031,7 +1031,7 @@
     goto :goto_a
 
     :cond_a
-    invoke-static {v13, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v13, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v5
 
@@ -1048,7 +1048,7 @@
 
     const/4 v10, 0x1
 
-    invoke-static {v10, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v10, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v7
 
@@ -1077,7 +1077,7 @@
     :cond_c
     const/4 v4, 0x0
 
-    invoke-static {v4, v3}, Lcom/inventec/iMobile2/b2/b;->b(I[B)S
+    invoke-static {v4, v3}, Lcom/inventec/iMobile12/b2/b;->b(I[B)S
 
     move-result v3
 
@@ -1181,7 +1181,7 @@
     goto :goto_14
 
     :cond_13
-    iget-object v7, v0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v7, v0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1194,7 +1194,7 @@
     goto :goto_13
 
     :cond_14
-    invoke-static {v7, v4}, Lcom/inventec/iMobile2/b2/b;->a(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {v7, v4}, Lcom/inventec/iMobile12/b2/b;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1262,7 +1262,7 @@
     goto :goto_19
 
     :cond_19
-    iget-object v4, v0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v4, v0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1275,7 +1275,7 @@
     goto :goto_18
 
     :cond_1a
-    invoke-static {v4, v15, v6}, Lcom/inventec/iMobile2/b2/b;->c(Landroid/content/Context;II)Ljava/lang/String;
+    invoke-static {v4, v15, v6}, Lcom/inventec/iMobile12/b2/b;->c(Landroid/content/Context;II)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1306,7 +1306,7 @@
     goto :goto_1c
 
     :cond_1c
-    iget-object v3, v0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v3, v0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -1319,7 +1319,7 @@
     goto :goto_1b
 
     :cond_1d
-    invoke-static {v3, v5, v12}, Lcom/inventec/iMobile2/b2/b;->b(Landroid/content/Context;II)Ljava/lang/String;
+    invoke-static {v3, v5, v12}, Lcom/inventec/iMobile12/b2/b;->b(Landroid/content/Context;II)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1358,10 +1358,10 @@
     return-void
 .end method
 
-.method static synthetic d(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic d(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -1595,10 +1595,10 @@
     return-object p1
 .end method
 
-.method static synthetic e(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic e(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -1670,10 +1670,10 @@
     return-object v0
 .end method
 
-.method static synthetic f(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic f(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -2335,10 +2335,10 @@
     return-void
 .end method
 
-.method static synthetic g(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic g(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -2359,10 +2359,10 @@
     return-object p0
 .end method
 
-.method static synthetic j(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
+.method static synthetic j(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
     .locals 0
 
-    iget-object p0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object p0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     return-object p0
 .end method
@@ -2425,7 +2425,7 @@
 
     iget-object v1, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
-    invoke-virtual {v1}, Lcom/inventec/iMobile2/z1/e;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Lcom/inventec/iMobile12/z1/e;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -2549,7 +2549,7 @@
 .method public d()V
     .locals 5
 
-    invoke-super {p0}, Lcom/inventec/iMobile2/z1/w;->d()V
+    invoke-super {p0}, Lcom/inventec/iMobile12/z1/w;->d()V
 
     const-string v0, "0"
 
@@ -2650,16 +2650,16 @@
     :cond_0
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->U:[B
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v6, 0x0
 
     :goto_0
-    sget-short v7, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v7, Lcom/inventec/iMobile12/b2/d;->a1:S
 
     const/4 v8, 0x4
 
-    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v0
 
@@ -2684,14 +2684,14 @@
     :cond_1
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->V:[B
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v6, 0x0
 
     :goto_1
-    sget-short v7, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v7, Lcom/inventec/iMobile12/b2/d;->c1:S
 
-    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v0
 
@@ -2716,14 +2716,14 @@
     :cond_2
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->W:[B
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v6, 0x0
 
     :goto_2
-    sget-short v7, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v7, Lcom/inventec/iMobile12/b2/d;->e1:S
 
-    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v0
 
@@ -2748,14 +2748,14 @@
     :cond_3
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->X:[B
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v6, 0x0
 
     :goto_3
-    sget-short v7, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v7, Lcom/inventec/iMobile12/b2/d;->g1:S
 
-    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v0
 
@@ -2780,14 +2780,14 @@
     :cond_4
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->Y:[B
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v6, 0x0
 
     :goto_4
-    sget-short v7, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v7, Lcom/inventec/iMobile12/b2/d;->i1:S
 
-    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v0, v6, v2, v7, v8}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v0
 
@@ -2810,9 +2810,9 @@
     :cond_5
     iget-byte v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->e0:B
 
-    sget-short v2, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v2, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    invoke-static {v2}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v2}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v2
 
@@ -2868,7 +2868,7 @@
     :cond_8
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->U:[B
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     move-object v11, v7
 
@@ -2879,9 +2879,9 @@
     :goto_6
     if-eqz v9, :cond_9
 
-    sget-short v9, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v9, Lcom/inventec/iMobile12/b2/d;->a1:S
 
-    invoke-static {v0, v10, v2, v9, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v10, v2, v9, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v11, v1
 
@@ -2919,9 +2919,9 @@
 
     if-eqz v9, :cond_b
 
-    sget-object v9, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v9, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->c1:S
 
     move-object v12, v1
 
@@ -2960,7 +2960,7 @@
     goto :goto_a
 
     :cond_c
-    invoke-static {v0, v13, v9, v11, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v13, v9, v11, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/lit8 v10, v10, 0x8
 
@@ -3006,9 +3006,9 @@
     goto :goto_c
 
     :cond_e
-    sget-object v9, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v9, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v11, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v11, Lcom/inventec/iMobile12/b2/d;->e1:S
 
     add-int/lit8 v10, v10, 0xf
 
@@ -3021,7 +3021,7 @@
     :goto_c
     if-eqz v10, :cond_f
 
-    invoke-static {v0, v13, v9, v11, v14}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v13, v9, v11, v14}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     iget-object v0, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
@@ -3056,7 +3056,7 @@
     :cond_10
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10;->X:[B
 
-    sget-object v9, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v9, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     add-int/lit8 v10, v10, 0x6
 
@@ -3067,9 +3067,9 @@
     :goto_e
     if-eqz v10, :cond_11
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->g1:S
 
-    invoke-static {v0, v11, v9, v10, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v11, v9, v10, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v12, v1
 
@@ -3105,9 +3105,9 @@
     :goto_10
     if-eqz v10, :cond_13
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v9, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v9, Lcom/inventec/iMobile12/b2/d;->i1:S
 
     move-object v12, v1
 
@@ -3140,7 +3140,7 @@
     goto :goto_12
 
     :cond_14
-    invoke-static {v0, v11, v2, v9, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v11, v2, v9, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/lit8 v10, v10, 0x7
 
@@ -3153,9 +3153,9 @@
 
     iget-object v0, v0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
-    sget-short v2, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v2, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    invoke-static {v2}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v2}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v2
 
@@ -3268,7 +3268,7 @@
     goto :goto_18
 
     :cond_1a
-    invoke-static {v0, v9, v2, v4, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v9, v2, v4, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/lit8 v10, v10, 0x9
 
@@ -3323,7 +3323,7 @@
     :goto_1a
     if-eqz v10, :cond_1d
 
-    invoke-static {v0, v9, v2, v4, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v9, v2, v4, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v12, v1
 
@@ -3407,7 +3407,7 @@
     :goto_1e
     if-eqz v10, :cond_21
 
-    invoke-static {v0, v6, v2, v9, v11}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v6, v2, v9, v11}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     iget-object v0, p0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
@@ -3482,7 +3482,7 @@
     goto :goto_22
 
     :cond_24
-    invoke-static {v0, v6, v2, v4, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v6, v2, v4, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/lit8 v10, v10, 0xf
 
@@ -3535,7 +3535,7 @@
     :goto_24
     if-eqz v10, :cond_27
 
-    invoke-static {v0, v3, v2, v4, v8}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v0, v3, v2, v4, v8}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     goto :goto_25
 
@@ -3606,7 +3606,7 @@
     goto :goto_0
 
     :cond_0
-    sget-byte v3, Lcom/inventec/iMobile2/b2/d;->g:B
+    sget-byte v3, Lcom/inventec/iMobile12/b2/d;->g:B
 
     aput-byte v3, v1, v7
 
@@ -3650,7 +3650,7 @@
     goto :goto_2
 
     :cond_2
-    sget-byte v8, Lcom/inventec/iMobile2/b2/d;->l:B
+    sget-byte v8, Lcom/inventec/iMobile12/b2/d;->l:B
 
     aput-byte v8, v1, v14
 
@@ -3665,7 +3665,7 @@
 
     if-eqz v3, :cond_3
 
-    sget-byte v3, Lcom/inventec/iMobile2/b2/d;->J0:B
+    sget-byte v3, Lcom/inventec/iMobile12/b2/d;->J0:B
 
     aput-byte v3, v1, v15
 
@@ -4150,9 +4150,9 @@
 
     if-ge v2, v14, :cond_18
 
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v3, Lcom/inventec/iMobile2/b2/d;->g2:S
+    sget-short v3, Lcom/inventec/iMobile12/b2/d;->g2:S
 
     aget-byte v2, v2, v3
 
@@ -4169,7 +4169,7 @@
     :cond_19
     const/16 v2, 0x19
 
-    invoke-static {v1}, Lcom/inventec/iMobile2/b2/d;->a([B)B
+    invoke-static {v1}, Lcom/inventec/iMobile12/b2/d;->a([B)B
 
     move-result v3
 
@@ -4263,11 +4263,11 @@
     .locals 3
 
     :try_start_0
-    new-instance v0, Lcom/inventec/iMobile2/z1/i;
+    new-instance v0, Lcom/inventec/iMobile12/z1/i;
 
-    iget-object v1, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v1, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
-    invoke-direct {v0, v1}, Lcom/inventec/iMobile2/z1/i;-><init>(Lcom/inventec/iMobile2/z1/e;)V
+    invoke-direct {v0, v1}, Lcom/inventec/iMobile12/z1/i;-><init>(Lcom/inventec/iMobile12/z1/e;)V
 
     const-string v1, "0"
 
@@ -4288,7 +4288,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2, v1, v2}, Lcom/inventec/iMobile2/z1/i;->a(IIZ)V
+    invoke-virtual {v0, v2, v1, v2}, Lcom/inventec/iMobile12/z1/i;->a(IIZ)V
 
     const/16 v1, 0xe
 
@@ -4303,16 +4303,16 @@
 
     invoke-direct {v0, p0}, Lcom/kostal/car2017/frmEVChargeSet10$c$i;-><init>(Lcom/kostal/car2017/frmEVChargeSet10$c;)V
 
-    invoke-virtual {v1, v0}, Lcom/inventec/iMobile2/z1/i;->b(Lcom/inventec/iMobile2/z1/i$f;)V
+    invoke-virtual {v1, v0}, Lcom/inventec/iMobile12/z1/i;->b(Lcom/inventec/iMobile12/z1/i$f;)V
 
     :cond_1
     new-instance v0, Lcom/kostal/car2017/frmEVChargeSet10$c$j;
 
     invoke-direct {v0, p0}, Lcom/kostal/car2017/frmEVChargeSet10$c$j;-><init>(Lcom/kostal/car2017/frmEVChargeSet10$c;)V
 
-    invoke-virtual {v1, v0}, Lcom/inventec/iMobile2/z1/i;->a(Lcom/inventec/iMobile2/z1/i$f;)V
+    invoke-virtual {v1, v0}, Lcom/inventec/iMobile12/z1/i;->a(Lcom/inventec/iMobile12/z1/i$f;)V
 
-    invoke-virtual {v1}, Lcom/inventec/iMobile2/z1/i;->show()V
+    invoke-virtual {v1}, Lcom/inventec/iMobile12/z1/i;->show()V
     :try_end_0
     .catch Lcom/kostal/car2017/i; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4345,15 +4345,15 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/inventec/iMobile2/a2/r;->a([B)Z
+    invoke-static {v1}, Lcom/inventec/iMobile12/a2/r;->a([B)Z
 
-    sget-boolean v1, Lcom/inventec/iMobile2/b2/b;->x:Z
+    sget-boolean v1, Lcom/inventec/iMobile12/b2/b;->x:Z
 
     if-eqz v1, :cond_46
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->a1:S
 
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -4402,9 +4402,9 @@
     goto :goto_1
 
     :cond_1
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->a1:S
 
     move-object v13, v9
 
@@ -4461,9 +4461,9 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->a1:S
 
     move-object v13, v3
 
@@ -4542,7 +4542,7 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/lit8 v12, v12, 0x3
 
@@ -4551,7 +4551,7 @@
     :goto_7
     if-eqz v12, :cond_8
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->a1:S
 
     add-int/lit8 v10, v10, 0x3
 
@@ -4622,9 +4622,9 @@
     goto :goto_b
 
     :cond_b
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->c1:S
 
     add-int/lit8 v12, v12, 0xb
 
@@ -4666,7 +4666,7 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/2addr v12, v14
 
@@ -4675,7 +4675,7 @@
     :goto_d
     if-eqz v12, :cond_e
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->c1:S
 
     add-int/2addr v10, v2
 
@@ -4746,9 +4746,9 @@
     goto :goto_11
 
     :cond_11
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->c1:S
 
     add-int/lit8 v12, v12, 0x8
 
@@ -4803,9 +4803,9 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->c1:S
 
     move-object v13, v3
 
@@ -4880,7 +4880,7 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/2addr v12, v14
 
@@ -4889,7 +4889,7 @@
     :goto_17
     if-eqz v12, :cond_18
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->e1:S
 
     iget-object v11, v0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
@@ -4933,9 +4933,9 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->e1:S
 
     move-object v13, v3
 
@@ -5008,7 +5008,7 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/lit8 v12, v12, 0x7
 
@@ -5017,7 +5017,7 @@
     :goto_1d
     if-eqz v12, :cond_1e
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->e1:S
 
     add-int/2addr v10, v14
 
@@ -5088,9 +5088,9 @@
     goto :goto_21
 
     :cond_21
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->e1:S
 
     add-int/lit8 v12, v12, 0x6
 
@@ -5145,9 +5145,9 @@
 
     aput-byte v11, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->g1:S
 
     move-object v13, v3
 
@@ -5216,9 +5216,9 @@
     goto :goto_27
 
     :cond_27
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v10, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v10, Lcom/inventec/iMobile12/b2/d;->g1:S
 
     add-int/2addr v12, v6
 
@@ -5273,9 +5273,9 @@
 
     aput-byte v6, v1, v10
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->g1:S
 
     move-object v13, v3
 
@@ -5350,7 +5350,7 @@
 
     aput-byte v10, v1, v6
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/lit8 v12, v12, 0x8
 
@@ -5359,7 +5359,7 @@
     :goto_2d
     if-eqz v12, :cond_2e
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->g1:S
 
     add-int/lit8 v6, v6, 0x3
 
@@ -5430,9 +5430,9 @@
     goto :goto_31
 
     :cond_31
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->i1:S
 
     add-int/lit8 v12, v12, 0xa
 
@@ -5474,7 +5474,7 @@
 
     aput-byte v10, v1, v6
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/lit8 v12, v12, 0x6
 
@@ -5483,7 +5483,7 @@
     :goto_33
     if-eqz v12, :cond_34
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->i1:S
 
     add-int/2addr v6, v2
 
@@ -5554,9 +5554,9 @@
     goto :goto_37
 
     :cond_37
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->i1:S
 
     add-int/lit8 v12, v12, 0x8
 
@@ -5611,9 +5611,9 @@
 
     aput-byte v10, v1, v6
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->i1:S
 
     move-object v13, v3
 
@@ -5686,7 +5686,7 @@
 
     aput-byte v10, v1, v6
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     add-int/lit8 v12, v12, 0xb
 
@@ -5695,11 +5695,11 @@
     :goto_3d
     if-eqz v12, :cond_3e
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    sget-object v10, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v10, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v11, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v11, Lcom/inventec/iMobile12/b2/d;->f2:S
 
     move-object v13, v3
 
@@ -5743,9 +5743,9 @@
 
     aput-byte v10, v1, v6
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->m2:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->m2:S
 
     move-object v13, v3
 
@@ -5774,9 +5774,9 @@
     goto :goto_41
 
     :cond_41
-    sget-object v10, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v10, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v11, Lcom/inventec/iMobile2/b2/d;->m2:S
+    sget-short v11, Lcom/inventec/iMobile12/b2/d;->m2:S
 
     add-int/lit8 v12, v12, 0xd
 
@@ -5820,18 +5820,18 @@
     goto :goto_43
 
     :cond_43
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v6, Lcom/inventec/iMobile2/b2/d;->S0:S
+    sget-short v6, Lcom/inventec/iMobile12/b2/d;->S0:S
 
-    sget-object v7, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v7, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     add-int/lit8 v12, v12, 0xa
 
     :goto_43
     if-eqz v12, :cond_44
 
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->S0:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->S0:S
 
     move-object v4, v7
 
@@ -5858,26 +5858,26 @@
 
     aput-byte v14, v1, v6
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     :goto_45
-    sget-object v2, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v2, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v3, Lcom/inventec/iMobile2/b2/d;->n3:S
+    sget-short v3, Lcom/inventec/iMobile12/b2/d;->n3:S
 
-    invoke-static {v1, v5, v2, v5, v3}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v5, v2, v5, v3}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     :cond_46
     return-void
 
     :cond_47
-    new-instance v1, Lcom/inventec/iMobile2/z1/i;
+    new-instance v1, Lcom/inventec/iMobile12/z1/i;
 
-    iget-object v6, v0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v6, v0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     const v7, 0x7f09009e
 
-    invoke-direct {v1, v6, v7}, Lcom/inventec/iMobile2/z1/i;-><init>(Lcom/inventec/iMobile2/z1/e;I)V
+    invoke-direct {v1, v6, v7}, Lcom/inventec/iMobile12/z1/i;-><init>(Lcom/inventec/iMobile12/z1/e;I)V
 
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -5890,7 +5890,7 @@
     :cond_48
     const v3, 0x7f0b0287
 
-    invoke-virtual {v1, v3, v5, v2}, Lcom/inventec/iMobile2/z1/i;->a(IIZ)V
+    invoke-virtual {v1, v3, v5, v2}, Lcom/inventec/iMobile12/z1/i;->a(IIZ)V
 
     move-object v4, v1
 
@@ -5899,9 +5899,9 @@
 
     invoke-direct {v1, v0}, Lcom/kostal/car2017/frmEVChargeSet10$c$a;-><init>(Lcom/kostal/car2017/frmEVChargeSet10$c;)V
 
-    invoke-virtual {v4, v1}, Lcom/inventec/iMobile2/z1/i;->b(Lcom/inventec/iMobile2/z1/i$f;)V
+    invoke-virtual {v4, v1}, Lcom/inventec/iMobile12/z1/i;->b(Lcom/inventec/iMobile12/z1/i$f;)V
 
-    invoke-virtual {v4}, Lcom/inventec/iMobile2/z1/i;->show()V
+    invoke-virtual {v4}, Lcom/inventec/iMobile12/z1/i;->show()V
 
     return-void
 .end method
@@ -5938,16 +5938,16 @@
     :cond_0
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->U:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v7, 0x0
 
     :goto_0
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->a1:S
 
     const/4 v9, 0x4
 
-    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v1
 
@@ -5972,14 +5972,14 @@
     :cond_1
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->V:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v7, 0x0
 
     :goto_1
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->c1:S
 
-    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v1
 
@@ -6004,14 +6004,14 @@
     :cond_2
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->W:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v7, 0x0
 
     :goto_2
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->e1:S
 
-    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v1
 
@@ -6036,14 +6036,14 @@
     :cond_3
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->X:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v7, 0x0
 
     :goto_3
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->g1:S
 
-    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v1
 
@@ -6068,14 +6068,14 @@
     :cond_4
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->Y:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/4 v7, 0x0
 
     :goto_4
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->i1:S
 
-    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile2/b2/d;->a([BI[BII)Z
+    invoke-static {v1, v7, v3, v8, v9}, Lcom/inventec/iMobile12/b2/d;->a([BI[BII)Z
 
     move-result v1
 
@@ -6098,9 +6098,9 @@
     :cond_5
     iget-byte v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->e0:B
 
-    sget-short v3, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v3, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    invoke-static {v3}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v3}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v3
 
@@ -6143,7 +6143,7 @@
     :cond_7
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->U:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     move-object v13, v10
 
@@ -6154,9 +6154,9 @@
     :goto_6
     if-eqz v11, :cond_8
 
-    sget-short v11, Lcom/inventec/iMobile2/b2/d;->a1:S
+    sget-short v11, Lcom/inventec/iMobile12/b2/d;->a1:S
 
-    invoke-static {v1, v12, v3, v11, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v12, v3, v11, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v13, v2
 
@@ -6192,9 +6192,9 @@
     :goto_8
     if-eqz v11, :cond_a
 
-    sget-object v11, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v11, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v12, Lcom/inventec/iMobile2/b2/d;->c1:S
+    sget-short v12, Lcom/inventec/iMobile12/b2/d;->c1:S
 
     move-object v14, v2
 
@@ -6233,7 +6233,7 @@
     goto :goto_a
 
     :cond_b
-    invoke-static {v1, v15, v11, v13, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v15, v11, v13, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/2addr v12, v9
 
@@ -6279,9 +6279,9 @@
     goto :goto_c
 
     :cond_d
-    sget-object v11, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v11, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v13, Lcom/inventec/iMobile2/b2/d;->e1:S
+    sget-short v13, Lcom/inventec/iMobile12/b2/d;->e1:S
 
     add-int/lit8 v12, v12, 0x6
 
@@ -6294,7 +6294,7 @@
     :goto_c
     if-eqz v12, :cond_e
 
-    invoke-static {v1, v15, v11, v13, v3}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v15, v11, v13, v3}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     iget-object v1, v0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
@@ -6329,7 +6329,7 @@
     :cond_f
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10;->X:[B
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     add-int/lit8 v12, v12, 0x6
 
@@ -6340,9 +6340,9 @@
     :goto_e
     if-eqz v12, :cond_10
 
-    sget-short v12, Lcom/inventec/iMobile2/b2/d;->g1:S
+    sget-short v12, Lcom/inventec/iMobile12/b2/d;->g1:S
 
-    invoke-static {v1, v11, v3, v12, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v11, v3, v12, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v14, v2
 
@@ -6378,9 +6378,9 @@
     :goto_10
     if-eqz v12, :cond_12
 
-    sget-object v3, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v3, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v11, Lcom/inventec/iMobile2/b2/d;->i1:S
+    sget-short v11, Lcom/inventec/iMobile12/b2/d;->i1:S
 
     move-object v14, v2
 
@@ -6413,7 +6413,7 @@
     goto :goto_12
 
     :cond_13
-    invoke-static {v1, v13, v3, v11, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v13, v3, v11, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/2addr v12, v9
 
@@ -6426,9 +6426,9 @@
 
     iget-object v1, v1, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
-    sget-short v3, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v3, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    invoke-static {v3}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v3}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v3
 
@@ -6541,7 +6541,7 @@
     goto :goto_18
 
     :cond_19
-    invoke-static {v1, v11, v3, v5, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v11, v3, v5, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/lit8 v12, v12, 0x6
 
@@ -6596,7 +6596,7 @@
     :goto_1a
     if-eqz v12, :cond_1c
 
-    invoke-static {v1, v11, v3, v5, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v11, v3, v5, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v14, v2
 
@@ -6680,7 +6680,7 @@
     :goto_1e
     if-eqz v12, :cond_20
 
-    invoke-static {v1, v11, v3, v13, v15}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v11, v3, v13, v15}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     iget-object v1, v0, Lcom/kostal/car2017/frmEVChargeSet10$c;->o:Lcom/kostal/car2017/frmEVChargeSet10;
 
@@ -6755,7 +6755,7 @@
     goto :goto_22
 
     :cond_23
-    invoke-static {v1, v11, v3, v5, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v11, v3, v5, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     add-int/lit8 v12, v12, 0xa
 
@@ -6808,7 +6808,7 @@
     :goto_24
     if-eqz v12, :cond_26
 
-    invoke-static {v1, v4, v3, v5, v9}, Lcom/inventec/iMobile2/b2/d;->b([BI[BII)V
+    invoke-static {v1, v4, v3, v5, v9}, Lcom/inventec/iMobile12/b2/d;->b([BI[BII)V
 
     move-object v14, v2
 
@@ -6928,9 +6928,9 @@
 .method l()V
     .locals 12
 
-    sget-short v0, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v0, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    invoke-static {v0}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v0}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v0
 
@@ -6968,9 +6968,9 @@
 
     if-eqz v2, :cond_1
 
-    sget-short v2, Lcom/inventec/iMobile2/b2/d;->S1:S
+    sget-short v2, Lcom/inventec/iMobile12/b2/d;->S1:S
 
-    invoke-static {v2}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v2}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v2
 
@@ -7011,9 +7011,9 @@
     goto :goto_2
 
     :cond_2
-    sget-short v8, Lcom/inventec/iMobile2/b2/d;->f2:S
+    sget-short v8, Lcom/inventec/iMobile12/b2/d;->f2:S
 
-    invoke-static {v8}, Lcom/inventec/iMobile2/a2/j;->a(S)B
+    invoke-static {v8}, Lcom/inventec/iMobile12/a2/j;->a(S)B
 
     move-result v8
 
@@ -7074,7 +7074,7 @@
     :goto_3
     if-eqz v0, :cond_6
 
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     const v7, 0x7f0b007a
 
@@ -7134,7 +7134,7 @@
     goto :goto_6
 
     :cond_9
-    iget-object v0, p0, Lcom/inventec/iMobile2/z1/w;->a:Lcom/inventec/iMobile2/z1/e;
+    iget-object v0, p0, Lcom/inventec/iMobile12/z1/w;->a:Lcom/inventec/iMobile12/z1/e;
 
     move-object v3, p0
 

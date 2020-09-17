@@ -69,7 +69,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
     <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
     <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
-    <string name="app_name">Remote Ctrl</string>
+    <string name="app_name">GSM Remote Ctrl</string>
     <string name="bartitle3">الحالة</string>
     <string name="bartitle5">الإعدادات</string>
     <string name="bgdark" />
@@ -231,8 +231,8 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="mon">الإثنين</string>
     <string name="mon1">الإثنين</string>
     <string name="needPINinfo">الرقم السري مطلوب لفتح البرنامج</string>
-    <string name="newfunctioninfo">"نظرًا لأن إعداد شبكة LAN اللاسلكية هو [الاتصال اللحظي: مغلق] ، لا يمكن إجراء الاتصالات مع السيارة إلا عند إيقاف تشغيل مفتاح تشغيل السيارة. 
- 
+    <string name="newfunctioninfo">"نظرًا لأن إعداد شبكة LAN اللاسلكية هو [الاتصال اللحظي: مغلق] ، لا يمكن إجراء الاتصالات مع السيارة إلا عند إيقاف تشغيل مفتاح تشغيل السيارة.
+
  يمكن التعرف على إعدادات اتصال شبكة LAN اللاسلكية من خلال الإعدادات ← إعدادات اتصال شبكة LAN اللاسلكية."</string>
     <string name="newfunctioninfo2">لا تسألني مرة أخرى.</string>
     <string name="nextstr">التالى</string>
@@ -582,13 +582,13 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="setver">معلومات الإصدار</string>
     <string name="setverapp">‏MITSUBISHI Remote Control‏</string>
     <string name="setverev">برنامج السيارة</string>
-    <string name="setwifiinfoon">"الإعدادات ON: 
- يتم دائمًا تشغيل اتصال الشبكة المحلية اللاسلكية على جانب السيارة. 
- 
- الإعدادات OFF: 
- يتم تشغيل اتصال الشبكة المحلية اللاسلكية على جانب السيارة عندما يكون مفتاح تشغيل الطاقة في وضع إيقاف التشغيل. 
+    <string name="setwifiinfoon">"الإعدادات ON:
+ يتم دائمًا تشغيل اتصال الشبكة المحلية اللاسلكية على جانب السيارة.
 
- 
+ الإعدادات OFF:
+ يتم تشغيل اتصال الشبكة المحلية اللاسلكية على جانب السيارة عندما يكون مفتاح تشغيل الطاقة في وضع إيقاف التشغيل.
+
+
  إذا كنت ترغب في توصيل جهازك بنظام Smartphone Link Display Audio ، فيرجى إيقاف تشغيل هذه الإعدادات."</string>
     <string name="setwifilabel">الاتصال الدائم</string>
     <string name="setwpa">تغيير كلمة مرور LAN اللاسلكية</string>
@@ -596,7 +596,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="setwpaerr_2">خطأ في الإدخال</string>
     <string name="setwpaerr_3">خطأ في الإدخال</string>
     <string name="setwpaerr_4">خطأ في الإدخال</string>
-    <string name="setwpaerrinfo_1">"يحتوي على أحرف لا يمكن استخدامها. 
+    <string name="setwpaerrinfo_1">"يحتوي على أحرف لا يمكن استخدامها.
  يرجى الرجوع إلى المساعدة لتأكيد الحروف التي يمكن استخدامها."</string>
     <string name="setwpaerrinfo_2">لابد من توافق الرقم السري الجديد، يرجى إعادة إدخال الرقم السري الخاص بك مجدداً</string>
     <string name="setwpaerrinfo_3">يجب أن تحتوي كلمة المرور الجديدة على 14 حرفًا فقط. يرجى اختيار كلمة مرور أخرى.</string>
@@ -613,18 +613,18 @@ You may add Your own copyright statement to Your modifications and may provide a
 إذا لم يتم إعادة الاتصال بالتطبيق بعد 5 دقائق ، فيرجى إغلاق التطبيق والتحقق من حالة اتصال الشبكة المحلية اللاسلكية في واجهة إعدادات Android Wifi."</string>
     <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
     <string name="sourcelicensestr">‏Open Source License‏</string>
-    <string name="ssidErr">"الجهاز متصل بشبكة أخرى غير السيارة. 
- 
+    <string name="ssidErr">"الجهاز متصل بشبكة أخرى غير السيارة.
+
 هل أنت متصل بالمركبة؟"</string>
     <string name="ssidinfo">سيتم تغيير SSID</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stepfivefivestring">بعد إدخال SSID وكلمة المرور الخاصة بالسيارة ، اضغط على \"OK\" للمتابعة</string>
     <string name="stepfiveonestring">أغلق باب السائق.</string>
-    <string name="stepfivethreestring">"في غضون 10 ثوان بعد STEP 2 ، اضغط على LOCK و UNLOCK على المفتاح البديل 5 مرات (إجمالي 10 مكابس تبدأ من الزر LOCK) 
+    <string name="stepfivethreestring">"في غضون 10 ثوان بعد STEP 2 ، اضغط على LOCK و UNLOCK على المفتاح البديل 5 مرات (إجمالي 10 مكابس تبدأ من الزر LOCK)
 صوت يشير إلى أن السيارة تنتظر التسجيل."</string>
     <string name="stepfivetwostring">‏اضبط مفتاح الطاقة على ACC (لا تدس على الفرامل عند إجراء هذه العملية. يعمل الزر كما يلي OFF ← ON ← ACC ← OFF )‏</string>
     <string name="stepfouronestring">أغلق باب السائق.</string>
-    <string name="stepfourthreestring">"في غضون 10 ثوان بعد STEP 2 ، اضغط على LOCK و UNLOCK على المفتاح البديل 5 مرات (إجمالي 10 مكابس تبدأ من الزر LOCK) 
+    <string name="stepfourthreestring">"في غضون 10 ثوان بعد STEP 2 ، اضغط على LOCK و UNLOCK على المفتاح البديل 5 مرات (إجمالي 10 مكابس تبدأ من الزر LOCK)
 صوت يشير إلى أن السيارة تنتظر التسجيل."</string>
     <string name="stepfourtwostring">‏اضبط مفتاح الطاقة على ACC (لا تدس على الفرامل عند إجراء هذه العملية. يعمل الزر كما يلي OFF ← ON ← ACC ← OFF )‏</string>
     <string name="stu1_1">مفتاح التشغيل OFF</string>
@@ -686,13 +686,13 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="topacwait">انتظار</string>
     <string name="topbattwarm">قيد التسخين</string>
     <string name="topbattwarminginfo">يرجى توصيل كابل الشحن ، لمنع انخفاض درجة حرارة البطارية. سوف تبدأ عملية الاحماء عند توصيلها.</string>
-    <string name="topbattwarminginfo_plugin_1">"ربما بسبب انخفاض درجة حرارة البطارية، فيتعذر على السيارة الانطلاق. 
+    <string name="topbattwarminginfo_plugin_1">"ربما بسبب انخفاض درجة حرارة البطارية، فيتعذر على السيارة الانطلاق.
 
  وللانطلاق بحاجة لتسخين البطارية. يرجى ضبط السيارة على وضع READY أو إدخال مقبس الشحن لرفع درجة حرارة البطارية."</string>
-    <string name="topbattwarminginfo_plugin_2">"بسبب النقص الحاد في درجة حرارة البطارية، فلا يمكن للسيارة الانطلاق بعد. 
+    <string name="topbattwarminginfo_plugin_2">"بسبب النقص الحاد في درجة حرارة البطارية، فلا يمكن للسيارة الانطلاق بعد.
 
  فيرجى توصيل المقبس العادي للشحن من أجل رفع درجة الحرارة."</string>
-    <string name="topbattwarminginfo_stop_1">"بسبب نقص درجة حرارة البطارية، فيتعذر على السيارة الانطلاق. 
+    <string name="topbattwarminginfo_stop_1">"بسبب نقص درجة حرارة البطارية، فيتعذر على السيارة الانطلاق.
  ومن أجل السير، أنت بحاجة لزيادة حرارة البطارية، ولم تصل البطارية للحرارة المطلوبة.
 
  فيرجى الانتظار حتى ترتفع درجة الحرارة الخارجية."</string>
@@ -702,7 +702,7 @@ You may add Your own copyright statement to Your modifications and may provide a
 
 فيرجى إدخال مقبس الشحن والانتظار ريثما يتم الوصول لدرجة الحرارة الخارجية، عندها ابدأ في رفع درجة الحرارة للبطارية."</string>
     <string name="topbattwarminginfo_warm_1">ارتفعت درجة حرارة بطارية المركبة، ويمكنك الأن القيادة</string>
-    <string name="topbattwarminginfo_warm_2">"نظراً لانخفاض درجة حرارة البطارية بشكل حاد، فيتعذر على السيارة الانطلاق. 
+    <string name="topbattwarminginfo_warm_2">"نظراً لانخفاض درجة حرارة البطارية بشكل حاد، فيتعذر على السيارة الانطلاق.
 
 يرجى الانتظار ريثما يتم رفع الحرارة."</string>
     <string name="topbattwarmingtitle">معلومات السيارة</string>

@@ -705,7 +705,7 @@
     :cond_2
     invoke-virtual {v0, v10}, Landroidx/appcompat/widget/a1;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    sget-object v6, Lcom/inventec/iMobile2/n1;->MyButton:[I
+    sget-object v6, Lcom/inventec/iMobile12/n1;->MyButton:[I
 
     move-object/from16 v8, p1
 

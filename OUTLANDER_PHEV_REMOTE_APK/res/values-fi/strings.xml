@@ -4,7 +4,7 @@
     <string name="ACWorking">Ilmastoinnin toiminta-aikaa ei voida muuttaa, kun ilmastointi on kytketty päälle ajastimella tai etäohjauksella.</string>
     <string name="ACtim"><ul><li>"Ilmastoinnin kauko-ohjausta ei tule käyttää ajoneuvon viileänä tai lämpimänä pitämiseen, jos ihmisiä tai lemmikkieläimiä on pysäköidyn ajoneuvon sisällä. Tämä voi johtaa odottamattomiin tapaturmiin.
 
-"</li><li>"Ilmastoinnin pidempi käyttöaika laskee ajoakun varaustasoa. 
+"</li><li>"Ilmastoinnin pidempi käyttöaika laskee ajoakun varaustasoa.
 
 "</li><li>Jos ajoakun varaustila on alhainen, saattaa ilmastoinnin toiminta-aika olla pyydettyä lyhyempi.</li></ul></string>
     <string name="ACtimeLabel">Ilmastointi toiminta-aika</string>
@@ -69,7 +69,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
     <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
     <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
-    <string name="app_name">Remote Ctrl</string>
+    <string name="app_name">GSM Remote Ctrl</string>
     <string name="bartitle3">Tila</string>
     <string name="bartitle5">Asetukset</string>
     <string name="bgdark" />
@@ -179,7 +179,7 @@ Valittu toimintatapa koskee kaikkia ajastimen asetuksia. Ei ole mahdollista aset
     <string name="evmchacwarn5no">Ei</string>
     <string name="evmchacwarn5yes">Kyllä</string>
     <string name="evmchargeTimerSch">Latausajastimen ajastus</string>
-    <string name="evmchargetschstr">"Voit kumota ajastimen väliaikaisesti poistamalla sen valinnan. 
+    <string name="evmchargetschstr">"Voit kumota ajastimen väliaikaisesti poistamalla sen valinnan.
 Tilapäisesti poistettua latausajastimen ajastusta voidaan jatkaa automaattisesti valitsemalla se uudelleen käyttöön tai laittamalla virtakytkimen toimintatila päälle.
 "</string>
     <string name="evmchargstatusstr">Latauksen tila</string>
@@ -226,7 +226,7 @@ Voit käyttää tätä toimintoa silloin, kun akun jäljellä oleva kapasiteetti
 Lue lisätietoja ajoneuvon omistajan oppaan luvuista “Lataaminen”ja “Lataustilan vaihto”ennen lataamista."</string>
     <string name="lowbatterytitle">Ei voida syöttää virtaa ulkoiseen virtalähteeseen</string>
     <string name="manacModenoset">Paina [Ilmastointi PÄÄLLE] kun olet asettanut toimintatilan.</string>
-    <string name="manacModesetClimateShutDown">"Ilmastoinnin ajastus kytketään väliaikaisesti pois päältä, koska ilmastointi on kytketty manuaalisesti. 
+    <string name="manacModesetClimateShutDown">"Ilmastoinnin ajastus kytketään väliaikaisesti pois päältä, koska ilmastointi on kytketty manuaalisesti.
 
 Kun manuaalisesti kytketty ilmastointi lopetetaan, ilmastoinnin ajastus kytketään päälle automaattisesti."</string>
     <string name="manachelptitle">Ilmastoinnin asetukset</string>
@@ -664,7 +664,7 @@ Kuulet merkkiäänen, joka ilmoittaa, että ajoneuvo on rekisteröintitilassa."<
     <string name="switchon">ON</string>
     <string name="theft2_1">Ajovalojen käyttö</string>
     <string name="theft2_4">Parkkivalojen käyttö</string>
-    <string name="theft2dis2twostr">"Toiminto on käytössä kun: 
+    <string name="theft2dis2twostr">"Toiminto on käytössä kun:
 
 "<ul><li>"Virtakytkin on POIS PÄÄLTÄ.
 "</li><li>Ajovalot ja parkkivalot ovat POIS PÄÄLTÄ.</li></ul></string>
@@ -687,25 +687,25 @@ Kuulet merkkiäänen, joka ilmoittaa, että ajoneuvo on rekisteröintitilassa."<
     <string name="topacmode">Tila</string>
     <string name="topacwait">Odottaa</string>
     <string name="topbattwarm">Lämpenee</string>
-    <string name="topbattwarminginfo">"Kytke laturin liitin estääksesi ajoakun lämpötilan aleneminen. 
+    <string name="topbattwarminginfo">"Kytke laturin liitin estääksesi ajoakun lämpötilan aleneminen.
 Lämmitys alkaa välittömästi kytkemisen jälkeen."</string>
     <string name="topbattwarminginfo_plugin_1">"Ajoneuvo ei mahdollisesti voi käynnistyä akun alhaisen lämpötilan takia.
 
 Laita ajoneuvo READY-tilaan tai kytke latausliitin lämmittääksesi ajoakkua."</string>
-    <string name="topbattwarminginfo_plugin_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+    <string name="topbattwarminginfo_plugin_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen.
 
 Kytke latausliitin lämmittääksesi ajoakkua."</string>
-    <string name="topbattwarminginfo_stop_1">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
-Ajoakun lämmitys on vaadittu, mutta edellytykset lämmitykselle eivät ole sopivat. 
+    <string name="topbattwarminginfo_stop_1">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen.
+Ajoakun lämmitys on vaadittu, mutta edellytykset lämmitykselle eivät ole sopivat.
 
 Odota, kunnes ulkolämpötila nousee."</string>
-    <string name="topbattwarminginfo_stop_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+    <string name="topbattwarminginfo_stop_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen.
 
-Ajoakun lämmitys on vaadittu, mutta edellytykset lämmitykselle eivät ole sopivat. 
+Ajoakun lämmitys on vaadittu, mutta edellytykset lämmitykselle eivät ole sopivat.
 
 Ajoakun lämmitys alkaa, kun ulkolämpötila nousee ja auto on kytketty latauslaitteeseen, odota."</string>
     <string name="topbattwarminginfo_warm_1">Ajoneuvolla voidaan nyt ajaa, koska ajoakun lämpötila nousi.</string>
-    <string name="topbattwarminginfo_warm_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+    <string name="topbattwarminginfo_warm_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen.
 
 Ajoakku lämpenee, odota."</string>
     <string name="topbattwarmingtitle">Ajoneuvon tiedot</string>
@@ -729,7 +729,7 @@ Ajoakku lämpenee, odota."</string>
     <string name="tophelp44">Paina tätä nappia yhdistääksesi ajoneuvoon ja päivittääksesi tiedot.</string>
     <string name="tophelpwarm"><ul><li>"Ajoakun täytyy lämmetä, jotta vältytään alhaisen lämpötilan aiheuttamilta akun toimintahäiriöiltä.
 "</li><li>"On mahdollista, että ajoakussa jäljellä oleva varaus vähenee.
-"</li><li>"On mahdollista, että ajoakku saatta alkaa latautumaan, vaikka ajastuksia on aktiivisena. 
+"</li><li>"On mahdollista, että ajoakku saatta alkaa latautumaan, vaikka ajastuksia on aktiivisena.
 "</li><li>On mahdollista, että ilmastoinnin puhallin kytkeytyy päälle. </li></ul></string>
     <string name="topwaitcharge">Odottaa</string>
     <string name="towebsitestr">Mene www-sivulle</string>

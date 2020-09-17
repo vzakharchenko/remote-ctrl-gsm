@@ -40,9 +40,9 @@
     const-string v0, "0"
 
     :try_start_0
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v2, Lcom/inventec/iMobile2/b2/d;->z2:S
+    sget-short v2, Lcom/inventec/iMobile12/b2/d;->z2:S
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -61,7 +61,7 @@
     :cond_0
     aput-byte v4, v1, v2
 
-    sget-object v1, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v1, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
     const/16 v2, 0xb
 
@@ -70,7 +70,7 @@
     :goto_0
     if-eqz v2, :cond_1
 
-    sget-short v2, Lcom/inventec/iMobile2/b2/d;->b2:S
+    sget-short v2, Lcom/inventec/iMobile12/b2/d;->b2:S
 
     aput-byte v4, v1, v2
 
@@ -103,9 +103,9 @@
     goto :goto_2
 
     :cond_2
-    sget-object v0, Lcom/inventec/iMobile2/b2/d;->t3:[B
+    sget-object v0, Lcom/inventec/iMobile12/b2/d;->t3:[B
 
-    sget-short v3, Lcom/inventec/iMobile2/b2/d;->e2:S
+    sget-short v3, Lcom/inventec/iMobile12/b2/d;->e2:S
 
     add-int/lit8 v2, v2, 0x8
 
