@@ -4,13 +4,13 @@
 
 
 # static fields
-.field public static f:Z = false
+.field public static f:Z = true
 
-.field public static g:Z = false
+.field public static g:Z = true
 
-.field public static h:Z = false
+.field public static h:Z = true
 
-.field static i:Z = false
+.field static i:Z
 
 .field static j:Ljava/lang/StringBuilder;
 
@@ -31,7 +31,10 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
+    .locals 2
+
+    const/4 v1, 0x1
+    sput-boolean v1, Lcom/inventec/iMobile2/a2/b;->f:Z
 
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
@@ -83,7 +86,7 @@
 
 .method public static a(Ljava/lang/Exception;)V
     .locals 1
-
+    const/4 v0, 0x1
     :try_start_0
     sget-boolean v0, Lcom/inventec/iMobile2/a2/b;->f:Z
 
@@ -109,6 +112,9 @@
 .method public static a(Ljava/lang/String;)V
     .locals 18
 
+    const/4 v0, 0x1
+    sput-boolean v0, Lcom/inventec/iMobile2/a2/b;->f:Z
+
     move-object/from16 v0, p0
 
     sget-boolean v1, Lcom/inventec/iMobile2/a2/b;->f:Z
@@ -118,6 +124,8 @@
     return-void
 
     :cond_0
+    const/4 v1, 0x1
+    sput-boolean v1, Lcom/inventec/iMobile2/a2/b;->h:Z
     sget-boolean v1, Lcom/inventec/iMobile2/a2/b;->h:Z
 
     const/4 v2, 0x5
@@ -2857,7 +2865,7 @@
 
     const/16 v11, 0x3e8
 
-    invoke-virtual {v5, v2, v11}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;I)V
+    invoke-virtual {v5, v2}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 

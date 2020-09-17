@@ -1,3 +1,4 @@
+
 .class public Lcom/inventec/iMobile2/a2/g;
 .super Ljava/lang/Object;
 .source ""
@@ -72,6 +73,15 @@
     move-object/from16 v1, p1
 
     move-object/from16 v2, p2
+
+
+    sput-object v1, Lcom/inventec/iMobile2/a2/g;->a:Ljava/lang/String;
+
+    sput-object v2, Lcom/inventec/iMobile2/a2/g;->b:Ljava/lang/String;
+
+    const/16 v3, 0
+    
+    return v3
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -707,7 +717,7 @@
 
     if-ne v0, v4, :cond_1c
 
-    invoke-virtual {v6, v4}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v6, v4}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -998,7 +1008,7 @@
 
     if-eqz v6, :cond_28
 
-    invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_28
     move/from16 v5, v22
@@ -1390,7 +1400,7 @@
 
     if-eqz v6, :cond_3a
 
-    invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_3a
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1527,7 +1537,7 @@
 
     if-eqz v6, :cond_42
 
-    invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_42
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1829,7 +1839,7 @@
 
     if-eqz v6, :cond_4f
 
-    invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v6, v14}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_4f
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -2532,6 +2542,9 @@
 .method public static a(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 16
 
+    const/4 v2, 0x1
+    return v2
+
     move-object/from16 v0, p1
 
     invoke-static/range {p0 .. p0}, Lcom/inventec/iMobile2/a2/g;->f(Landroid/content/Context;)Landroid/net/wifi/WifiInfo;
@@ -3017,7 +3030,7 @@
     if-eqz v0, :cond_19
 
     :try_start_0
-    invoke-virtual {v0, v2}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+    # invoke-virtual {v0, v2}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
     :cond_19
     const-wide/16 v3, 0xbb8
@@ -3112,6 +3125,8 @@
     .locals 4
 
     const/4 v0, 0x0
+    
+    return v0
 
     invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->e(Landroid/content/Context;)Landroid/net/wifi/WifiManager;
 
@@ -3173,6 +3188,9 @@
 
 .method private static b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 17
+
+    const/4 v3, 0x1
+    return v3
 
     move-object/from16 v0, p1
 
@@ -3610,6 +3628,9 @@
 .method public static c(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 2
 
+    const/4 v0, 0x1
+    return v0
+
     invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->e(Landroid/content/Context;)Landroid/net/wifi/WifiManager;
 
     move-result-object p0
@@ -3784,46 +3805,27 @@
     return-object v0
 .end method
 
-.method public static g(Landroid/content/Context;)[B
-    .locals 12
+.method public static getMac()Ljava/lang/String;
+    .locals 1
+    const-string v0, "6C:C7:EC:2B:91:DD"
+    return-object v0
+.end method
 
+.method public static g(Landroid/content/Context;)[B
+    .locals 13
+    
     invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->e(Landroid/content/Context;)Landroid/net/wifi/WifiManager;
 
     move-result-object p0
 
-    const-string v0, "0"
-
-    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v1
-
     const/4 v2, 0x0
-
-    if-eqz v1, :cond_0
-
-    move-object p0, v2
-
-    :cond_0
-    if-eqz p0, :cond_1
-
-    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+    const-string v0, "0"
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getMac()Ljava/lang/String;
 
     move-result-object p0
 
-    if-eqz p0, :cond_1
-
-    invoke-virtual {p0}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    :cond_1
-    const-string p0, ""
-
-    :goto_0
     const-string v1, ":"
-
+    
     invoke-virtual {p0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p0
@@ -4552,7 +4554,7 @@
 
 .method public static k(Landroid/content/Context;)V
     .locals 7
-
+    return-void
     const-string v0, "0"
 
     :try_start_0

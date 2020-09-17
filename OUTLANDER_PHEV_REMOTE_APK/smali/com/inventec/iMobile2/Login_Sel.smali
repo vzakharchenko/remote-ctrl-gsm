@@ -39,7 +39,9 @@
 
     move-result-object v1
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
+
+    return v2
 
     :try_start_0
     new-instance v3, Ljava/util/zip/ZipFile;

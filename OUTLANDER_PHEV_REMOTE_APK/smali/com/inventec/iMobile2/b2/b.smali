@@ -8759,7 +8759,9 @@
 .method public static h(Landroid/content/Context;)Z
     .locals 1
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
+
+    return v0
 
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;

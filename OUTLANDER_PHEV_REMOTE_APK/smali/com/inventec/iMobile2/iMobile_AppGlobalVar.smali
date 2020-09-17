@@ -1028,6 +1028,9 @@
     goto/16 :goto_b
 
     :cond_2
+
+    return-object v1
+
     invoke-static {p0, v1}, Lcom/inventec/iMobile2/a2/g;->c(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v8

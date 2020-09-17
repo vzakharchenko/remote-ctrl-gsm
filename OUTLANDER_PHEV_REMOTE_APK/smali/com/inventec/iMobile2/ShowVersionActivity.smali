@@ -12,7 +12,7 @@
 
 
 # static fields
-.field static X:Z = false
+.field static X:Z
 
 
 # instance fields
