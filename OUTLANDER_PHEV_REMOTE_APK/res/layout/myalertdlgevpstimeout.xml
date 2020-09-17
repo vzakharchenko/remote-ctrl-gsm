@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@color/dlgbgmask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:cursorVisible="false">
+        <ImageView android:id="@id/backimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/bgdark" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:cursorVisible="false">
+        <com.inventec.controls.AutoResizeTextView android:textSize="28.0sp" android:gravity="center" android:id="@id/txtContent" android:background="@drawable/alertframe" android:layout_width="278.0dip" android:layout_height="114.0dip" android:layout_marginTop="30.0dip" android:text="@string/sendOK" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <com.inventec.controls.AutoResizeTextView android:textSize="22.0sp" android:gravity="top" android:id="@id/txtDetail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <com.inventec.controls.MyButton android:textSize="22.0sp" android:textStyle="bold" android:layout_gravity="center" android:id="@id/btnOk" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/evOK" />
+            <com.inventec.controls.MyButton android:textSize="22.0sp" android:textStyle="bold" android:layout_gravity="center" android:id="@id/btnCancle" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

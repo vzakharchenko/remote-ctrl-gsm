@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/success_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_90" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="@dimen/dp_153" android:layout_height="@dimen/dp_153" app:lottie_autoPlay="true" app:lottie_fileName="mmc_success.json" app:lottie_loop="false" />
+    </RelativeLayout>
+    <TextView android:textAppearance="@style/welcome_to_" android:gravity="center" android:id="@id/registratio" android:layout_width="fill_parent" android:layout_height="@dimen/dp_60" android:layout_marginTop="18.0dip" android:text="@string/regOk" android:layout_below="@id/success_top" android:alpha="0.65" app:autoSizeMaxTextSize="@dimen/sp_24" app:autoSizeMinTextSize="@dimen/sp_6" app:autoSizeTextType="uniform" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/registerOK" android:layout_below="@id/registratio">
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff646464" android:gravity="center|left" android:id="@id/register_success_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_32" android:layout_marginRight="@dimen/dp_32" android:text="@string/loadwndinfo" app:autoSizeMaxTextSize="@dimen/sp_13" app:autoSizeMinTextSize="@dimen/sp_6" app:autoSizeTextType="uniform" />
+    </ScrollView>
+    <com.inventec.controls.MyButton android:textSize="@dimen/sp_18" android:textColor="@color/white" android:id="@id/registerOK" android:background="@drawable/btn_big_red" android:layout_width="@dimen/dp_351" android:layout_height="@dimen/dp_72" android:layout_marginBottom="@dimen/dp_29" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

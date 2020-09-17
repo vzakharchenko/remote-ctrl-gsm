@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">min</string>
+    <string name="ACWorking">Aktiveringtid för klimatkontroll kan inte ändras när den aktiverats via timer eller fjärrkontroll.</string>
+    <string name="ACtim"><ul><li>"Fjärrklimatkontrollfunktionen får inte användas för att hålla fordonet kallt eller varmt medan människor eller djur finns i det parkerade fordonet. Oväntade olyckor kan inträffa.
+
+"</li><li>"Längre aktivering av klimatkontroll kan reducera batterinivån.
+
+"</li><li>Låg batterinivå kan orsaka kortare aktiveringstid för klimatkontroll jämfört med orginalinställning.</li></ul></string>
+    <string name="ACtimeLabel">Klimatkontroll - Aktiveringstid.</string>
+    <string name="AcsettingARM">"Om larm aktiveras, kan fordonets inställningar inte ändras.
+
+Vänligen lås upp bilen genom nyckelfri upplåsning eller med nyckelfritt operativsystem. Detta kommer att stänga av säkerhetssystemet, vilket gör att fordonets inställningar kan ändras"</string>
+    <string name="EVInit">Återställ</string>
+    <string name="EVInitInfo">Vill du återställa fordonsinställningarna?</string>
+    <string name="Everyday">Varje dag</string>
+    <string name="ResetAllschude">Vill du återställa alla scheman?</string>
+    <string name="ResetOneschude">Vill du återställa detta schema?</string>
+    <string name="Schudle">Schema</string>
+    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt + </string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl + </string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">retur</string>
+    <string name="abc_menu_function_shortcut_label">Funktion + </string>
+    <string name="abc_menu_meta_shortcut_label">Meta + </string>
+    <string name="abc_menu_shift_shortcut_label">Skift + </string>
+    <string name="abc_menu_space_shortcut_label">blanksteg</string>
+    <string name="abc_menu_sym_shortcut_label">Symbol + </string>
+    <string name="abc_prepend_shortcut_label">Meny + </string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="accstr">ACC(Orange)</string>
+    <string name="acoptiontimelong2">Aktiveringstid</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Status</string>
+    <string name="bartitle5">Inställning</string>
+    <string name="bgdark" />
+    <string name="btnStart">PÅ</string>
+    <string name="cancel">Avbryt</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">Följande tecken är tillgängliga:</string>
+    <string name="channel_3">Kanal 3</string>
+    <string name="channel_8">Kanal 8</string>
+    <string name="clear">Återställ allt</string>
+    <string name="communicationstr">Kommunikation</string>
+    <string name="countdownTipsonestr">"Använd manöverpanelen på externt nätaggregat för att ställa in strömförsörjningen från fordon till hem inom 5 minuter.
+
+Om externt nätaggregat inte har startas, finns det möjliga orsaker nedan:"</string>
+    <string name="countdownTipstwostr">Externt nätaggregat stöder inte den här funktionen.</string>
+    <string name="countdownTipstwostrfivestr">Det är fel i det externa nätaggregatet eller fordonet.</string>
+    <string name="countdownTipstwostrfourstr">Spänningen av den 12V batteri i fordonet är för låg.</string>
+    <string name="countdownTipstwostrthreestr">Det är mer än 5 minuter sedan ON-knappen trycktes in.</string>
+    <string name="countdownTipstwostrtwostr">Laddningen av det externa nätaggregatet är inte ansluten till fordonet ordentligt.</string>
+    <string name="daySelct">Upprepa</string>
+    <string name="delay1">0 min</string>
+    <string name="delay10">120 min</string>
+    <string name="delay11">150 min</string>
+    <string name="delay12">180 min</string>
+    <string name="delay2">5 min</string>
+    <string name="delay3">10 min</string>
+    <string name="delay4">20 min</string>
+    <string name="delay5">30 min</string>
+    <string name="delay6">40 min</string>
+    <string name="delay7">50 min</string>
+    <string name="delay8">60 min</string>
+    <string name="delay9">90 min</string>
+    <string name="demo">Testversion</string>
+    <string name="durationstr">Aktiveringstid</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">Ogiltig nyckel har använts.</string>
+    <string name="err1intrusion">Obehörigt intrång har skett</string>
+    <string name="err1movement">Otillåten fordonsrörelse har inträffat.</string>
+    <string name="err1other">Otillåten åtkomst har skett.</string>
+    <string name="err1perimeter">Dörr har öppnats otillåtet.</string>
+    <string name="err1silent">Otillåten vibration har inträffat.</string>
+    <string name="err1title">Stöldlarmsmeddelande</string>
+    <string name="errACinfo">"Möjlliga orsaker:
+
+"<ul><li>"Öppen dörr.
+"</li><li>Låg huvudbatterinivå.</li></ul></string>
+    <string name="errACinfoEx">"Möjlliga orsaker:
+"<ul><li>"Öppen dörr.
+"</li><li>"Låg huvudbatterinivå.
+"</li><li>Drivbatteriets temperatur är låg.</li></ul></string>
+    <string name="errACtitle">Meddelande: För-A/C har stannat.</string>
+    <string name="errCHGinfo">Laddningstimer kunde ej aktiveras</string>
+    <string name="errCHGtitle">Meddelande om laddningstimerfel</string>
+    <string name="errRegMaxtitle">Registreringsfel</string>
+    <string name="errTimerinfo">Timerkontroll kunde ej aktiveras.</string>
+    <string name="errTimertitle">Meddelande om fel på timerkontroll</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Felkod :</string>
+    <string name="evACCool">SVAL</string>
+    <string name="evACHot">Värme</string>
+    <string name="evACOFF">AV</string>
+    <string name="evACSetTitle">Inställningar för klimattimer</string>
+    <string name="evCharge1Auto">Platsbaserad :</string>
+    <string name="evCharge1End">Slut</string>
+    <string name="evCharge1Start">Start</string>
+    <string name="evCharge1full">Full laddning</string>
+    <string name="evChargeSetTitle">Inställningar för laddningstimer</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">skicka</string>
+    <string name="evSendAsk">Det nya schemat har ej skickats. Vill du gå tillbaka och skicka det?</string>
+    <string name="evSendAsk5ch">"Ändrade inställningar skickades inte till fordonet.
+Är du säker på att du vill avbryta och återgå till föregående skärm?"</string>
+    <string name="evTimerSet">Timerinställningar</string>
+    <string name="evhCHG12info">"Fulladdningsfunktionen laddar upp batteriet tills det är fulladdat om batteriet ej fulladdats under laddningstimerperioden.
+Observera att laddning ej sker om kontakten satts i efter det att laddningstimerperioden har löpt ut."</string>
+    <string name="evhCHG17myinfo1">Manuellt Klimat</string>
+    <string name="evhCHG22ginfo1">Manuellt uppladdningsläge</string>
+    <string name="evhCHG22ginfo3">Laddningstimerläge</string>
+    <string name="evhCHG22infofourstr">Platsbaserad funktion kan ej användas.</string>
+    <string name="evhCHG22infoonestr">När utrustad med MMCS.</string>
+    <string name="evhCHG22infothreestr">MMCS saknas i utrustning.</string>
+    <string name="evhCHG22infotwostr">"Denna funktion ändrar laddningsläge beroende på var du befinner dig. Läget är inställt på timer om du befinner dig nära platser som angetts i adressboken och till manuellt läge för alla andra områden.
+Detta gör att läget kan ställas in på laddningstimer för platser i adressboken där laddning nattetid används och till manuell laddning på platser som exempelvis köpcenter."</string>
+    <string name="evhelpCHG1item2">Vilken är inställningen för full laddning?</string>
+    <string name="evhelpCHG2item2">Vad menas med \"platsbaserad\"?</string>
+    <string name="evhmanualACitem4infofourstr">Endast KYLA är tillgänglig.</string>
+    <string name="evhmanualACitem4infoonestr">När den elektriska värmaren är installerad</string>
+    <string name="evhmanualACitem4infothreestr">När elektrisk värmare inte är installerad</string>
+    <string name="evhmanualACitem4infotwostr">"Välj mellan Värme, Kyla eller Avfrostning.
+Det valda läget tillämpas på alla timerinställningar. Det är inte möjligt att ställa in ett annat läge för varje timerinställning."</string>
+    <string name="evmCHchargstr">Laddning</string>
+    <string name="evmCHclimatestr">Klimat</string>
+    <string name="evmCHsetstr">Set up</string>
+    <string name="evmCHstatusstr">Status</string>
+    <string name="evmaccancelltimestr">Avbrytning</string>
+    <string name="evmaccanceltimer">Avbrytning av timer</string>
+    <string name="evmacwarn5str">Avbryt klimatimern.</string>
+    <string name="evmainac">Klimat</string>
+    <string name="evmaincharge">Laddning</string>
+    <string name="evmchacwarn5no">Nej</string>
+    <string name="evmchacwarn5yes">Ja</string>
+    <string name="evmchargeTimerSch">Laddningstimer Schema</string>
+    <string name="evmchargetschstr">"Du kan avbryta timern tillfälligt genom att inaktivera den.
+Tillfälligt avbrutet schema för timeruppladdning kan återupptas automatiskt genom att kontrollera det igen eller när driftsläget för strömmen är PÅ.
+"</string>
+    <string name="evmchargstatusstr">Laddningsstatus</string>
+    <string name="evmchtempcancellstr">Tillfällig avbrytning</string>
+    <string name="evmchupdatingstr">(Uppdaterar)</string>
+    <string name="evmchwarn5str">Avbryt laddningstimern tillfälligt.</string>
+    <string name="evmclimateTimerSch">Klimatimer Schema</string>
+    <string name="evmclimatetschstr">Du kan avbryta timern genom att inte bekräfta den.</string>
+    <string name="evmdrivebattlevelstr">Drivbatterinivå</string>
+    <string name="evmerrstartcommun">Börja kommunicera</string>
+    <string name="evmlastupdatedstr">App visar den senaste uppdaterade fordonsstatusen. Innan den senaste fordonsstatusen uppdateras kan appen visa föregående fordonsstatus.</string>
+    <string name="evmregtroublereg">Har du problem att registrera dig?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Tillfällig avbrytning av timer</string>
+    <string name="evmupdatedTime">Uppdaterad tid</string>
+    <string name="evpsfailcontent">"Möjliga orsaker till detta är fordonsfel.
+Kontakta en auktoriserad Mitsubishi Motors återförsäljare."</string>
+    <string name="evpsfailtitle">Strömförsörjningen kan inte startas</string>
+    <string name="evpspage1">Med denna App kan du leverera ström från ditt hybrid- eller elbil till ditt hem med hjälp av externt nätaggregat (V2H / V2L-utrustning).</string>
+    <string name="evpspage1threestr">Externt nätaggregat krävs om man använder denna funktion. Vänligen kontakta Mitsubishi Motors återförsöljare.</string>
+    <string name="evpspage1twostr">Om ett strömavbrott inträffar i ditt hem, kan du också leverera ström för att starta V2H-utrustning från ditt fordon.</string>
+    <string name="evpspage2">Stäng av strömbrytaren till OFF och anslut snabbladdningsanslutningen på externt nätaggregat till fordonet.</string>
+    <string name="evpspage3">"Om du trycker på PÅ-knappen börjar fordonet leverera ström till externt nätaggregat.
+Om du inte kan trycka på ON-knappen, försök igen på föregående skärm."</string>
+    <string name="exitdemostr">Avsluta Demo</string>
+    <string name="fri">Fredag</string>
+    <string name="fri1">Fre</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">MITSUBISHI Remote Control rekommenderas inte.</string>
+    <string name="jailbreak_title">OS har ändrats</string>
+    <string name="language">sv</string>
+    <string name="linkwarningstr">"Du kan inte använda fordonets nätverk för internetsökning när den är ansluten till fordonet. Använd mobildata eller byt till en annan trådlös LAN-åtkomstpunkt.
+Anslut till fordonets SSID för att använda appen igen."</string>
+    <string name="loadwndinfo">"När du använder MITSUBISHI REMOTE CONTROL kan inte andra nätverk (Internet, etc.) anslutas.
+
+När du ansluter din smartphone till Smartphone Link Display Ljudsystem, är MITSUBISHI REMOTE CONTROL inte tillgänglig."</string>
+    <string name="login_ssid_txtPwd">Lösenord</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"Strömförsörjningen från fordonet till externt nätaggregat kan inte fastställas, eftersom drivkällans återstående kapacitet är låg.
+
+Du kan använda den här funktionen när batterikapaciteten på drivbatteriet är mer än hälften.
+
+Se kapitlet \"Laddning\" och \"Laddningslägesbrytare\" i bruksanvisningen till ditt fordon innan du laddar."</string>
+    <string name="lowbatterytitle">Misslyckades att leverera ström till externt nätaggregat</string>
+    <string name="manacModenoset">Tryck [Klimat PÅ] när läge är inställt.</string>
+    <string name="manacModesetClimateShutDown">"Manuell aktivering av klimatkontroll avbryter timerinställningar.
+
+Om manuell aktivering avbryts återställs timerinställningarna automatiskt."</string>
+    <string name="manachelptitle">Manuella klimatinställningar</string>
+    <string name="manactim">Fjärrklimatkontrollfunktionen får inte användas för att hålla fordonet kallt eller varmt medan människor eller djur finns i det parkerade fordonet. Oväntade olyckor kan inträffa.</string>
+    <string name="modeselect">Du måste registrera ditt VIN-nummer för att fortsätta. Vill du göra applikationen tillgänglig genom att registrera ditt VIN-nummer?</string>
+    <string name="mon">Måndag</string>
+    <string name="mon1">Mån</string>
+    <string name="needPINinfo">Kod krävs.</string>
+    <string name="newfunctioninfo">"Du kan kommunicera med fordonet när strömbrytaren är i läge OFF eftersom trådlös LAN kommunikationsinställningen är \"Alltid kommunicera: OFF\".
+
+Du kan ändra inställningen av \"Inställningar\"> \"Kommunikation via trådlöst LAN inställningar\"."</string>
+    <string name="newfunctioninfo2">Fråga inte mig igen.</string>
+    <string name="nextstr">Nästa</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">Kod krävs ej när appen öppnas.</string>
+    <string name="passcodeErr">Felaktig kod</string>
+    <string name="passcodeErrinfo">Felaktig kod. Vänligen försök igen</string>
+    <string name="passcodeTitle">Kod</string>
+    <string name="preset">Timer</string>
+    <string name="preset1">Timer 1</string>
+    <string name="preset2">Timer 2</string>
+    <string name="preset3">Timer 3</string>
+    <string name="preset4">Timer 4</string>
+    <string name="preset5">Timer 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Registrera</string>
+    <string name="regErr">Registreringsfel</string>
+    <string name="regErrConn">Kan ej registrera</string>
+    <string name="regOk">VIN-registrering slutförd</string>
+    <string name="releaseinfothreestr">Du behöver SSID samt Wi-Fi-lösenordet. Bägge medföljer nyckeln i samband med köp.</string>
+    <string name="remainTime">Återstående tid</string>
+    <string name="reset">Återställ</string>
+    <string name="sTime">-</string>
+    <string name="sat">Lördag</string>
+    <string name="sat1">Lör</string>
+    <string name="search_menu_title">Sök</string>
+    <string name="sendConn">Ansluter...</string>
+    <string name="sendErr">kommunikationsfel</string>
+    <string name="sendMsg">Skickar...</string>
+    <string name="sendNavi">Bilens GPS används...</string>
+    <string name="sendOK">Slutförd</string>
+    <string name="sendUpdate">Uppdaterar...</string>
+    <string name="sendimmediately">Klimat PÅ</string>
+    <string name="setErr">Inställningsfel</string>
+    <string name="setErrInfo">Kommunikationsfel. Vänligen kontakta en auktoriserad Mitsubishi Motors-återförsäljare.</string>
+    <string name="setFunc01item0">Tändning på eller ACC</string>
+    <string name="setFunc01item1">Tändning på</string>
+    <string name="setFunc01name">Funktion i nyckelposition</string>
+    <string name="setFunc01name_title">Funktion i nyckelposition</string>
+    <string name="setFunc02item0">Av</string>
+    <string name="setFunc02item1">På</string>
+    <string name="setFunc02name">Körriktningsvisare (tre-blink)</string>
+    <string name="setFunc02name_title">Körriktningsvisare (tre-blink)</string>
+    <string name="setFunc03item0">Lås: En gång Lås upp: Två gånger</string>
+    <string name="setFunc03item1">Lås: En gång Lås upp: Av</string>
+    <string name="setFunc03item2">Lås: Av Lås upp: Två gånger</string>
+    <string name="setFunc03item3">Lås: Två gånger Lås upp: En gång</string>
+    <string name="setFunc03item4">Lås: Av Lås upp: En gång</string>
+    <string name="setFunc03item5">Lås: Två gånger Lås upp: Av</string>
+    <string name="setFunc03item6">Av</string>
+    <string name="setFunc03name">Kvittering med blinkers</string>
+    <string name="setFunc03name_title">Kvittering med blinkers</string>
+    <string name="setFunc04item0">Fast (4 sekunder)</string>
+    <string name="setFunc04item1">Justerbar</string>
+    <string name="setFunc04item2">Justerbar &amp; hastighetskänslig</string>
+    <string name="setFunc04item3">Justerbar &amp; regnkänslig</string>
+    <string name="setFunc04name">Vindrutetorkare intervalldrift</string>
+    <string name="setFunc04name_title">Vindrutetorkare intervalldrift</string>
+    <string name="setFunc05item0">Av</string>
+    <string name="setFunc05item1">På</string>
+    <string name="setFunc05item2">På med fördröjd sista torkning</string>
+    <string name="setFunc05name">Torkare kopplade till spolning</string>
+    <string name="setFunc05name_title">Torkare kopplade till spolning</string>
+    <string name="setFunc06item0">0 sekunder</string>
+    <string name="setFunc06item1">4 sekunder</string>
+    <string name="setFunc06item2">8 sekunder</string>
+    <string name="setFunc06item3">16 sekunder</string>
+    <string name="setFunc06name">Torkarintervall bakruta</string>
+    <string name="setFunc06name_title">Torkarintervall bakruta</string>
+    <string name="setFunc07item0">Av</string>
+    <string name="setFunc07item1">1 minut</string>
+    <string name="setFunc07item2">3 minuter</string>
+    <string name="setFunc07item3">5 minuter</string>
+    <string name="setFunc07item4">10 minuter</string>
+    <string name="setFunc07name">Laddluckebeslysning auto avstängningstid</string>
+    <string name="setFunc07name_title">Laddluckebeslysning auto avstängningstid</string>
+    <string name="setFunc08item0">Av</string>
+    <string name="setFunc08item1">Öppnas vid fordonshastighet</string>
+    <string name="setFunc08item2">Oppna/stäng vi tändning På/Av och förardörr Öppna/stänga</string>
+    <string name="setFunc08item3_0">Öppna/Stäng vid Lås/Lås upp nyckefritt</string>
+    <string name="setFunc08item3_1">Open/Close by Keyless Operation System Lock/Unlock</string>
+    <string name="setFunc08name">Automatisk fällning speglar</string>
+    <string name="setFunc08name_title">Automatisk fällning speglar</string>
+    <string name="setFunc09item0">Tidigt</string>
+    <string name="setFunc09item1">Ganska tidigt</string>
+    <string name="setFunc09item2">Normal</string>
+    <string name="setFunc09item3">Ganska sent</string>
+    <string name="setFunc09item4">Sent</string>
+    <string name="setFunc09name">Känslighet för automatljus</string>
+    <string name="setFunc09name_title">Känslighet för automatljus</string>
+    <string name="setFunc10item0">På</string>
+    <string name="setFunc10item1">Av</string>
+    <string name="setFunc10name">Automatljus kopplat till torkare</string>
+    <string name="setFunc10name_title">Automatljus kopplat till torkare</string>
+    <string name="setFunc11item0">0 sekunder (ingen timerfunktion)</string>
+    <string name="setFunc11item1">7,5 sekunder</string>
+    <string name="setFunc11item2">15 sekunder</string>
+    <string name="setFunc11item3">30 sekunder</string>
+    <string name="setFunc11item4">1 minut</string>
+    <string name="setFunc11item5">2 minuter</string>
+    <string name="setFunc11item6">3 minuter</string>
+    <string name="setFunc11name">Tid takbelysning på efter dörrstängning</string>
+    <string name="setFunc11name_title">Tid takbelysning på efter dörrstängning</string>
+    <string name="setFunc12item0">Av</string>
+    <string name="setFunc12item1">Baklyktor/stråklastare: Avstängning alltid</string>
+    <string name="setFunc12item2">På</string>
+    <string name="setFunc12item3">På</string>
+    <string name="setFunc12item4">Baklyktor: Stäng av en gång Strålkastare: Stäng alltid av</string>
+    <string name="setFunc12item5">På</string>
+    <string name="setFunc12name">Automatljus-avstängningsfunktion</string>
+    <string name="setFunc12name_title">Automatljus-avstängningsfunktion</string>
+    <string name="setFunc13item0">Av</string>
+    <string name="setFunc13item1">3 minuter</string>
+    <string name="setFunc13item2">30 minuter</string>
+    <string name="setFunc13item3">60 minuter</string>
+    <string name="setFunc13name">Interiörbelysning auto avstängningstid</string>
+    <string name="setFunc13name_title">Interiörbelysning auto avstängningstid</string>
+    <string name="setFunc14item0">Kort</string>
+    <string name="setFunc14item1">Lång</string>
+    <string name="setFunc14name">Aktiveringstid för körriktningsvisare</string>
+    <string name="setFunc14name_title">Aktiveringstid för körriktningsvisare</string>
+    <string name="setFunc15item0">Av</string>
+    <string name="setFunc15item1">På</string>
+    <string name="setFunc15name">Komfortspolning</string>
+    <string name="setFunc15name_title">Komfortspolning</string>
+    <string name="setFunc16item0">Av</string>
+    <string name="setFunc16item1">I läge Park</string>
+    <string name="setFunc16item2">I läge Parkering med olåsta fönster</string>
+    <string name="setFunc16item3">Vid tändning i låsläge</string>
+    <string name="setFunc16item4">Vid tändning i låsläge med olåsta fönster</string>
+    <string name="setFunc16name">Automatisk upplåsning</string>
+    <string name="setFunc16name_title">Automatisk upplåsning</string>
+    <string name="setFunc17item0">Alla dörrar</string>
+    <string name="setFunc17item1">Bara förardörr</string>
+    <string name="setFunc17name">Upplåsning</string>
+    <string name="setFunc17name_title">Upplåsning</string>
+    <string name="setFunc19item0">2 ggr</string>
+    <string name="setFunc19item1">1 ggr</string>
+    <string name="setFunc19name">Antal knapptryck för säkerhetslåsning</string>
+    <string name="setFunc19name_title">Antal knapptryck för säkerhetslåsning</string>
+    <string name="setFunc20item0">Av</string>
+    <string name="setFunc20item1">Ett knapptryck</string>
+    <string name="setFunc20item2">Ett knapptryck dagtid</string>
+    <string name="setFunc20item3">Två knapptryck ljudsignal</string>
+    <string name="setFunc20item4">Två knapptryck dagtid</string>
+    <string name="setFunc20name">Kvittens med signalhorn vid nyckelfri låsning</string>
+    <string name="setFunc20name_title">Kvittens med signalhorn vid nyckelfri låsning</string>
+    <string name="setFunc21item0">Alla system av</string>
+    <string name="setFunc21item1">Ljud vid nyckelfri användning</string>
+    <string name="setFunc21item2">Ljud vid nyckelfri öppning</string>
+    <string name="setFunc21item3">Alla system på</string>
+    <string name="setFunc21name">Kvittensljud för nyckelfritt system</string>
+    <string name="setFunc21name_title">Kvittensljud för nyckelfritt system</string>
+    <string name="setFunc22item0">30 sekunder</string>
+    <string name="setFunc22item1">1 minut</string>
+    <string name="setFunc22item2">2 minuter</string>
+    <string name="setFunc22item3">3 minuter</string>
+    <string name="setFunc22name">Automatisk återlåsning efter upplåsning med fjärrkontroll</string>
+    <string name="setFunc22name_title">Automatisk återlåsning efter upplåsning med fjärrkontroll</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 sekunder</string>
+    <string name="setFunc24item1">30 sekunder</string>
+    <string name="setFunc24item2">3 minuter</string>
+    <string name="setFunc24item3">10 minuter</string>
+    <string name="setFunc24name">Timerfunktion efter avstängd tändning</string>
+    <string name="setFunc24name_title">Timerfunktion efter avstängd tändning</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">Av</string>
+    <string name="setFunc26item1">Elfönster, Ytterspegel: Öppna &amp; Stäng</string>
+    <string name="setFunc26item2">Elfönster: Öppna &amp; Stäng</string>
+    <string name="setFunc26item3">"Elfönster: Stäng
+Ytterspegel: Öppna Stäng"</string>
+    <string name="setFunc26item4">Ytterspegel: Öppna &amp; Stäng</string>
+    <string name="setFunc26item5">Elfönster: Stäng</string>
+    <string name="setFunc26name">Flerfunktion för nyckelfritt system</string>
+    <string name="setFunc26name_title">Flerfunktion för nyckelfritt system</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Kort</string>
+    <string name="setFunc28item1">Lång</string>
+    <string name="setFunc28name">Längd på ljudsignalskvittens</string>
+    <string name="setFunc28name_title">Längd på ljudsignalskvittens</string>
+    <string name="setFunc29item0">När bakre torkare är PÅ</string>
+    <string name="setFunc29item1">När främre torkare är PÅ</string>
+    <string name="setFunc29name">Bakre torkare aktiverad vid backning</string>
+    <string name="setFunc29name_title">Bakre torkare aktiverad vid backning</string>
+    <string name="setFunc32item0">Av</string>
+    <string name="setFunc32item1">3 sekunder</string>
+    <string name="setFunc32item2">5 sekunder</string>
+    <string name="setFunc32name">Tid för inaktivering av fjärrupplåsning efter låsning</string>
+    <string name="setFunc32name_title">Tid för inaktivering av fjärrupplåsning efter låsning</string>
+    <string name="setFunc33item0">Av</string>
+    <string name="setFunc33item1">På</string>
+    <string name="setFunc33name">Signalhornskvittens vid fjärrstart</string>
+    <string name="setFunc33name_title">Signalhornskvittens vid fjärrstart</string>
+    <string name="setFunc34item0">På</string>
+    <string name="setFunc34item1">Av</string>
+    <string name="setFunc34name">Öppningsfunktion efter avstängd tändning</string>
+    <string name="setFunc34name_title">Öppningsfunktion efter avstängd tändning</string>
+    <string name="setFunc35item0">Alla dörrar</string>
+    <string name="setFunc35item1">Endast förardörr</string>
+    <string name="setFunc35name">Elfönsterposition förbjuden av låsknapp</string>
+    <string name="setFunc35name_title">Elfönsterposition förbjuden av låsknapp</string>
+    <string name="setFunc36item0">Av</string>
+    <string name="setFunc36item1">30 minuter</string>
+    <string name="setFunc36item2">60 minuter</string>
+    <string name="setFunc36name">Auto av ACC</string>
+    <string name="setFunc36name_title">Auto av ACC</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">På</string>
+    <string name="setFunc42item1">15 sekunder</string>
+    <string name="setFunc42item2">30 sekunder</string>
+    <string name="setFunc42item3">1 minut</string>
+    <string name="setFunc42item4">3 minuter</string>
+    <string name="setFunc42name">Strålkastar PÅ vid urstigning</string>
+    <string name="setFunc42name_title">Strålkastar PÅ vid urstigning</string>
+    <string name="setFunc43item0">Av</string>
+    <string name="setFunc43item1">Parkeringsljus</string>
+    <string name="setFunc43item2">Strålkastare</string>
+    <string name="setFunc43name">Yttre belysning PÅ vid fjärrupplåsning</string>
+    <string name="setFunc43name_title">Yttre belysning PÅ vid fjärrupplåsning</string>
+    <string name="setFunc50item0">Manuell</string>
+    <string name="setFunc50item1">Automatisk</string>
+    <string name="setFunc50name">Återcirkulation</string>
+    <string name="setFunc50name_title">Återcirkulation</string>
+    <string name="setFunc51item0">Manuell</string>
+    <string name="setFunc51item1">Automatisk</string>
+    <string name="setFunc51name">A/C manövrering</string>
+    <string name="setFunc51name_title">A/C manövrering</string>
+    <string name="setFunc53item0">Eco</string>
+    <string name="setFunc53item1">Komfort</string>
+    <string name="setFunc53name">Eco läge</string>
+    <string name="setFunc53name_title">Eco läge</string>
+    <string name="setFunc54item0">Normal</string>
+    <string name="setFunc54item1">Mer flöde till fötter</string>
+    <string name="setFunc54item2">Mer flöde till avisning</string>
+    <string name="setFunc54name">Fot/Avisningsluftflöde</string>
+    <string name="setFunc54name_title">Fot/Avisningsluftflöde</string>
+    <string name="setFunc55item0">Normal</string>
+    <string name="setFunc55item1">Mer flöde till ansikte</string>
+    <string name="setFunc55item2">Mer flöde till fötter</string>
+    <string name="setFunc55name">Ansikte/Fot luftflöde</string>
+    <string name="setFunc55name_title">Ansikte/Fot luftflöde</string>
+    <string name="setFunc56item0">Av</string>
+    <string name="setFunc56item1">På</string>
+    <string name="setFunc56name">Automatisk bakre avisning vid start</string>
+    <string name="setFunc56name_title">Automatisk bakre avisning vid start</string>
+    <string name="setFunc57item0">Av</string>
+    <string name="setFunc57item1">På</string>
+    <string name="setFunc57name">Starta A/C eller värme vid upplåsning</string>
+    <string name="setFunc57name_title">Starta A/C eller värme vid upplåsning</string>
+    <string name="setFunc58item0">Av</string>
+    <string name="setFunc58item1">På</string>
+    <string name="setFunc58name">Vid fotläge svagt luftflöde till avisning</string>
+    <string name="setFunc58name_title">Vid fotläge svagt luftflöde till avisning</string>
+    <string name="setFunc60item0">Av</string>
+    <string name="setFunc60item1">På</string>
+    <string name="setFunc60name">Hög tomgång för högre värmeeffekt vid stillastående</string>
+    <string name="setFunc60name_title">Hög tomgång för högre värmeeffekt vid stillastående</string>
+    <string name="setFuncGroup01">Nyckelfritt låssystem</string>
+    <string name="setFuncGroup02">Nyckelfritt låssystem</string>
+    <string name="setFuncGroup03">Torkare</string>
+    <string name="setFuncGroup04">Yttre beslysning/Interiör belysning</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Elfönster</string>
+    <string name="setFuncGroup07">Körriktningsvisare</string>
+    <string name="setFuncGroup08">Centrallås</string>
+    <string name="setFuncGroup09">Klimatanläggning</string>
+    <string name="setFuncGroup10">Övrigt</string>
+    <string name="setSend">Skicka</string>
+    <string name="setany">Trådlösa LAN Kanalinställningar</string>
+    <string name="setcarset">Fordonsinställningar</string>
+    <string name="setinfo_changewpaonestr">Ändra det trådlösa LAN lösenordet</string>
+    <string name="setinfo_changewpatwostr">Du kan ändra det trådlösa LAN lösenordet.</string>
+    <string name="setinfoeightstr">Du kan avbryta VIN-registreringen. Du kommer inte att kunna kommunicera med fordonet efter att du avbrutit. Återregistrering krävs för att kunna kommunicera igen.</string>
+    <string name="setinfoelevenstr">Trådlösa LAN Kanalinställningar</string>
+    <string name="setinfofifteenstr">Stöldlarmshistorik</string>
+    <string name="setinfofivestr">Ändra SSID</string>
+    <string name="setinfofourstr">Du kan ändra nödvändigheten av kodskydd i samband med app-initialiseringen.</string>
+    <string name="setinfofourteenstr">Du kan ändra fordonsinställningar. (anpassa ETACS)</string>
+    <string name="setinfoninestr">Trådlöst LAN Kommunikationsinställningar</string>
+    <string name="setinfoonestr">Hoppa över kod</string>
+    <string name="setinfosevenstr">Avbryt VIN-registrering</string>
+    <string name="setinfosisteenstr">Visar tidigare stöldlarmsaktiveringar</string>
+    <string name="setinfosixstr">Du kan ändra fordonets SSID.</string>
+    <string name="setinfotenstr">Du kan välja att trådlös LAN-kommunikation alltid är PÅ eller att trådlös LAN-kommunikation är PÅ när strömbrytaren på fordonet är AV.</string>
+    <string name="setinfothirteenstr">Fordonsinställningar</string>
+    <string name="setinfothreestr">Ändra kod</string>
+    <string name="setinfotwelvestr">Du kan välja en trådlös LAN Kanal. När du har ändrat den trådlösa LAN-kanalen kommer den trådlösa kommunikationen att kopplas ut och sedan att återanslutas automatiskt.Om appen inte har återanslutits efter 5 minuter, vänligen stäng den appen och kontrollera den trådlösa LAN-anlsutning till fordonet på den Wifi-inställningsskärmen.</string>
+    <string name="setinfotwostr">Du kan bedöma nödvändigheten av kodskydd i samband med app-initialiseringen.</string>
+    <string name="setinit">Avbryt VIN-registrering</string>
+    <string name="setinitinfo">"Är du säker på att du vill använda inställningen nedan?
+
+"<ul><li>"Schema för laddningstimer
+"</li><li>"Schema för klimatkontrolltimer
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Är du säker på att du vill använda inställningen nedan?
+
+"<ul><li>"Schema för laddningstimer
+"</li><li>"Schema för klimatkontrolltimer
+"</li><li>"SSID
+"</li><li>Trådlöst LAN lösenord</li></ul></string>
+    <string name="setinitq">Är du säker på att du vill radera VIN-registreringen?</string>
+    <string name="setnewssidinfo">Nytt SSID</string>
+    <string name="setnewwpainfo">Nytt lösenord</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Nuvarande lösenord</string>
+    <string name="setpasscode">Ändra kod</string>
+    <string name="setpasscodedis">"Ingen kod har registrerats.
+
+För att registrera en kod, stäng AV \"Hoppa över kodangivelse\"."</string>
+    <string name="setpasscodestep1">Ange din kod</string>
+    <string name="setpasscodestep2">Vänligen ange din nya kod.</string>
+    <string name="setpasscodestep3">Vänligen ange den nya koden igen.</string>
+    <string name="setrenewwpainfo">Bekräfta det nya lösenordet</string>
+    <string name="setspnum">Antal registrerade smartphones</string>
+    <string name="setssid">Ändra SSID</string>
+    <string name="setssiderr">Inmatningsfel</string>
+    <string name="setssiderrinfo">Innehåller ogiltiga tecken.</string>
+    <string name="setssidinfo">Du kan välja en längd på mellan 1-32 tecken. Det skiljs på stora och små bokstäver.</string>
+    <string name="setssidokinfo">Efter att ha ändrat SSID, kommer den trådlösa kommunikationen avbrytas och sedan automatiskt återansluta. Om appen inte återansluter efter 5 minuter, stäng av appen och kontrollera status för trådlös LAN-anslutning i Android Wifi-inställningar.</string>
+    <string name="setssidoktips">Klicka på OK för att stänga appen.</string>
+    <string name="setthefthistory">Stöldlarmshistorik</string>
+    <string name="setthefthistoryinfo">Rensa stöldlarmshistoriken?</string>
+    <string name="settingtitle">Inställningar</string>
+    <string name="setusepasscode">Hoppa över kodangivelse</string>
+    <string name="setusepasscodeinfo">Ange lösenord</string>
+    <string name="setver">Versionsinfo</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Fordonsmjukvara</string>
+    <string name="setwifiinfoon">"Läge PÅ:
+Trådlås LAN kommunikation är alltid på i fordonet.
+
+Läge AV:
+Trådlös LAN kommunikation är endast på om startknapp är i läge OFF.
+
+Om du vill ansluta din enhet till Smartphone Link Display Audio systemet ställ in läge: AV."</string>
+    <string name="setwifilabel">Kommunicera alltid</string>
+    <string name="setwpa">Ändring av trådlöst LAN-lösenord.</string>
+    <string name="setwpaerr_1">Inmatningsfel</string>
+    <string name="setwpaerr_2">Inmatningsfel</string>
+    <string name="setwpaerr_3">Inmatningsfel</string>
+    <string name="setwpaerr_4">Inmatningsfel</string>
+    <string name="setwpaerrinfo_1">"Innehåller ogiltiga tecken.
+Se hjälpavsnittet för att se vilka tecken som får användas."</string>
+    <string name="setwpaerrinfo_2">Det nya lösenordet måste vara detsamma, vänligen ange ditt nya lösenord.</string>
+    <string name="setwpaerrinfo_3">Det nya lösenordet får endast innehålla 14 tecken, vänligen välj ett annat lösenord.</string>
+    <string name="setwpaerrinfo_4">Det nuvarande lösenordet som du har angett är felaktig, vänligen försök igen.</string>
+    <string name="setwpaerrinfo_5">"Möjliga orsaker till felet:
+"<ul><li>"Tändningen är inte i ACC-läget
+"</li><li>"Det har varit mer än 10 minuter i registreringsläge.
+
+Ställ in fordonet i registreringsläge."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"Ange ett säkert 14-tecken lösenord.
+"</li><li>"Lösenordet är skiftlägeskänsliga, och du kan använda bokstäver, siffror och symboler.
+"</li><li>Kom ihåg ditt lösenord, och dela det inte med andra.</li></ul></string>
+    <string name="setwpaokinfo">Efter att ha ändrat trådlöst LAN-lösenord, kommer den trådlösa kommunikationen avbrytas och sedan automatiskt återansluta. Om appen inte återansluter efter 5 minuter, stäng av appen och kontrollera status för trådlös LAN-anslutning i Android Wifi-inställningar.</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Enheten är ansluten till ett nätverk annat än fordonets.
+
+Är du ansluten till fordonet?"</string>
+    <string name="ssidinfo">SSID kommer att ändras.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Vänligen ange SSID och Wi-Fi-lösenord. Tryck sedan på \"OK\".</string>
+    <string name="stepfiveonestring">Stäng förardörren.</string>
+    <string name="stepfivethreestring">"Inom 10 sekunder efter STEP 2, tryck på knapparna LOCK och UNLOCK omväxlande 5 gånger (totalt 10 knapptryckningar, med början på LOCK-knappen)
+En ljudsignal anger att fordonet är redo att registreras."</string>
+    <string name="stepfivetwostring">Ställ in strömbrytaren på läge ACC (tryck ej på bromsen när detta utförs. Knappen fungerar som följer \"AV\" → \"ACC\" → \"PÅ\" → \"AV\")</string>
+    <string name="stepfouronestring">Stäng förardörren.</string>
+    <string name="stepfourthreestring">"Inom 10 sekunder efter STEP 2, tryck på knapparna LOCK och UNLOCK omväxlande 5 gånger (totalt 10 knapptryckningar, med början på LOCK-knappen)
+En ljudsignal anger att fordonet är redo att registreras."</string>
+    <string name="stepfourtwostring">Ställ strömbrytaren på läge ACC (tryck ej på bromsen när detta utförs. Knappen fungerar som följer \"AV\" → \"ACC\" → \"PÅ\" → \"AV\")</string>
+    <string name="stu1_1">Strömbrytare AV</string>
+    <string name="stu1_2">Strömbrytare PÅ eller ACC</string>
+    <string name="stu1_3">Stöldlarm bortkopplat</string>
+    <string name="stu1_4">Stöldlarm påkopplat</string>
+    <string name="stu1_5">Stöldlarm aktiverat</string>
+    <string name="stu2info1leftstr">Parkeringsljus</string>
+    <string name="stu2info1rightstr">PÅ</string>
+    <string name="stu2info1str">Parkeringsljus PÅ</string>
+    <string name="stu2info2leftstr">Varningsljusen</string>
+    <string name="stu2info2rightstr">blinkar</string>
+    <string name="stu2info2str">Varningsljusen blinkar</string>
+    <string name="stu2info3leftstr">Dörr(ar)</string>
+    <string name="stu2info3rightstr">öppen/öppna</string>
+    <string name="stu2info3str">Dörr(ar) öppen/öppna</string>
+    <string name="stu2info4leftstr">Strålkastare</string>
+    <string name="stu2info4rightstr">PÅ</string>
+    <string name="stu2info4str">Strålkastare PÅ</string>
+    <string name="stu2info5leftstr">Motorhuv</string>
+    <string name="stu2info5rightstr">öppen</string>
+    <string name="stu2info5str">Motorhuv öppen</string>
+    <string name="stu2info6leftstr">Kupélampa</string>
+    <string name="stu2info6rightstr">PÅ</string>
+    <string name="stu2info6str">Kupélampa PÅ</string>
+    <string name="stu2info7leftstr">Baklucka</string>
+    <string name="stu2info7rightstr">öppen</string>
+    <string name="stu2info7str">Baklucka öppen</string>
+    <string name="stu2info8leftstr">Bakljus</string>
+    <string name="stu2info8rightstr">PÅ</string>
+    <string name="stu2info8str">Bakljus PÅ</string>
+    <string name="sun">Söndag</string>
+    <string name="sun1">Sön</string>
+    <string name="switchoff">AV</string>
+    <string name="switchon">PÅ</string>
+    <string name="theft2_1">Strålkastare PÅ</string>
+    <string name="theft2_4">Parkeringsljus PÅ</string>
+    <string name="theft2dis2twostr">"Denna funktion kan endast användas om:
+
+"<ul><li>"Strömbrytaren är AV.
+"</li><li>Strålkastare och parkeringsljus är AV.</li></ul></string>
+    <string name="thu">Torsdag</string>
+    <string name="thu1">Tor</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">-</string>
+    <string name="timemode">P</string>
+    <string name="titleback">Tillbaka</string>
+    <string name="titlehelp">Hjälp</string>
+    <string name="titleupdate1">Rensa</string>
+    <string name="titleupdate2">Återställ</string>
+    <string name="titleupdate3">Skicka</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"Denna funktion kan endast användas om:
+
+"<ul><li>"Fordonet är helt avstängt.
+"</li><li>Snabbladdning EJ är aktiverad.</li></ul></string>
+    <string name="topacmode">Läge</string>
+    <string name="topacwait">Väntar</string>
+    <string name="topbattwarm">Uppvärmning</string>
+    <string name="topbattwarminginfo">"Var god anslut laddsladden i syfte att förebygga låg drivbatteritemperatur.
+Uppvärmning startas vid anslutning."</string>
+    <string name="topbattwarminginfo_plugin_1">"Fordonet kanske inte kan köras eftersom att drivbatteriet har låg temperatur.
+
+Vänligen sätt fordonet i READY eller anslut laddsladden för att värma drivbatteriet."</string>
+    <string name="topbattwarminginfo_plugin_2">"Eftersom drivbatteritemperaturen är för låg, kan fordonet inte köras.
+
+Anslut laddsladd för att värma drivbatteriet."</string>
+    <string name="topbattwarminginfo_stop_1">"Fordonet kan inte köras på grund av den låga drivbatteritemperaturen.
+Uppvärmning av drivbatteri krävs för att köra, men förutsättningarna för uppvärmning har inte nåtts.
+
+Vänta tills utetemperaturen stiger."</string>
+    <string name="topbattwarminginfo_stop_2">"Fordonet kan inte köras på grund av låg drivbatteritemperatur.
+
+Uppvärmning av drivbatteri krävs för att köra, men förutsättningarna för uppvärmning har inte nåtts.
+
+Uppvärmning av drivbatteriet startar när utetemperaturen stiger och laddsladden är inkopplad, var god vänta."</string>
+    <string name="topbattwarminginfo_warm_1">Drivbatteritemperatur har stigit. Fordonet kan nu köras.</string>
+    <string name="topbattwarminginfo_warm_2">"Fordonet kan ej köra på grund av låg drivbatteritemperatur.
+
+Drivbatteriet är under uppvärmning. Var god vänta."</string>
+    <string name="topbattwarmingtitle">Fordonsinformation</string>
+    <string name="topcanntac">Var god välj läge för klimatkontroll via \"Läge\" i vyn för timerschema.</string>
+    <string name="topcanntac2">Manuell klimat har redan ställts in.Om Manuell klimat klar, kommer klimat Timer slå PÅ automatiskt.</string>
+    <string name="topcanntchg">Var god skapa timerschema i vyn \"Timer\".</string>
+    <string name="topchargeEndTime">Laddning klar</string>
+    <string name="topchargeEndTimeHour">t</string>
+    <string name="topchargeEndTimeMin">min</string>
+    <string name="topchargefinish">Laddning klar</string>
+    <string name="topchargetimer">Timer PÅ/AV</string>
+    <string name="topfastchg">Snabb</string>
+    <string name="tophelp100v">Underhåll</string>
+    <string name="tophelp200v">Normal</string>
+    <string name="tophelp22">Kyla</string>
+    <string name="tophelp24">Värme</string>
+    <string name="tophelp26">Avfrostning</string>
+    <string name="tophelp41">Bra anslutning</string>
+    <string name="tophelp42">Svag anslutning</string>
+    <string name="tophelp43">Kan ej ansluta</string>
+    <string name="tophelp44">Tryck på knappen för att kommunicera med fordonet och uppdatera informationen.</string>
+    <string name="tophelpwarm"><ul><li>"Drivbatteriet värms upp i syfte att förhindra batterifel vid temperaturfall.
+"</li><li>"Det finns en risk att den laddning som återstår i batteriet kan minska.
+"</li><li>"Batteriet kan börja ladda även om laddningstimer ställts in.
+"</li><li>Eventuellt kan kupéfläkten aktiveras.</li></ul></string>
+    <string name="topwaitcharge">Väntar</string>
+    <string name="towebsitestr">Gå till websida</string>
+    <string name="tue">Tisdag</string>
+    <string name="tue1">Tis</string>
+    <string name="v2hv2l">Starta extern strömförsörjning</string>
+    <string name="warning6str">Tryck på \"Uppdatera\" för att kommunicera med fordonet.</string>
+    <string name="warning7timeronestr">Ändringen påverkar alla Timer 1 inställningar.</string>
+    <string name="warning7timerthreestr">Ändringen påverkar alla Timer 3 inställningar.</string>
+    <string name="warning7timertwostr">Ändringen påverkar alla Timer 2 inställningar.</string>
+    <string name="wed">Onsdag</string>
+    <string name="wed1">Ons</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">Trådlöst LAN Kommunikationinställningar</string>
+    <string name="wpainfo">Det trådlösa LAN-lösenordet är ändrat.</string>
+</resources>

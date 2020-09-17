@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl" android:tag="item_check" android:background="@color/white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp_75"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/cellTopLayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_75" android:layout_marginStart="@dimen/dp_22">
+        <com.inventec.controls.SwitchView android:id="@id/btnCheck" android:focusable="false" android:layout_width="@dimen/dp_52" android:layout_height="@dimen/dp_32" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_17" android:layout_alignParentEnd="true" xmlns="default namespace" />
+        <ImageView android:id="@id/cellrightindication" android:background="@drawable/right_indicate" android:visibility="invisible" android:layout_width="@dimen/dp_13" android:layout_height="@dimen/dp_26" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_21" android:layout_alignParentEnd="true" />
+        <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/txtTitle" android:layout_width="fill_parent" android:layout_height="@dimen/dp_70" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_toStartOf="@id/cellrightindication" android:layout_alignParentStart="true" app:MmcTypeface="1" />
+    </RelativeLayout>
+    <LinearLayout android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_2" android:layout_below="@id/cellTopLayout" />
+</RelativeLayout>

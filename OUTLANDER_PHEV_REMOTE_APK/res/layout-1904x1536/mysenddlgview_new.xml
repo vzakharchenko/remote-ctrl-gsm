@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/progress_horizontal" android:layout_width="@dimen/dp_149" android:layout_height="@dimen/dp_149" android:layout_marginTop="@dimen/dp_80" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="mmc_loader.json" app:lottie_loop="true" />
+    <com.inventec.controls.MmcFontTextView android:textAppearance="@style/welcome_to_" android:gravity="center|top" android:id="@id/registratio" android:layout_width="@dimen/dp_311" android:layout_height="@dimen/dp_45" android:layout_marginTop="@dimen/dp_20" android:text="@string/sendUpdate" android:alpha="0.65" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/progress_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

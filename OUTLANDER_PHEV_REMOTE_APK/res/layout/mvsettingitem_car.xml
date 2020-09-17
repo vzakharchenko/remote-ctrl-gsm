@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_75"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/carcellfirstlayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_75" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/imgArrow" android:background="@drawable/right_indicate" android:layout_width="@dimen/dp_13" android:layout_height="@dimen/dp_26" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_18" android:layout_alignParentEnd="true" />
+        <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/txtTitle" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_73" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/dp_24" android:layout_marginEnd="@dimen/dp_24" android:layout_toStartOf="@id/imgArrow" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_2" android:layout_below="@id/carcellfirstlayout" />
+</RelativeLayout>

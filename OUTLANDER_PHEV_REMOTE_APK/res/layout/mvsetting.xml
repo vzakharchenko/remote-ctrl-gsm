@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/settingtoplayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true">
+        <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_24" android:textColor="#ff000000" android:gravity="center" android:paddingTop="@dimen/dp_4" android:layout_width="@dimen/dp_120" android:layout_height="@dimen/dp_40" android:text="@string/settingtitle" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:MmcTypeface="0" />
+        <com.inventec.controls.MyButton android:id="@id/ssidnavhelp" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_marginTop="@dimen/dp_21_5" android:layout_marginEnd="@dimen/dp_23" android:layout_alignParentEnd="true" app:buttonShadowType="null" />
+    </RelativeLayout>
+    <ListView android:id="@id/listSetting" android:background="#00000000" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@color/transparent" android:layout_below="@id/settingtoplayout" />
+</RelativeLayout>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">นาที</string>
+    <string name="ACWorking">ไม่สามารถเปลี่ยนเวลาการทำงานของระบบปรับอากาศได้ เมื่อระบบปรับอากศถูกเปิดโดยการตั้งเวลาหรือการควบคุมจากระยะไกล</string>
+    <string name="ACtim"><ul><li>"ห้ามใช้การควบคุมระบบปรับอากาศจากระยะไกลขณะมีผู้โดยสารหรือสัตว์เลี้ยงอยู่ภายในรถ เนื่องจากอุณหภูมิภายในรถที่สูงหรือต่ำเกินไปอาจทำให้เป็นอันตรายได้
+
+"</li><li>"ยิ่งระบบปรับอากาศทำงานเป็นเวลานาน จะทำให้ยิ่งสิ้นเปลืองแบตเตอรี่ขับเคลื่อนมากเท่านั้น
+
+"</li><li>ระบบปรับอากาศอาจทำงานได้น้อยกว่าเวลาที่กำหนดไว้ ขึ้นอยู่กับแบตเตอรี่ขับเคลื่อนคงเหลือ</li></ul></string>
+    <string name="ACtimeLabel">เวลาเปิดใช้งาน</string>
+    <string name="AcsettingARM">"ถ้าระบบแจ้งเตือนความปลอดภัยของรถยนต์เปิดการทำงานแล้ว การตั้งค่าของรถยนต์จะไม่สามารถเปลี่ยนแปลงได้
+
+โปรดใช้ระบบการเข้าถึงแบบกุญแจรีโมตหรือกุญแจอัจฉริยะเพื่อปลดล็อกประตู ระบบความปลอดภัยจะถูกปลดล็อค และสามารถตั้งค่ารถยนต์ได้"</string>
+    <string name="EVInit">คืนค่าเริ่มต้น</string>
+    <string name="EVInitInfo">คุณต้องการคืนค่าเริ่มต้นของรถหรือไม่</string>
+    <string name="Everyday">ทุกวัน</string>
+    <string name="ResetAllschude">คุณต้องการคืนค่าเริ่มต้นให้ตารางเวลาทั้งหมดหรือไม่</string>
+    <string name="ResetOneschude">คุณต้องการคืนค่าเริ่มต้นให้ตารางเวลานี้หรือไม่</string>
+    <string name="Schudle">ตารางเวลา</string>
+    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_bar_up_description">นำทางขึ้น</string>
+    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
+    <string name="abc_action_mode_done">เสร็จสิ้น</string>
+    <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
+    <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
+    <string name="abc_capital_off">ปิด</string>
+    <string name="abc_capital_on">เปิด</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">เมนู+</string>
+    <string name="abc_search_hint">ค้นหา…</string>
+    <string name="abc_searchview_description_clear">ล้างข้อความค้นหา</string>
+    <string name="abc_searchview_description_query">ข้อความค้นหา</string>
+    <string name="abc_searchview_description_search">ค้นหา</string>
+    <string name="abc_searchview_description_submit">ส่งข้อความค้นหา</string>
+    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
+    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
+    <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
+    <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="accstr">ACC (สีส้ม)</string>
+    <string name="acoptiontimelong2">ระยะเวลาที่ระบบปรับอากาศทำงาน</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">สถานะ</string>
+    <string name="bartitle5">ตั้งค่า</string>
+    <string name="bgdark" />
+    <string name="btnStart">เริ่มใช้งาน</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">ตัวอักษรที่สามารถใช้ได้</string>
+    <string name="channel_3">ช่องทาง 3</string>
+    <string name="channel_8">ช่องทาง 8</string>
+    <string name="clear">คืนค่าทั้งหมด</string>
+    <string name="communicationstr">การสื่อสาร</string>
+    <string name="countdownTipsonestr">"โปรดใช้แผงควบคุมแหล่งจ่ายไฟภายนอก เพื่อตั้งค่ารถยนต์ให้จ่ายไฟให้บ้านภายใน 5 นาที
+
+หากแหล่งจ่ายไฟภายนอกไม่ทำงาน อาจเกิดจากสาเหตุต่อไปนี้"</string>
+    <string name="countdownTipstwostr">แหล่งจ่ายไฟภายนอกไม่รองรับฟังก์ชันนี้</string>
+    <string name="countdownTipstwostrfivestr">แหล่งจ่ายไฟภายนอกหรือรถยนต์ขัดข้อง</string>
+    <string name="countdownTipstwostrfourstr">แบตเตอรี่ 12 V ของรถยนต์มีแรงดันไฟฟ้าต่ำเกินไป</string>
+    <string name="countdownTipstwostrthreestr">ปุ่มเริ่มต้นถูกกดแล้ว เป็นเวลาเกินกว่า 5 นาที</string>
+    <string name="countdownTipstwostrtwostr">หัวชาร์จของแหล่งจ่ายไฟภายนอกไม่เชื่อมต่อกับตัวรถอย่างถูกต้อง</string>
+    <string name="daySelct">ทำซ้ำ</string>
+    <string name="delay1">0 นาที</string>
+    <string name="delay10">120 นาที</string>
+    <string name="delay11">150 นาที</string>
+    <string name="delay12">180 นาที</string>
+    <string name="delay2">5 นาที</string>
+    <string name="delay3">10 นาที</string>
+    <string name="delay4">20 นาที</string>
+    <string name="delay5">30 นาที</string>
+    <string name="delay6">40 นาที</string>
+    <string name="delay7">50 นาที</string>
+    <string name="delay8">60 นาที</string>
+    <string name="delay9">90 นาที</string>
+    <string name="demo">เวอร์ชันทดลองใช้</string>
+    <string name="durationstr">ระยะเวลา</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">มีการใช้งานกุญแจแปลกปลอม</string>
+    <string name="err1intrusion">เกิดการบุกรุกที่ไม่ได้รับอนุญาต</string>
+    <string name="err1movement">รถมีการเคลื่อนที่ที่ผิดปกติ</string>
+    <string name="err1other">รถถูกเข้าถึงอย่างผิดปกติ</string>
+    <string name="err1perimeter">ประตูรถถูกเปิดแบบผิดปกติ</string>
+    <string name="err1silent">รถยนต์เกิดการสั่นสะเทือนที่ผิดปกติ</string>
+    <string name="err1title">การแจ้งเตือนสัญญาณกันขโมย</string>
+    <string name="errACinfo">"อาจเกิดขึ้นเนื่องจากสาเหตุต่อไปนี้
+
+"<ul><li>"ประตูเปิดอยู่
+"</li><li>พลังงานไฟฟ้าของแบตเตอรี่ขับเคลื่อนไม่เพียงพอ</li></ul></string>
+    <string name="errACinfoEx">"อาจเกิดขึ้นเนื่องจากสาเหตุต่อไปนี้
+
+"<ul><li>"ประตูเปิดอยู่
+"</li><li>"พลังงานไฟฟ้าของแบตเตอรี่ขับเคลื่อนไม่เพียงพอ
+"</li><li>อุณหภูมิของแบตเตอรี่ขับเคลื่อนต่ำเกินไป</li></ul></string>
+    <string name="errACtitle">ระบบปรับอากาศแบบตั้งเวลาไว้หยุดทำงาน</string>
+    <string name="errCHGinfo">การชาร์จไฟแบบตั้งเวลาไว้ไม่สามารถทำงานได้</string>
+    <string name="errCHGtitle">เกิดข้อผิดพลาดในการชาร์จไฟแบบตั้งเวลา</string>
+    <string name="errRegMaxtitle">การลงทะเบียนผิดพลาด</string>
+    <string name="errTimerinfo">การตั้งเวลาไม่สามารถทำงานตามปกติได้</string>
+    <string name="errTimertitle">เกิดความผิดพลาดในการตั้งเวลา</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Error Code :</string>
+    <string name="evACCool">ทำความเย็น</string>
+    <string name="evACHot">ทำความร้อน</string>
+    <string name="evACOFF">ปิด</string>
+    <string name="evACSetTitle">การตั้งเวลาระบบปรับอากาศ</string>
+    <string name="evCharge1Auto">เชื่อมต่อกับตำแหน่งที่ตั้งที่ลงทะเบียนไว้ :</string>
+    <string name="evCharge1End">สิ้นสุด</string>
+    <string name="evCharge1Start">เริ่มต้น</string>
+    <string name="evCharge1full">การชาร์จไฟให้เต็ม</string>
+    <string name="evChargeSetTitle">การตั้งค่าเวลาในการชาร์จไฟ</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">ส่ง</string>
+    <string name="evSendAsk">การตั้งค่าตารางเวลายังไม่ถูกส่ง ต้องการย้อนกลับเพื่อส่งหรือไม่</string>
+    <string name="evSendAsk5ch">"การตั้งค่าตารางเวลายังไม่ถูกส่ง
+ต้องการย้อนกลับเพื่อส่งหรือไม่"</string>
+    <string name="evTimerSet">การตั้งเวลา</string>
+    <string name="evhCHG12info">"ฟังก์ชันการชาร์จไฟจนเต็ม คือ หากแบตเตอรี่ไม่ได้ชาร์จจนเต็มในช่วงเวลาการชาร์จไฟที่ตั้งไว้ จะทำการชาร์จไฟต่อไปจนกว่าแบตเตอรี่จะเต็ม
+โปรดทราบ: การเสียบหัวชาร์จเข้าหลังจากสิ้นสุดเวลาการชาร์จไฟที่ตั้งไว้แล้ว ระบบจะไม่ทำการชาร์จไฟต่อ"</string>
+    <string name="evhCHG17myinfo1">การตั้งค่าระบบปรับอากาศแบบแมนนวล</string>
+    <string name="evhCHG22ginfo1">โหมดชาร์จไฟแมนนวล</string>
+    <string name="evhCHG22ginfo3">โหมดตั้งเวลาชาร์จไฟ</string>
+    <string name="evhCHG22infofourstr">จะไม่สามารถใช้ฟังก์ชันตำแหน่งที่ตั้งที่ลงทะเบียนไว้ได้</string>
+    <string name="evhCHG22infoonestr">ในกรณีที่รถยนต์มีการติดตั้ง MMCS</string>
+    <string name="evhCHG22infothreestr">ในกรณีที่รถยนต์ไม่ได้ติดตั้ง MMCS</string>
+    <string name="evhCHG22infotwostr">"ฟังก์ชันการชาร์จจะสามารถสับเปลี่ยนโหมดได้ตามพื้นที่ที่ตั้งไว้
+เมื่ออยู่ในบริเวณที่ลงทะเบียน โหมดจะถูกเปลี่ยนเป็น \"การชาร์จแบบตั้งเวลา\" และจะถูกตั้งเป็น \"การชาร์จแบบแมนนวล\" เมื่ออยู่ในพื้นที่อื่นๆโดยอัตโนมัติ 
+โดยการชาร์จแบบตั้งเวลาเหมาะสำหรับการชาร์จตอนกลางคืน (อัตราค่าไฟต่ำ) ในพื้นที่ที่ลงทะเบียนไว้และการชาร์จแบบแมนนวล เหมาะสำหรับการชาร์จในพื้นที่อื่นๆ เช่น ห้างสรรพสินค้า เป็นต้น"</string>
+    <string name="evhelpCHG1item2">\"การตั้งค่าการชาร์จไฟให้เต็ม\" คืออะไร</string>
+    <string name="evhelpCHG2item2">\"ตำแหน่งที่ตั้งที่ลงทะเบียนไว้\" คืออะไร</string>
+    <string name="evhmanualACitem4infofourstr">ระบบปรับอากาศจะมีเพียงโหมดทำความเย็นเท่านั้น</string>
+    <string name="evhmanualACitem4infoonestr">ในกรณีที่ติดตั้งระบบทำความร้อนแบบไฟฟ้า (อุปกรณ์เสริม)</string>
+    <string name="evhmanualACitem4infothreestr">ในกรณีที่ไม่ได้ติดตั้งระบบทำความร้อนแบบไฟฟ้า</string>
+    <string name="evhmanualACitem4infotwostr">"จะสามารถปรับโหมดของระบบปรับอากาศได้ 3 รูปแบบ คือ ความร้อน ความเย็น และไล่ฝ้า
+โหมดของระบบปรับอากาศที่เลือกจะถูกใช้กับการตั้งเวลาทั้งหมด ไม่สามารถกำหนดให้โหมดของระบบปรับอากาศต่างกันได้ในแต่ละการตั้งค่าเวลา"</string>
+    <string name="evmCHchargstr">การชาร์จไฟ</string>
+    <string name="evmCHclimatestr">ปรับอากาศ</string>
+    <string name="evmCHsetstr">ตั้งค่า</string>
+    <string name="evmCHstatusstr">สถานะ</string>
+    <string name="evmaccancelltimestr">การยกเลิก</string>
+    <string name="evmaccanceltimer">ยกเลิกการตั้งเวลา</string>
+    <string name="evmacwarn5str">ยกเลิกการตั้งเวลาระบบปรับอากาศ</string>
+    <string name="evmainac">ระบบปรับอากาศ</string>
+    <string name="evmaincharge">การชาร์จไฟ</string>
+    <string name="evmchacwarn5no">ไม่ใช่​</string>
+    <string name="evmchacwarn5yes">ใช่</string>
+    <string name="evmchargeTimerSch">ตารางเวลาการชาร์จไฟ</string>
+    <string name="evmchargetschstr">"คุณสามารถยกเลิกการตั้งเวลาชั่วคราวได้โดยกดยกเลิกเครื่องหมายถูก
+การตั้งเวลาในการชาร์จไฟชั่วคราวจะกลับมาทำงานโดยอัตโนมัติหากกดเครื่องหมายถูกหรือสถานะของสวิตช์เครื่องยนต์ ON"</string>
+    <string name="evmchargstatusstr">สถานะการชาร์จไฟ</string>
+    <string name="evmchtempcancellstr">การยกเลิกชั่วคราว</string>
+    <string name="evmchupdatingstr">(กำลังอัปเดต)</string>
+    <string name="evmchwarn5str">ยกเลิกการตั้งเวลาชาร์จไฟชั่วคราว</string>
+    <string name="evmclimateTimerSch">การตั้งเวลาระบบปรับอากาศ</string>
+    <string name="evmclimatetschstr">คุณสามารถยกเลิกการตั้งเวลาโดยกดยกเลิกเครื่องหมายถูก</string>
+    <string name="evmdrivebattlevelstr">ระดับแบตเตอรี่ขับเคลื่อน</string>
+    <string name="evmerrstartcommun">เริ่มการสื่อสาร</string>
+    <string name="evmlastupdatedstr">ก่อนทำการอัปเดตสถานะ แอปพลิเคชันจะแสดงสถานะของรถก่อนถูกอัปเดต</string>
+    <string name="evmregtroublereg">พบปัญหาในการลงทะเบียน?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">ยกเลิกการตั้งเวลาชั่วคราว</string>
+    <string name="evmupdatedTime">การอัปเดตล่าสุด</string>
+    <string name="evpsfailcontent">ความผิดพลาดนี้อาจเกิดจากรถยนต์ขัดข้อง โปรดติดต่อตัวแทนจำหน่ายมิตซูบิชิของคุณ</string>
+    <string name="evpsfailtitle">แหล่งจ่ายไฟไม่สามารถใช้งานได้</string>
+    <string name="evpspage1">หากใช้แอปพลิเคชันนี้ คุณจะสามารถจ่ายไฟจากรถยนต์ไฮบริดหรือรถยนต์ไฟฟ้าให้กับบ้านได้ ด้วยอุปกรณ์แหล่งจ่ายไฟจากภายนอก (เช่น อุปกรณ์ V2H/V2L)</string>
+    <string name="evpspage1threestr">ฟังก์ชันนี้จำเป็นต้องใช้ \"อุปกรณ์แหล่งจ่ายไฟ\" ที่เหมาะสม โปรดติดต่อตัวแทนจำหน่ายมิตซูบิชิของคุณเพื่อดูรายละเอียดเพิ่มเติม</string>
+    <string name="evpspage1twostr">เมื่อเกิดไฟฟ้าขัดข้องในบ้าน คุณยังสามารถใช้งานอุปกรณ์ V2H ด้วยพลังงานไฟฟ้าจากรถยนต์</string>
+    <string name="evpspage2">กด [OFF] สวิตช์เครื่องยนต์และเชื่อมต่อหัวชาร์จของแหล่งจ่ายไฟภายนอกเข้ากับตัวรถ</string>
+    <string name="evpspage3">"เมื่อกด [เริ่มใช้งาน] รถจะเริ่มจ่ายไฟให้แหล่งจ่ายไฟภายนอก
+หากไม่สามารถกด [เริ่มใช้งาน] ได้ โปรดย้อนกลับไปที่หน้าจอก่อนหน้าเพื่อลองใหม่อีกครั้ง"</string>
+    <string name="exitdemostr">ออกจากเวอร์ชันทดลองใช้</string>
+    <string name="fri">ศุกร์</string>
+    <string name="fri1">ศ</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">ไม่แนะนำให้ใช้ MITSUBISHI Remote Control</string>
+    <string name="jailbreak_title">OS ได้รับการแก้ไขแล้ว</string>
+    <string name="language">th</string>
+    <string name="linkwarningstr">"คุณไม่สามารถใช้เครือข่ายของตัวรถเพื่อเชื่อมต่อกับอินเตอร์เน็ตได้ โปรดใช้การเชื่อมต่ออินเตอร์เน็ตจาก Mobile data หรือจุดเชื่อมต่อ LAN ไร้สายอื่นๆ
+หากต้องการใช้แอปพลิเคชั่นอีกครั้ง โปรดเชื่อมต่อเข้ากับ SSID ของตัวรถ"</string>
+    <string name="loadwndinfo">"ขณะใช้งาน MITSUBISHI REMOTE CONTROL จะไม่สามารถเชื่อมต่อกับเครือข่ายอื่น ๆ (เช่น อินเทอร์เน็ต) ได้
+
+ไม่สามารถใช้งาน MITSUBISHI REMOTE CONTROL ขณะที่เชื่อมต่อสมาร์ทโฟนเข้ากับจอแสดงผลของรถ"</string>
+    <string name="login_ssid_txtPwd">รหัสผ่าน</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"เนื่องจากแบตเตอรี่ขับเคลื่อนคงเหลือต่ำ รถจึงไม่สามารถจ่ายไฟให้กับแหล่งจ่ายไฟภายนอกได้
+
+สามารถใช้ฟังก์ชันนี้ได้เมื่อแบตเตอรี่ขับเคลื่อนเหลือมากกว่าครึ่งหนึ่ง
+
+โปรดอ่านหมวด \"การชาร์จไฟ\" และ \"การเปลี่ยนโหมดชาร์จไฟ\" ในคู่มือรถยนต์ ก่อนทำการชาร์จไฟ"</string>
+    <string name="lowbatterytitle">การจ่ายไฟให้กับแหล่งจ่ายไฟภายนอกผิดพลาด</string>
+    <string name="manacModenoset">โปรดตั้งค่าโหมดระบบปรับอากาศ หลังจากนั้นกด [เปิด ระบบปรับอากาศ]</string>
+    <string name="manacModesetClimateShutDown">"ระบบปรับอากาศแบบตั้งเวลาจะถูกปิดชั่วคราว เนื่องจากระบบปรับอากาศแบบแมนนวลถูกเปิด
+
+หากระบบปรับอากาศแบบแมนนวลถูกปิด ระบบปรับอากาศแบบตั้งเวลาจะเปิดขึ้นเองอัตโนมัติ"</string>
+    <string name="manachelptitle">การตั้งค่าระบบปรับอากาศแบบแมนนวล</string>
+    <string name="manactim">ห้ามใช้งานการควบคุมระบบปรับอากาศระยะไกลเมื่อมีคนหรือสัตว์เลี้ยงอยู่ภายในรถ เนื่องจากอุณหภูมิที่สูงหรือต่ำเกินไปอาจทำให้เกิดอันตรายต่อคนหรือสัตว์เลี้ยงได้</string>
+    <string name="modeselect">ต้องลงทะเบียน VIN ก่อน จึงจะสามารถดำเนินการต่อได้ เปิดใช้งานแอปพลิเคชันนี้โดยการลงทะเบียนรหัส VIN เดี๋ยวนี้ หรือไม่</string>
+    <string name="mon">จันทร์</string>
+    <string name="mon1">จ</string>
+    <string name="needPINinfo">จำเป็นต้องป้อนรหัสผ่านอีกครั้งเมื่อแอปพลิเคชันเริ่มทำงานใหม่</string>
+    <string name="newfunctioninfo">"เนื่องจากมีการตั้งค่า การเชื่อมต่อไร้สาย ในหัวข้อ \"สื่อสารตลอดเวลา\" เป็น OFF ดังนั้นการสื่อสารกับรถยนต์จะสามารถทำได้เฉพาะเมื่อสวิตช์เครื่องยนต์อยู่ในสถานะ OFF
+
+การตั้งค่าการเชื่อมต่อไร้สาย
+\"การตั้งค่า\" แล้วไปที่\"ตั้งค่าการเชื่อมต่อไร้สาย\""</string>
+    <string name="newfunctioninfo2">ไม่แสดงข้อความนี้ในครั้งต่อไป</string>
+    <string name="nextstr">ถัดไป</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">ไม่ต้องป้อนรหัสผ่านอีกเมื่อแอปพลิเคชันเริ่มทำงาน</string>
+    <string name="passcodeErr">การป้อนรหัสผ่านผิดพลาด</string>
+    <string name="passcodeErrinfo">รหัสผ่านไม่ถูกต้อง โปรดลองใหม่อีกครั้ง</string>
+    <string name="passcodeTitle">โปรดใส่รหัสผ่าน.</string>
+    <string name="preset">ตั้งเวลา</string>
+    <string name="preset1">ตั้งเวลา 1</string>
+    <string name="preset2">ตั้งเวลา 2</string>
+    <string name="preset3">ตั้งเวลา 3</string>
+    <string name="preset4">ตั้งเวลา 4</string>
+    <string name="preset5">ตั้งเวลา 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">ลงทะเบียน</string>
+    <string name="regErr">การลงทะเบียนล้มเหลว</string>
+    <string name="regErrConn">ไม่สามารถลงทะเบียนได้</string>
+    <string name="regOk">การลงทะเบียนรหัส VIN สำเร็จ</string>
+    <string name="releaseinfothreestr">เตรียม SSID และรหัสผ่านที่ได้รับมาพร้อมกับกุญแจรถให้พร้อม</string>
+    <string name="remainTime">ระยะเวลาคงเหลือ</string>
+    <string name="reset">คืนค่าเริ่มต้น</string>
+    <string name="sTime">～</string>
+    <string name="sat">เสาร์</string>
+    <string name="sat1">ส</string>
+    <string name="search_menu_title">ค้นหา</string>
+    <string name="sendConn">กำลังเชื่อมต่อ…</string>
+    <string name="sendErr">ไม่สามารถเชื่อมต่อได้</string>
+    <string name="sendMsg">กำลังส่ง…</string>
+    <string name="sendNavi">ระบบนำทางกำลังเริ่มใช้งาน…</string>
+    <string name="sendOK">เสร็จสมบูรณ์</string>
+    <string name="sendUpdate">กำลังอัปเดต…</string>
+    <string name="sendimmediately">เปิด ระบบปรับอากาศ</string>
+    <string name="setErr">การตั้งค่าไม่ถูกต้อง</string>
+    <string name="setErrInfo">การสื่อสารเกิดความผิดพลาด กรุณาติดต่อตัวแทนจำหน่ายมิตซูบิชิ มอเตอร์ส</string>
+    <string name="setFunc01item0">สวิตช์เครื่องยนต์ ACC/ON</string>
+    <string name="setFunc01item1">สวิตช์เครื่องยนต์ ON</string>
+    <string name="setFunc01name">ตำแหน่งของสวิตช์เครื่องยนต์</string>
+    <string name="setFunc01name_title">ตำแหน่งของสวิตช์เครื่องยนต์</string>
+    <string name="setFunc02item0">ปิด</string>
+    <string name="setFunc02item1">เปิด</string>
+    <string name="setFunc02name">ไฟเลี้ยวเพื่อเปลี่ยนเลน (แตะ 1 ครั้ง ไฟจะกระพริบ 3 ครั้ง)</string>
+    <string name="setFunc02name_title">ไฟเลี้ยวเพื่อเปลี่ยนเลน (แตะ 1 ครั้ง ไฟจะกระพริบ 3 ครั้ง)</string>
+    <string name="setFunc03item0">ล็อค：1 ครั้ง ปลดล็อค：2 ครั้ง</string>
+    <string name="setFunc03item1">ล็อค：1 ครั้ง ปลดล็อค：ปิด</string>
+    <string name="setFunc03item2">ล็อค：ปิด ปลดล็อค：2 ครั้ง</string>
+    <string name="setFunc03item3">ล็อค：2 ครั้ง ปลดล็อค：1 ครั้ง</string>
+    <string name="setFunc03item4">ล็อค：ปิด ปลดล็อค：1 ครั้ง</string>
+    <string name="setFunc03item5">ล็อค：2 ครั้ง ปลดล็อค：ปิด</string>
+    <string name="setFunc03item6">ปิด</string>
+    <string name="setFunc03name">การตอบสนองของไฟเลี้ยว</string>
+    <string name="setFunc03name_title">การตอบสนองของไฟเลี้ยว</string>
+    <string name="setFunc04item0">คงที่ (4 วินาที)</string>
+    <string name="setFunc04item1">ปรับได้</string>
+    <string name="setFunc04item2">การตรวจจับความเร็วแบบปรับได้</string>
+    <string name="setFunc04item3">การตรวจจับน้ำฝนแบบปรับได้</string>
+    <string name="setFunc04name">จังหวะการทำงานของที่ปัดน้ำฝนกระจกหน้า</string>
+    <string name="setFunc04name_title">จังหวะการทำงานของที่ปัดน้ำฝนกระจกหน้า</string>
+    <string name="setFunc05item0">ปิด</string>
+    <string name="setFunc05item1">เปิด</string>
+    <string name="setFunc05item2">เปิดแบบมีหน่วงเวลา</string>
+    <string name="setFunc05name">ที่ฉีดน้ำล้างกระจกทำงานร่วมกับที่ปัดน้ำฝน</string>
+    <string name="setFunc05name_title">ที่ฉีดน้ำล้างกระจกทำงานร่วมกับที่ปัดน้ำฝน</string>
+    <string name="setFunc06item0">0 วินาที</string>
+    <string name="setFunc06item1">4 วินาที</string>
+    <string name="setFunc06item2">8 วินาที</string>
+    <string name="setFunc06item3">16 วินาที</string>
+    <string name="setFunc06name">จังหวะการทำงานของที่ปัดน้ำฝนด้านหลัง</string>
+    <string name="setFunc06name_title">จังหวะการทำงานของที่ปัดน้ำฝนด้านหลัง</string>
+    <string name="setFunc07item0">ปิด</string>
+    <string name="setFunc07item1">1 นาที</string>
+    <string name="setFunc07item2">3 นาที</string>
+    <string name="setFunc07item3">5 นาที</string>
+    <string name="setFunc07item4">10 นาที</string>
+    <string name="setFunc07name">ไฟฝาครอบที่ชาร์จไฟปิดโดยอัตโนมัติ</string>
+    <string name="setFunc07name_title">ไฟฝาครอบที่ชาร์จไฟปิดโดยอัตโนมัติ</string>
+    <string name="setFunc08item0">ปิด</string>
+    <string name="setFunc08item1">ทำงานตามความเร็วของรถ</string>
+    <string name="setFunc08item2">เปิด/ปิด ตามสถานะ ON/OFF ของเครื่องยนต์และสถานะ เปิด/ปิด ของประตูฝั่งคนขับ</string>
+    <string name="setFunc08item3_0">เปิด/ปิด ตามสถานะ ล็อค/ปลดล็อค โดยกุญแจรีโมท</string>
+    <string name="setFunc08item3_1">Pengoperasian sustem tanpa kunci untuk mengunci atau membuka kunci</string>
+    <string name="setFunc08name">พับกระจกมองหลังอัตโนมัติ</string>
+    <string name="setFunc08name_title">พับกระจกมองหลังอัตโนมัติ</string>
+    <string name="setFunc09item0">เร็วมาก</string>
+    <string name="setFunc09item1">เร็ว</string>
+    <string name="setFunc09item2">ปานกลาง</string>
+    <string name="setFunc09item3">ช้า</string>
+    <string name="setFunc09item4">ช้ามาก</string>
+    <string name="setFunc09name">ความไวของไฟอัตโนมัติ</string>
+    <string name="setFunc09name_title">ความไวของไฟอัตโนมัติ</string>
+    <string name="setFunc10item0">ส่ง</string>
+    <string name="setFunc10item1">เปิด</string>
+    <string name="setFunc10name">ไฟอัตโนมัติทำงานร่วมกับที่ปัดน้ำฝน</string>
+    <string name="setFunc10name_title">ไฟอัตโนมัติทำงานร่วมกับที่ปัดน้ำฝน</string>
+    <string name="setFunc11item0">0 วินาที (ไม่มีฟังก์ชันการตั้งเวลา)</string>
+    <string name="setFunc11item1">7.5 วินาที</string>
+    <string name="setFunc11item2">15 วินาที</string>
+    <string name="setFunc11item3">30 วินาที</string>
+    <string name="setFunc11item4">1 นาที</string>
+    <string name="setFunc11item5">2 นาที</string>
+    <string name="setFunc11item6">3 นาที</string>
+    <string name="setFunc11name">ระยะเวลาที่ไฟห้องโดยสารยังคงเปิด หลังจากประตูถูกปิด</string>
+    <string name="setFunc11name_title">ระยะเวลาที่ไฟห้องโดยสารยังคงเปิด หลังจากประตูถูกปิด</string>
+    <string name="setFunc12item0">ปิด</string>
+    <string name="setFunc12item1">ไฟท้าย/ไฟหน้า : ตัดทุกครั้ง</string>
+    <string name="setFunc12item2">เปิด</string>
+    <string name="setFunc12item3">เปิด</string>
+    <string name="setFunc12item4">"ไฟท้าย : ตัด 1 ครั้ง
+ไฟหน้า : ตัดทุกครั้ง"</string>
+    <string name="setFunc12item5">เปิด</string>
+    <string name="setFunc12name">ฟังก์ชันตัดไฟหน้าอัตโนมัติ</string>
+    <string name="setFunc12name_title">ฟังก์ชันตัดไฟหน้าอัตโนมัติ</string>
+    <string name="setFunc13item0">ปิด</string>
+    <string name="setFunc13item1">3 นาที</string>
+    <string name="setFunc13item2">30 นาที</string>
+    <string name="setFunc13item3">60 นาที</string>
+    <string name="setFunc13name">เวลาที่ไฟในรถจะปิดอัตโนมัติ</string>
+    <string name="setFunc13name_title">เวลาที่ไฟในรถจะปิดอัตโนมัติ</string>
+    <string name="setFunc14item0">สั้น</string>
+    <string name="setFunc14item1">ยาว</string>
+    <string name="setFunc14name">ระยะเวลาที่เปิดใช้งานไฟเลี้ยวเพื่อเปลี่ยนเลน</string>
+    <string name="setFunc14name_title">ระยะเวลาที่เปิดใช้งานไฟเลี้ยวเพื่อเปลี่ยนเลน</string>
+    <string name="setFunc15item0">ปิด</string>
+    <string name="setFunc15item1">เปิด</string>
+    <string name="setFunc15name">ที่ฉีดน้ำล้างกระจกแบบสะดวกสบาย</string>
+    <string name="setFunc15name_title">ที่ฉีดน้ำล้างกระจกแบบสะดวกสบาย</string>
+    <string name="setFunc16item0">ปิด</string>
+    <string name="setFunc16item1">เมื่อเปลี่ยนเป็นโหมดจอดรถ</string>
+    <string name="setFunc16item2">เมื่อเปลี่ยนเป็นโหมดจอดรถและกระจกไฟฟ้าถูกปลดล็อค</string>
+    <string name="setFunc16item3">เมื่อสวิตช์เครื่องยนต์อยู่ที่ตำแหน่ง LOCK</string>
+    <string name="setFunc16item4">เมื่อสวิตช์เครื่องยนต์อยู่ที่ตำแหน่ง LOCK และกระจกไฟฟ้าถูกปลดล็อค</string>
+    <string name="setFunc16name">ปลดล็อคโดยอัตโนมัติ</string>
+    <string name="setFunc16name_title">ปลดล็อคโดยอัตโนมัติ</string>
+    <string name="setFunc17item0">ประตูรถทุกบาน</string>
+    <string name="setFunc17item1">เฉพาะประตูฝั่งคนขับเท่านั้น</string>
+    <string name="setFunc17name">ปลดล็อค</string>
+    <string name="setFunc17name_title">ปลดล็อค</string>
+    <string name="setFunc19item0">2 ครั้ง</string>
+    <string name="setFunc19item1">1 ครั้ง</string>
+    <string name="setFunc19name">จำนวนครั้งในการกดปุ่มล็อคสำหรับการล็อคตาย</string>
+    <string name="setFunc19name_title">จำนวนครั้งในการกดปุ่มล็อคสำหรับการล็อคตาย</string>
+    <string name="setFunc20item0">ปิด</string>
+    <string name="setFunc20item1">กดปุ่ม 1 ครั้ง</string>
+    <string name="setFunc20item2">กดปุ่ม 1 ครั้งในเวลากลางวัน</string>
+    <string name="setFunc20item3">เสียงที่จะดังขึ้นเมื่อกดปุ่ม 2 ครั้ง</string>
+    <string name="setFunc20item4">กดปุ่ม 2 ครั้งในเวลากลางวัน</string>
+    <string name="setFunc20name">การตอบสนองของเสียงแตรเมื่อล็อคจากกุญแจรีโมท</string>
+    <string name="setFunc20name_title">การตอบสนองของเสียงแตรเมื่อล็อคจากกุญแจรีโมท</string>
+    <string name="setFunc21item0">ปิดการทำงานทั้งระบบ</string>
+    <string name="setFunc21item1">เสียงที่ดังขึ้นเมื่อใช้กุญแจอัฉริยะ</string>
+    <string name="setFunc21item2">เสียงที่ดังขึ้นเมื่อใช้กุญแจรีโมท</string>
+    <string name="setFunc21item3">เปิดการทำงานทั้งระบบ</string>
+    <string name="setFunc21name">ระยะเวลาที่ไม่สามารถปลดล็อคระยะไกลได้ หลังจากล็อค</string>
+    <string name="setFunc21name_title">ระยะเวลาที่ไม่สามารถปลดล็อคระยะไกลได้ หลังจากล็อค</string>
+    <string name="setFunc22item0">30 วินาที</string>
+    <string name="setFunc22item1">1 นาที</string>
+    <string name="setFunc22item2">2 นาที</string>
+    <string name="setFunc22item3">3 นาที</string>
+    <string name="setFunc22name">จะล็อคอัตโนมัติหลังจากปลดล็อคโดยรีโมท</string>
+    <string name="setFunc22name_title">จะล็อคอัตโนมัติหลังจากปลดล็อคโดยรีโมท</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 วินาที</string>
+    <string name="setFunc24item1">30 วินาที</string>
+    <string name="setFunc24item2">3 นาที</string>
+    <string name="setFunc24item3">10 นาที</string>
+    <string name="setFunc24name">ฟังก์ชันการตั้งเวลาหลังจากสวิตช์เครื่องยนต์ OFF</string>
+    <string name="setFunc24name_title">ฟังก์ชันการตั้งเวลาหลังจากสวิตช์เครื่องยนต์ OFF</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">ปิด</string>
+    <string name="setFunc26item1">กระจกไฟฟ้า, กระจกมองหลัง : เปิด/ปิด</string>
+    <string name="setFunc26item2">กระจกไฟฟ้า : เปิด/ปิด</string>
+    <string name="setFunc26item3">"กระจกไฟฟ้า : ปิด
+กระจกมองหลัง : เปิด/ปิด"</string>
+    <string name="setFunc26item4">กระจกมองหลัง : เปิด/ปิด</string>
+    <string name="setFunc26item5">กระจกไฟฟ้า : ปิด</string>
+    <string name="setFunc26name">ฟังก์ชันของระบบกุญแจรีโมท</string>
+    <string name="setFunc26name_title">ฟังก์ชันของระบบกุญแจรีโมท</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">สั้น</string>
+    <string name="setFunc28item1">ยาว</string>
+    <string name="setFunc28name">ระยะเวลาการตอบสนองของเสียงแตร</string>
+    <string name="setFunc28name_title">ระยะเวลาการตอบสนองของเสียงแตร</string>
+    <string name="setFunc29item0">เมื่อที่ปัดน้ำฝนด้านหลังเปิดอยู่</string>
+    <string name="setFunc29item1">เมื่อที่ปัดน้ำฝนด้านหน้าหรือด้านหลังเปิดอยู่</string>
+    <string name="setFunc29name">การทำงานของที่ปัดน้ำฝนด้านหลังเมื่อเข้าเกียร์ถอยหลัง</string>
+    <string name="setFunc29name_title">การทำงานของที่ปัดน้ำฝนด้านหลังเมื่อเข้าเกียร์ถอยหลัง</string>
+    <string name="setFunc32item0">ปิด</string>
+    <string name="setFunc32item1">3 วินาที</string>
+    <string name="setFunc32item2">5 วินาที</string>
+    <string name="setFunc32name">ระยะเวลาที่ไม่สามารถปลดล็อคระยะไกลได้ หลังจากล็อค</string>
+    <string name="setFunc32name_title">ระยะเวลาที่ไม่สามารถปลดล็อคระยะไกลได้ หลังจากล็อค</string>
+    <string name="setFunc33item0">ปิด</string>
+    <string name="setFunc33item1">เปิด</string>
+    <string name="setFunc33name">เสียงแตรดังขึ้นเมื่อสตาร์ทเครื่องยนต์จากระยะไกล</string>
+    <string name="setFunc33name_title">เสียงแตรดังขึ้นเมื่อสตาร์ทเครื่องยนต์จากระยะไกล</string>
+    <string name="setFunc34item0">เปิด</string>
+    <string name="setFunc34item1">ปิด</string>
+    <string name="setFunc34name">ฟังก์ชันการตั้งเวลาหลังจากสวิตช์เครื่องยนต์ OFF</string>
+    <string name="setFunc34name_title">ฟังก์ชันการตั้งเวลาหลังจากสวิตช์เครื่องยนต์ OFF</string>
+    <string name="setFunc35item0">ประตูรถทุกบาน</string>
+    <string name="setFunc35item1">เฉพาะประตูฝั่งคนขับเท่านั้น</string>
+    <string name="setFunc35name">ตำแหน่งของกระจกไฟฟ้า ที่ห้ามใช้จากสวิทช์ล็อค</string>
+    <string name="setFunc35name_title">ตำแหน่งของกระจกไฟฟ้า ที่ห้ามใช้จากสวิทช์ล็อค</string>
+    <string name="setFunc36item0">ปิด</string>
+    <string name="setFunc36item1">30 นาที</string>
+    <string name="setFunc36item2">60 นาที</string>
+    <string name="setFunc36name">การตัดไฟ ACC โดยอัตโนมัติ</string>
+    <string name="setFunc36name_title">การตัดไฟ ACC โดยอัตโนมัติ</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">ปิด</string>
+    <string name="setFunc42item1">15 วินาที</string>
+    <string name="setFunc42item2">30 วินาที</string>
+    <string name="setFunc42item3">1 นาที</string>
+    <string name="setFunc42item4">3 นาที</string>
+    <string name="setFunc42name">ไฟหน้าเปิดขึ้นเมื่อออกจากรถยนต์</string>
+    <string name="setFunc42name_title">ไฟหน้าเปิดขึ้นเมื่อออกจากรถยนต์</string>
+    <string name="setFunc43item0">ปิด</string>
+    <string name="setFunc43item1">ไฟบอกตำแหน่ง</string>
+    <string name="setFunc43item2">ไฟหน้า</string>
+    <string name="setFunc43name">ไฟนอกรถเปิดเมื่อปลดล็อครถโดยรีโมท</string>
+    <string name="setFunc43name_title">ไฟนอกรถเปิดเมื่อปลดล็อครถโดยรีโมท</string>
+    <string name="setFunc50item0">แมนนวล</string>
+    <string name="setFunc50item1">อัตโนมัติ</string>
+    <string name="setFunc50name">ระบบหมุนเวียนอากาศ</string>
+    <string name="setFunc50name_title">ระบบหมุนเวียนอากาศ</string>
+    <string name="setFunc51item0">แมนนวล</string>
+    <string name="setFunc51item1">อัตโนมัติ</string>
+    <string name="setFunc51name">สวิทช์ควบคุมระบบปรับอากาศ</string>
+    <string name="setFunc51name_title">สวิทช์ควบคุมระบบปรับอากาศ</string>
+    <string name="setFunc53item0">ประหยัดพลังงาน</string>
+    <string name="setFunc53item1">สบาย</string>
+    <string name="setFunc53name">โหมดประหยัดพลังงาน</string>
+    <string name="setFunc53name_title">โหมดประหยัดพลังงาน</string>
+    <string name="setFunc54item0">ปกติ</string>
+    <string name="setFunc54item1">เพิ่มการไหลของอากาศบริเวณเท้า</string>
+    <string name="setFunc54item2">เพิ่มการไหลของอากาศที่ระบบไล่ฝ้า</string>
+    <string name="setFunc54name">อัตราส่วนการไหลของอากาศบริเวณเท้า/ระบบไล่ฝ้า</string>
+    <string name="setFunc54name_title">อัตราส่วนการไหลของอากาศบริเวณเท้า/ระบบไล่ฝ้า</string>
+    <string name="setFunc55item0">ปกติ</string>
+    <string name="setFunc55item1">เพิ่มการไหลของอากาศบริเวณใบหน้า</string>
+    <string name="setFunc55item2">เพิ่มการไหลของอากาศบริเวณเท้า</string>
+    <string name="setFunc55name">อัตราส่วนการไหลของอากาศบริเวณใบหน้า/เท้า</string>
+    <string name="setFunc55name_title">อัตราส่วนการไหลของอากาศบริเวณใบหน้า/เท้า</string>
+    <string name="setFunc56item0">ปิด</string>
+    <string name="setFunc56item1">เปิด</string>
+    <string name="setFunc56name">กระจกหลังจะไล่ฝ้าอัตโนมัติเมื่อสตาร์ท</string>
+    <string name="setFunc56name_title">กระจกหลังจะไล่ฝ้าอัตโนมัติเมื่อสตาร์ท</string>
+    <string name="setFunc57item0">ปิด</string>
+    <string name="setFunc57item1">เปิด</string>
+    <string name="setFunc57name">สตาร์ทระบบปรับอากาศหรือระบบทำความร้อนเมื่อประตูปลดล็อค</string>
+    <string name="setFunc57name_title">สตาร์ทระบบปรับอากาศหรือระบบทำความร้อนเมื่อประตูปลดล็อค</string>
+    <string name="setFunc58item0">ปิด</string>
+    <string name="setFunc58item1">เปิด</string>
+    <string name="setFunc58name">อากาศที่ไหลผ่านระบบไล่ฝ้าจะมีน้อยมากเมื่ออยู่ในโหมดเท้า</string>
+    <string name="setFunc58name_title">อากาศที่ไหลผ่านระบบไล่ฝ้าจะมีน้อยมากเมื่ออยู่ในโหมดเท้า</string>
+    <string name="setFunc60item0">ปิด</string>
+    <string name="setFunc60item1">เปิด</string>
+    <string name="setFunc60name">การเพิ่มรอบการทำงานของเครื่องยนต์เมื่อรถหยุด เพื่อเพิ่มประสิทธิภาพการทำงานของเครื่องทำความร้อน</string>
+    <string name="setFunc60name_title">การเพิ่มรอบการทำงานของเครื่องยนต์เมื่อรถหยุด เพื่อเพิ่มประสิทธิภาพการทำงานของเครื่องทำความร้อน</string>
+    <string name="setFuncGroup01">ระบบกุญแจรีโมท</string>
+    <string name="setFuncGroup02">ระบบกุญแจอัจฉริยะ</string>
+    <string name="setFuncGroup03">ที่ปัดน้ำฝน</string>
+    <string name="setFuncGroup04">ไฟนอกรถ/ไฟในรถ</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">กระจกไฟฟ้า</string>
+    <string name="setFuncGroup07">ไฟเลี้ยว</string>
+    <string name="setFuncGroup08">ระบบล็อคประตูไฟฟ้า</string>
+    <string name="setFuncGroup09">ระบบปรับอากาศ</string>
+    <string name="setFuncGroup10">อื่นๆ</string>
+    <string name="setSend">ส่ง</string>
+    <string name="setany">การตั้งค่าช่องทางในการเชื่อมต่อไร้สาย</string>
+    <string name="setcarset">การตั้งค่ารถยนต์</string>
+    <string name="setinfo_changewpaonestr">เปลี่ยนรหัสผ่านของการเชื่อมต่อไร้สาย</string>
+    <string name="setinfo_changewpatwostr">คุณสามารถเปลี่ยนรหัสผ่านของการเชื่อมต่อไร้สายของรถได้</string>
+    <string name="setinfoeightstr">หากยกเลิกการลงทะเบียนรหัส VIN คุณจะไม่สามารถสื่อสารกับรถได้ หากต้องการสื่อสารอีกครั้งจำเป็นต้องลงทะเบียนใหม่</string>
+    <string name="setinfoelevenstr">การตั้งค่าช่องทางการเชื่อมต่อไร้สาย</string>
+    <string name="setinfofifteenstr">ประวัติการแจ้งเตือนกันขโมย</string>
+    <string name="setinfofivestr">เปลี่ยนรหัสผ่าน SSID</string>
+    <string name="setinfofourstr">คุณสามารถเปลี่ยนรหัสผ่านสำหรับเริ่มใช้งานแอปพลิเคชันได้</string>
+    <string name="setinfofourteenstr">คุณสามารถเปลี่ยนการตั้งค่าต่างๆ ของรถยนต์ได้ (การปรับแต่ง ETACS)</string>
+    <string name="setinfoninestr">การตั้งค่าการสื่อสารด้วยการเชื่อมต่อไร้สาย</string>
+    <string name="setinfoonestr">ละเว้นการป้อนรหัสผ่าน</string>
+    <string name="setinfosevenstr">ยกเลิกการลงทะเบียนรหัส VIN</string>
+    <string name="setinfosisteenstr">แสดงประวิติการแจ้งเตือนกันขโมยในอดีต</string>
+    <string name="setinfosixstr">คุณสามารถเปลี่ยนรหัสผ่านของ SSID ของรถได้</string>
+    <string name="setinfotenstr">คุณสามารถสื่อสารกับรถยนต์ด้วยการเชื่อมต่อไร้สายได้ตลอดเวลา หรือเฉพาะเมื่อสวิตช์เครื่องยนต์อยู่ในสถานะ \"OFF\"</string>
+    <string name="setinfothirteenstr">การตั้งค่ารถยนต์</string>
+    <string name="setinfothreestr">เปลี่ยนรหัสผ่าน</string>
+    <string name="setinfotwelvestr">"เลือกช่องทางการเชื่อมต่อไร้สายหนึ่งช่อง หลังจากเปลี่ยนช่องทางการเชื่อมต่อไร้สายแล้ว จะถูกตัดการเชื่อมต่อ และจะเชื่อมต่ออีกครั้งโดยอัตโนมัติ
+หากแอปพลิเคชันไม่เชื่อมต่อภายใน 5 นาที ให้ปิดแอปพลิเคชันในหน้าการตั้งค่า Wi-Fi พร้อมตรวจสอบการเชื่อมต่อไร้สายของรถยนต์"</string>
+    <string name="setinfotwostr">ตั้งค่าการป้อนรหัสผ่านเมื่อเปิดแอปพลิเคชัน</string>
+    <string name="setinit">ยกเลิกการลงทะเบียนรหัส VIN</string>
+    <string name="setinitinfo">"ข้อมูลต่อไปนี้จะคืนค่าเริ่มต้น ต้องการดำเนินการต่อหรือไม่
+
+"<ul><li>"การตั้งค่าการชาร์จไฟแบบตั้งเวลา
+"</li><li>"การตั้งค่าระบบปรับอากาศแบบตั้งเวลา
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"ข้อมูลต่อไปนี้จะคืนค่าเริ่มต้น ต้องการดำเนินการต่อหรือไม่
+
+"<ul><li>"การตั้งค่าการชาร์จไฟแบบตั้งเวลา
+"</li><li>"การตั้งค่าระบบปรับอากาศแบบตั้งเวลา
+"</li><li>"SSID
+"</li><li>รหัสผ่านของการเชื่อมต่อไร้สาย</li></ul></string>
+    <string name="setinitq">แน่ใจหรือว่าต้องการยกเลิกการลงทะเบียนรหัส VIN</string>
+    <string name="setnewssidinfo">SSID ใหม่</string>
+    <string name="setnewwpainfo">รหัสผ่านใหม่</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">รหัสผ่านปัจจุบัน</string>
+    <string name="setpasscode">เปลี่ยนรหัสผ่าน</string>
+    <string name="setpasscodedis">"ยังไม่ได้ลงทะเบียนรหัสผ่าน
+
+โปรดลงทะเบียนรหัสผ่านโดยการปิดฟังก์ชั่น “ละเว้นการป้อนรหัสผ่าน”"</string>
+    <string name="setpasscodestep1">โปรดป้อนรหัสผ่าน</string>
+    <string name="setpasscodestep2">โปรดป้อนรหัสผ่านใหม่</string>
+    <string name="setpasscodestep3">โปรดป้อนรหัสผ่านใหม่อีกครั้ง</string>
+    <string name="setrenewwpainfo">ยืนยันรหัสผ่านใหม่</string>
+    <string name="setspnum">จำนวนอุปกรณ์ที่ลงทะเบียน</string>
+    <string name="setssid">เปลี่ยน SSID</string>
+    <string name="setssiderr">การป้อนข้อมูลผิดพลาด</string>
+    <string name="setssiderrinfo">มีการใช้ตัวอักษรที่ไม่สามารถใช้งานได้</string>
+    <string name="setssidinfo">คุณสามารถป้อนตัวอักษรภาษาอังกฤษ ตัวเลขและสัญลักษณ์ได้ตั้งแต่ 1 ถึง 32 หลัก โดยกำหนดตัวอักษรตัวพิมพ์ใหญ่และตัวพิมพ์เล็กให้ชัดเจน</string>
+    <string name="setssidokinfo">"การเชื่อมต่อไร้สาย จะเชื่อมโดยอัตโนมัติหลังจากเปลี่ยน SSID
+หากไม่มีการเชื่อมต่อภายใน 5 นาที ควรทำการปิดแอปพลิเคชันและตรวจสอบสถานะการเชื่อมต่อไร้สาย ที่หน้าการตั้งค่า Wi-Fi"</string>
+    <string name="setssidoktips">กด [OK] เพื่อปิดแอปพลิเคชัน</string>
+    <string name="setthefthistory">ประวัติการแจ้งเตือนกันขโมย</string>
+    <string name="setthefthistoryinfo">ต้องการล้างประวัติการแจ้งเตือนกันขโมยหรือไม่</string>
+    <string name="settingtitle">การตั้งค่า</string>
+    <string name="setusepasscode">ละเว้นการป้อนรหัสผ่าน</string>
+    <string name="setusepasscodeinfo">โปรดป้อนรหัสผ่าน</string>
+    <string name="setver">ข้อมูลเวอร์ชัน</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">ซอฟต์แวร์ของรถยนต์</string>
+    <string name="setwifiinfoon">"เปิดการตั้งค่า:
+เปิดการเชื่อมต่อไร้สายของรถยนต์
+
+ปิดการตั้งค่า:
+การเชื่อมต่อไร้สายของรถยนต์จะเปิดขึ้นเฉพาะเมื่อสวิตช์เครื่องยนต์ปิดอยู่
+
+หากต้องการเชื่อมต่ออุปกรณ์เข้ากับจอแสดงผลของรถ โปรดปิดการตั้งค่านี้"</string>
+    <string name="setwifilabel">การเชื่อมต่อตลอดเวลา</string>
+    <string name="setwpa">เปลี่ยนรหัสการเชื่อมต่อไร้สาย</string>
+    <string name="setwpaerr_1">การใส่ไม่ถูกต้อง</string>
+    <string name="setwpaerr_2">การใส่ไม่ถูกต้อง</string>
+    <string name="setwpaerr_3">การใส่ไม่ถูกต้อง</string>
+    <string name="setwpaerr_4">การใส่ไม่ถูกต้อง</string>
+    <string name="setwpaerrinfo_1">"มีการใช้ตัวอักษรที่ไม่สามารถใช้งานได้
+โปรดดูที่ความช่วยเหลือเพื่อตรวจสอบตัวอักษรที่ใช้งานได้"</string>
+    <string name="setwpaerrinfo_2">การยืนยันรหัสผ่านใหม่ไม่ตรงกัน โปรดป้อนรหัสผ่านใหม่อีกครั้ง</string>
+    <string name="setwpaerrinfo_3">รหัสผ่านใหม่ต้องประกอบด้วยตัวอักษร 14 หลัก โปรดป้อนรหัสผ่านอื่น</string>
+    <string name="setwpaerrinfo_4">รหัสผ่านไม่ถูกต้อง โปรดลองใหม่อีกครั้ง</string>
+    <string name="setwpaerrinfo_5">"สาเหตุของความผิดพลาดที่เป็นไปได้
+"<ul><li>"สวิตช์เครื่องยนต์ไม่ได้อยู่ในตำแหน่ง ACC
+"</li><li>"อยู่ในโหมดการลงทะเบียนนานกว่า 10 นาที
+
+โปรดตั้งค่าการลงทะเบียนของรถให้อยู่ในสถานะเตรียมพร้อม"</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"โปรดป้อนรหัสผ่าน 14 หลัก
+"</li><li>"รหัสผ่านมีการจำแนกตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก โดยสามารถใช้ได้ทั้งตัวอักษร ตัวเลขและสัญลักษณ์
+"</li><li>โปรดจดจำรหัสผ่านและเก็บเป็นความลับ</li></ul></string>
+    <string name="setwpaokinfo">"หลังจากเปลี่ยนรหัสผ่าน การเชื่อมต่อไร้สายจะถูกตัดการเชื่อมต่อ และหลังจากนั้นจะเชื่อมต่ออีกครั้งโดยอัตโนมัติ
+หากไม่มีการเชื่อมต่ออีกครั้งภายใน 5 นาที โปรดปิดแอปพลิเคชั่นและตรวจสอบการเชื่อมต่อกับตัวรถอีกครั้ง ที่หน้าการตั้งค่าการเชื่อมต่อ Wi-Fi ของระบบ Android"</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"อุปกรณ์กำลังเชื่อมต่อเครือข่ายอื่นที่ไม่ใช่รถยนต์
+
+ต้องการเชื่อมต่อกับรถยนต์หรือไม่"</string>
+    <string name="ssidinfo">โปรดยืนยันการเปลี่ยน SSID</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">ทำการใส่ SSID และรหัส Wi-Fi จากนั้นกด [OK]</string>
+    <string name="stepfiveonestring">ปิดประตูฝั่งคนขับ</string>
+    <string name="stepfivethreestring">"ภายใน 10 วินาที หลังจาก STEP 2 ให้กด [ล็อค] และ [ปลดล็อค] ที่กุญแจรถสลับกัน อย่างละ 5 ครั้ง (รวมทั้งหมด 10 ครั้ง เริ่มจาก [ล็อค])
+รถจะส่งเสียงเตือนเพื่อแสดงว่าได้เข้าสู่สถานะรอการลงทะเบียนแล้ว"</string>
+    <string name="stepfivetwostring">ปรับสวิทช์เครื่องยนต์ให้อยู่ในตำแหน่ง ACC (ห้ามเหยียบเบรคขณะดำเนินการนี้ จากนั้นกดสวิทช์เครื่องยนต์ตามลำดับต่อไปนี้ \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")</string>
+    <string name="stepfouronestring">ปิดประตูฝั่งคนขับ</string>
+    <string name="stepfourthreestring">"ภายใน 10 วินาที หลังจาก STEP 2 ให้กด [ล็อค] และ [ปลดล็อค] ที่กุญแจรถสลับกัน อย่างละ 5 ครั้ง (รวมทั้งหมด 10 ครั้ง เริ่มจาก [ล็อค])
+รถจะส่งเสียงเตือนเพื่อแสดงว่าได้เข้าสู่สถานะรอการลงทะเบียนแล้ว"</string>
+    <string name="stepfourtwostring">ปรับสวิทช์เครื่องยนต์ให้อยู่ในตำแหน่ง ACC (ห้ามเหยียบเบรคขณะดำเนินการนี้ จากนั้นกดสวิทช์เครื่องยนต์ตามลำดับต่อไปนี้ \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")</string>
+    <string name="stu1_1">สวิตช์เครื่องยนต์ OFF</string>
+    <string name="stu1_2">สวิตช์เครื่องยนต์ ON หรือ ACC</string>
+    <string name="stu1_3">ไม่ได้เปิดสัญญาณกันขโมย</string>
+    <string name="stu1_4">เปิดสัญญาณกันขโมย</string>
+    <string name="stu1_5">สัญญาณกันขโมยได้เปิดใช้งานแล้ว</string>
+    <string name="stu2info1leftstr">ไฟบอกตำแหน่</string>
+    <string name="stu2info1rightstr">งเปิดอยู่</string>
+    <string name="stu2info1str">ไฟบอกตำแหน่งเปิดอยู่</string>
+    <string name="stu2info2leftstr">ไฟฉุกเฉิน</string>
+    <string name="stu2info2rightstr">กำลังทำงาน</string>
+    <string name="stu2info2str">ไฟฉุกเฉินกำลังทำงาน</string>
+    <string name="stu2info3leftstr">ประตูรถเปิ</string>
+    <string name="stu2info3rightstr">ดอยู่</string>
+    <string name="stu2info3str">ประตูรถเปิดอยู่</string>
+    <string name="stu2info4leftstr">ไฟหน้าเปิ</string>
+    <string name="stu2info4rightstr">ดอยู่</string>
+    <string name="stu2info4str">ไฟหน้าเปิดอยู่</string>
+    <string name="stu2info5leftstr">ฝากระโปรงหน้</string>
+    <string name="stu2info5rightstr">าเปิดอยู่</string>
+    <string name="stu2info5str">ฝากระโปรงหน้าเปิดอยู่</string>
+    <string name="stu2info6leftstr">ไฟภายในรถเปิ</string>
+    <string name="stu2info6rightstr">ดอยู่</string>
+    <string name="stu2info6str">ไฟภายในรถเปิดอยู่</string>
+    <string name="stu2info7leftstr">ฝากระโ ปรงหลังเปิ</string>
+    <string name="stu2info7rightstr">ดอยู่</string>
+    <string name="stu2info7str">ฝากระโปรงหลังเปิดอยู่</string>
+    <string name="stu2info8leftstr">ไฟท้ ายเปิ</string>
+    <string name="stu2info8rightstr">ดอยู่</string>
+    <string name="stu2info8str">ไฟท้ายเปิดอยู่</string>
+    <string name="sun">อาทิตย์</string>
+    <string name="sun1">อา</string>
+    <string name="switchoff">ปิด</string>
+    <string name="switchon">เปิด</string>
+    <string name="theft2_1">ไฟหน้าเปิดอยู่</string>
+    <string name="theft2_4">ไฟบอกตำแหน่งเปิดอยู่</string>
+    <string name="theft2dis2twostr">"ไม่สามารถดำเนินการนี้ได้ เนื่องจากตัวรถไม่เป็นไปตามเงื่อนไขต่อไปนี้
+
+"<ul><li>"สวิตช์เครื่องยนต์ OFF
+"</li><li>ไฟหน้าหรือไฟบอกตำแหน่งกำลังปิดอยู่</li></ul></string>
+    <string name="thu">พฤหัสบดี</string>
+    <string name="thu1">พฤ</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode" />
+    <string name="titleback">ย้อนกลับ</string>
+    <string name="titlehelp">ความช่วยเหลือ</string>
+    <string name="titleupdate1">ล้าง</string>
+    <string name="titleupdate2">คืนค่าเริ่มต้น</string>
+    <string name="titleupdate3">ส่ง</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"ไม่สามารถดำเนินการได้เมื่อตัวรถอยู่ในสถานะต่อไปนี้
+
+"<ul><li>"สวิตช์เครื่องยนต์ไม่อยู่ในตำแหน่ง OFF
+"</li><li>กำลังชาร์จไฟอย่างเร่งด่วน</li></ul></string>
+    <string name="topacmode">โหมด</string>
+    <string name="topacwait">กำลังรอ</string>
+    <string name="topbattwarm">กำลังวอร์มอัพ</string>
+    <string name="topbattwarminginfo">"อุณหภูมิของแบตเตอรี่ขับเคลื่อนต่ำเกินไป โปรดเสียบหัวชาร์จ
+เพื่อให้รถยนต์วอร์มอัพแบตเตอรี่"</string>
+    <string name="topbattwarminginfo_plugin_1">"เนื่องจากอุณหภูมิของแบตเตอรี่ต่ำเกินไป อาจส่งผลให้รถยนต์ไม่สามารถขับเคลื่อนได้
+
+โปรดเตรียมรถยนต์ให้อยู่ในสถานะเตรียมพร้อม หรือเสียบหัวชาร์จไฟแบบธรรมดา เพื่อทำความร้อนแก่แบตเตอรี่ขับเคลื่อน"</string>
+    <string name="topbattwarminginfo_plugin_2">"รถยนต์ไม่สามารถทำงานได้ เนื่องจากอุณหภูมิของแบตเตอรี่ขับเคลื่อนต่ำเกินไป
+
+โปรดเสียบหัวชาร์จไฟแบบธรรมดาเพื่อทำการวอร์มแบตเตอรี่ขับเคลื่อน"</string>
+    <string name="topbattwarminginfo_stop_1">"รถยนต์ไม่สามารถใช้งานได้ เนื่องจากแบตเตอรี่ขับเคลื่อนมีอุณหภูมิต่ำเกินไป
+แบตเตอรี่ขับเคลื่อนต้องถูกให้ความร้อนเพื่อให้รถยนต์สามารถทำงานได้ แต่ขณะนี้ยังไม่สามารถวอร์มแบตเตอรี่ขับเคลื่อนได้ เนื่องจากยังไม่เป็นไปตามเงื่อนไข
+
+โปรดรอจนกว่าอุณหภูมิภายนอกจะสูงขึ้น"</string>
+    <string name="topbattwarminginfo_stop_2">"รถยนต์ไม่สามารถใช้งานได้ เนื่องจากอุณหภูมิของแบตเตอรี่ขับเคลื่อนต่ำเกินไป
+
+จึงจำเป็นต้องวอร์มแบตเตอรี่ขับเคลื่อน เพื่อให้รถยนต์สามารถทำงานได้ แต่ขณะนี้ยังไม่สามารถวอร์มแบตเตอรี่ขับเคลื่อนได้ เนื่องจากยังไม่เป็นไปตามเงื่อนไข
+
+การวอร์มแบตเตอรีขับเคลื่อนจะเริ่มต้นขึ้นเมิ่ออุณหภูมิภายนอกเพิ่มขึ้นและหัวชาร์จถูกเสียบอยู่ โปรดรอสักครู่"</string>
+    <string name="topbattwarminginfo_warm_1">รถสามารถใช้งานได้แล้ว เนื่องจากแบตเตอรี่ขับเคลื่อนมีอุณหภูมิสูงขึ้น</string>
+    <string name="topbattwarminginfo_warm_2">"รถไม่สามารถขับเคลื่อนได้ เนื่องจากอุณหภูมิของแบตเตอรี่ขับเคลื่อนต่ำ
+
+โปรดรอสักครู่ กำลังวอร์มอัพแบตเตอรี่ขับเคลื่อน"</string>
+    <string name="topbattwarmingtitle">ข้อมูลรถยนต์</string>
+    <string name="topcanntac">โปรดเลือกโหมดระบบปรับอากาศในหน้า \"ตั้งเวลา\"</string>
+    <string name="topcanntac2">"ตั้งค่าระบบปรับอากาศแบบแมนนวลเสร็จเรียบร้อยแล้ว
+หากระบบปรับอากาศแบบแมนนวลถูกปิด ระบบปรับอากาศแบบตั้งเวลาจะเปิดเองอัตโนมัติ"</string>
+    <string name="topcanntchg">โปรดตั้งค่าตารางเวลาในหน้า \"ตั้งเวลา\"</string>
+    <string name="topchargeEndTime">การชาร์จไฟ จะเสร็จใน</string>
+    <string name="topchargeEndTimeHour">ชม.</string>
+    <string name="topchargeEndTimeMin">นาที</string>
+    <string name="topchargefinish">การชาร์จไฟเสร็จสิ้น</string>
+    <string name="topchargetimer">ตั้งเวลา เปิด/ปิด</string>
+    <string name="topfastchg">เร่งด่วน</string>
+    <string name="tophelp100v">อย่างช้า</string>
+    <string name="tophelp200v">ปกติ</string>
+    <string name="tophelp22">ทำความเย็น</string>
+    <string name="tophelp24">ทำความร้อน</string>
+    <string name="tophelp26">ไล่ฝ้า</string>
+    <string name="tophelp41">การเชื่อมต่อปกติ</string>
+    <string name="tophelp42">การเชื่อมต่อไม่เสถียร</string>
+    <string name="tophelp43">ไม่สามารถเชื่อมต่อได้</string>
+    <string name="tophelp44">แตะปุ่มนี้เพื่อสื่อสารกับตัวรถและอัปเดตข้อมูล</string>
+    <string name="tophelpwarm"><ul><li>"รถกำลังวอร์มแบตเตอรี่เพื่อป้องกันแบตเตอรี่เสียหายจากอุณหภูมิที่ต่ำเกินไป
+"</li><li>"การวอร์มแบตเตอรี่อาจทำให้แบตเตอรี่ที่เหลือลดลง
+"</li><li>"การวอร์มแบตเตอรี่อาจทำให้แบตเตอรี่เริ่มชาร์จอัตโนมัติ แม้ว่าจะตั้งเวลาชาร์จไฟไว้แล้วก็ตาม
+"</li><li>การวอร์มแบตเตอรี่อาจทำให้พัดลมปรับอากาศทำงานอัตโนมัติ</li></ul></string>
+    <string name="topwaitcharge">สแตนด์บาย</string>
+    <string name="towebsitestr">ไปยังเว็บไซต์</string>
+    <string name="tue">อังคาร</string>
+    <string name="tue1">อ</string>
+    <string name="v2hv2l">เริ่มใช้อุปกรณ์แหล่งจ่ายไฟภายนอก</string>
+    <string name="warning6str">แตะปุ่ม \"อัปเดต\" เพื่อสื่อสารกับตัวรถ</string>
+    <string name="warning7timeronestr">การตั้งค่า ตั้งเวลา 1 ของวันอื่นๆที่ได้ตั้งไว้จะถูกเปลี่ยนทั้งหมด</string>
+    <string name="warning7timerthreestr">การตั้งค่า ตั้งเวลา 3 ของวันอื่นๆที่ได้ตั้งไว้จะถูกเปลี่ยนทั้งหมด</string>
+    <string name="warning7timertwostr">การตั้งค่า ตั้งเวลา 2 ของวันอื่นๆที่ได้ตั้งไว้จะถูกเปลี่ยนทั้งหมด</string>
+    <string name="wed">พุธ</string>
+    <string name="wed1">พ</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">การตั้งค่าการสื่อสารผ่านการเชื่อมต่อไร้สาย</string>
+    <string name="wpainfo">เปลี่ยนแปลงรหัสการเชื่อมต่อไร้สาย</string>
+</resources>

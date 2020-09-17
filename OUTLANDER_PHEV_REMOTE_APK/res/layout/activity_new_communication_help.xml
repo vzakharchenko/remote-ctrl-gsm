@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/communicationhelpnav" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/timerlist_title" />
+    <ScrollView android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/communicationhelpnav">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/communicationhelpfirstlayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_140">
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_140" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_8">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_30" android:src="@drawable/ic_update_blue" />
+                    <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_103" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_20" android:text="@string/tophelp41" app:MmcTypeface="1" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_140" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_1">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_30" android:src="@drawable/ic_update_yellow" />
+                    <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_103" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_20" android:text="@string/tophelp42" app:MmcTypeface="1" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_140" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_1" android:layout_marginEnd="@dimen/dp_7">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_30" android:src="@drawable/ic_update_red" />
+                    <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_103" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_20" android:text="@string/tophelp43" app:MmcTypeface="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/secondjadlhjj" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:layout_below="@id/communicationhelpfirstlayout" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_7">
+                <TextView android:textSize="@dimen/sp_13" android:textColor="#ff969696" android:gravity="center_vertical" android:id="@id/help_comm_two_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_18" android:text="@string/tophelp44" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/thirdL" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_64" android:layout_marginTop="@dimen/dp_18" android:layout_below="@id/secondjadlhjj" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_7">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_12" android:layout_height="@dimen/dp_16" android:src="@drawable/ic_img_updatetime" android:layout_marginStart="@dimen/dp_20" android:layout_alignParentStart="true" />
+                <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_13" android:textColor="#ffaeaeae" android:layout_gravity="center_vertical" android:id="@id/comUpdateTime" android:layout_width="@dimen/dp_110" android:layout_height="@dimen/dp_23" android:text="12/25 9:41AM" android:layout_marginStart="@dimen/dp_7" app:MmcTypeface="1" />
+                <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_133" android:layout_height="fill_parent" android:text="@string/evmupdatedTime" android:layout_marginStart="@dimen/dp_20" app:MmcTypeface="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/fourL" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:layout_marginBottom="@dimen/dp_10" android:layout_below="@id/thirdL" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_7">
+                <TextView android:textSize="@dimen/sp_13" android:textColor="#ff969696" android:gravity="center_vertical" android:id="@id/help_comm_help_last" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_18" android:text="@string/evmlastupdatedstr" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

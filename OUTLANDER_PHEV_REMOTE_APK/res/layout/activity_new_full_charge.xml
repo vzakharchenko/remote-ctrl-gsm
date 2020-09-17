@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/fullnavlayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/timerlist_title" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_23" android:layout_below="@id/fullnavlayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:id="@id/charge_full_one_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/evhelpCHG1item2" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_8" app:autoSizeMaxTextSize="@dimen/sp_13" app:autoSizeMinTextSize="2.0sp" app:autoSizeTextType="uniform" />
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_7" android:layout_marginBottom="@dimen/dp_10" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_7">
+                <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:id="@id/fullchargefulloff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginStart="@dimen/dp_20" app:autoSizeMaxTextSize="@dimen/sp_13" app:autoSizeMinTextSize="2.0sp" app:autoSizeTextType="uniform" />
+                <ImageView android:layout_width="@dimen/dp_215" android:layout_height="@dimen/dp_70" android:layout_marginTop="@dimen/dp_10" android:src="@drawable/ic_fullchargeoff" android:scaleType="fitStart" android:layout_marginStart="@dimen/dp_20" />
+                <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:id="@id/fullchargefullon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginStart="@dimen/dp_20" app:autoSizeMaxTextSize="@dimen/sp_13" app:autoSizeMinTextSize="2.0sp" app:autoSizeTextType="uniform" />
+                <ImageView android:layout_width="@dimen/dp_215" android:layout_height="@dimen/dp_70" android:layout_marginTop="@dimen/dp_10" android:src="@drawable/ic_fullchargeon" android:layout_marginStart="@dimen/dp_20" />
+                <TextView android:textSize="@dimen/sp_13" android:textColor="#ff969696" android:id="@id/charge_full_last_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_40" android:layout_marginBottom="@dimen/dp_42" android:text="@string/evhCHG12info" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

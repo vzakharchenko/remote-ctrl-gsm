@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/passcodetoplayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_38" app:layout_constraintTop_toTopOf="parent">
+        <Button android:layout_gravity="center_vertical" android:id="@id/passcodenavbackbtn" android:background="@drawable/ic_back_btn" android:layout_width="@dimen/dp_29" android:layout_height="@dimen/dp_20" android:layout_marginStart="@dimen/dp_22" android:layout_alignParentStart="true" />
+        <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_18" android:textColor="#ff000000" android:paddingTop="@dimen/dp_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Passcode Bypass" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/passcodenavhelp" android:background="@drawable/ic_help" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_16" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_marginTop="@dimen/dp_30" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/passcodetoplayout">
+        <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_14" android:textColor="#ff000000" android:paddingTop="@dimen/dp_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Passcode Lock" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_24" />
+        <com.inventec.controls.SwitchView android:id="@id/passcodesecondlayoutswitch" android:layout_width="@dimen/dp_52" android:layout_height="@dimen/dp_32" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_30" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

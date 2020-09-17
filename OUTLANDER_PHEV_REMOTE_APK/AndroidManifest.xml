@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.inventec.iMobile2" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <meta-data android:name="android.max_aspect" android:value="ratio_float"/>
+    <uses-feature android:name="android.hardware.wifi"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/newappicon" android:label="@string/app_name" android:name="com.inventec.iMobile2.iMobile_AppGlobalVar" android:resizeableActivity="false" android:roundIcon="@mipmap/newappicon_round" android:supportsRtl="true" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name="com.inventec.iMobile2.PrivatePolicyLoadingActivity"/>
+        <activity android:name="com.inventec.iMobile2.NewSettingHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.NewStatusHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.NewFullChargeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.NewChargeHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.NewCommunicationHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.NewClimateHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.NewHelpAvtivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.PasscodeBypassActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.OpenSourceActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.PowerSupplyStepFourActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.PowerSupplyStepThreeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.PowerSupplyStepTwoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.PowerSupplyStepOneActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.ChangeWlanPasswordStepFourActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.inventec.iMobile2.ChangeWlanPasswordStepThreeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.ChangeWlanPasswordStepTwoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.ChangeWlanPasswordStepOneActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:launchMode="singleInstance" android:name="com.inventec.iMobile2.iMobile" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.inventec.iMobile2.PasswordInput" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.PasswordInputCheck" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.RegisterUnsuccessful" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.RegisterSuccessful" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.StepThreeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.StepTwoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.StepOneActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.GetStartedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.ShowVersionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.Login_Sel" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.inventec.iMobile2.Login_SSID" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.inventec.iMobile2.FrmMain" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.FrmSetting_AirConditioning" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.FrmSetting_Charge" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.FrmSettingTime" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.FrmSettingTimeSimple" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVACSet20" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVACSet22" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVChargeSet10" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVChargeSet12" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVACSetTop_16MY" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVACSetTop" android:screenOrientation="portrait"/>
+        <activity android:name="com.kostal.car2017.frmEVDaySelect" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxCarSetting" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxCarSetGroup" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxCarSetSubItem" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxCarSetting_16MY" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxCarSetGroup_16MY" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxCarSetSubItem_16MY" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxPswOffOn" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxChangePsw" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxChangeSSID" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxAnyConnection" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxRemoveVin" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxShowAlarmHistory" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxShowAllVersion" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxShowWiFiLogs" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxWifiConnectionSetting" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.Bxchannelchange" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.V2HDirectionsActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+    </application>
+</manifest>

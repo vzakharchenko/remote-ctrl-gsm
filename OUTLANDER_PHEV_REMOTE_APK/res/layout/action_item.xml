@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:src="@drawable/wifi_lock" android:layout_marginStart="@dimen/dp_24" />
+    <com.inventec.controls.MmcFontTextView android:textAppearance="@style/series_of_t" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40" android:layout_marginStart="@dimen/dp_24" android:layout_marginEnd="@dimen/dp_10" app:MmcTypeface="1" />
+</LinearLayout>

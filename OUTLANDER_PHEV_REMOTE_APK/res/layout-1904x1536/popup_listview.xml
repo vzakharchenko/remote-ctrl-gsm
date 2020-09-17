@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/showSSIDLayout" android:background="#90000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/wifiscrollviewback" android:layout_width="@dimen/dp_322" android:layout_height="@dimen/dp_450" android:layout_marginTop="@dimen/dp_120" android:layout_marginBottom="@dimen/dp_94" android:layout_centerHorizontal="true">
+        <ListView android:id="@id/popupListView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:divider="#00000000" android:dividerHeight="0.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/arrow_up" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/arrow_down" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

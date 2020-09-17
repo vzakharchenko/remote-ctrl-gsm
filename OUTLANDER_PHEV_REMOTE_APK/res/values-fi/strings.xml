@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">minuuttia</string>
+    <string name="ACWorking">Ilmastoinnin toiminta-aikaa ei voida muuttaa, kun ilmastointi on kytketty päälle ajastimella tai etäohjauksella.</string>
+    <string name="ACtim"><ul><li>"Ilmastoinnin kauko-ohjausta ei tule käyttää ajoneuvon viileänä tai lämpimänä pitämiseen, jos ihmisiä tai lemmikkieläimiä on pysäköidyn ajoneuvon sisällä. Tämä voi johtaa odottamattomiin tapaturmiin.
+
+"</li><li>"Ilmastoinnin pidempi käyttöaika laskee ajoakun varaustasoa. 
+
+"</li><li>Jos ajoakun varaustila on alhainen, saattaa ilmastoinnin toiminta-aika olla pyydettyä lyhyempi.</li></ul></string>
+    <string name="ACtimeLabel">Ilmastointi toiminta-aika</string>
+    <string name="AcsettingARM">"Jos hälytin on kytketty päälle, ajoneuvon asetuksia ei voida muuttaa.
+
+Avaa ajoneuvo avaimettoman käyttöjärjestelmän avulla. Tämä kytkee hälyyttimen pois päältä ja mahdollistaa ajoneuvon asetuksien muuttamisen."</string>
+    <string name="EVInit">Nollaa</string>
+    <string name="EVInitInfo">Haluako nollata ajoneuvon asetukset?</string>
+    <string name="Everyday">Joka päivä</string>
+    <string name="ResetAllschude">Haluatko nollata kaikki ajastukset?</string>
+    <string name="ResetOneschude">Haluatko nollata tämän ajastuksen?</string>
+    <string name="Schudle">Ajastus</string>
+    <string name="abc_action_bar_home_description">Siirry etusivulle</string>
+    <string name="abc_action_bar_up_description">Siirry ylös</string>
+    <string name="abc_action_menu_overflow_description">Lisää</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
+    <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
+    <string name="abc_capital_off">POIS KÄYTÖSTÄ</string>
+    <string name="abc_capital_on">KÄYTÖSSÄ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Vaihto+</string>
+    <string name="abc_menu_space_shortcut_label">välilyönti</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Valikko+</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_query">Hakulauseke</string>
+    <string name="abc_searchview_description_search">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_shareactionprovider_share_with">Jakaminen:</string>
+    <string name="abc_shareactionprovider_share_with_application">Jaa sovelluksessa %s</string>
+    <string name="abc_toolbar_collapse_description">Kutista</string>
+    <string name="accstr">ACC(oranssi)</string>
+    <string name="acoptiontimelong2">Ilmastoinnin toiminta-aika</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Tila</string>
+    <string name="bartitle5">Asetukset</string>
+    <string name="bgdark" />
+    <string name="btnStart">PÄÄLLÄ</string>
+    <string name="cancel">Peruuta</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">Seuraavat merkit ovat käytettävissä.</string>
+    <string name="channel_3">Kanava 3</string>
+    <string name="channel_8">Kanava 8</string>
+    <string name="clear">Nollaa kaikki</string>
+    <string name="communicationstr">Yhteys</string>
+    <string name="countdownTipsonestr">"Käytä ulkoisen virtalähteen käyttöpaneelia asettamaan virran syöttäminen ajoneuvosta kotiin 5 minuutin kuluessa.
+
+Jos ulkoinen virtalähde ei ole käynnistynyt, mahdolliset syyt ovat:"</string>
+    <string name="countdownTipstwostr">Ulkoinen virtalähde ei tue tätä toimintoa.</string>
+    <string name="countdownTipstwostrfivestr">Ulkoisessa virtalähteessä tai ajoneuvossa on virhe.</string>
+    <string name="countdownTipstwostrfourstr">Ajoneuvon 12V: n akun varaus on alhainen.</string>
+    <string name="countdownTipstwostrthreestr">PÄÄLLÄ-painikkeen painamisen jälkeen on kulunut yli 5 minuuttia.</string>
+    <string name="countdownTipstwostrtwostr">Ulkoisen virtalähteen pikalatausliitäntä ei ole kytkettynä ajoneuvoon kunnolla.</string>
+    <string name="daySelct">Toista</string>
+    <string name="delay1">0 minuuttia</string>
+    <string name="delay10">120 minuuttia</string>
+    <string name="delay11">150 minuuttia</string>
+    <string name="delay12">180 minuuttia</string>
+    <string name="delay2">5 minuuttia</string>
+    <string name="delay3">10 minuuttia</string>
+    <string name="delay4">20 minuuttia</string>
+    <string name="delay5">30 minuuttia</string>
+    <string name="delay6">40 minuuttia</string>
+    <string name="delay7">50 minuuttia</string>
+    <string name="delay8">60 minuuttia</string>
+    <string name="delay9">90 minuuttia</string>
+    <string name="demo">Demo</string>
+    <string name="durationstr">Kesto</string>
+    <string name="err1date" formatted="false">%w %m.%d.%y %t</string>
+    <string name="err1ignition">Käytetty väärää avainta.</string>
+    <string name="err1intrusion">Luvaton tunkeutuminen tapahtui.</string>
+    <string name="err1movement">Luvaton ajoneuvon liikuttaminen tapahtui.</string>
+    <string name="err1other">Luvaton tunkeutuminen tapahtui.</string>
+    <string name="err1perimeter">Luvaton ajoneuvon oven avaus.</string>
+    <string name="err1silent">Luvatonta värinää tapahtui.</string>
+    <string name="err1title">Varashälyttimen ilmoitus</string>
+    <string name="errACinfo">"Mahdolliset syyt:
+
+"<ul><li>"Ovi on auki.
+"</li><li>Ajoakun varaus on alhainen.</li></ul></string>
+    <string name="errACinfoEx">"Mahdolliset syyt:
+
+"<ul><li>"Ovi on auki.
+"</li><li>"Ajoakun varaus on alhainen.
+"</li><li>Ajoakun lämpötila on alhainen.</li></ul></string>
+    <string name="errACtitle">Ilmoitus: Esivalittu ilmastointi pysähtyi.</string>
+    <string name="errCHGinfo">Latausajastinta ei voitu aktivoida</string>
+    <string name="errCHGtitle">Latausajastimen virheilmoitus</string>
+    <string name="errRegMaxtitle">Rekisteröinnin virhe</string>
+    <string name="errTimerinfo">Ajastimen säätöä ei voitu aktivoida.</string>
+    <string name="errTimertitle">Ajastimen säädön virheilmoitus</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Virhekoodi :</string>
+    <string name="evACCool">VIILEÄ</string>
+    <string name="evACHot">Lämpö</string>
+    <string name="evACOFF">POIS PÄÄLTÄ</string>
+    <string name="evACSetTitle">Ilmastoinnin ajastinasetukset</string>
+    <string name="evCharge1Auto">Sijaintiin perustuva :</string>
+    <string name="evCharge1End">Lopetus</string>
+    <string name="evCharge1Start">Aloitus</string>
+    <string name="evCharge1full">Täysi lataus</string>
+    <string name="evChargeSetTitle">Latauksen ajastinasetukset</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">lähetä</string>
+    <string name="evSendAsk">Uutta aikataulua ei ole lähetetty. Haluatko palata ja lähettääsen?</string>
+    <string name="evSendAsk5ch">"Muunnettuja asetuksia ei lähetetty ajoneuvolle.
+Haluatko varmasti peruuttaa ja palata edelliseen näyttöön?"</string>
+    <string name="evTimerSet">Ajastinasetukset</string>
+    <string name="evhCHG12info">"Täysi lataus -toiminto lataa akkua kunnes se on ladattu täyteen sellaisissa tapauksissa, joissa akkua ei ole ladattu täyteen latausajastimen käytön aikana.
+Huomioi: Jos kytket pistokkeen vasta sen jälkeen, kun latausajastuksen aika on loppunut, ei latausta suoriteta."</string>
+    <string name="evhCHG17myinfo1">Manuaalinen ilmastointi</string>
+    <string name="evhCHG22ginfo1">Manuaalinen lataustila</string>
+    <string name="evhCHG22ginfo3">Latausajastimen tila</string>
+    <string name="evhCHG22infofourstr">Paikkakohtainen lataus -toimintoa ei voida käyttää.</string>
+    <string name="evhCHG22infoonestr">Kun ajoneuvo on varustettu MMCS:llä.</string>
+    <string name="evhCHG22infothreestr">Kun ajoneuvoa ei ole varustettu MMCS:llä.</string>
+    <string name="evhCHG22infotwostr">"Toiminto vaihtaa lataustilaa paikastasi riippuen. Tila asetetaan ajastintilaan, kun lähialueet on asetettu osoitekirjaan ja kaikki muut alueet manuaalitilaan.
+Tämä sallii tilan asettamisen ajastustilaan osoitekirjassa oleville kohteille, joissa käytetään yölatausta ja manuaalilataukseen muissa kohteissa, kuten esim. ostoskeskukset."</string>
+    <string name="evhelpCHG1item2">Mikä on täyden latauksen asetus?</string>
+    <string name="evhelpCHG2item2">Mitä \"Sijaintiin perustuva\" tarkoittaa?</string>
+    <string name="evhmanualACitem4infofourstr">Voidaan valita vain Viilennys -toimintatapa.</string>
+    <string name="evhmanualACitem4infoonestr">Kun ajoneuvossa on sähkölämmitin:</string>
+    <string name="evhmanualACitem4infothreestr">Kun ajoneuvossa ei ole sähkölämmitintä:</string>
+    <string name="evhmanualACitem4infotwostr">"Voidaan valita Lämmitys/Viilennys/Huurteen poisto.
+Valittu toimintatapa koskee kaikkia ajastimen asetuksia. Ei ole mahdollista asettaa eri toimintatapaa ajastimen eri asetuksille."</string>
+    <string name="evmCHchargstr">Lataus</string>
+    <string name="evmCHclimatestr">Ilmastointi</string>
+    <string name="evmCHsetstr">Asetukset</string>
+    <string name="evmCHstatusstr">Tila</string>
+    <string name="evmaccancelltimestr">Peruutus</string>
+    <string name="evmaccanceltimer">Ajastimen peruutus</string>
+    <string name="evmacwarn5str">Ilmastoinnin ajastimen peruutus.</string>
+    <string name="evmainac">Ilmastointi</string>
+    <string name="evmaincharge">Lataus</string>
+    <string name="evmchacwarn5no">Ei</string>
+    <string name="evmchacwarn5yes">Kyllä</string>
+    <string name="evmchargeTimerSch">Latausajastimen ajastus</string>
+    <string name="evmchargetschstr">"Voit kumota ajastimen väliaikaisesti poistamalla sen valinnan. 
+Tilapäisesti poistettua latausajastimen ajastusta voidaan jatkaa automaattisesti valitsemalla se uudelleen käyttöön tai laittamalla virtakytkimen toimintatila päälle.
+"</string>
+    <string name="evmchargstatusstr">Latauksen tila</string>
+    <string name="evmchtempcancellstr">Tilapäinen peruutus</string>
+    <string name="evmchupdatingstr">(Päivitetään)</string>
+    <string name="evmchwarn5str">Latausajastimen tilapäinen peruutus.</string>
+    <string name="evmclimateTimerSch">Ilmastointiajastimen ajastus</string>
+    <string name="evmclimatetschstr">Voit peruuttaa ajastimen poistamalla sen valinnan.</string>
+    <string name="evmdrivebattlevelstr">Ajoakun varaustaso</string>
+    <string name="evmerrstartcommun">Aloitetaan kommunikointi</string>
+    <string name="evmlastupdatedstr">Sovellus näyttää ajoneuvon viimeksi päivitetyn tilan. Sovellus saattaa näyttää ajoneuvon olevan edellisessä tilassa ennen uusimman tilan päivitystä.</string>
+    <string name="evmregtroublereg">Ongelmia rekisteröinnissä?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Tilapäinen ajastimen peruutus</string>
+    <string name="evmupdatedTime">Päivitetty aika</string>
+    <string name="evpsfailcontent">"Tämän tilanteen mahdollisia syitä ovat ajoneuvon virheet.
+Ota yhteyttä valtuutettuun Mitsubishi Motors -jälleenmyyjään."</string>
+    <string name="evpsfailtitle">Virtalähdettä ei voida käynnistää</string>
+    <string name="evpspage1">Tämän sovelluksen avulla voit syöttää virtaa hybridi- tai sähköajoneuvosta kotiisi käyttämällä ulkoista virtalähdettä (V2H / V2L -laite).</string>
+    <string name="evpspage1threestr">Tämä toiminto tarvitsee vastaavalla tavalla toimivan ulkoisen virtalähteen. Ota yhteyttä Mitsubishi Motors -jälleenmyyjään lisätietoja varten.</string>
+    <string name="evpspage1twostr">Voit myös syöttää virtaa ajoneuvosta käynnistämään V2H-laite, kun sähkökatko tapahtuu kotona.</string>
+    <string name="evpspage2">Kytke virtakytkin OFF-asentoon, ja kytke ulkoisen virtalähteen pikalatausliitin ajoneuvoon.</string>
+    <string name="evpspage3">"Jos painat PÄÄLLÄ-painiketta, ajoneuvo alkaa syöttämään virtaa ulkoiseen virtalähteeseen.
+Jos et voi painaa PÄÄLLÄ-painiketta, yritä uudelleen edellisestä näytöstä."</string>
+    <string name="exitdemostr">Poistu demosta</string>
+    <string name="fri">Perjantai</string>
+    <string name="fri1">Pe</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">Ei ole suositeltavaa käyttää MITSUBISHI Remote Control -sovellusta.</string>
+    <string name="jailbreak_title">Käyttöjärjestelmä muutettu</string>
+    <string name="language">fi</string>
+    <string name="linkwarningstr">"Et voi käyttää ajoneuvon yhteyttä internetin käyttöön.
+Käytä mobiiliyhteyttä tai toista WLAN-verkkoa.
+Käyttääksesi sovellusta uudelleen, yhdistä ajoneuvon SSID:hen."</string>
+    <string name="loadwndinfo">"Käyttäessäsi MITSUBISHI REMOTE CONTROL -sovellusta, et pysty liittymään muihin verkkoihin (Internetiin, jne.).
+
+Liittäessäsi älypuhelimen Smartphone Link Display Audio (SDA) -järjestelmään, MITSUBISHI REMOTE CONTROL -sovellusta ei voida käyttää."</string>
+    <string name="login_ssid_txtPwd">Salasana</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"Ajoneuvo ei voi tarjota virtalähdettä ulkopuolelle, sillä akun jäljellä oleva kapasiteetti on vähäinen.
+
+Voit käyttää tätä toimintoa silloin, kun akun jäljellä oleva kapasiteetti on yli puolet.
+
+Lue lisätietoja ajoneuvon omistajan oppaan luvuista “Lataaminen”ja “Lataustilan vaihto”ennen lataamista."</string>
+    <string name="lowbatterytitle">Ei voida syöttää virtaa ulkoiseen virtalähteeseen</string>
+    <string name="manacModenoset">Paina [Ilmastointi PÄÄLLE] kun olet asettanut toimintatilan.</string>
+    <string name="manacModesetClimateShutDown">"Ilmastoinnin ajastus kytketään väliaikaisesti pois päältä, koska ilmastointi on kytketty manuaalisesti. 
+
+Kun manuaalisesti kytketty ilmastointi lopetetaan, ilmastoinnin ajastus kytketään päälle automaattisesti."</string>
+    <string name="manachelptitle">Ilmastoinnin asetukset</string>
+    <string name="manactim">Ilmastoinnin kauko-ohjausta ei tule käyttää ajoneuvon viileänä tai lämpimänä pitämiseen, jos ihmisiä tai lemmikkieläimiä on pysäköidyn ajoneuvon sisällä. Tämä voi johtaa odottamattomiin tapaturmiin.</string>
+    <string name="modeselect">Rekisteröi VIN-numerosi jatkaaksesi. Haluatko jatkaa rekisteröimällä VIN-numerosi?</string>
+    <string name="mon">Maanantai</string>
+    <string name="mon1">Ma</string>
+    <string name="needPINinfo">Pääsykoodi vaadittu.</string>
+    <string name="newfunctioninfo">"Voit kommunikoida ajoneuvon kanssa, kun ajoneuvon virtakytkin on OFF asennossa, koska langattoman yhteyden yhteys-asetus \"Aina yhteydessä\" on POIS PÄÄLTÄ.
+
+Voit muuttaa tämän asetuksen \"Asetukset\" > \"WLAN yhteyden asetukset\" -kohdassa."</string>
+    <string name="newfunctioninfo2">Älä kysy uudelleen.</string>
+    <string name="nextstr">Seuraava</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">Pääsykoodi ei vaadittu sovellusta käynnistettäessä.</string>
+    <string name="passcodeErr">Pääsykoodi ei kelpaa</string>
+    <string name="passcodeErrinfo">Pääsykoodi on väärä. Yritä uudelleen.</string>
+    <string name="passcodeTitle">Salakoodi</string>
+    <string name="preset">Ajastin</string>
+    <string name="preset1">Ajastin 1</string>
+    <string name="preset2">Ajastin 2</string>
+    <string name="preset3">Ajastin 3</string>
+    <string name="preset4">Ajastin 4</string>
+    <string name="preset5">Ajastin 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Rekisteröinti</string>
+    <string name="regErr">Rekisteröinnin virhe</string>
+    <string name="regErrConn">Rekisteröinti ei onnistu</string>
+    <string name="regOk">VIN-rekisteröinti valmis</string>
+    <string name="releaseinfothreestr">Tarvitset SSID:n ja WIFI-salasanan. Saat molemmat ajoneuvon avaimien kanssa ajoneuvon ostohetkellä.</string>
+    <string name="remainTime">Jäljellä oleva aika</string>
+    <string name="reset">Nollaa</string>
+    <string name="sTime">-</string>
+    <string name="sat">Lauantai</string>
+    <string name="sat1">La</string>
+    <string name="search_menu_title">Haku</string>
+    <string name="sendConn">Yhdistetään…</string>
+    <string name="sendErr">Yhteys ei toimi</string>
+    <string name="sendMsg">Lähettää...</string>
+    <string name="sendNavi">Auton navigointia käytetään...</string>
+    <string name="sendOK">Valmis</string>
+    <string name="sendUpdate">Päivitetään...</string>
+    <string name="sendimmediately">Ilmastointi PÄÄLLÄ</string>
+    <string name="setErr">Asetusvirhe</string>
+    <string name="setErrInfo">Yhteysvirhe, ole hyvä ja ota yhteyttä valtuutettuun Mitsubishi Motors jälleenmyyjään.</string>
+    <string name="setFunc01item0">Käynnistysvirta on päällä tai ACC</string>
+    <string name="setFunc01item1">Käynnistysvirta on päällä</string>
+    <string name="setFunc01name">Toiminto käynnistyspainikkeen asennosta riippuen</string>
+    <string name="setFunc01name_title">Toiminto käynnistyspainikkeen asennosta riippuen</string>
+    <string name="setFunc02item0">Pois päältä</string>
+    <string name="setFunc02item1">Päällä</string>
+    <string name="setFunc02name">Kaistanvaihto (1 kosketus - 3 välähdystä)</string>
+    <string name="setFunc02name_title">Kaistanvaihto (1 kosketus - 3 välähdystä)</string>
+    <string name="setFunc03item0">Lukitse : Kerran Avaa lukitus : Kaksi kertaa</string>
+    <string name="setFunc03item1">Lukitse : Kerran Avaa lukitus : Pois päältä</string>
+    <string name="setFunc03item2">Lukitse : Pois päältä Avaa lukitus : Kaksi kertaa</string>
+    <string name="setFunc03item3">Lukitse : Kaksi kertaa Avaa lukitus : Kerran</string>
+    <string name="setFunc03item4">Lukitse : Pois päältä Avaa lukitus : Kerran</string>
+    <string name="setFunc03item5">Lukitse : Kaksi kertaa Avaa lukitus : Pois päältä</string>
+    <string name="setFunc03item6">Pois päältä</string>
+    <string name="setFunc03name">Suuntavilkkujen välähdykset</string>
+    <string name="setFunc03name_title">Suuntavilkkujen välähdykset</string>
+    <string name="setFunc04item0">Oletus (4 sekuntia)</string>
+    <string name="setFunc04item1">Säädettävä</string>
+    <string name="setFunc04item2">Säädettävä &amp; Nopeuden mukaan säätyvä</string>
+    <string name="setFunc04item3">Säädettävä &amp; Sateen mukaan säätyvä</string>
+    <string name="setFunc04name">Pyyhkijöiden tahti</string>
+    <string name="setFunc04name_title">Pyyhkijöiden tahti</string>
+    <string name="setFunc05item0">Pois päältä</string>
+    <string name="setFunc05item1">Päällä</string>
+    <string name="setFunc05item2">Päällä loppupyyhkäisyn kanssa</string>
+    <string name="setFunc05name">Pyyhkijät yhteydessä pesureihin</string>
+    <string name="setFunc05name_title">Pyyhkijät yhteydessä pesureihin</string>
+    <string name="setFunc06item0">0 sekuntia</string>
+    <string name="setFunc06item1">4 sekuntia</string>
+    <string name="setFunc06item2">8 sekuntia</string>
+    <string name="setFunc06item3">16 sekuntia</string>
+    <string name="setFunc06name">Takapyyhkimen tahti</string>
+    <string name="setFunc06name_title">Takapyyhkimen tahti</string>
+    <string name="setFunc07item0">Pois päältä</string>
+    <string name="setFunc07item1">1 minuutti</string>
+    <string name="setFunc07item2">3 minuuttia</string>
+    <string name="setFunc07item3">5 minuuttia</string>
+    <string name="setFunc07item4">10 minuuttia</string>
+    <string name="setFunc07name">Latausluukun kannen valon automaattinen katkaisu</string>
+    <string name="setFunc07name_title">Latausluukun kannen valon automaattinen katkaisu</string>
+    <string name="setFunc08item0">Pois päältä</string>
+    <string name="setFunc08item1">Avaa riippuen ajoneuvon nopeudesta</string>
+    <string name="setFunc08item2">Avaa/Sulje jos sytytysvirta päällä/pois ja kuljettajan ovi auki/kiinni</string>
+    <string name="setFunc08item3_0">Avaa/Sulje Avaimettoman järjestelmän lukituksessa/avauksessa</string>
+    <string name="setFunc08item3_1">Open/Close by Keyless Operation System Lock/Unlock</string>
+    <string name="setFunc08name">Automaattisesti taittuvat sivupeilit</string>
+    <string name="setFunc08name_title">Automaattisesti taittuvat sivupeilit</string>
+    <string name="setFunc09item0">Aikainen</string>
+    <string name="setFunc09item1">Melko aikaisin</string>
+    <string name="setFunc09item2">Normaali</string>
+    <string name="setFunc09item3">Melko myöhään</string>
+    <string name="setFunc09item4">Myöhään</string>
+    <string name="setFunc09name">Ajovaloautomatiikan herkkyys</string>
+    <string name="setFunc09name_title">Ajovaloautomatiikan herkkyys</string>
+    <string name="setFunc10item0">Pois päältä</string>
+    <string name="setFunc10item1">Päällä</string>
+    <string name="setFunc10name">Ajovaloautomatiikan yhteys pyyhkimiin</string>
+    <string name="setFunc10name_title">Ajovaloautomatiikan yhteys pyyhkimiin</string>
+    <string name="setFunc11item0">0 sekuntia (ei ajastintoimintoa)</string>
+    <string name="setFunc11item1">7.5 sekuntia</string>
+    <string name="setFunc11item2">15 sekuntia</string>
+    <string name="setFunc11item3">30 sekuntia</string>
+    <string name="setFunc11item4">1 minuutti</string>
+    <string name="setFunc11item5">2 minuuttia</string>
+    <string name="setFunc11item6">3 minuuttia</string>
+    <string name="setFunc11name">Sisävalon aikakatkaisu ovien lukitsemisen jälkeen</string>
+    <string name="setFunc11name_title">Sisävalon aikakatkaisu ovien lukitsemisen jälkeen</string>
+    <string name="setFunc12item0">Pois päältä</string>
+    <string name="setFunc12item1">Takavalot/Etuvalot : Katkaise aina</string>
+    <string name="setFunc12item2">Päällä</string>
+    <string name="setFunc12item3">Päällä</string>
+    <string name="setFunc12item4">"Takavalot : Katkaise kerran
+Ajovalot : Katkaise aina"</string>
+    <string name="setFunc12item5">Päällä</string>
+    <string name="setFunc12name">Ajovalojen automaattinen katkaisu</string>
+    <string name="setFunc12name_title">Ajovalojen automaattinen katkaisu</string>
+    <string name="setFunc13item0">Pois päältä</string>
+    <string name="setFunc13item1">3 minuuttia</string>
+    <string name="setFunc13item2">30 minuuttia</string>
+    <string name="setFunc13item3">60 minuuttia</string>
+    <string name="setFunc13name">Sisävalojen automaattinen katkaisu</string>
+    <string name="setFunc13name_title">Sisävalojen automaattinen katkaisu</string>
+    <string name="setFunc14item0">Lyhyt</string>
+    <string name="setFunc14item1">Pitkä</string>
+    <string name="setFunc14name">Aktivointiaika kaistavaihtovilkulle</string>
+    <string name="setFunc14name_title">Aktivointiaika kaistavaihtovilkulle</string>
+    <string name="setFunc15item0">Pois päältä</string>
+    <string name="setFunc15item1">Päällä</string>
+    <string name="setFunc15name">Mukavuus pesurit</string>
+    <string name="setFunc15name_title">Mukavuus pesurit</string>
+    <string name="setFunc16item0">Pois päältä</string>
+    <string name="setFunc16item1">Kun vaihdetaan P-asentoon</string>
+    <string name="setFunc16item2">Kun vaihdetaan P-asentoon ja ikkunat eivät ole lukittu</string>
+    <string name="setFunc16item3">Kun käynnistys on käännetty Lock asentoon</string>
+    <string name="setFunc16item4">Kun käynnistys on käännetty Lock asentoon ja ikkunat eivät ole lukittu</string>
+    <string name="setFunc16name">Automaattinen avaus</string>
+    <string name="setFunc16name_title">Automaattinen avaus</string>
+    <string name="setFunc17item0">Kaikki ovet</string>
+    <string name="setFunc17item1">Vain kuljettajan ovi</string>
+    <string name="setFunc17name">Avaustoiminto</string>
+    <string name="setFunc17name_title">Avaustoiminto</string>
+    <string name="setFunc19item0">2 kertaa</string>
+    <string name="setFunc19item1">1 kerta</string>
+    <string name="setFunc19name">Lukitus-painikkeen painomäärä, joka johtaa takalukkoon</string>
+    <string name="setFunc19name_title">Lukitus-painikkeen painomäärä, joka johtaa takalukkoon</string>
+    <string name="setFunc20item0">Pois päältä</string>
+    <string name="setFunc20item1">Yksi napin painallus</string>
+    <string name="setFunc20item2">Yksi napin painallus päiväsaikaan</string>
+    <string name="setFunc20item3">Kaksi napin painallusta</string>
+    <string name="setFunc20item4">Kaksi napin painallusta päiväsaikaan</string>
+    <string name="setFunc20name">Avaimeton järjestelmä - äänimerkin käyttö lukituksen yhteydessä</string>
+    <string name="setFunc20name_title">Avaimeton järjestelmä - äänimerkin käyttö lukituksen yhteydessä</string>
+    <string name="setFunc21item0">Pois päältä koko järjestelmässä</string>
+    <string name="setFunc21item1">Ääni avaimettoman järjestelmän yhteydessä</string>
+    <string name="setFunc21item2">Ääni avaimettoman sisäänkäynnin yhteydessä</string>
+    <string name="setFunc21item3">Päällä koko järjestelmässä</string>
+    <string name="setFunc21name">Avaimeton järjestelmä - Piippaus</string>
+    <string name="setFunc21name_title">Avaimeton järjestelmä - Piippaus</string>
+    <string name="setFunc22item0">30 sekuntia</string>
+    <string name="setFunc22item1">1 minuutti</string>
+    <string name="setFunc22item2">2 minuuttia</string>
+    <string name="setFunc22item3">3 minuuttia</string>
+    <string name="setFunc22name">Automaattinen uudelleen lukitus etäavaamisen jälkeen</string>
+    <string name="setFunc22name_title">Automaattinen uudelleen lukitus etäavaamisen jälkeen</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 sekuntia</string>
+    <string name="setFunc24item1">30 sekuntia</string>
+    <string name="setFunc24item2">3 minuuttia</string>
+    <string name="setFunc24item3">10 minuuttia</string>
+    <string name="setFunc24name">Ajastintoiminto, kun käynnistyspainike on painettu pois päältä</string>
+    <string name="setFunc24name_title">Ajastintoiminto, kun käynnistyspainike on painettu pois päältä</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">Pois päältä</string>
+    <string name="setFunc26item1">Sähköiset ikkunat , Sivupeilit : Auki &amp; Kiinni</string>
+    <string name="setFunc26item2">Sähköiset ikkunat : Auki &amp; Kiinni</string>
+    <string name="setFunc26item3">"Sähköiset ikkunat : Kiinni
+Sivupeilit : Auki &amp; Kiinni"</string>
+    <string name="setFunc26item4">Sivupeilit : Auki &amp; Kiinni</string>
+    <string name="setFunc26item5">Sähköiset ikkunat : Kiinni</string>
+    <string name="setFunc26name">Avaimeton järjestelmä - Multimode</string>
+    <string name="setFunc26name_title">Avaimeton järjestelmä - Multimode</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Lyhyt</string>
+    <string name="setFunc28item1">Pitkä</string>
+    <string name="setFunc28name">Äänmerkin pituus</string>
+    <string name="setFunc28name_title">Äänmerkin pituus</string>
+    <string name="setFunc29item0">Kun takapyyhin on päällä</string>
+    <string name="setFunc29item1">Kun etu- tai takapyyhin on päällä</string>
+    <string name="setFunc29name">Takapyyhkimen aktivointi peruutettaessa</string>
+    <string name="setFunc29name_title">Takapyyhkimen aktivointi peruutettaessa</string>
+    <string name="setFunc32item0">Pois päältä</string>
+    <string name="setFunc32item1">3 sekuntia</string>
+    <string name="setFunc32item2">5 sekuntia</string>
+    <string name="setFunc32name">Kauko-ohjatun lukituksen aikalukko</string>
+    <string name="setFunc32name_title">Kauko-ohjatun lukituksen aikalukko</string>
+    <string name="setFunc33item0">Pois päältä</string>
+    <string name="setFunc33item1">Päällä</string>
+    <string name="setFunc33name">Äänimerkin käyttö ajoneuvon etäkäynnistyksen yhteydessä</string>
+    <string name="setFunc33name_title">Äänimerkin käyttö ajoneuvon etäkäynnistyksen yhteydessä</string>
+    <string name="setFunc34item0">Päällä</string>
+    <string name="setFunc34item1">Pois päältä</string>
+    <string name="setFunc34name">Avaustoiminto, kun käynnistyspainike on painettu pois päältä</string>
+    <string name="setFunc34name_title">Avaustoiminto, kun käynnistyspainike on painettu pois päältä</string>
+    <string name="setFunc35item0">Kaikki ovet</string>
+    <string name="setFunc35item1">Vain kuljettajan ovi</string>
+    <string name="setFunc35name">Ikkunoiden asento estetty lukituskytkimellä</string>
+    <string name="setFunc35name_title">Ikkunoiden asento estetty lukituskytkimellä</string>
+    <string name="setFunc36item0">Pois päältä</string>
+    <string name="setFunc36item1">30 minuuttia</string>
+    <string name="setFunc36item2">60 minuuttia</string>
+    <string name="setFunc36name">Automaattinen katkaisu - ACC virta</string>
+    <string name="setFunc36name_title">Automaattinen katkaisu - ACC virta</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">Pois päältä</string>
+    <string name="setFunc42item1">15 sekuntia</string>
+    <string name="setFunc42item2">30 sekuntia</string>
+    <string name="setFunc42item3">1 minuutti</string>
+    <string name="setFunc42item4">3 minuuttia</string>
+    <string name="setFunc42name">Ajovalot päällä, kun autosta poistutaan</string>
+    <string name="setFunc42name_title">Ajovalot päällä, kun autosta poistutaan</string>
+    <string name="setFunc43item0">Pois päältä</string>
+    <string name="setFunc43item1">Parkkivalot</string>
+    <string name="setFunc43item2">Ajovalot</string>
+    <string name="setFunc43name">Ulkovalot päällä, kun ajoneuvo avataan etänä</string>
+    <string name="setFunc43name_title">Ulkovalot päällä, kun ajoneuvo avataan etänä</string>
+    <string name="setFunc50item0">Manuaalinen</string>
+    <string name="setFunc50item1">Automaattinen</string>
+    <string name="setFunc50name">Uudelleenkierrätystoiminto</string>
+    <string name="setFunc50name_title">Uudelleenkierrätystoiminto</string>
+    <string name="setFunc51item0">Manuaalinen</string>
+    <string name="setFunc51item1">Automaattinen</string>
+    <string name="setFunc51name">A/C kytkimen hallinta</string>
+    <string name="setFunc51name_title">A/C kytkimen hallinta</string>
+    <string name="setFunc53item0">Eco</string>
+    <string name="setFunc53item1">Comfort</string>
+    <string name="setFunc53name">Eco Mode</string>
+    <string name="setFunc53name_title">Eco Mode</string>
+    <string name="setFunc54item0">Normaali</string>
+    <string name="setFunc54item1">Enemmän ilmavirtaa jaloille</string>
+    <string name="setFunc54item2">Enemmän ilmavirtaa Huurteenpoistoon</string>
+    <string name="setFunc54name">Jalka / Huurteenpoiston ilmavirtasuhde</string>
+    <string name="setFunc54name_title">Jalka / Huurteenpoiston ilmavirtasuhde</string>
+    <string name="setFunc55item0">Normaali</string>
+    <string name="setFunc55item1">Enemmän ilmavirtaa kasvoille</string>
+    <string name="setFunc55item2">Enemmän ilmavirtaa jaloille</string>
+    <string name="setFunc55name">Kasvot / Jalka ilmavirtasuhde</string>
+    <string name="setFunc55name_title">Kasvot / Jalka ilmavirtasuhde</string>
+    <string name="setFunc56item0">Pois päältä</string>
+    <string name="setFunc56item1">Päällä</string>
+    <string name="setFunc56name">Automaattinen huurteen poisto lähdössä</string>
+    <string name="setFunc56name_title">Automaattinen huurteen poisto lähdössä</string>
+    <string name="setFunc57item0">Pois päältä</string>
+    <string name="setFunc57item1">Päällä</string>
+    <string name="setFunc57name">Käynnistä A/C tai lämmitys, kun ovet avataan</string>
+    <string name="setFunc57name_title">Käynnistä A/C tai lämmitys, kun ovet avataan</string>
+    <string name="setFunc58item0">Pois päältä</string>
+    <string name="setFunc58item1">Päällä</string>
+    <string name="setFunc58name">Jalkatilassa pieni ilmavirta huurteen poistoon</string>
+    <string name="setFunc58name_title">Jalkatilassa pieni ilmavirta huurteen poistoon</string>
+    <string name="setFunc60item0">Pois päältä</string>
+    <string name="setFunc60item1">Päällä</string>
+    <string name="setFunc60name">Korkeampi lämmityksen taso pysähdyttäessä</string>
+    <string name="setFunc60name_title">Korkeampi lämmityksen taso pysähdyttäessä</string>
+    <string name="setFuncGroup01">Avaimeton järjestelmä</string>
+    <string name="setFuncGroup02">Avaimeton järjestelmä</string>
+    <string name="setFuncGroup03">Pyyhkijät</string>
+    <string name="setFuncGroup04">Ulkovalot/Sisävalot</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Sähköiset ikkunat</string>
+    <string name="setFuncGroup07">Suuntavilkut</string>
+    <string name="setFuncGroup08">Ovien sähköinen lukitus</string>
+    <string name="setFuncGroup09">Ilmasointilaite</string>
+    <string name="setFuncGroup10">Muut</string>
+    <string name="setSend">Lähetä</string>
+    <string name="setany">WLAN kanavan asetukset</string>
+    <string name="setcarset">Ajoneuvon asetukset</string>
+    <string name="setinfo_changewpaonestr">Vaihda WLAN:n salasana</string>
+    <string name="setinfo_changewpatwostr">Voit vaihtaa WLAN:n salasanan.</string>
+    <string name="setinfoeightstr">Voit perua VIN-rekisteröinnin. Peruutuksen jälkeen, et pysty kommunikoimaan ajoneuvon kanssa. Uudelleen rekisteröinti on tarpeellinen kommunikointia varten.</string>
+    <string name="setinfoelevenstr">WLAN kanavan asetukset</string>
+    <string name="setinfofifteenstr">Varashälyttimen loki</string>
+    <string name="setinfofivestr">Vaihda SSID</string>
+    <string name="setinfofourstr">Voit vaihtaa pääsykoodin tarpeellisuuden sovelluksen alustuksessa.</string>
+    <string name="setinfofourteenstr">Voit vaihtaa ajoneuvon asetukset. (ETACS muokkaus)</string>
+    <string name="setinfoninestr">WLAN yhteyden asetukset</string>
+    <string name="setinfoonestr">Pääsykoodin ohitus</string>
+    <string name="setinfosevenstr">Petuuta VIN-rekisteröinti</string>
+    <string name="setinfosisteenstr">Näyttää aiemmat varashälyttimen aktivoinnit</string>
+    <string name="setinfosixstr">Voit vaihtaa ajoneuvon SSID:n.</string>
+    <string name="setinfotenstr">Voit valita että WLAN yhteys on aina PÄÄLLÄ tai WLAN yhteys on PÄÄLLÄ, kun ajoneuvon virtakytkin on kytketty POIS PÄÄLTÄ.</string>
+    <string name="setinfothirteenstr">Ajoneuvon asetukset</string>
+    <string name="setinfothreestr">Vaihda pääsykoodi</string>
+    <string name="setinfotwelvestr">Voit valita WLAN kanavan. Sen jälkeen kun WLAN kanava on vaihdettu, langaton tiedonvälitys katkeaa ja yhdistää uudelleen automaattisesti. Jos sovellusta ei kytketä uudelleen 5 minuutin kuluessa, sammuta sovellus ja tarkista langaton yhteys laitteen WIFI-asetuksista.</string>
+    <string name="setinfotwostr">Voit päättää pääsykoodin tarpeellisuuden sovelluksen alustuksessa.</string>
+    <string name="setinit">Peruuta VIN-rekisteröinti</string>
+    <string name="setinitinfo">"Oletko varma, että haluat alustaa alla olevat asetukset?
+
+"<ul><li>"Latauksen ajastus
+"</li><li>"Ilmastoinnin ajastus
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Oletko varma, että haluat alustaa alla olevat asetukset?
+
+"<ul><li>"Latauksen ajastus
+"</li><li>"Ilmastoinnin ajastus
+"</li><li>"SSID
+"</li><li>WLAN-salasana</li></ul></string>
+    <string name="setinitq">Oletko varma, että haluat poistaa VIN-rekisteröinnin?</string>
+    <string name="setnewssidinfo">Uusi SSID</string>
+    <string name="setnewwpainfo">Uusi salasana</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Nykyinen salasana</string>
+    <string name="setpasscode">Vaihda pääsykoodi</string>
+    <string name="setpasscodedis">"Pääsykoodia ei ole rekisteröity.
+
+Rekisteröidäksesi pääsykoodin, kytke \"Ohita pääsykoodin syöttö\" POIS PÄÄLTÄ."</string>
+    <string name="setpasscodestep1">Syötä Salakoodisi</string>
+    <string name="setpasscodestep2">Ole hyvä ja syötä uusi pääsykoodi.</string>
+    <string name="setpasscodestep3">Ole hyvä ja syötä uusi pääsykoodi uudelleen.</string>
+    <string name="setrenewwpainfo">Vahvista uusi salasana</string>
+    <string name="setspnum">Rekisteröityjen älypuhelimien määrä</string>
+    <string name="setssid">Vaihda SSID</string>
+    <string name="setssiderr">Syöttövirhe</string>
+    <string name="setssiderrinfo">Sisältää merkkejä, joita ei voida käyttää.</string>
+    <string name="setssidinfo">Voit valita 1~32 merkin pituisen sanan. Isot ja pienet kirjaimet tunnistetaan erikseen.</string>
+    <string name="setssidokinfo">Kun SSID on vaihdettu, langaton yhteys katkaistaan ja kytketään sen jälkeen automaattisesti uudelleen. Jos sovellusta ei kytketä uudelleen 5 minuutin kuluessa, sammuta sovellus ja tarkista langaton yhteys Android-laitteen WIFI asetuksista.</string>
+    <string name="setssidoktips">Klikkaa OK sulkeaksesi sovelluksen.</string>
+    <string name="setthefthistory">Varashälyttimen loki</string>
+    <string name="setthefthistoryinfo">Tyhjennä varashälyttimen loki?</string>
+    <string name="settingtitle">Asetukset</string>
+    <string name="setusepasscode">Ohita pääsykoodin syöttö</string>
+    <string name="setusepasscodeinfo">Syötä pääsykoodi</string>
+    <string name="setver">Versiotiedot</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Ajoneuvon ohjelmisto</string>
+    <string name="setwifiinfoon">"Aina yhteydessä päällä:
+WLAN yhteys ajoneuvon puolelta on aina PÄÄLLÄ.
+
+Aina yhteydessä pois päältä:
+WLAN yhteys ajoneuvon puolelta on PÄÄLLÄ, kun ajoneuvon virtakytkin on POIS PÄÄLTÄ.
+
+Jos haluat yhdistää käyttämäsi laitteen Smartphone Link Display Audio -järjestelmään, ole hyvä ja kytke tämä asetus pois päältä."</string>
+    <string name="setwifilabel">Aina yhteydessä</string>
+    <string name="setwpa">Vaihda langattoman lähiverkon salasana</string>
+    <string name="setwpaerr_1">Syöttövirhe</string>
+    <string name="setwpaerr_2">Syöttövirhe</string>
+    <string name="setwpaerr_3">Syöttövirhe</string>
+    <string name="setwpaerr_4">Syöttövirhe</string>
+    <string name="setwpaerrinfo_1">"Sisältää merkkejä joita ei voida käyttää.
+Katso ohjeesta, mitä merkkejä voit käyttää."</string>
+    <string name="setwpaerrinfo_2">Uusien salasanojen on oltava samat, syötä uudelleen uusi salasanasi.</string>
+    <string name="setwpaerrinfo_3">Uuden salasanan täytyy sisältää tasan 14 merkkiä, valitse toinen salasana.</string>
+    <string name="setwpaerrinfo_4">Syöttämäsi nykyinen salasana on virheellinen, yritä uudelleen.</string>
+    <string name="setwpaerrinfo_5">"Mahdollisia virheen syitä:
+"<ul><li>"Virtakytkin ei ole ACC-asennossa
+"</li><li>"Olet ollut rekisteröintitilassa yli 10 minuuttia.
+
+Aseta ajoneuvo rekisteröinnin valmiustilaan."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"Syötä turvallinen 14-merkkinen salasana.
+"</li><li>"Salasana tunnistaa isot ja pienet kirjaimet. Voit käyttää kirjaimia, numeroita ja symboleja.
+"</li><li>Muista salasanasi, älä jaa sitä muiden kanssa.</li></ul></string>
+    <string name="setwpaokinfo">Kun langattoman lähiverkon salasana on vaihdettu, langaton yhteys katkaistaan ja kytketään sen jälkeen automaattisesti uudelleen. Jos sovellusta ei kytketä uudelleen 5 minuutin kuluessa, sammuta sovellus ja tarkista langaton yhteys Android-laitteen WIFI asetuksista.</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Laite on yhdistetty muuhun kuin ajoneuvon verkkoon.
+
+Oletko yhteydessä ajoneuvoon?"</string>
+    <string name="ssidinfo">SSID vaihdetaan.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Syötä SSID ja salasana. Sen jälkeen paina \"OK\".</string>
+    <string name="stepfiveonestring">Sulje kuljettajan ovi.</string>
+    <string name="stepfivethreestring">"10 sek. sisällä STEP 2 jälkeen, paina LOCK ja UNLOCK nappeja avaimesta vuorotellen 5 kertaa (Yhteensä 10 painallusta aloittaen LOCK-napista)
+Kuulet merkkiäänen, joka ilmoittaa, että ajoneuvo on rekisteröintitilassa."</string>
+    <string name="stepfivetwostring">Aseta virtakytkin ACC-asentoon (älä käytä jarrua suorittaessasi tätä toimintoa. Virtakytkimen toiminnot menevät seuraavalla tavalla: \"POIS PÄÄLTÄ\" → \"ACC\" → \"PÄÄLLÄ\" → \"POIS PÄÄLTÄ\")</string>
+    <string name="stepfouronestring">Sulje kuljettajan ovi</string>
+    <string name="stepfourthreestring">"10 sek. sisällä STEP 2 jälkeen, paina LOCK ja UNLOCK nappeja avaimesta vuorotellen 5 kertaa (Yhteensä 10 painallusta aloittaen LOCK-napista)
+Kuulet merkkiäänen, joka ilmoittaa, että ajoneuvo on rekisteröintitilassa."</string>
+    <string name="stepfourtwostring">Aseta virtakytkin ACC-asentoon (älä käytä jarrua suorittaessasi tätä toimintoa. Virtakytkimen painikkeen toimintajärjestys: \"POIS PÄÄLTÄ\" → \"ACC\" → \"PÄÄLLÄ\" → \"POIS PÄÄLTÄ\")</string>
+    <string name="stu1_1">Virtakytkin POIS PÄÄLTÄ</string>
+    <string name="stu1_2">Virtakytkin PÄÄLLÄ tai ACC</string>
+    <string name="stu1_3">Varashälytin on pois päältä</string>
+    <string name="stu1_4">Varashälytin on päällä</string>
+    <string name="stu1_5">Varashälytin aktivoitu</string>
+    <string name="stu2info1leftstr">Parkkivalot</string>
+    <string name="stu2info1rightstr">PÄÄLLÄ</string>
+    <string name="stu2info1str">Parkkivalot PÄÄLLÄ</string>
+    <string name="stu2info2leftstr">Hätävilkut</string>
+    <string name="stu2info2rightstr">vilkkuvat</string>
+    <string name="stu2info2str">Hätävilkut vilkkuvat</string>
+    <string name="stu2info3leftstr">Ovi/ovet</string>
+    <string name="stu2info3rightstr">auki</string>
+    <string name="stu2info3str">Ovi/ovet auki</string>
+    <string name="stu2info4leftstr">Ajovalot</string>
+    <string name="stu2info4rightstr">PÄÄLLÄ</string>
+    <string name="stu2info4str">Ajovalot PÄÄLLÄ</string>
+    <string name="stu2info5leftstr">Konepelti on</string>
+    <string name="stu2info5rightstr">auki</string>
+    <string name="stu2info5str">Konepelti on auki</string>
+    <string name="stu2info6leftstr">Sisätilavalo</string>
+    <string name="stu2info6rightstr">PÄÄLLÄ</string>
+    <string name="stu2info6str">Sisätilavalo PÄÄLLÄ</string>
+    <string name="stu2info7leftstr">Takaluukku</string>
+    <string name="stu2info7rightstr">auki</string>
+    <string name="stu2info7str">Takaluukku auki</string>
+    <string name="stu2info8leftstr">Takavalot</string>
+    <string name="stu2info8rightstr">PÄÄLLÄ</string>
+    <string name="stu2info8str">Takavalot PÄÄLLÄ</string>
+    <string name="sun">Sunnuntai</string>
+    <string name="sun1">Su</string>
+    <string name="switchoff">OFF</string>
+    <string name="switchon">ON</string>
+    <string name="theft2_1">Ajovalojen käyttö</string>
+    <string name="theft2_4">Parkkivalojen käyttö</string>
+    <string name="theft2dis2twostr">"Toiminto on käytössä kun: 
+
+"<ul><li>"Virtakytkin on POIS PÄÄLTÄ.
+"</li><li>Ajovalot ja parkkivalot ovat POIS PÄÄLTÄ.</li></ul></string>
+    <string name="thu">Torstai</string>
+    <string name="thu1">To</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">.</string>
+    <string name="timemode">P</string>
+    <string name="titleback">Takaisin</string>
+    <string name="titlehelp">OHJE</string>
+    <string name="titleupdate1">Nollaa</string>
+    <string name="titleupdate2">Nollaus</string>
+    <string name="titleupdate3">Lähetä</string>
+    <string name="topUpdateTime" formatted="false">%d.%m %t</string>
+    <string name="topacdisable">"Tätä toimintoa ei voida suorittaa, jos:
+
+"<ul><li>"Virtakytkin ei ole POIS PÄÄLTÄ.
+"</li><li>Pikalataus on aktiivisena.</li></ul></string>
+    <string name="topacmode">Tila</string>
+    <string name="topacwait">Odottaa</string>
+    <string name="topbattwarm">Lämpenee</string>
+    <string name="topbattwarminginfo">"Kytke laturin liitin estääksesi ajoakun lämpötilan aleneminen. 
+Lämmitys alkaa välittömästi kytkemisen jälkeen."</string>
+    <string name="topbattwarminginfo_plugin_1">"Ajoneuvo ei mahdollisesti voi käynnistyä akun alhaisen lämpötilan takia.
+
+Laita ajoneuvo READY-tilaan tai kytke latausliitin lämmittääksesi ajoakkua."</string>
+    <string name="topbattwarminginfo_plugin_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+
+Kytke latausliitin lämmittääksesi ajoakkua."</string>
+    <string name="topbattwarminginfo_stop_1">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+Ajoakun lämmitys on vaadittu, mutta edellytykset lämmitykselle eivät ole sopivat. 
+
+Odota, kunnes ulkolämpötila nousee."</string>
+    <string name="topbattwarminginfo_stop_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+
+Ajoakun lämmitys on vaadittu, mutta edellytykset lämmitykselle eivät ole sopivat. 
+
+Ajoakun lämmitys alkaa, kun ulkolämpötila nousee ja auto on kytketty latauslaitteeseen, odota."</string>
+    <string name="topbattwarminginfo_warm_1">Ajoneuvolla voidaan nyt ajaa, koska ajoakun lämpötila nousi.</string>
+    <string name="topbattwarminginfo_warm_2">"Ajoneuvolla ei voida ajaa, koska ajoakun lämpötila on liian alhainen. 
+
+Ajoakku lämpenee, odota."</string>
+    <string name="topbattwarmingtitle">Ajoneuvon tiedot</string>
+    <string name="topcanntac">Valitse ilmastoinnin säätötila \"Tilasta\" ajastimen aikataulunäytöllä.</string>
+    <string name="topcanntac2">Manuaalinen ilmastointi on jo asetettu.Kun manuaalinen ilmastointi päättyy, Ilmastoinnin ajastin kytkeytyy automaattisesti päälle.</string>
+    <string name="topcanntchg">Aseta ajastimen aikataulu \"ajastin\"-näytöllä.</string>
+    <string name="topchargeEndTime">Lataus valmis</string>
+    <string name="topchargeEndTimeHour">h</string>
+    <string name="topchargeEndTimeMin">min</string>
+    <string name="topchargefinish">Lataus on valmis</string>
+    <string name="topchargetimer">Ajastin PÄÄLLÄ/POIS PÄÄLTÄ</string>
+    <string name="topfastchg">Pikalataus</string>
+    <string name="tophelp100v">Ylläpito</string>
+    <string name="tophelp200v">Normaali</string>
+    <string name="tophelp22">Viilennys</string>
+    <string name="tophelp24">Lämmitys</string>
+    <string name="tophelp26">Huurteen poisto</string>
+    <string name="tophelp41">Hyvä yhteys</string>
+    <string name="tophelp42">Heikko yhteys</string>
+    <string name="tophelp43">Ei voida yhdistää</string>
+    <string name="tophelp44">Paina tätä nappia yhdistääksesi ajoneuvoon ja päivittääksesi tiedot.</string>
+    <string name="tophelpwarm"><ul><li>"Ajoakun täytyy lämmetä, jotta vältytään alhaisen lämpötilan aiheuttamilta akun toimintahäiriöiltä.
+"</li><li>"On mahdollista, että ajoakussa jäljellä oleva varaus vähenee.
+"</li><li>"On mahdollista, että ajoakku saatta alkaa latautumaan, vaikka ajastuksia on aktiivisena. 
+"</li><li>On mahdollista, että ilmastoinnin puhallin kytkeytyy päälle. </li></ul></string>
+    <string name="topwaitcharge">Odottaa</string>
+    <string name="towebsitestr">Mene www-sivulle</string>
+    <string name="tue">Tiistai</string>
+    <string name="tue1">Ti</string>
+    <string name="v2hv2l">Käynnistä ulkoinen virtalähde</string>
+    <string name="warning6str">Paina päivitä-nappia kommunikoidaksesi ajoneuvon kanssa.</string>
+    <string name="warning7timeronestr">Muutos vaikuttaa kaikkiin Ajastimen 1 asetuksiin.</string>
+    <string name="warning7timerthreestr">Muutos vaikuttaa kaikkiin Ajastimen 3 asetuksiin.</string>
+    <string name="warning7timertwostr">Muutos vaikuttaa kaikkiin Ajastimen 2 asetuksiin.</string>
+    <string name="wed">Keskiviikko</string>
+    <string name="wed1">Ke</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">WLAN yhteyden asetukset</string>
+    <string name="wpainfo">Langattoman lähiverkon salasana vaihdetaan.</string>
+</resources>

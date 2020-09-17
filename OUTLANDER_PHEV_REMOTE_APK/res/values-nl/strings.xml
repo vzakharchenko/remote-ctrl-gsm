@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">minuten</string>
+    <string name="ACWorking">De Climate Control bedrijfstijd kan niet worden veranderd wanneer de Climate Control door de remote control of de timer is ingeschakeld.</string>
+    <string name="ACtim"><ul><li>"Gelieve de Remote Climate Control functie niet te gebruiken wanneer er zich mensen of huisdieren in de auto bevinden. Onverwachte problemen kunnen zich voordoen.
+
+"</li><li>"Langere werking van de Climate Control zal het batterijniveau van de aandrijfaccu verder verlagen.
+
+"</li><li>Als de aandrijfaccu bijna leeg is, kan het zijn dat de Climate Control korter werkt dan oorspronkelijk ingesteld.</li></ul></string>
+    <string name="ACtimeLabel">De climate control bediening tijd</string>
+    <string name="AcsettingARM">"Als het veiligheidsalarm van het voertuig is ingeschakeld kunnen de instellingen van het voertuig niet gewijzigd worden.
+
+Maak alstublieft gebruik van het Keyless Entry systeem of het Keyless Operation System om het portier te ontgrendelen. Hierdoor zal het veiligheidsalarm uitschakelen en kunnen de instellingen gewijzigd worden."</string>
+    <string name="EVInit">Reset</string>
+    <string name="EVInitInfo">Wilt u de voertuiginstellingen resetten?</string>
+    <string name="Everyday">Elke dag</string>
+    <string name="ResetAllschude">"Alle schema's zullen ge-reset worden, wilt u doorgaan?"</string>
+    <string name="ResetOneschude">Het schema zal gereset worden, wilt u hiermee doorgaan?</string>
+    <string name="Schudle">Schema</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">verwijderen</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Functie +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">spatie</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="accstr">ACC (oranje)</string>
+    <string name="acoptiontimelong2">Bedrijfsduur Climate Control</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Status</string>
+    <string name="bartitle5">Instellingen</string>
+    <string name="bgdark" />
+    <string name="btnStart">AAN</string>
+    <string name="cancel">Annuleren</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">De beschikbare karakters zijn als volgt:</string>
+    <string name="channel_3">Kanaal 3</string>
+    <string name="channel_8">Kanaal 8</string>
+    <string name="clear">Alles resetten</string>
+    <string name="communicationstr">Verbinding</string>
+    <string name="countdownTipsonestr">"Zorg ervoor dat het leveren van stroom via V2H binnen 5 minuten start.
+
+Als de V2H-voeding niet is gestart, zijn er verschillende mogelijke oorzaken:"</string>
+    <string name="countdownTipstwostr">De aangesloten apparatuur biedt geen V2H ondersteuning.</string>
+    <string name="countdownTipstwostrfivestr">Er zijn fouten in de externe voeding of voertuig.</string>
+    <string name="countdownTipstwostrfourstr">De 12-volt accu in het voertuig heeft een te lage spanning.</string>
+    <string name="countdownTipstwostrthreestr">Meer dan 5 minuten zijn verstreken sinds de AAN toets is ingedrukt.</string>
+    <string name="countdownTipstwostrtwostr">De CHAdeMO aanlsuiting van de externe voeding is niet juist verbonden met het voertuig</string>
+    <string name="daySelct">Herhalen</string>
+    <string name="delay1">0 minuten</string>
+    <string name="delay10">120 minuten</string>
+    <string name="delay11">150 minuten</string>
+    <string name="delay12">180 minuten</string>
+    <string name="delay2">5 minuten</string>
+    <string name="delay3">10 minuten</string>
+    <string name="delay4">20 minuten</string>
+    <string name="delay5">30 minuten</string>
+    <string name="delay6">40 minuten</string>
+    <string name="delay7">50 minuten</string>
+    <string name="delay8">60 minuten</string>
+    <string name="delay9">90 minuten</string>
+    <string name="demo">Proefversie</string>
+    <string name="durationstr">Tijdsduur</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">Niet herkenbare sleutel werd gebruikt.</string>
+    <string name="err1intrusion">Ongeautoriseerde binnentreden vastgesteld</string>
+    <string name="err1movement">Niet toegestane beweging van het voertuig is opgetreden</string>
+    <string name="err1other">Niet toegestane toegang opgetreden</string>
+    <string name="err1perimeter">De deur werd niet geautoriseered geopend</string>
+    <string name="err1silent">Niet toegestane trilling opgetreden</string>
+    <string name="err1title">Diefstalalarm melding</string>
+    <string name="errACinfo">"Mogelijke oorzaken kunnen zijn:
+
+"<ul><li>"Een portier is geopend.
+"</li><li>"Niveau aandrijfaccu te laag.
+"</li><li>Temperatuur aandrijfaccu laag.</li></ul></string>
+    <string name="errACinfoEx">"Mogelijke oorzaken kunnen zijn:
+
+"<ul><li>"Een portier is geopend.
+"</li><li>"Niveau aandrijfaccu te laag.
+"</li><li>Temperatuur aandrijfaccu laag.</li></ul></string>
+    <string name="errACtitle">Ingestelde A/C is gestopt</string>
+    <string name="errCHGinfo">Oplaadtimer kan niet worden geactiveerd</string>
+    <string name="errCHGtitle">Foutmelding oplaadtimer</string>
+    <string name="errRegMaxtitle">Registratiefout</string>
+    <string name="errTimerinfo">Timer Control kan niet worden geactiveerd</string>
+    <string name="errTimertitle">Timer Control foutmelding</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Foutcode :</string>
+    <string name="evACCool">Koelen</string>
+    <string name="evACHot">Verwarmen</string>
+    <string name="evACOFF">UIT</string>
+    <string name="evACSetTitle">Climate Control timer instellingen</string>
+    <string name="evCharge1Auto">Locatievoorzieningen :</string>
+    <string name="evCharge1End">Einde</string>
+    <string name="evCharge1Start">Start</string>
+    <string name="evCharge1full">Volledig opgeladen</string>
+    <string name="evChargeSetTitle">Oplaadtimer instellingen</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">Verzenden</string>
+    <string name="evSendAsk">Het nieuwe schema is niet verzonden. Wilt u teruggaan en deze versturen?</string>
+    <string name="evSendAsk5ch">"De veranderde instellingen zijn niet naar het voertuig verzonden.
+U gaat stoppen met het instellen en keert terug naar het eerdere scherm, wilt u hiermee doorgaan?"</string>
+    <string name="evTimerSet">Timer instellingen</string>
+    <string name="evhCHG12info">"De volledig oplaadfunctie laadt de aandrijfaccu op totdat deze volledig is opgeladen indien de aandrijfaccu niet volledig is opgeladen tijdens de laad timer periode.
+Het opladen zal niet worden uitgevoerd wanneer de stekker nadat de oplaad timer is verstreken, wordt aangesloten."</string>
+    <string name="evhCHG17myinfo1">Handmatige airconditioning</string>
+    <string name="evhCHG22ginfo1">Handmatige oplaad modus</string>
+    <string name="evhCHG22ginfo3">Oplaadtimer modus</string>
+    <string name="evhCHG22infofourstr">zal de locatievoorziening functie niet werken.</string>
+    <string name="evhCHG22infoonestr">Wanneer de auto is voorzien van MMCS.</string>
+    <string name="evhCHG22infothreestr">Als de auto niet voorzien is van MMCS</string>
+    <string name="evhCHG22infotwostr">"Deze functie verandert de oplaad modus afhankelijk van uw locatie. De modus is ingesteld op de tijd modus wanneer u zich in de buurt van locaties uit het adresboek bevindt en is ingesteld op handmatige modus voor alle andere locaties.
+Hierdoor kan de modus op oplaad timer worden gezet voor locaties uit het adresboek."</string>
+    <string name="evhelpCHG1item2">Wat is de instelling voor volledig opladen?</string>
+    <string name="evhelpCHG2item2">Wat zijn locatievoorzieningen?</string>
+    <string name="evhmanualACitem4infofourstr">De airco heeft alleen de afkoel-modus.</string>
+    <string name="evhmanualACitem4infoonestr">Wanneer het elektrische verwarmingselement is bijgeleverd (fabrieksoptie):</string>
+    <string name="evhmanualACitem4infothreestr">Wanneer het elektrische verwarmingselement is bijgeleverd (fabrieksoptie):</string>
+    <string name="evhmanualACitem4infotwostr">"Selecteer de airco-modus uit opwarmen / afkoelen / voorruit ventillatie.
+De geselecteerde airco-modus zal worden toegepast op de gebruikte timer-instellingen. Het is niet mogelijk om voor iedere timer-instelling een verschillende airco-modus in te stellen."</string>
+    <string name="evmCHchargstr">Opladen</string>
+    <string name="evmCHclimatestr">Climate</string>
+    <string name="evmCHsetstr">Settings</string>
+    <string name="evmCHstatusstr">Status</string>
+    <string name="evmaccancelltimestr">Annulering</string>
+    <string name="evmaccanceltimer">Annulering Timer</string>
+    <string name="evmacwarn5str">Annuleert de Climate Control timer.</string>
+    <string name="evmainac">Climate Control</string>
+    <string name="evmaincharge">Opladen</string>
+    <string name="evmchacwarn5no">Nee</string>
+    <string name="evmchacwarn5yes">Ja</string>
+    <string name="evmchargeTimerSch">Timer schema voor opladen</string>
+    <string name="evmchargetschstr">"U kunt de timer tijdelijk annuleren door deze uit te vinken.
+Het schema van het opladen met de timer kan automatisch worden hervat door het opnieuw aan te vinken of wanneer de bedieningsmodus van de schakelaar in ON wordt ingeschakeld.
+"</string>
+    <string name="evmchargstatusstr">Laadstatus</string>
+    <string name="evmchtempcancellstr">Tijdelijke annulering</string>
+    <string name="evmchupdatingstr">(Bijwerken)</string>
+    <string name="evmchwarn5str">Annuleert de oplaadtimer tijdelijk.</string>
+    <string name="evmclimateTimerSch">Climate control timer schema</string>
+    <string name="evmclimatetschstr">U kunt de timer annuleren door deze uit te vinken.</string>
+    <string name="evmdrivebattlevelstr">Niveau aandrijfaccu</string>
+    <string name="evmerrstartcommun">Communicatie starten</string>
+    <string name="evmlastupdatedstr">De app geeft de laatst bijgewerkte voertuigstatus weer. Voordat de nieuwste voertuigstatus wordt bijgewerkt, is het mogelijk dat de app de vorige voertuigstatus weergeeft.</string>
+    <string name="evmregtroublereg">Ondervindt u problemen tijdens het registreren?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Tijdelijke Annulering Timer</string>
+    <string name="evmupdatedTime">Bijgewerkte tijd</string>
+    <string name="evpsfailcontent">"Mogelijke oorzaken hiervan zijn voertuigfouten.
+Neem contact op met een geautoriseerde dealer van Mitsubishi Motors."</string>
+    <string name="evpsfailtitle">Voeding kan niet worden gestart</string>
+    <string name="evpspage1">Met behulp van deze app kunt u stroom vanuit uw hybride of elektrisch voertuig aan uw huis leveren met behulp van de laadaansluiting (CHAdeMO).</string>
+    <string name="evpspage1threestr">Geschikte V2H-apparatuur is vereist. Neem contact op met uw Mitsubishi Motors Dealer voor meer informatie.</string>
+    <string name="evpspage1twostr">Via V2H-apparatuur kunt u uw huis voorzien van stroom uit uw voertuig wanneer de stroom in uw huis is uitgevallen.</string>
+    <string name="evpspage2">Zet de start-stopknop op OFF en verbind de CHAdeMO aansluiting met het voertuig.</string>
+    <string name="evpspage3">"Als u op de knop AAN drukt, begint het voertuig met het verstrekken van stroom aan de externe voeding.
+Als u de AAN-knop niet kunt bedienen probeer dan opnieuw in het vorige scherm."</string>
+    <string name="exitdemostr">Demo afsluiten</string>
+    <string name="fri">Vrijdag</string>
+    <string name="fri1">Vr</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">We raden af de MITSUBISHI REMOTE CONTROL te gebruiken.</string>
+    <string name="jailbreak_title">Het OS is gewijzigd</string>
+    <string name="language">nl</string>
+    <string name="linkwarningstr">"U kunt het voertuignetwerk niet gebruiken om op internet te surfen. Gebruik mobiele gegevens of schakel over naar een ander Wifi-toegangspunt.
+Als u de app opnieuw wilt gebruiken, maakt u opnieuw verbinding met de SSID van het voertuig."</string>
+    <string name="loadwndinfo">"Tijdens het gebruik van de MITSUBISHI REMOTE CONTROL kan er niet met andere netwerken verbinding worden gemaakt (zoals internet).
+
+Gedurende de tijd dat u uw smartphone aangesloten heeft op het Smartphone Link Display Audio Systeem, kan de MITSUBISHI REMOTE CONTROL niet gebruikt worden."</string>
+    <string name="login_ssid_txtPwd">Wachtwoord</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"De stroomtoevoer van het voertuig naar de externe voeding kan niet worden gestart omdat de resterende capaciteit van de aandrijfaccu te laag is.
+
+U kunt deze functie alleen gebruiken als de resterende capaciteit van de aandrijfaccu meer dan de helft is.
+
+Lees de gebruikershandleiding voordat u oplaadt."</string>
+    <string name="lowbatterytitle">Fout bij stroomvoorziening aan de externe voeding</string>
+    <string name="manacModenoset">Druk alstublieft na het instellen van de airco-modus op de [Instant airco-bediening]-knop.</string>
+    <string name="manacModesetClimateShutDown">"De Climate Control timer zal tijdelijk UIT worden geschakeld omdat de handmatige instellingen actief zijn.
+
+Wanneer het handmatige programma beëindigd is, zal de Climate Controle timer automatisch inschakelen."</string>
+    <string name="manachelptitle">Handm. instellingen Climate Control</string>
+    <string name="manactim">Gelieve de Remote Climate Control functie niet te gebruiken wanneer er zich mensen of huisdieren in de auto bevinden. Onverwachte problemen kunnen zich voordoen.</string>
+    <string name="modeselect">Om het voertuig te kunnen bedienen is het noodzakelijk om het VIN (chassisnummer) te registreren.</string>
+    <string name="mon">Maandag</string>
+    <string name="mon1">Ma</string>
+    <string name="needPINinfo">Toegangscode vereist</string>
+    <string name="newfunctioninfo">"U kunt met het voertuig communiceren wanneer de start-stopknop van het voertuig uitgeschakeld is, omdat de draadloos netwerk instelling \"Continue verbinding: OFF\" is gekozen.
+
+U kunt de instelling veranderen door \" Instellingen \" > \" Instellingen Wifi-verbinding \"."</string>
+    <string name="newfunctioninfo2">Vraag niet opnieuw.</string>
+    <string name="nextstr">Volgende</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">Toegangscode niet noodzakelijk bij het openen van de app.</string>
+    <string name="passcodeErr">Toegangscode fout</string>
+    <string name="passcodeErrinfo">Toegangscode is onjuist. Probeer het opnieuw.</string>
+    <string name="passcodeTitle">Toegangscode</string>
+    <string name="preset">Timer</string>
+    <string name="preset1">Timer 1</string>
+    <string name="preset2">Timer 2</string>
+    <string name="preset3">Timer 3</string>
+    <string name="preset4">Timer 4</string>
+    <string name="preset5">Timer 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Registreren</string>
+    <string name="regErr">Registratiefout</string>
+    <string name="regErrConn">Registreren is niet mogelijk</string>
+    <string name="regOk">VIN registratie voltooid</string>
+    <string name="releaseinfothreestr">U heeft het SSID en het Wifi-wachtwoord nodig. Beide worden samen met de sleutel bij aflevering meegeleverd.</string>
+    <string name="remainTime">Resterende tijd</string>
+    <string name="reset">Reset</string>
+    <string name="sTime">-</string>
+    <string name="sat">Zaterdag</string>
+    <string name="sat1">Za</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="sendConn">Verbinden…</string>
+    <string name="sendErr">Communicatie is niet mogelijk</string>
+    <string name="sendMsg">Verzenden...</string>
+    <string name="sendNavi">Voertuignavigatie wordt bediend...</string>
+    <string name="sendOK">Voltooid</string>
+    <string name="sendUpdate">Bijwerken...</string>
+    <string name="sendimmediately">Airconditioning AAN</string>
+    <string name="setErr">Instellingsfout</string>
+    <string name="setErrInfo">Communicatie fout, neem contact op met een erkende Mitsubishi dealer.</string>
+    <string name="setFunc01item0">Contactslot ingeschakeld of in accessoire-stand</string>
+    <string name="setFunc01item1">Contactslot ingeschakeld</string>
+    <string name="setFunc01name">Bediening in sleutelpositie</string>
+    <string name="setFunc01name_title">Bediening in sleutelpositie</string>
+    <string name="setFunc02item0">Uit</string>
+    <string name="setFunc02item1">Aan</string>
+    <string name="setFunc02name">Rijbaanwisseling (knippert 3x bij 1x aanraken)</string>
+    <string name="setFunc02name_title">Rijbaanwisseling (knippert 3x bij 1x aanraken)</string>
+    <string name="setFunc03item0">Vergrendelen: Eenmaal Ontgrendelen: Tweemaal</string>
+    <string name="setFunc03item1">Vergrendelen: Eenmaal Ontgrendelen: Uit</string>
+    <string name="setFunc03item2">Vergrendelen: Uit Ontgrendelen: Tweemaal</string>
+    <string name="setFunc03item3">Vergrendelen: tweemaal Ontgrendelen: eenmaal</string>
+    <string name="setFunc03item4">Vergrendelen: Uit Ontgrendelen: Eenmaal</string>
+    <string name="setFunc03item5">Vergrendelen: Tweemaal Ontgrendelen: Uit</string>
+    <string name="setFunc03item6">Uit</string>
+    <string name="setFunc03name">Bevestiging richtingaanwijzers</string>
+    <string name="setFunc03name_title">Bevestiging richtingaanwijzers</string>
+    <string name="setFunc04item0">Vast (4 seconden)</string>
+    <string name="setFunc04item1">Instelbaar</string>
+    <string name="setFunc04item2">Instelbaar en afhankelijk van snelheid</string>
+    <string name="setFunc04item3">Instelbaar en afhankelijk van regen</string>
+    <string name="setFunc04name">Ruitenwissers van de voorruit Intervalstand</string>
+    <string name="setFunc04name_title">Ruitenwissers van de voorruit Intervalstand</string>
+    <string name="setFunc05item0">Uit</string>
+    <string name="setFunc05item1">Aan</string>
+    <string name="setFunc05item2">Aan met vertraagde laatste wisslag</string>
+    <string name="setFunc05name">Ruitenwissers gekoppeld aan ruitensproeier</string>
+    <string name="setFunc05name_title">Ruitenwissers gekoppeld aan ruitensproeier</string>
+    <string name="setFunc06item0">0 seconden</string>
+    <string name="setFunc06item1">4 seconden</string>
+    <string name="setFunc06item2">8 seconden</string>
+    <string name="setFunc06item3">16 seconden</string>
+    <string name="setFunc06name">Ruitenwisser achter, intervalstand</string>
+    <string name="setFunc06name_title">Ruitenwisser achter, intervalstand</string>
+    <string name="setFunc07item0">Uit</string>
+    <string name="setFunc07item1">1 minuut</string>
+    <string name="setFunc07item2">3 minuten</string>
+    <string name="setFunc07item3">5 minuten</string>
+    <string name="setFunc07item4">10 minuten</string>
+    <string name="setFunc07name">Opladen kofferbakverlichting automatisch uitschakelen</string>
+    <string name="setFunc07name_title">Opladen kofferbakverlichting automatisch uitschakelen</string>
+    <string name="setFunc08item0">Uit</string>
+    <string name="setFunc08item1">Openen door voertuigsnelheid</string>
+    <string name="setFunc08item2">Openen/sluiten contact aan/uit, openen/sluiten best.port.</string>
+    <string name="setFunc08item3_0">Openen/sluiten door ver-/ontgrend. met Keyless Entry</string>
+    <string name="setFunc08item3_1">"Openen/sluiten door
+ ver-/ontgrend.
+met Keyless Operation System"</string>
+    <string name="setFunc08name">Automatisch inklapbare spiegels</string>
+    <string name="setFunc08name_title">Automatisch inklapbare spiegels</string>
+    <string name="setFunc09item0">Vroeg</string>
+    <string name="setFunc09item1">Enigszins laat</string>
+    <string name="setFunc09item2">Normaal</string>
+    <string name="setFunc09item3">Enigszins vroeg</string>
+    <string name="setFunc09item4">Laat</string>
+    <string name="setFunc09name">Gevoeligheid voor automatische verlichting</string>
+    <string name="setFunc09name_title">Gevoeligheid voor automatische verlichting</string>
+    <string name="setFunc10item0">Uit</string>
+    <string name="setFunc10item1">Aan</string>
+    <string name="setFunc10name">Automatische verlichting gekoppeld aan ruitenwisser</string>
+    <string name="setFunc10name_title">Automatische verlichting gekoppeld aan ruitenwisser</string>
+    <string name="setFunc11item0">0 seconden (geen timerfunctie)</string>
+    <string name="setFunc11item1">7,5 seconden</string>
+    <string name="setFunc11item2">15 seconden</string>
+    <string name="setFunc11item3">30 seconden</string>
+    <string name="setFunc11item4">1 minuut</string>
+    <string name="setFunc11item5">2 minuten</string>
+    <string name="setFunc11item6">3 minuten</string>
+    <string name="setFunc11name">Tijd van interieurverlichting na sluiten van portier</string>
+    <string name="setFunc11name_title">Tijd van interieurverlichting na sluiten van portier</string>
+    <string name="setFunc12item0">Uit</string>
+    <string name="setFunc12item1">Achterlicht/Koplamp: Altijd uitschakelen</string>
+    <string name="setFunc12item2">Aan</string>
+    <string name="setFunc12item3">Aan</string>
+    <string name="setFunc12item4">"Achterlicht: Eenmaal uitschakelen
+Koplamp: Altijd uitschakelen"</string>
+    <string name="setFunc12item5">Aan</string>
+    <string name="setFunc12name">Automatische uitschakeling van koplampen</string>
+    <string name="setFunc12name_title">Automatische uitschakeling van koplampen</string>
+    <string name="setFunc13item0">Uit</string>
+    <string name="setFunc13item1">3 minuten</string>
+    <string name="setFunc13item2">30 minuten</string>
+    <string name="setFunc13item3">60 minuten</string>
+    <string name="setFunc13name">Tijd voor automatische uitschakeling van interieurverlichting</string>
+    <string name="setFunc13name_title">Tijd voor automatische uitschakeling van interieurverlichting</string>
+    <string name="setFunc14item0">Kort</string>
+    <string name="setFunc14item1">Lang</string>
+    <string name="setFunc14name">Activeringstijd voor richtingaanwijzers</string>
+    <string name="setFunc14name_title">Activeringstijd voor richtingaanwijzers</string>
+    <string name="setFunc15item0">Uit</string>
+    <string name="setFunc15item1">Aan</string>
+    <string name="setFunc15name">Comfort Washer</string>
+    <string name="setFunc15name_title">Comfort Washer</string>
+    <string name="setFunc16item0">Uit</string>
+    <string name="setFunc16item1">Indien geschakeld naar Parkeren</string>
+    <string name="setFunc16item2">Indien geschakeld naar parkeren met ramen ontgrendeld</string>
+    <string name="setFunc16item3">Indien contact op vergrendeld</string>
+    <string name="setFunc16item4">Indien contact op vergrendeld met ramen ontgrendeld</string>
+    <string name="setFunc16name">Automatische ontgrendeling</string>
+    <string name="setFunc16name_title">Automatische ontgrendeling</string>
+    <string name="setFunc17item0">Alle portieren</string>
+    <string name="setFunc17item1">Alleen bestuurdersportier</string>
+    <string name="setFunc17name">Ontgrendeling</string>
+    <string name="setFunc17name_title">Ontgrendeling</string>
+    <string name="setFunc19item0">2 keer</string>
+    <string name="setFunc19item1">1 keer</string>
+    <string name="setFunc19name">Aantal keren drukken op vergrendelknop voor systeemblokkade</string>
+    <string name="setFunc19name_title">Aantal keren drukken op vergrendelknop voor systeemblokkade</string>
+    <string name="setFunc20item0">Uit</string>
+    <string name="setFunc20item1">Knop eenmaal indrukken</string>
+    <string name="setFunc20item2">Knop eenmaal indrukken overdag</string>
+    <string name="setFunc20item3">Knop tweemaal indrukken klinkt</string>
+    <string name="setFunc20item4">Knop tweemaal indrukken overdag</string>
+    <string name="setFunc20name">Signaal van claxon bij vergrendeling met Keyless Entry</string>
+    <string name="setFunc20name_title">Signaal van claxon bij vergrendeling met Keyless Entry</string>
+    <string name="setFunc21item0">Alle systemen uit</string>
+    <string name="setFunc21item1">Geluid bij Keyless Operation</string>
+    <string name="setFunc21item2">Geluid bij Keyless Entry</string>
+    <string name="setFunc21item3">Alle systemen aan</string>
+    <string name="setFunc21name">Pieptonen bij Keyless Operation</string>
+    <string name="setFunc21name_title">Pieptonen bij Keyless Operation</string>
+    <string name="setFunc22item0">30 seconden</string>
+    <string name="setFunc22item1">1 minuut</string>
+    <string name="setFunc22item2">2 minuten</string>
+    <string name="setFunc22item3">3 minuten</string>
+    <string name="setFunc22name">Autom. opnieuw vergrend. na ontgrend. met afst.bed.</string>
+    <string name="setFunc22name_title">Autom. opnieuw vergrend. na ontgrend. met afst.bed.</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 seconden</string>
+    <string name="setFunc24item1">30 seconden</string>
+    <string name="setFunc24item2">3 minuten</string>
+    <string name="setFunc24item3">10 minuten</string>
+    <string name="setFunc24name">Timerfunctie na uitschakeling van contactslot</string>
+    <string name="setFunc24name_title">Timerfunctie na uitschakeling van contactslot</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">Uit</string>
+    <string name="setFunc26item1">Elektrisch bediende ramen, deurspiegel: Openen &amp; sluiten</string>
+    <string name="setFunc26item2">Elektrisch bediende ramen: Openen &amp; sluiten</string>
+    <string name="setFunc26item3">"Elektrisch bediende ramen: Deurspiegel
+sluiten: Openen &amp; sluiten"</string>
+    <string name="setFunc26item4">Deurspiegel: Openen &amp; sluiten</string>
+    <string name="setFunc26item5">Elektrisch bediende ramen: Sluiten</string>
+    <string name="setFunc26name">Keyless Entry System met multi-modus</string>
+    <string name="setFunc26name_title">Keyless Entry System met multi-modus</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Kort</string>
+    <string name="setFunc28item1">Lang</string>
+    <string name="setFunc28name">Duur van antwoordsignaal van claxon</string>
+    <string name="setFunc28name_title">Duur van antwoordsignaal van claxon</string>
+    <string name="setFunc29item0">Wanneer achterruitenwisser AAN staat</string>
+    <string name="setFunc29item1">Wanneer voor- of achterruitenwisser AAN staat</string>
+    <string name="setFunc29name">Achterruitwisser geactiveerd in achteruit</string>
+    <string name="setFunc29name_title">Achterruitwisser geactiveerd in achteruit</string>
+    <string name="setFunc32item0">Uit</string>
+    <string name="setFunc32item1">3 seconden</string>
+    <string name="setFunc32item2">5 seconden</string>
+    <string name="setFunc32name">Tijd voor uitschak. ontgrend. met afst.bed. na vergrend.</string>
+    <string name="setFunc32name_title">Tijd voor uitschak. ontgrend. met afst.bed. na vergrend.</string>
+    <string name="setFunc33item0">Uit</string>
+    <string name="setFunc33item1">Aan</string>
+    <string name="setFunc33name">Antw.sign. claxon bij starten van motor met afst.bed.</string>
+    <string name="setFunc33name_title">Antw.sign. claxon bij starten van motor met afst.bed.</string>
+    <string name="setFunc34item0">Aan</string>
+    <string name="setFunc34item1">Uit</string>
+    <string name="setFunc34name">Open bediening na uitschakeling contactslot</string>
+    <string name="setFunc34name_title">Open bediening na uitschakeling contactslot</string>
+    <string name="setFunc35item0">Alle portieren</string>
+    <string name="setFunc35item1">Alleen bestuurdersportier</string>
+    <string name="setFunc35name">Pos. elektr. ruiten geblokkeerd door vergrendelschakelaar</string>
+    <string name="setFunc35name_title">Pos. elektr. ruiten geblokkeerd door vergrendelschakelaar</string>
+    <string name="setFunc36item0">Uit</string>
+    <string name="setFunc36item1">30 minuten</string>
+    <string name="setFunc36item2">60 minuten</string>
+    <string name="setFunc36name">Automatische uitschakeling van ACC-spanning</string>
+    <string name="setFunc36name_title">Automatische uitschakeling van ACC-spanning</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">Uit</string>
+    <string name="setFunc42item1">15 seconden</string>
+    <string name="setFunc42item2">30 seconden</string>
+    <string name="setFunc42item3">1 minuut</string>
+    <string name="setFunc42item4">3 minuten</string>
+    <string name="setFunc42name">Koplampen AAN bij uitstappen</string>
+    <string name="setFunc42name_title">Koplampen AAN bij uitstappen</string>
+    <string name="setFunc43item0">Uit</string>
+    <string name="setFunc43item1">Parkeerlichten</string>
+    <string name="setFunc43item2">Koplampen</string>
+    <string name="setFunc43name">Buitenverlichting AAN met ontgrendeling met afstandsbediening</string>
+    <string name="setFunc43name_title">Buitenverlichting AAN met ontgrendeling met afstandsbediening</string>
+    <string name="setFunc50item0">Handmatig</string>
+    <string name="setFunc50item1">Automatisch</string>
+    <string name="setFunc50name">Recirculatiebediening</string>
+    <string name="setFunc50name_title">Recirculatiebediening</string>
+    <string name="setFunc51item0">Handmatig</string>
+    <string name="setFunc51item1">Automatisch</string>
+    <string name="setFunc51name">Aircobediening</string>
+    <string name="setFunc51name_title">Aircobediening</string>
+    <string name="setFunc53item0">Eco</string>
+    <string name="setFunc53item1">Comfort</string>
+    <string name="setFunc53name">Eco-modus</string>
+    <string name="setFunc53name_title">Eco-modus</string>
+    <string name="setFunc54item0">Normaal</string>
+    <string name="setFunc54item1">Meer luchtstroom naar voeten</string>
+    <string name="setFunc54item2">Meer luchtstroom naar ruiten</string>
+    <string name="setFunc54name">Verhouding luchtstroom voeten- / ruitverwarming</string>
+    <string name="setFunc54name_title">Verhouding luchtstroom voeten- / ruitverwarming</string>
+    <string name="setFunc55item0">Normaal</string>
+    <string name="setFunc55item1">Meer luchtstroom naar gezicht</string>
+    <string name="setFunc55item2">Meer luchtstroom naar voeten</string>
+    <string name="setFunc55name">Verhouding luchtstroom gezicht / voeten</string>
+    <string name="setFunc55name_title">Verhouding luchtstroom gezicht / voeten</string>
+    <string name="setFunc56item0">Uit</string>
+    <string name="setFunc56item1">Aan</string>
+    <string name="setFunc56name">Automatische achterruitontdooiing bij starten</string>
+    <string name="setFunc56name_title">Automatische achterruitontdooiing bij starten</string>
+    <string name="setFunc57item0">Uit</string>
+    <string name="setFunc57item1">Aan</string>
+    <string name="setFunc57name">Start airco of verwarming bij deurontgrendeling</string>
+    <string name="setFunc57name_title">Start airco of verwarming bij deurontgrendeling</string>
+    <string name="setFunc58item0">Uit</string>
+    <string name="setFunc58item1">Aan</string>
+    <string name="setFunc58name">Bij voetmodus, lichte luchtstroom via ruit</string>
+    <string name="setFunc58name_title">Bij voetmodus, lichte luchtstroom via ruit</string>
+    <string name="setFunc60item0">Uit</string>
+    <string name="setFunc60item1">Aan</string>
+    <string name="setFunc60name">Snel stationair voor hogere verwarming bij stoppen</string>
+    <string name="setFunc60name_title">Snel stationair voor hogere verwarming bij stoppen</string>
+    <string name="setFuncGroup01">Keyless Entry System</string>
+    <string name="setFuncGroup02">Keyless Operation System</string>
+    <string name="setFuncGroup03">Ruitenwissers</string>
+    <string name="setFuncGroup04">Verlichting/Interieurverlichting</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Elektrisch bediende ramen</string>
+    <string name="setFuncGroup07">Richtingaanwijzer</string>
+    <string name="setFuncGroup08">Centrale vergrendeling</string>
+    <string name="setFuncGroup09">Airconditioning</string>
+    <string name="setFuncGroup10">Overig</string>
+    <string name="setSend">Verzenden</string>
+    <string name="setany">Instellingen Wifi-kanaal</string>
+    <string name="setcarset">Voertuiginstellingen</string>
+    <string name="setinfo_changewpaonestr">Wfi-wachtwoord wijzigen</string>
+    <string name="setinfo_changewpatwostr">U kan het Wifi-wachtwoord van het voertuig wijzigen.</string>
+    <string name="setinfoeightstr">U kunt de VIN registratie annuleren en kunt dan niet meer met het voertuig communiceren. Opnieuw registreren is noodzakelijk.</string>
+    <string name="setinfoelevenstr">Wifi-kanaal instellingen</string>
+    <string name="setinfofifteenstr">Diefstal alarm geschiedenis</string>
+    <string name="setinfofivestr">Wijzig SSID</string>
+    <string name="setinfofourstr">Wijziging van de toegangscode bescherming op Remote App Initialisatie.</string>
+    <string name="setinfofourteenstr">U kunt de instellingen van het voertuig wijzigen. (ETACS Customize)</string>
+    <string name="setinfoninestr">Het instellen van een Wifi-verbinding</string>
+    <string name="setinfoonestr">Toegangscode invoer</string>
+    <string name="setinfosevenstr">Annuleren VIN registratie</string>
+    <string name="setinfosisteenstr">Toon vorige diefstal alarm activeringen</string>
+    <string name="setinfosixstr">Wijzig de voertuig SSID.</string>
+    <string name="setinfotenstr">U kunt kiezen voor Wifi altijd AAN of Wifi AAN wanneer het contact van het voertuig is uitgeschakeld.</string>
+    <string name="setinfothirteenstr">Voertuiginstellingen</string>
+    <string name="setinfothreestr">Wijzig toegangscode</string>
+    <string name="setinfotwelvestr">U kunt een Wifi-kanaal kiezen.Na verandering van het Wifi-kanaal zal de draadloze verbinding verbroken worden, om vervolgens automatisch opnieuw verbonden te worden.Als de app na 5 minuten nog steeds niet opnieuw verbonden is, sluit de app dan alstublieft af en controleer de Wifi-verbinding met het voertuig op het scherm voor de Wifi-instellingen.</string>
+    <string name="setinfotwostr">U kunt gebruik maken van een toegangscode bescherming op de Remote App Initialisatie.</string>
+    <string name="setinit">Annuleren VIN-registratie</string>
+    <string name="setinitinfo">"Weet u zeker dat u de onderstaande instellingen wilt initialiseren?
+
+"<ul><li>"Timer oplaadschema
+"</li><li>"Climate Control timer schema
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Weet u zeker dat u de onderstaande instellingen wilt initialiseren?
+
+"<ul><li>"Timer oplaadschema
+"</li><li>"Climate Control timer schema
+"</li><li>"SSID
+"</li><li>Wifi-wachtwoord</li></ul></string>
+    <string name="setinitq">Weet u zeker dat u de VIN-registratie wilt verwijderen?</string>
+    <string name="setnewssidinfo">Nieuw SSID</string>
+    <string name="setnewwpainfo">Nieuw wachtwoord</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Huidig wachtwoord</string>
+    <string name="setpasscode">Wijzig toegangscode</string>
+    <string name="setpasscodedis">"Toegangscode is niet geregistreerd.
+
+Om een toegangscode te registreren, schakelt u \"Toegangscode overslaan\" UIT."</string>
+    <string name="setpasscodestep1">Uw toegangscode invoeren</string>
+    <string name="setpasscodestep2">Voer de nieuwe toegangscode in.</string>
+    <string name="setpasscodestep3">Voer de nieuwe toegangscode opnieuw in.</string>
+    <string name="setrenewwpainfo">Bevestig het nieuwe wachtwoord</string>
+    <string name="setspnum">Aantal geregistreerde smartphones</string>
+    <string name="setssid">Wijzig SSID</string>
+    <string name="setssiderr">Invoerfout</string>
+    <string name="setssiderrinfo">Bevat tekens die niet kunnen worden gebruikt.</string>
+    <string name="setssidinfo">U kunt kiezen voor 1 ~ 32 tekens. Hoofdlettergevoelig.</string>
+    <string name="setssidokinfo">"Na het wijzigen van de SSID zal de draadloze verbinding verbroken worden en daarna automatisch herverbinden.
+Als de verbinding na 5 min. niet is hersteld, sluit de app en controleer de Wifi-verbinding met het voertuig op het Android Wifi-instellingen scherm."</string>
+    <string name="setssidoktips">"Klik op 'OK' om de app te sluiten."</string>
+    <string name="setthefthistory">Diefstalalarm geschiedenis</string>
+    <string name="setthefthistoryinfo">Diefstalalarm geschiedenis wissen?</string>
+    <string name="settingtitle">Instellingen</string>
+    <string name="setusepasscode">Toegangscode invoer</string>
+    <string name="setusepasscodeinfo">Voer de toegangscode in.</string>
+    <string name="setver">Versie informatie</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Voertuig software</string>
+    <string name="setwifiinfoon">"Instelling AAN:
+De wifi-verbinding van het voertuig is altijd AAN.
+
+Instelling UIT:
+De wifi-verbinding van het voertuig is AAN, wanneer het start-stopknop UIT staat.
+
+Wanneer u uw apparaat wilt verbinden met het Smartphone Link Display Audio systeem gebruik dan de instelling \"Instelling UIT\"."</string>
+    <string name="setwifilabel">Continue verbinding</string>
+    <string name="setwpa">Wifi-wachtwoord wijzigen</string>
+    <string name="setwpaerr_1">Invoerfout</string>
+    <string name="setwpaerr_2">Invoerfout</string>
+    <string name="setwpaerr_3">Invoerfout</string>
+    <string name="setwpaerr_4">Invoerfout</string>
+    <string name="setwpaerrinfo_1">"Bevat tekens die niet kunnen worden gebruikt.
+Raadpleeg Help, voor tekens die kunnen worden gelezen."</string>
+    <string name="setwpaerrinfo_2">Nieuwe wachtwoorden moeten overeenkomen, voer uw nieuwe wachtwoord nogmaals in.</string>
+    <string name="setwpaerrinfo_3">Het nieuwe wachtwoord moet precies 14 tekens bevatten, kies een ander wachtwoord.</string>
+    <string name="setwpaerrinfo_4">Het huidige wachtwoord dat u heeft ingevoerd is niet correct. Probeer het nog eens.</string>
+    <string name="setwpaerrinfo_5">"Mogelijke oorzaken van deze fout:
+"<ul><li>"Start-stopknop niet op ACC (oranje)
+"</li><li>"10 minuten zijn verstreken in registratie-stand.
+
+Zet het voertuig in de registratie-stand-by stand."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"Voer een veilig wachtwoord in van 14 tekens.
+"</li><li>"Wachtwoorden zijn hoofdlettergevoelig; u kunt letters, cijfers en symbolen gebruiken.
+"</li><li>Vergeet uw wachtwoord niet en deel het niet met anderen.</li></ul></string>
+    <string name="setwpaokinfo">"Na het wijzigen van het Wifi-wachtwoord zal de draadloze verbinding verbroken worden en daarna automatisch herverbinden.
+Als de verbinding na 5 min. niet is hersteld, sluit de app en controleer de Wifi-verbinding van het voertuig op het Android Wifi-instellingen scherm."</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Apparaat is aangesloten op een ander netwerk dan het voertuig
+
+Is het apparaat aangesloten op het voertuig?"</string>
+    <string name="ssidinfo">SSID zal worden gewijzigd</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Voer het SSID en het wachtwoord in. Druk vervolgens op \"OK\"</string>
+    <string name="stepfiveonestring">Sluit het bestuurdersportier.</string>
+    <string name="stepfivethreestring">"Druk binnen 10 seconden na STAP 2, 5 keer afwisselend op de LOCK en UNLOCK-toets op de sleutel. (In totaal 10 keer intoetsen te beginnen met de LOCK-knop)
+Een geluidssignaal geeft aan dat het voertuig kan worden geregistreerd."</string>
+    <string name="stepfivetwostring">Zet de start-stopknop op ACC (bedien niet het rempedaal tijdens deze handeling). Knop werkt als volgt \"UIT\" → \"ACC\" → \"AAN\" → \"UIT\")</string>
+    <string name="stepfouronestring">Sluit het bestuurdersportier.</string>
+    <string name="stepfourthreestring">"Druk binnen 10 seconden na STAP 2, 5 keer afwisselend op de LOCK en UNLOCK-toets op de sleutel. (In totaal 10 keer intoetsen, te beginnen met de LOCK-knop)
+Een geluidssignaal geeft aan dat het voertuig kan worden geregistreerd."</string>
+    <string name="stepfourtwostring">Zet de start-stopknop op ACC (bedien niet het rempedaal tijdens deze handeling). Knop werkt als volgt \"UIT\" → \"ACC\" → \"AAN\" → \"UIT\")</string>
+    <string name="stu1_1">Start - stop knop UIT</string>
+    <string name="stu1_2">Schakelaar AAN of ACC</string>
+    <string name="stu1_3">Diefstalalarm is uitgeschakeld</string>
+    <string name="stu1_4">Diefstalalarm is ingeschakeld</string>
+    <string name="stu1_5">Diefstalalarm wordt geactiveerd</string>
+    <string name="stu2info1leftstr">Parkeerlichten staan</string>
+    <string name="stu2info1rightstr">AAN</string>
+    <string name="stu2info1str">Parkeerlichten staan AAN</string>
+    <string name="stu2info2leftstr">Waarschuwingslichten</string>
+    <string name="stu2info2rightstr">knipperen</string>
+    <string name="stu2info2str">Waarschuwingslichten knipperen</string>
+    <string name="stu2info3leftstr">Deur(en)</string>
+    <string name="stu2info3rightstr">open</string>
+    <string name="stu2info3str">Deur(en) open</string>
+    <string name="stu2info4leftstr">Koplampen staan</string>
+    <string name="stu2info4rightstr">AAN</string>
+    <string name="stu2info4str">Koplampen staan AAN</string>
+    <string name="stu2info5leftstr">De motorkap is</string>
+    <string name="stu2info5rightstr">geopend</string>
+    <string name="stu2info5str">De motorkap is geopend</string>
+    <string name="stu2info6leftstr">Binnenverlichting staat</string>
+    <string name="stu2info6rightstr">AAN</string>
+    <string name="stu2info6str">Binnenverlichting staat AAN</string>
+    <string name="stu2info7leftstr">Achterklep is</string>
+    <string name="stu2info7rightstr">open</string>
+    <string name="stu2info7str">Achterklep is open</string>
+    <string name="stu2info8leftstr">Achterlichten staan</string>
+    <string name="stu2info8rightstr">​​AAN</string>
+    <string name="stu2info8str">Achterlichten staan AAN</string>
+    <string name="sun">Zondag</string>
+    <string name="sun1">Zo</string>
+    <string name="switchoff">UIT</string>
+    <string name="switchon">AAN</string>
+    <string name="theft2_1">Koplamp bediening</string>
+    <string name="theft2_4">Parkeerlicht bediening</string>
+    <string name="theft2dis2twostr">"Deze functie werkt niet tenzij:
+
+"<ul><li>"De start-stopknop UIT staat.
+"</li><li>Koplampen en en parkeerlichten op UIT staan.</li></ul></string>
+    <string name="thu">Donderdag</string>
+    <string name="thu1">Do</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode">P</string>
+    <string name="titleback">Terug</string>
+    <string name="titlehelp">HELP</string>
+    <string name="titleupdate1">Wissen</string>
+    <string name="titleupdate2">Reset</string>
+    <string name="titleupdate3">Verzenden</string>
+    <string name="topUpdateTime" formatted="false">%m/%d %t</string>
+    <string name="topacdisable">"Deze functie kan niet worden gebruikt wanneer:
+
+"<ul><li>"De start-stop knop niet op UIT staat
+"</li><li>Snelladen actief is.</li></ul></string>
+    <string name="topacmode">Modus</string>
+    <string name="topacwait">Wachten</string>
+    <string name="topbattwarm">Opwarmfase</string>
+    <string name="topbattwarminginfo">"Gelieve de laadstekker aan te sluiten om een te lage aandrijfaccutemperatuur te voorkomen.
+Opwarmfase wordt gestart bij verbinding."</string>
+    <string name="topbattwarminginfo_plugin_1">"Het kan zijn dat het voertuig niet start vanwege een te lage aandrijfaccutemperatuur.
+
+Stel u voertuig in op READY om de aandrijfaccu te verwarmen, of sluit de laadstekker aan."</string>
+    <string name="topbattwarminginfo_plugin_2">"Het voertuig kan niet starten vanwege een te lage aandrijfaccutemperatuur.
+
+Sluit de laadstekker aan om de aandrijfaccu op te warmen."</string>
+    <string name="topbattwarminginfo_stop_1">"Het voertuig kan niet starten vanwege een te lage aandrijfaccutemperatuur.
+De aandrijfaccu dient te worden opgewarmd, maar dit is momenteel niet mogelijk.
+
+Wacht tot de buitentemperatuur is toegenomen."</string>
+    <string name="topbattwarminginfo_stop_2">"Het voertuig kan niet starten vanwege een te lage aandrijfaccutemperatuur.
+
+De aandrijfaccu dient te worden opgewarmd, maar dit is momenteel niet mogelijk.
+
+Het opwarmen van de aandrijfaccu zal starten wanneer de buitentemperatuur is toegenomen en wanneer de laadstekker is aangesloten."</string>
+    <string name="topbattwarminginfo_warm_1">Het voertuig kan nu rijden omdat de temperatuur van de aandrijfaccu is toegenomen.</string>
+    <string name="topbattwarminginfo_warm_2">"Het voertuig kan niet starten vanwege een te lage aandrijfaccutemperatuur.
+
+De aandrijfaccu wordt nu opgewarmd. Wacht een ogenblik."</string>
+    <string name="topbattwarmingtitle">Voertuiginformatie</string>
+    <string name="topcanntac">Kies de Climate Control modus in het timer schema scherm.</string>
+    <string name="topcanntac2">Handmatige klimaat is reeds gezet.Als handleiding klimaat is voltooid, zal klimaat Timer ON automatischdraaien.</string>
+    <string name="topcanntchg">Het timer schema op het \"Timer\" scherm instellen.</string>
+    <string name="topchargeEndTime">Opladen voltooid</string>
+    <string name="topchargeEndTimeHour">uur</string>
+    <string name="topchargeEndTimeMin">min</string>
+    <string name="topchargefinish">Opladen voltooid</string>
+    <string name="topchargetimer">Timer AAN/UIT</string>
+    <string name="topfastchg">Snel</string>
+    <string name="tophelp100v">Druppel</string>
+    <string name="tophelp200v">Normaal</string>
+    <string name="tophelp22">Koelen</string>
+    <string name="tophelp24">Verwarmen</string>
+    <string name="tophelp26">Voorruit ontwaseming</string>
+    <string name="tophelp41">Goede verbinding</string>
+    <string name="tophelp42">Slechte verbinding</string>
+    <string name="tophelp43">Geen verbinding</string>
+    <string name="tophelp44">Tik op deze knop om met het voertuig te communiceren en de informatie bij te werken.</string>
+    <string name="tophelpwarm"><ul><li>"De aandrijfaccu kan opwarmen om defecten als gevolg van een te lage temperatuur te voorkomen.
+"</li><li>"Het is mogelijk dat de lading van de aandrijfaccu wordt verminderd
+"</li><li>"Het is mogelijk dat de aandrijfaccu wordt opgeladen, zelfs als de oplaadtimer is geactiveerd.
+"</li><li>Het is mogelijk dat de ventilator van de airconditioning begint.</li></ul></string>
+    <string name="topwaitcharge">Wachten</string>
+    <string name="towebsitestr">Ga naar de website</string>
+    <string name="tue">Dinsdag</string>
+    <string name="tue1">Di</string>
+    <string name="v2hv2l">Voeding naar/voor extern gebruik opstarten</string>
+    <string name="warning6str">Tik op \"Update\" knop om te communiceren met het voertuig.</string>
+    <string name="warning7timeronestr">De timing van Timer 1 die voor alle andere dagen is geselecteerd, wordt gewijzigd.</string>
+    <string name="warning7timerthreestr">De timing van Timer 3 die voor alle andere dagen is geselecteerd, wordt gewijzigd.</string>
+    <string name="warning7timertwostr">De timing van Timer 2 die voor alle andere dagen is geselecteerd, wordt gewijzigd.</string>
+    <string name="wed">Woensdag</string>
+    <string name="wed1">Wo</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">Instellingen Wifi-verbinding</string>
+    <string name="wpainfo">Wifi-wachtwoord wordt gewijzigd.</string>
+</resources>

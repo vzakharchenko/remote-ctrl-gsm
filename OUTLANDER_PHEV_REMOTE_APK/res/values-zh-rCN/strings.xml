@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">分钟</string>
+    <string name="ACWorking">空调控制由定时器或遥控器开启，空调控制运行时间无法更改。</string>
+    <string name="ACtim"><ul><li>"当车内有人或宠物时，请勿使用。车内温度可因外部温度升得过高或降得过低引起突发事故。
+
+"</li><li>"空调运行时间越长，驱动蓄电池的耗电量就越大。
+
+"</li><li>根据驱动蓄电池的剩余电量，空调运行时间可能比设定时间短。</li></ul></string>
+    <string name="ACtimeLabel">运行时间</string>
+    <string name="AcsettingARM">"如果车辆的安全警告不是处于系统动作解除状态，不能更改车辆设定。
+
+请利用无钥匙进入系统或者无钥匙操作系统解除车门，请在置于系统动作解除状态后，操作车辆设定"</string>
+    <string name="EVInit">初始化</string>
+    <string name="EVInitInfo">确定要进行初始化吗？</string>
+    <string name="Everyday">每日</string>
+    <string name="ResetAllschude">你想清除所有日程吗?</string>
+    <string name="ResetOneschude">你想清除这个日程吗?</string>
+    <string name="Schudle">日程</string>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">使用%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="accstr">ACC（橙色）</string>
+    <string name="acoptiontimelong2">空调操作时长</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">车辆信息</string>
+    <string name="bartitle5">设置</string>
+    <string name="bgdark" />
+    <string name="btnStart">开始</string>
+    <string name="cancel">取消</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">可以使用的字符如下：</string>
+    <string name="channel_3">信道 3</string>
+    <string name="channel_8">信道 8</string>
+    <string name="clear">清除所有</string>
+    <string name="communicationstr">通信</string>
+    <string name="countdownTipsonestr">"请使用外部电源操作面板在5分钟内设置车辆对家庭供电
+
+若外部电源未能启动，原因可能是："</string>
+    <string name="countdownTipstwostr">外部电源不支持此项功能。</string>
+    <string name="countdownTipstwostrfivestr">外部电源或车辆存在故障。</string>
+    <string name="countdownTipstwostrfourstr">车辆12V电池电压过低。</string>
+    <string name="countdownTipstwostrthreestr">开按钮按下已超过5分钟。</string>
+    <string name="countdownTipstwostrtwostr">外部电源快速充电连接器未与车辆紧密连接。</string>
+    <string name="daySelct">选择星期</string>
+    <string name="delay1">0分钟</string>
+    <string name="delay10">120分钟</string>
+    <string name="delay11">150分钟</string>
+    <string name="delay12">180分钟</string>
+    <string name="delay2">5分钟</string>
+    <string name="delay3">10分钟</string>
+    <string name="delay4">20分钟</string>
+    <string name="delay5">30分钟</string>
+    <string name="delay6">40分钟</string>
+    <string name="delay7">50分钟</string>
+    <string name="delay8">60分钟</string>
+    <string name="delay9">90分钟</string>
+    <string name="demo">体验版</string>
+    <string name="durationstr">开启时间</string>
+    <string name="err1date" formatted="false">%y年%m月%d日 %w %t</string>
+    <string name="err1ignition">非法钥匙被使用。</string>
+    <string name="err1intrusion">非法入侵发生。</string>
+    <string name="err1movement">非正常移动发生。</string>
+    <string name="err1other">车辆受到异常侵害。</string>
+    <string name="err1perimeter">车门非法开启</string>
+    <string name="err1silent">异常震动发生</string>
+    <string name="err1title">防盗报警通知</string>
+    <string name="errACinfo">"可能由于以下原因引起：
+
+"<ul><li>"车门被打开
+"</li><li>驱动电池电量不足</li></ul></string>
+    <string name="errACinfoEx">"可能由于以下原因引起：
+
+"<ul><li>"车门被打开
+"</li><li>"驱动电池电量不足
+"</li><li>驱动电池温度低</li></ul></string>
+    <string name="errACtitle">定时空调停止通知</string>
+    <string name="errCHGinfo">定时充电未正常工作</string>
+    <string name="errCHGtitle">定时器充电错误通知</string>
+    <string name="errRegMaxtitle">注册台数错误</string>
+    <string name="errTimerinfo">定时器未能正常工作</string>
+    <string name="errTimertitle">定时器控制错误通知</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">错误代码：</string>
+    <string name="evACCool">制冷</string>
+    <string name="evACHot">制热</string>
+    <string name="evACOFF">关</string>
+    <string name="evACSetTitle">定时空调设置</string>
+    <string name="evCharge1Auto">注册地联动 :</string>
+    <string name="evCharge1End">结束</string>
+    <string name="evCharge1Start">开始</string>
+    <string name="evCharge1full">充满电</string>
+    <string name="evChargeSetTitle">定时充电设置</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">发 送</string>
+    <string name="evSendAsk">本次设置变更尚未被发送。是否要回到上一界面然后发送？</string>
+    <string name="evSendAsk5ch">"本次设置变更尚未被发送。
+是否要回到上一界面然后发送？"</string>
+    <string name="evTimerSet">定时器设置</string>
+    <string name="evhCHG12info">充满电设置是指：到预设的充电结束时间时，如果电池没有充满，仍然继续充电直至充满为止。请注意：在预设的充电结束时间之后插入充电枪，将不会充电。</string>
+    <string name="evhCHG17myinfo1">人工空调</string>
+    <string name="evhCHG22ginfo1">手动充电模式</string>
+    <string name="evhCHG22ginfo3">定时充电模式</string>
+    <string name="evhCHG22infofourstr">注册地联动功能将无法使用。</string>
+    <string name="evhCHG22infoonestr">如果汽车配备了MMCS</string>
+    <string name="evhCHG22infothreestr">如果汽车没有配备MMCS</string>
+    <string name="evhCHG22infotwostr">"根据车辆所在位置切换充电模式的功能叫做注册地联动。当车辆在设置的注册地点附近区域时自动切换至定时充电模式，否则自动切换为手动充电模式。
+该功能可以进行定时充电以利用注册区域的深夜电价，也能够在外出时自动切换为手动充电以使用诸如商场提供的充电设备。"</string>
+    <string name="evhelpCHG1item2">什么是“充满电设置”</string>
+    <string name="evhelpCHG2item2">什么是“注册地联动”</string>
+    <string name="evhmanualACitem4infofourstr">空调只有制冷模式。</string>
+    <string name="evhmanualACitem4infoonestr">附设电热水式加热器（厂家选装件）时</string>
+    <string name="evhmanualACitem4infothreestr">没有附设电热水式加热器（厂家选装件）时</string>
+    <string name="evhmanualACitem4infotwostr">"从制热/制冷/向前挡风玻璃送风中选择空调模式。
+选择的空调模式被应用在使用的定时设定上。不能为每个定时设定设定不同的空调模式。"</string>
+    <string name="evmCHchargstr">充电</string>
+    <string name="evmCHclimatestr">空调</string>
+    <string name="evmCHsetstr">设置</string>
+    <string name="evmCHstatusstr">车辆信息</string>
+    <string name="evmaccancelltimestr">关闭</string>
+    <string name="evmaccanceltimer">关闭定时器</string>
+    <string name="evmacwarn5str">关闭空调定时器。</string>
+    <string name="evmainac">空调</string>
+    <string name="evmaincharge">充电</string>
+    <string name="evmchacwarn5no">不是</string>
+    <string name="evmchacwarn5yes">是</string>
+    <string name="evmchargeTimerSch">充电定时器设置</string>
+    <string name="evmchargetschstr">"您可以通过取消选取定时器将其暂时关闭。
+通过再次选取定时器或打开电源，可自动恢复暂时关闭的充电定时器设置。"</string>
+    <string name="evmchargstatusstr">充电状态</string>
+    <string name="evmchtempcancellstr">暂时关闭</string>
+    <string name="evmchupdatingstr">（更新中）</string>
+    <string name="evmchwarn5str">暂时关闭充电定时器。</string>
+    <string name="evmclimateTimerSch">空调定时器设置</string>
+    <string name="evmclimatetschstr">您可以通过取消选取定时器将其关闭。</string>
+    <string name="evmdrivebattlevelstr">驱动电池电量</string>
+    <string name="evmerrstartcommun">启动通信</string>
+    <string name="evmlastupdatedstr">App显示最后更新的车辆信息。车辆信息更新之前，App会显示更新前的信息。</string>
+    <string name="evmregtroublereg">注册时出现问题？</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">暂时关闭定时器</string>
+    <string name="evmupdatedTime">更新时间</string>
+    <string name="evpsfailcontent">"这种情况可能是由车辆故障所致。
+请联系三菱汽车授权经销商。"</string>
+    <string name="evpsfailtitle">电源无法启动</string>
+    <string name="evpspage1">使用该App可利用外部电源（V2H/V2L设备）通过混合动力或电动汽车为家庭供电。</string>
+    <string name="evpspage1threestr">此项功能需使用对应的“外部电源”。请联系三菱汽车经销商了解详情。</string>
+    <string name="evpspage1twostr">家中停电时还可利用车辆供电启动V2H设备。</string>
+    <string name="evpspage2">将电源开关调至关位，外部电源快速充电连接器与车辆连接。</string>
+    <string name="evpspage3">"按下开始按钮时，车辆开始向外部电源供电。
+若无法按下开按钮，返回上一画面再试一次。"</string>
+    <string name="exitdemostr">退出演示</string>
+    <string name="fri">星期五</string>
+    <string name="fri1">五</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">MITSUBISHI Remote Control不推荐使用。</string>
+    <string name="jailbreak_title">ＯＳ已经过改造</string>
+    <string name="language">CNS</string>
+    <string name="linkwarningstr">"连接车辆时无法使用互联网浏览用车载网络。请使用移动数据或切换到另一无线LAN接入点。
+若要再次使用App，请连接车辆SSID。"</string>
+    <string name="loadwndinfo">"在使用MITSUBISHI REMOTE CONTROL期间，不能连接其他网络（互联网等）。
+
+在将智能手机连接至智能手机联合显示音响期间，不能使用MITSUBISHI REMOTE CONTROL。"</string>
+    <string name="login_ssid_txtPwd">密码</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"由于驱动电池剩余容量过低，车辆无法向外部电源供电。
+
+驱动电池剩余容量超过一半时可启用该功能。
+
+充电前请参阅车辆用户手册的“充电”和“充电模式切换”章节。"</string>
+    <string name="lowbatterytitle">无法向外部电源供电</string>
+    <string name="manacModenoset">空调模式未设定，请设定空调模式，再按立即空调发送按钮</string>
+    <string name="manacModesetClimateShutDown">"由于当前设置为 “立即打开空调”，因此定时空调功能暂时关闭。
+
+“立即打开空调” 关闭后，定时空调自动重置为打开。"</string>
+    <string name="manachelptitle">手动空调设置</string>
+    <string name="manactim">当车内有人或宠物时，请勿使用。车内温度会因外部温度的升高或降低引起突发事故。</string>
+    <string name="modeselect">必须先进行注册才能控制车辆。 在就注册VIN码，激活本程序吗？</string>
+    <string name="mon">星期一</string>
+    <string name="mon1">一</string>
+    <string name="needPINinfo">程序启动时要求输入密码。</string>
+    <string name="newfunctioninfo">"因为无线局域网的设置是【时刻通信：OFF】，所以只有当车辆的电源开关为OFF时，才能和车辆进行通信。
+
+无线局域网的通信设置可通过“设置” →“无线局域网通信设置”来进修。"</string>
+    <string name="newfunctioninfo2">下次起不再显示该信息。</string>
+    <string name="nextstr">下一步</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">程序启动时不再需要输入密码。</string>
+    <string name="passcodeErr">密码错误</string>
+    <string name="passcodeErrinfo">您输入的密码不正确。请再输入一次。</string>
+    <string name="passcodeTitle">请输入密码。</string>
+    <string name="preset">定时器</string>
+    <string name="preset1">定时器1</string>
+    <string name="preset2">定时器2</string>
+    <string name="preset3">定时器3</string>
+    <string name="preset4">定时器4</string>
+    <string name="preset5">定时器5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">注 册</string>
+    <string name="regErr">注册失败</string>
+    <string name="regErrConn">无法注册</string>
+    <string name="regOk">VIN码注册成功</string>
+    <string name="releaseinfothreestr">准备好购车时随车附送的SSID和密码。</string>
+    <string name="remainTime">剩余时间</string>
+    <string name="reset">重置</string>
+    <string name="sTime">～</string>
+    <string name="sat">星期六</string>
+    <string name="sat1">六</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="sendConn">连接中・・・</string>
+    <string name="sendErr">无法通信</string>
+    <string name="sendMsg">发送中・・・</string>
+    <string name="sendNavi">导航页面操作中・・・</string>
+    <string name="sendOK">已完成</string>
+    <string name="sendUpdate">正在更新・・・</string>
+    <string name="sendimmediately">立即发送</string>
+    <string name="setErr">设置错误</string>
+    <string name="setErrInfo">与车辆的通信发生异常。请联系当地三菱汽车经销商。</string>
+    <string name="setFunc01item0">点火开关开或辅助</string>
+    <string name="setFunc01item1">点火开关开</string>
+    <string name="setFunc01name">钥匙位置操作</string>
+    <string name="setFunc01name_title">钥匙位置操作</string>
+    <string name="setFunc02item0">关</string>
+    <string name="setFunc02item1">开</string>
+    <string name="setFunc02name">变道指示灯（触摸1次闪烁3次）</string>
+    <string name="setFunc02name_title">变道指示灯（触摸1次闪烁3次）</string>
+    <string name="setFunc03item0">锁闭：一次 解锁：两次</string>
+    <string name="setFunc03item1">锁闭：一次 解锁：关</string>
+    <string name="setFunc03item2">锁闭：关 解锁：两次</string>
+    <string name="setFunc03item3">锁闭：两次 解锁：一次</string>
+    <string name="setFunc03item4">锁闭：关 解锁：一次</string>
+    <string name="setFunc03item5">锁闭：两次 解锁：关</string>
+    <string name="setFunc03item6">关</string>
+    <string name="setFunc03name">转向灯响应</string>
+    <string name="setFunc03name_title">转向灯响应</string>
+    <string name="setFunc04item0">固定(4 秒)</string>
+    <string name="setFunc04item1">可调</string>
+    <string name="setFunc04item2">可调速度感应</string>
+    <string name="setFunc04item3">可调雨水感应</string>
+    <string name="setFunc04name">挡风玻璃刮水器间歇运行</string>
+    <string name="setFunc04name_title">挡风玻璃刮水器间歇运行</string>
+    <string name="setFunc05item0">关</string>
+    <string name="setFunc05item1">开</string>
+    <string name="setFunc05item2">开启时延迟完成刮水</string>
+    <string name="setFunc05name">刮水器连接洗涤器</string>
+    <string name="setFunc05name_title">刮水器连接洗涤器</string>
+    <string name="setFunc06item0">0 秒</string>
+    <string name="setFunc06item1">4 秒</string>
+    <string name="setFunc06item2">8 秒</string>
+    <string name="setFunc06item3">16 秒</string>
+    <string name="setFunc06name">后刮水器间歇间隔时间</string>
+    <string name="setFunc06name_title">后刮水器间歇间隔时间</string>
+    <string name="setFunc07item0">关</string>
+    <string name="setFunc07item1">1 分钟</string>
+    <string name="setFunc07item2">3 分钟</string>
+    <string name="setFunc07item3">5 分钟</string>
+    <string name="setFunc07item4">10 分钟</string>
+    <string name="setFunc07name">充电盖灯自动切断</string>
+    <string name="setFunc07name_title">充电盖灯自动切断</string>
+    <string name="setFunc08item0">关</string>
+    <string name="setFunc08item1">按车辆速度打开</string>
+    <string name="setFunc08item2">按点火开关开启/关闭状态和驾驶门打开/关闭状态打开/关闭</string>
+    <string name="setFunc08item3_0">按无钥匙进入锁闭/解锁状态打开/关闭</string>
+    <string name="setFunc08item3_1">按无钥匙操作系统锁闭/解锁状态打开/关闭</string>
+    <string name="setFunc08name">自动折叠后视镜</string>
+    <string name="setFunc08name_title">自动折叠后视镜</string>
+    <string name="setFunc09item0">早</string>
+    <string name="setFunc09item1">稍晚</string>
+    <string name="setFunc09item2">正常</string>
+    <string name="setFunc09item3">稍早</string>
+    <string name="setFunc09item4">晚</string>
+    <string name="setFunc09name">自动灯灵敏度</string>
+    <string name="setFunc09name_title">自动灯灵敏度</string>
+    <string name="setFunc10item0">关</string>
+    <string name="setFunc10item1">开</string>
+    <string name="setFunc10name">自动灯连接至刮水器</string>
+    <string name="setFunc10name_title">自动灯连接至刮水器</string>
+    <string name="setFunc11item0">0 秒(无定时器功能)</string>
+    <string name="setFunc11item1">7.5 秒</string>
+    <string name="setFunc11item2">15 秒</string>
+    <string name="setFunc11item3">30 秒</string>
+    <string name="setFunc11item4">1 分钟</string>
+    <string name="setFunc11item5">2 分钟</string>
+    <string name="setFunc11item6">3 分钟</string>
+    <string name="setFunc11name">车门关闭后座舱灯扔保持开启状态的持续时间</string>
+    <string name="setFunc11name_title">车门关闭后座舱灯扔保持开启状态的持续时间</string>
+    <string name="setFunc12item0">关</string>
+    <string name="setFunc12item1">尾灯/大灯：始终切断</string>
+    <string name="setFunc12item2">开</string>
+    <string name="setFunc12item3">开</string>
+    <string name="setFunc12item4">"尾灯：切断一次
+大灯：始终切断"</string>
+    <string name="setFunc12item5">开</string>
+    <string name="setFunc12name">大灯自动切断功能</string>
+    <string name="setFunc12name_title">大灯自动切断功能</string>
+    <string name="setFunc13item0">关</string>
+    <string name="setFunc13item1">3 分钟</string>
+    <string name="setFunc13item2">30 分钟</string>
+    <string name="setFunc13item3">60 分钟</string>
+    <string name="setFunc13name">车内灯自动切断时间</string>
+    <string name="setFunc13name_title">车内灯自动切断时间</string>
+    <string name="setFunc14item0">短</string>
+    <string name="setFunc14item1">长</string>
+    <string name="setFunc14name">变道指示灯启用时间</string>
+    <string name="setFunc14name_title">变道指示灯启用时间</string>
+    <string name="setFunc15item0">关</string>
+    <string name="setFunc15item1">开</string>
+    <string name="setFunc15name">舒适性洗涤器</string>
+    <string name="setFunc15name_title">舒适性洗涤器</string>
+    <string name="setFunc16item0">关</string>
+    <string name="setFunc16item1">切换到泊车时</string>
+    <string name="setFunc16item2">车窗未锁状态下切换到泊车时</string>
+    <string name="setFunc16item3">点火开关转动至锁闭位置时</string>
+    <string name="setFunc16item4">车窗未锁状态下点火开关转动至锁闭位置</string>
+    <string name="setFunc16name">自动解锁</string>
+    <string name="setFunc16name_title">自动解锁</string>
+    <string name="setFunc17item0">所有车门</string>
+    <string name="setFunc17item1">仅限驾驶室门</string>
+    <string name="setFunc17name">解锁操作</string>
+    <string name="setFunc17name_title">解锁操作</string>
+    <string name="setFunc19item0">2 次</string>
+    <string name="setFunc19item1">1 次</string>
+    <string name="setFunc19name">死锁对应的锁闭按钮按压次数</string>
+    <string name="setFunc19name_title">死锁对应的锁闭按钮按压次数</string>
+    <string name="setFunc20item0">关</string>
+    <string name="setFunc20item1">按一次按钮</string>
+    <string name="setFunc20item2">白天按一次按钮</string>
+    <string name="setFunc20item3">按两次按钮响起</string>
+    <string name="setFunc20item4">白天按两次按钮</string>
+    <string name="setFunc20name">无钥匙进入锁闭时喇叭响起应答</string>
+    <string name="setFunc20name_title">无钥匙进入锁闭时喇叭响起应答</string>
+    <string name="setFunc21item0">整个系统关闭</string>
+    <string name="setFunc21item1">无钥匙操作时响应</string>
+    <string name="setFunc21item2">无钥匙操作时响应</string>
+    <string name="setFunc21item3">整个系统开</string>
+    <string name="setFunc21name">无钥匙操作响应哔哔声</string>
+    <string name="setFunc21name_title">无钥匙操作响应哔哔声</string>
+    <string name="setFunc22item0">30 秒</string>
+    <string name="setFunc22item1">1 分钟</string>
+    <string name="setFunc22item2">2 分钟</string>
+    <string name="setFunc22item3">3 分钟</string>
+    <string name="setFunc22name">远程操作解锁后自动重新锁闭</string>
+    <string name="setFunc22name_title">远程操作解锁后自动重新锁闭</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 秒</string>
+    <string name="setFunc24item1">30 秒</string>
+    <string name="setFunc24item2">3 分钟</string>
+    <string name="setFunc24item3">10 分钟</string>
+    <string name="setFunc24name">点火开关关闭后定时器功能</string>
+    <string name="setFunc24name_title">点火开关关闭后定时器功能</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">关</string>
+    <string name="setFunc26item1">电动车窗，后视镜：开 关</string>
+    <string name="setFunc26item2">电动车窗：开 关</string>
+    <string name="setFunc26item3">"电动车窗：关
+后视镜：开 关"</string>
+    <string name="setFunc26item4">后视镜：开 关</string>
+    <string name="setFunc26item5">电动车窗：关</string>
+    <string name="setFunc26name">多模式无钥匙进入系统</string>
+    <string name="setFunc26name_title">多模式无钥匙进入系统</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">短</string>
+    <string name="setFunc28item1">长</string>
+    <string name="setFunc28name">喇叭应答声持续时间</string>
+    <string name="setFunc28name_title">喇叭应答声持续时间</string>
+    <string name="setFunc29item0">后刮水器开启时</string>
+    <string name="setFunc29item1">前或后刮水器开启时</string>
+    <string name="setFunc29name">挂倒挡时后刮水器启用</string>
+    <string name="setFunc29name_title">挂倒挡时后刮水器启用</string>
+    <string name="setFunc32item0">关</string>
+    <string name="setFunc32item1">3 秒</string>
+    <string name="setFunc32item2">5 秒</string>
+    <string name="setFunc32name">锁闭后遥控解锁停用时间</string>
+    <string name="setFunc32name_title">锁闭后遥控解锁停用时间</string>
+    <string name="setFunc33item0">关</string>
+    <string name="setFunc33item1">开</string>
+    <string name="setFunc33name">发动机远程启动时喇叭应答声</string>
+    <string name="setFunc33name_title">发动机远程启动时喇叭应答声</string>
+    <string name="setFunc34item0">开</string>
+    <string name="setFunc34item1">关</string>
+    <string name="setFunc34name">点火开关关闭后打开操作</string>
+    <string name="setFunc34name_title">点火开关关闭后打开操作</string>
+    <string name="setFunc35item0">所有车门</string>
+    <string name="setFunc35item1">仅限驾驶室门</string>
+    <string name="setFunc35name">锁闭开关禁止的电动车窗位置</string>
+    <string name="setFunc35name_title">锁闭开关禁止的电动车窗位置</string>
+    <string name="setFunc36item0">关</string>
+    <string name="setFunc36item1">30 分钟</string>
+    <string name="setFunc36item2">60 分钟</string>
+    <string name="setFunc36name">ACC电源自动切断</string>
+    <string name="setFunc36name_title">ACC电源自动切断</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">关</string>
+    <string name="setFunc42item1">15 秒</string>
+    <string name="setFunc42item2">30 秒</string>
+    <string name="setFunc42item3">1 分钟</string>
+    <string name="setFunc42item4">3 分钟</string>
+    <string name="setFunc42name">离开车辆时大灯打开</string>
+    <string name="setFunc42name_title">离开车辆时大灯打开</string>
+    <string name="setFunc43item0">关</string>
+    <string name="setFunc43item1">驻车灯</string>
+    <string name="setFunc43item2">大灯</string>
+    <string name="setFunc43name">遥控解锁时车外灯打开</string>
+    <string name="setFunc43name_title">遥控解锁时车外灯打开</string>
+    <string name="setFunc50item0">手动</string>
+    <string name="setFunc50item1">自动</string>
+    <string name="setFunc50name">再循环控制</string>
+    <string name="setFunc50name_title">再循环控制</string>
+    <string name="setFunc51item0">手动</string>
+    <string name="setFunc51item1">自动</string>
+    <string name="setFunc51name">空调开关控制</string>
+    <string name="setFunc51name_title">空调开关控制</string>
+    <string name="setFunc53item0">节能</string>
+    <string name="setFunc53item1">舒适</string>
+    <string name="setFunc53name">节能模式</string>
+    <string name="setFunc53name_title">节能模式</string>
+    <string name="setFunc54item0">正常</string>
+    <string name="setFunc54item1">脚部气流较多</string>
+    <string name="setFunc54item2">除霜器处气流较多</string>
+    <string name="setFunc54name">脚部/除霜器气流比</string>
+    <string name="setFunc54name_title">脚部/除霜器气流比</string>
+    <string name="setFunc55item0">正常</string>
+    <string name="setFunc55item1">面部气流较多</string>
+    <string name="setFunc55item2">脚部气流较多</string>
+    <string name="setFunc55name">面部/脚部气流比</string>
+    <string name="setFunc55name_title">面部/脚部气流比</string>
+    <string name="setFunc56item0">关</string>
+    <string name="setFunc56item1">开</string>
+    <string name="setFunc56name">启动时后窗自动除霜</string>
+    <string name="setFunc56name_title">启动时后窗自动除霜</string>
+    <string name="setFunc57item0">关</string>
+    <string name="setFunc57item1">开</string>
+    <string name="setFunc57name">门解锁时启动空调或加热器</string>
+    <string name="setFunc57name_title">门解锁时启动空调或加热器</string>
+    <string name="setFunc58item0">关</string>
+    <string name="setFunc58item1">开</string>
+    <string name="setFunc58name">脚部模式下极少量空气流过除霜器</string>
+    <string name="setFunc58name_title">脚部模式下极少量空气流过除霜器</string>
+    <string name="setFunc60item0">关</string>
+    <string name="setFunc60item1">开</string>
+    <string name="setFunc60name">车处于停止状态时，快怠速可提高加热器性能</string>
+    <string name="setFunc60name_title">车处于停止状态时，快怠速可提高加热器性能</string>
+    <string name="setFuncGroup01">无钥匙进入系统</string>
+    <string name="setFuncGroup02">无钥匙操作系统</string>
+    <string name="setFuncGroup03">刮水器</string>
+    <string name="setFuncGroup04">车外灯/车内灯</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">电动车窗</string>
+    <string name="setFuncGroup07">转向灯</string>
+    <string name="setFuncGroup08">电动门锁</string>
+    <string name="setFuncGroup09">空调</string>
+    <string name="setFuncGroup10">其他</string>
+    <string name="setSend">送信</string>
+    <string name="setany">无线局域网信道设置</string>
+    <string name="setcarset">车辆设置</string>
+    <string name="setinfo_changewpaonestr">更改无线局域网密码</string>
+    <string name="setinfo_changewpatwostr">你可以更改无线局域网的密码。</string>
+    <string name="setinfoeightstr">解除VIN码的注册,解除注册后将无法再和车辆进行通信。如果需要再次通信必须重新注册。</string>
+    <string name="setinfoelevenstr">无线局域网信道设置</string>
+    <string name="setinfofifteenstr">防盗报警历史</string>
+    <string name="setinfofivestr">修改SSID</string>
+    <string name="setinfofourstr">修改程序启动密码</string>
+    <string name="setinfofourteenstr">更改车辆的各种设定。(ETACS 自定义)</string>
+    <string name="setinfoninestr">设定无线LAN通信</string>
+    <string name="setinfoonestr">省略输入密码</string>
+    <string name="setinfosevenstr">解除VIN码注册</string>
+    <string name="setinfosisteenstr">显示防盗报警历史</string>
+    <string name="setinfosixstr">修改车辆的SSID</string>
+    <string name="setinfotenstr">可以始终与车辆进行无线LAN通信，还是只在车辆的电源开关处于OFF状态时，才通信。</string>
+    <string name="setinfothirteenstr">车辆设置</string>
+    <string name="setinfothreestr">修改密码</string>
+    <string name="setinfotwelvestr">您可选择一个无线局域网信道。在修改无线局域网信道之后，无线通信将会断开连接，并自动重新连接。如果在5分钟之后应用程序没有重新连接，请在Wifi设置屏幕中关闭应用程序并检查到车辆的无线局域网连接。</string>
+    <string name="setinfotwostr">选择启动程序时是否需要输入密码</string>
+    <string name="setinit">解除VIN码注册</string>
+    <string name="setinitinfo">"以下信息将会被初始化，确定继续?
+
+"<ul><li>"所有定时充电设置
+"</li><li>"所有定时空调设置
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"以下信息将会被初始化，确定继续?
+
+"<ul><li>"所有定时充电设置
+"</li><li>"所有定时空调设置
+"</li><li>"SSID
+"</li><li>无线局域网密码</li></ul></string>
+    <string name="setinitq">确定要解除VIN码注册吗？</string>
+    <string name="setnewssidinfo">新SSID</string>
+    <string name="setnewwpainfo">新密码</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">当前密码</string>
+    <string name="setpasscode">修改密码</string>
+    <string name="setpasscodedis">"未设置密码。
+
+请通过关闭“省略输入密码”功能来设置密码。"</string>
+    <string name="setpasscodestep1">请输入当前的密码</string>
+    <string name="setpasscodestep2">请输入新密码</string>
+    <string name="setpasscodestep3">请再输入一遍新密码</string>
+    <string name="setrenewwpainfo">确认新密码</string>
+    <string name="setspnum">已注册设备台数</string>
+    <string name="setssid">修改SSID</string>
+    <string name="setssiderr">输入错误</string>
+    <string name="setssiderrinfo">包含了不能使用的字符。</string>
+    <string name="setssidinfo">请输入1～32位半角英文、数字或符号，区分大小写。</string>
+    <string name="setssidokinfo">"修改SSID后，无线通信会切断然后自动重新连接。
+如果app在5分钟以后没有重新连接，请关闭app并在Android Wifi设定界面检查无线局域网连接状态。"</string>
+    <string name="setssidoktips">点击OK关闭应用。</string>
+    <string name="setthefthistory">防盗报警历史</string>
+    <string name="setthefthistoryinfo">确定清除所有防盗报警历史？</string>
+    <string name="settingtitle">设置</string>
+    <string name="setusepasscode">省略输入密码</string>
+    <string name="setusepasscodeinfo">请输入密码</string>
+    <string name="setver">版本信息</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">车辆软件</string>
+    <string name="setwifiinfoon">"启动设定：
+打开车辆侧的无线LAN通信。
+
+关闭设定：
+只有断开电源开关时，车辆侧的无线LAN通信才会打开。
+
+您使用的无线LAN设备与智能手机显示器的音频设备等相连时，请设置为“关闭设定”。"</string>
+    <string name="setwifilabel">常時通信</string>
+    <string name="setwpa">无线局域网密码修改</string>
+    <string name="setwpaerr_1">输入错误</string>
+    <string name="setwpaerr_2">输入错误</string>
+    <string name="setwpaerr_3">输入错误</string>
+    <string name="setwpaerr_4">输入错误</string>
+    <string name="setwpaerrinfo_1">"包含了不能使用的字符。
+请参考帮助确认可以使用的字符。"</string>
+    <string name="setwpaerrinfo_2">新密码必须一致，请重新输入你的新密码。</string>
+    <string name="setwpaerrinfo_3">新密码必须只包含14个字符，请选择另一个密码。</string>
+    <string name="setwpaerrinfo_4">你输入的当前密码不正确，请再试一次。</string>
+    <string name="setwpaerrinfo_5">"可能的错误原因为：
+"<ul><li>"点火开关不在ACC位置
+"</li><li>"在注册模式已经超过10分钟。
+
+请将车辆设置成注册待机模式。"</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"请输入一个安全的14字符密码。
+"</li><li>"密码区分大小写，你可以使用字母，数字，和符号。
+"</li><li>请你记住你的密码，不要与他人共享。</li></ul></string>
+    <string name="setwpaokinfo">"修改无线网络密码后，无线通信会切断然后自动重新连接。
+如果app在5分钟以后还没有重新连接，请关闭app并在Android Wifi设定界面检查无线局域网连接状态。"</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"设备已连接至车辆以外的其他网络。
+
+是否和车辆建立连接？"</string>
+    <string name="ssidinfo">请确认修改SSID。</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">输入车辆的SSID和密码后，按“OK”继续。</string>
+    <string name="stepfiveonestring">关闭车门</string>
+    <string name="stepfivethreestring">"STEP 2 完成后10秒内，顺次交替按动车钥匙的上锁按钮 和解锁按钮 各5次(总计按十次)。
+蜂鸣器会响起，表示成功进入注册待机状态。"</string>
+    <string name="stepfivetwostring">点火开关调至ACC档(不踩刹车时，按点火开关，档位会按 \"OFF\" → \"ACC\" → \"ON\" → \"OFF\"的顺序切换)</string>
+    <string name="stepfouronestring">关闭车门</string>
+    <string name="stepfourthreestring">"STEP 2 完成后10秒内，顺次交替按动车钥匙的上锁按钮 和解锁按钮 各5次(总计按十次)。
+蜂鸣器会响起，表示成功进入注册待机状态。"</string>
+    <string name="stepfourtwostring">点火开关调至ACC档(不踩刹车时，按点火开关，档位会按 \"OFF\" → \"ACC\" → \"ON\" → \"OFF\"的顺序切换)</string>
+    <string name="stu1_1">点火开关OFF</string>
+    <string name="stu1_2">点火开关ON 或 ACC</string>
+    <string name="stu1_3">防盗报警未开启</string>
+    <string name="stu1_4">防盗报警已开启</string>
+    <string name="stu1_5">防盗报警已触发</string>
+    <string name="stu2info1leftstr">驻车灯</string>
+    <string name="stu2info1rightstr">已开启</string>
+    <string name="stu2info1str">驻车灯已开启</string>
+    <string name="stu2info2leftstr">危险报警闪光灯</string>
+    <string name="stu2info2rightstr">已开启</string>
+    <string name="stu2info2str">危险报警闪光灯已开启</string>
+    <string name="stu2info3leftstr">车门</string>
+    <string name="stu2info3rightstr">已开启</string>
+    <string name="stu2info3str">车门已开启</string>
+    <string name="stu2info4leftstr">前大灯</string>
+    <string name="stu2info4rightstr">已开启</string>
+    <string name="stu2info4str">前大灯已开启</string>
+    <string name="stu2info5leftstr">引擎盖</string>
+    <string name="stu2info5rightstr">已开启</string>
+    <string name="stu2info5str">引擎盖已开启</string>
+    <string name="stu2info6leftstr">车内灯</string>
+    <string name="stu2info6rightstr">已开启</string>
+    <string name="stu2info6str">车内灯已开启</string>
+    <string name="stu2info7leftstr">后备箱</string>
+    <string name="stu2info7rightstr">已开启</string>
+    <string name="stu2info7str">后备箱已开启</string>
+    <string name="stu2info8leftstr">尾灯</string>
+    <string name="stu2info8rightstr">已开启</string>
+    <string name="stu2info8str">尾灯已开启</string>
+    <string name="sun">星期日</string>
+    <string name="sun1">日</string>
+    <string name="switchoff">关</string>
+    <string name="switchon">开</string>
+    <string name="theft2_1">前大灯操作</string>
+    <string name="theft2_4">驻车灯操作</string>
+    <string name="theft2dis2twostr">"以下情况无法执行该操作：
+
+"<ul><li>"点火开关不为OFF
+"</li><li>前大灯或者驻车灯已打开</li></ul></string>
+    <string name="thu">星期四</string>
+    <string name="thu1">四</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode" />
+    <string name="titleback">返回</string>
+    <string name="titlehelp">帮助</string>
+    <string name="titleupdate1">清除</string>
+    <string name="titleupdate2">初始化</string>
+    <string name="titleupdate3">发送</string>
+    <string name="topUpdateTime" formatted="false">%m月%d日 %t</string>
+    <string name="topacdisable">"以下情况无法执行该操作：
+
+"<ul><li>"点火开关不为OFF
+"</li><li>车辆正在进行快速充电</li></ul></string>
+    <string name="topacmode">空调模式</string>
+    <string name="topacwait">待机中</string>
+    <string name="topbattwarm">预热中</string>
+    <string name="topbattwarminginfo">"驱动电池温度过低，请插入充电枪，
+车辆将会对电池进行预热。"</string>
+    <string name="topbattwarminginfo_plugin_1">"车辆有可能因电池的低温而无法行驶。
+
+请把车辆置于READY状态或插入普通充电枪以便加热驱动电池。"</string>
+    <string name="topbattwarminginfo_plugin_2">"由于驱动电池的温度过低，车辆不能运行。
+
+请插入普通充电枪以便加热驱动电池。"</string>
+    <string name="topbattwarminginfo_stop_1">"由于驱动电池的温度过低，车辆不能行驶。
+为了车辆运行，需要加热驱动电池，但没有满足的加热条件。
+
+请等待直到外部的气温上升。"</string>
+    <string name="topbattwarminginfo_stop_2">"由于驱动电池的温度过低，车辆不能行驶。
+
+为了车辆运行，需要加热驱动电池，但没有得到满足的加热条件。
+
+请插入充电枪，并等到外部温度升高，届时开始对驱动电池加热。"</string>
+    <string name="topbattwarminginfo_warm_1">驱动电池的温度已上升，车辆现在可以行驶。</string>
+    <string name="topbattwarminginfo_warm_2">"由于驱动电池的温度过低，车辆不能行驶。
+
+驱动电池正在预热，请稍候。"</string>
+    <string name="topbattwarmingtitle">车辆信息</string>
+    <string name="topcanntac">请先在“定时器”－“空调”界面下设置空调模式</string>
+    <string name="topcanntac2">"已经设置了“立刻开启空气调节”。
+“立刻开启空气调节”一结束，计时器空气调节会自动回归开启状态。"</string>
+    <string name="topcanntchg">请先在“定时器”界面下设置定时器</string>
+    <string name="topchargeEndTime">电池充满还需</string>
+    <string name="topchargeEndTimeHour">小时</string>
+    <string name="topchargeEndTimeMin">分</string>
+    <string name="topchargefinish">充电完成</string>
+    <string name="topchargetimer">定时器 开/关</string>
+    <string name="topfastchg">快速</string>
+    <string name="tophelp100v">慢速</string>
+    <string name="tophelp200v">普通</string>
+    <string name="tophelp22">制冷</string>
+    <string name="tophelp24">制热</string>
+    <string name="tophelp26">除雾</string>
+    <string name="tophelp41">连接正常</string>
+    <string name="tophelp42">连接不稳定</string>
+    <string name="tophelp43">连接中断</string>
+    <string name="tophelp44">点击该按钮与车辆通信并更新信息。</string>
+    <string name="tophelpwarm"><ul><li>"汽车正在对电池进行预热，以防止驱动电池温度过低。
+"</li><li>"驱动电池电量可能会因预热而减少。
+"</li><li>"预热过程中可能会对驱动电池充电，即使用户设置了定时充电。
+"</li><li>预热动作可能会导致车内空调运行。</li></ul></string>
+    <string name="topwaitcharge">待机中</string>
+    <string name="towebsitestr">进入网站</string>
+    <string name="tue">星期二</string>
+    <string name="tue1">二</string>
+    <string name="v2hv2l">启动外部电源</string>
+    <string name="warning6str">点击“更新”按钮与汽车通信。</string>
+    <string name="warning7timeronestr">其他时间所选定时器定时（1）都会改变。</string>
+    <string name="warning7timerthreestr">其他时间所选定时器定时（3）都会改变。</string>
+    <string name="warning7timertwostr">其他时间所选定时器定时（2）都会改变。</string>
+    <string name="wed">星期三</string>
+    <string name="wed1">三</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">无线LAN通信設定</string>
+    <string name="wpainfo">无线局域网密码将要被更改。</string>
+</resources>

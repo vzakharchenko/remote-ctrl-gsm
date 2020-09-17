@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dp_76"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.inventec.controls.MyButton android:layout_width="@dimen/dp_28" android:layout_height="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_10" android:layout_marginStart="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+    <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_24" android:id="@id/txtTitle" android:layout_width="@dimen/dp_200" android:layout_height="@dimen/dp_29" android:layout_marginBottom="@dimen/dp_7" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <com.inventec.controls.MyButton android:layout_width="@dimen/dp_44" android:layout_height="@dimen/dp_44" android:layout_marginEnd="@dimen/dp_5" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

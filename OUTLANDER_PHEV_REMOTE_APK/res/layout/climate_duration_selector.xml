@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_248"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:MyButton="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.inventec.controls.MyButton android:textAppearance="@style/timer_duration_selector" android:id="@id/btn_done" android:layout_width="@dimen/dp_355" android:layout_height="@dimen/dp_57" android:layout_marginBottom="@dimen/dp_10" android:text="@string/cancel" app:buttonShadowType="null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp_355" android:layout_height="@dimen/dp_173" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.inventec.controls.MyButton android:textAppearance="@style/timer_duration_selector" android:id="@id/btn_duration_10" android:layout_width="fill_parent" android:layout_height="@dimen/dp_57" android:text="@string/delay3" app:buttonShadowType="null" />
+        <LinearLayout android:background="#ffbebebe" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+        <com.inventec.controls.MyButton android:textAppearance="@style/timer_duration_selector" android:id="@id/btn_duration_20" android:layout_width="fill_parent" android:layout_height="@dimen/dp_57" android:text="@string/delay4" app:buttonShadowType="null" />
+        <LinearLayout android:background="#ffbebebe" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+        <com.inventec.controls.MyButton android:textAppearance="@style/timer_duration_selector" android:id="@id/btn_duration_30" android:layout_width="fill_parent" android:layout_height="@dimen/dp_57" android:text="@string/delay5" app:buttonShadowType="null" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

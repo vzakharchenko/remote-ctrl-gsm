@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">分</string>
+    <string name="ACWorking">今すぐ空調、タイマー空調が作動中は、空調作動時間を変更できません。</string>
+    <string name="ACtim"><ul><li>"車室内に人やペットがいる場合は、ご使用しないでください。外気温によって、車室内の温度が高温、もしくは低温になり、思わぬ事故につながるおそれがあります。
+
+"</li><li>"空調作動時間が長いほど、駆動用バッテリーの消費量が増加します。
+
+"</li><li>駆動用バッテリーの残量によっては、実際の空調作動時間が設定時間よりも短くなることがあります。 </li></ul></string>
+    <string name="ACtimeLabel">空調作動時間</string>
+    <string name="AcsettingARM">"車両のセキュリティアラームがシステム作動解除状態でなければ、車両設定を変更できません。
+
+キーレスエントリーまたは、キーレスオペレーションシステムによってドアを解除し、システム作動解除状態としてから、車両設定を操作して下さい。"</string>
+    <string name="EVInit">初期化</string>
+    <string name="EVInitInfo">初期化してもよろしいですか？</string>
+    <string name="Everyday">毎日</string>
+    <string name="ResetAllschude">全てのスケジュールをリセットしてよろしいですか？</string>
+    <string name="ResetOneschude">このスケジュールをリセットしてよろしいですか？</string>
+    <string name="Schudle">スケジュール設定</string>
+    <string name="abc_action_bar_home_description">ホームへ移動</string>
+    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="accstr">ACC(オレンジ)</string>
+    <string name="acoptiontimelong2">空調作動時間</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">車両情報</string>
+    <string name="bartitle5">設定</string>
+    <string name="bgdark" />
+    <string name="btnStart">実行</string>
+    <string name="cancel">キャンセル</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">使用可能文字は以下の通りです。</string>
+    <string name="channel_3">3　チャンネル</string>
+    <string name="channel_8">8　チャンネル</string>
+    <string name="clear">オールリセット</string>
+    <string name="communicationstr">通信</string>
+    <string name="countdownTipsonestr">"5分以内に給電器の操作パネル等を操作して、車両からご家庭などに電力を供給できるよう設定してください。
+
+給電器が起動しない場合は、以下の原因が考えられます。"</string>
+    <string name="countdownTipstwostr">給電器が本機能に対応していない。</string>
+    <string name="countdownTipstwostrfivestr">給電器または車両に異常がある。</string>
+    <string name="countdownTipstwostrfourstr">車両の補機用バッテリー電圧が低下している。</string>
+    <string name="countdownTipstwostrthreestr">実行ボタンを押してから5分以上経過した。</string>
+    <string name="countdownTipstwostrtwostr">給電器の急速充電コネクターがきちんと車両に接続されていない。</string>
+    <string name="daySelct">繰り返し</string>
+    <string name="delay1">0 分</string>
+    <string name="delay10">120 分</string>
+    <string name="delay11">150 分</string>
+    <string name="delay12">180 分</string>
+    <string name="delay2">5 分</string>
+    <string name="delay3">10 分</string>
+    <string name="delay4">20 分</string>
+    <string name="delay5">30 分</string>
+    <string name="delay6">40 分</string>
+    <string name="delay7">50 分</string>
+    <string name="delay8">60 分</string>
+    <string name="delay9">90 分</string>
+    <string name="demo">お試し版</string>
+    <string name="durationstr">作動時間</string>
+    <string name="err1date" formatted="false">%y年%m月%d日 %w %t</string>
+    <string name="err1ignition">不正キーの使用がありました。</string>
+    <string name="err1intrusion">不正侵入がありました。</string>
+    <string name="err1movement">不正移動がありました。</string>
+    <string name="err1other">車両への不正がありました。</string>
+    <string name="err1perimeter">ドアが不正に開きました。</string>
+    <string name="err1silent">異常振動がありました。</string>
+    <string name="err1title">盗難警報通知</string>
+    <string name="errACinfo">"以下の場合、プレ空調が停止します。
+
+"<ul><li>"車両のドアが開いた
+"</li><li>駆動用バッテリーの残量が少ない</li></ul></string>
+    <string name="errACinfoEx">"以下の場合、プレ空調が停止します。
+
+"<ul><li>"車両のドアが開いた
+"</li><li>"駆動用バッテリーの残量が少ない
+"</li><li>駆動用バッテリー温度が低い</li></ul></string>
+    <string name="errACtitle">プレ空調停止通知</string>
+    <string name="errCHGinfo">タイマー充電を実行できませんでした。</string>
+    <string name="errCHGtitle">タイマー充電エラー通知</string>
+    <string name="errRegMaxtitle">登録台数エラー</string>
+    <string name="errTimerinfo">タイマー制御を実行できませんでした。</string>
+    <string name="errTimertitle">タイマー制御エラー通知</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/errorcode.html#2301</string>
+    <string name="errorcodestr">エラーコード：</string>
+    <string name="evACCool">冷房</string>
+    <string name="evACHot">暖房</string>
+    <string name="evACOFF">オフ</string>
+    <string name="evACSetTitle">タイマー空調設定</string>
+    <string name="evCharge1Auto">登録地連動：</string>
+    <string name="evCharge1End">終了</string>
+    <string name="evCharge1Start">開始</string>
+    <string name="evCharge1full">フル充電</string>
+    <string name="evChargeSetTitle">タイマー充電設定</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">送　信</string>
+    <string name="evSendAsk">変更内容が送信されていません。前の画面に戻り送信しますか？</string>
+    <string name="evSendAsk5ch">"変更した設定を車両に送信していません。
+設定を破棄し、前の画面に戻ってもよろしいですか？"</string>
+    <string name="evTimerSet">タイマー設定</string>
+    <string name="evhCHG12info">"フル充電設定とは、タイマー時間内にバッテリーが満タンにならなかった場合に、満タンになるまで充電を続ける設定です。
+タイマー終了後にプラグを挿入した場合には、充電を受け付けませんのでご注意下さい。"</string>
+    <string name="evhCHG17myinfo1">今すぐ空調</string>
+    <string name="evhCHG22ginfo1">マニュアル充電モード</string>
+    <string name="evhCHG22ginfo3">タイマー充電モード</string>
+    <string name="evhCHG22infofourstr">登録地連動機能を使用することができません。</string>
+    <string name="evhCHG22infoonestr">MMCS(メーカーオプション)が付いている場合</string>
+    <string name="evhCHG22infothreestr">MMCS(メーカーオプション)が付いていない場合</string>
+    <string name="evhCHG22infotwostr">"エリアによって、充電設定を切り替える機能です。
+
+設定した登録地周辺ではタイマー充電モード、それ以外の地域ではマニュアル充電モードになります。登録地周辺では深夜電力を利用したタイマー充電、出先のショッピングモール等ではマニュアル充電といった用途に向いています。"</string>
+    <string name="evhelpCHG1item2">フル充電とは</string>
+    <string name="evhelpCHG2item2">登録地連動とは</string>
+    <string name="evhmanualACitem4infofourstr">空調モードは冷房のみです。</string>
+    <string name="evhmanualACitem4infoonestr">電気温水式ヒータ(メーカーオプション)が付いている場合</string>
+    <string name="evhmanualACitem4infothreestr">電気温水式ヒータ(メーカーオプション)が付いていない場合</string>
+    <string name="evhmanualACitem4infotwostr">"空調モードは暖房/冷房/デフロスターの中から選択します。
+選択した空調モードは全てのタイマー設定に適用されます。タイマー設定ごとに異なる空調モードを設定することはできません。"</string>
+    <string name="evmCHchargstr">充電</string>
+    <string name="evmCHclimatestr">空調</string>
+    <string name="evmCHsetstr">設定</string>
+    <string name="evmCHstatusstr">車両状態</string>
+    <string name="evmaccancelltimestr">キャンセル中</string>
+    <string name="evmaccanceltimer">タイマーキャンセル中</string>
+    <string name="evmacwarn5str">タイマー空調をキャンセルします。</string>
+    <string name="evmainac">空調</string>
+    <string name="evmaincharge">充電</string>
+    <string name="evmchacwarn5no">いいえ</string>
+    <string name="evmchacwarn5yes">はい</string>
+    <string name="evmchargeTimerSch">タイマー充電スケジュール</string>
+    <string name="evmchargetschstr">"チェックを外すとスケジュールを一時的にキャンセルできます。
+一時的にキャンセルしたタイマー充電のスケジュールは、チェックを付ける、もしくはパワースイッチの電源モードを ON にすると元の設定に戻ります。"</string>
+    <string name="evmchargstatusstr">充電状態</string>
+    <string name="evmchtempcancellstr">一時キャンセル中</string>
+    <string name="evmchupdatingstr">(計算中)</string>
+    <string name="evmchwarn5str">タイマー充電を一時的にキャンセルします。</string>
+    <string name="evmclimateTimerSch">タイマー空調スケジュール</string>
+    <string name="evmclimatetschstr">チェックを外すとスケジュールをキャンセルできます。</string>
+    <string name="evmdrivebattlevelstr">駆動用バッテリー残量</string>
+    <string name="evmerrstartcommun">通信開始</string>
+    <string name="evmlastupdatedstr">"アプリの表示は車両データを更新した時の車両の状態です。
+車両データを更新する前は車両の状態が正しく表示されない場合があります。"</string>
+    <string name="evmregtroublereg">うまく登録できないときは</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.co.jp/special/app/outlander-phev/jizen.html#check</string>
+    <string name="evmtemptimercance">タイマー一時キャンセル中</string>
+    <string name="evmupdatedTime">更新日時</string>
+    <string name="evpsfailcontent">"車両の異常が考えられます。
+三菱自動車販売会社で点検をうけてください。"</string>
+    <string name="evpsfailtitle">電源供給が開始できません</string>
+    <string name="evpspage1">このアプリを用いて車両から給電器(V2H・V2L機器)の起動用電源を供給することができます。</string>
+    <string name="evpspage1threestr">本機能に対応する給電器が必要です。詳細は三菱自動車販売社にお問い合わせください。　</string>
+    <string name="evpspage1twostr">停電時等でV2H機器が起動できない場合にも、車両から起動用電源を供給することができます。</string>
+    <string name="evpspage2">車両のパワースイッチをOFFにして、給電器の急速充電コネクターを車両に接続してください。</string>
+    <string name="evpspage3">"実行ボタンを押すと、給電器起動用電源の供給を開始します。
+実行ボタンが押せない場合は、前画面からやり直してください。"</string>
+    <string name="exitdemostr">お試し版終了</string>
+    <string name="fri">金曜日</string>
+    <string name="fri1">金</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">MITSUBISHI Remote Controlの使用を推奨しません。</string>
+    <string name="jailbreak_title">OSが改造されています</string>
+    <string name="language">jp</string>
+    <string name="linkwarningstr">"車両との無線LAN接続中は、他のネットワーク(インターネットなど)に接続できません。モバイル通信するか、無線LAN接続先を変更してください。
+再び本アプリを使用するには、車両のSSIDに接続してください。"</string>
+    <string name="loadwndinfo">"MITSUBISHI REMOTE CONTROL使用中は、他のネットワーク(インターネットなど)に接続できません。
+
+スマートフォンをスマートフォン連携ディスプレイオーディオに接続中はMITSUBISHI REMOTE CONTROLを使用できません。"</string>
+    <string name="login_ssid_txtPwd">パスワード</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"駆動用バッテリー残量が不足しているため給
+電器を起動できません。
+
+駆動用バッテリー残量が半分以上のときに使
+用できます。
+
+充電の際には取扱説明書の「充電」の章を参
+照して下さい。"</string>
+    <string name="lowbatterytitle">給電器に電力を供給できません</string>
+    <string name="manacModenoset">空調モードを設定してから、今すぐ空調作動ボタンを押してください。</string>
+    <string name="manacModesetClimateShutDown">"“今すぐ空調”が設定された為、タイマー空調を一時的にオフします。
+
+“今すぐ空調”が終了すると、タイマー空調は自動的にオンに戻ります。"</string>
+    <string name="manachelptitle">今すぐ空調設定</string>
+    <string name="manactim">"車室内に人やペットがいる場合は、ご使用しないでください。
+外気温によって、車室内の温度が高温、もしくは低温になり、思わぬ事故につながるおそれがあります。"</string>
+    <string name="modeselect">車両を操作するには車台番号を登録する必要があります。車台番号を登録し、アプリケーションを利用可能としますか？</string>
+    <string name="mon">月曜日</string>
+    <string name="mon1">月</string>
+    <string name="needPINinfo">アプリ起動時の暗証番号入力が必要になります。</string>
+    <string name="newfunctioninfo">"無線LAN通信の設定が「常時通信：オフ」のため、車両のパワースイッチがOFFの時だけ車両と通信できます。
+
+無線LAN通信の設定は「設定」→「無線LAN通信設定」で変更できます。"</string>
+    <string name="newfunctioninfo2">次回からこのメッセージを表示しない。</string>
+    <string name="nextstr">次へ</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">アプリ起動時の暗証番号入力を省略します。</string>
+    <string name="passcodeErr">暗証番号エラー</string>
+    <string name="passcodeErrinfo">暗証番号が間違っています。もう一度試してください。</string>
+    <string name="passcodeTitle">暗証番号</string>
+    <string name="preset">タイマー</string>
+    <string name="preset1">タイマー1</string>
+    <string name="preset2">タイマー2</string>
+    <string name="preset3">タイマー3</string>
+    <string name="preset4">タイマー4</string>
+    <string name="preset5">タイマー5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.co.jp/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">登 録</string>
+    <string name="regErr">登録エラー</string>
+    <string name="regErrConn">登録できません</string>
+    <string name="regOk">車台番号登録完了</string>
+    <string name="releaseinfothreestr">SSIDとパスワードを手元に用意してください。SSIDとパスワードはお車ご購入時にキーに付属しています。</string>
+    <string name="remainTime">残り時間</string>
+    <string name="reset">リセット</string>
+    <string name="sTime">～</string>
+    <string name="sat">土曜日</string>
+    <string name="sat1">土</string>
+    <string name="search_menu_title">検索</string>
+    <string name="sendConn">接続中・・・</string>
+    <string name="sendErr">通信できません</string>
+    <string name="sendMsg">送信中・・・</string>
+    <string name="sendNavi">Navi画面で操作中・・・</string>
+    <string name="sendOK">受付完了</string>
+    <string name="sendUpdate">更新中・・・</string>
+    <string name="sendimmediately">今すぐ空調作動</string>
+    <string name="setErr">設定エラー</string>
+    <string name="setErrInfo">車両の通信に何らかの異常が発生しています。三菱自動車販売会社で点検を受けてください。</string>
+    <string name="setFunc01item0">エンジンスイッチ　ACC/ON</string>
+    <string name="setFunc01item1">エンジンスイッチ　ON</string>
+    <string name="setFunc01name">方向指示灯作動条件（エンジンスイッチ位置）</string>
+    <string name="setFunc01name_title">方向指示灯作動条件（エンジンスイッチ位置）</string>
+    <string name="setFunc02item0">なし</string>
+    <string name="setFunc02item1">あり</string>
+    <string name="setFunc02name">方向指示レバーのワンタッチ操作時３回点滅機能（車線変更時など）</string>
+    <string name="setFunc02name_title">方向指示レバーのワンタッチ操作時３回点滅機能（車線変更時など）</string>
+    <string name="setFunc03item0">施錠1回/解錠2回</string>
+    <string name="setFunc03item1">施錠1回/解錠0回</string>
+    <string name="setFunc03item2">施錠0回/解錠2回</string>
+    <string name="setFunc03item3">施錠2回/解錠1回</string>
+    <string name="setFunc03item4">施錠0回/解錠1回</string>
+    <string name="setFunc03item5">施錠2回/解錠0回</string>
+    <string name="setFunc03item6">なし</string>
+    <string name="setFunc03name">非常点滅灯 点滅回数</string>
+    <string name="setFunc03name_title">非常点滅灯 点滅回数</string>
+    <string name="setFunc04item0">固定（約4秒）</string>
+    <string name="setFunc04item1">調整可</string>
+    <string name="setFunc04item2">調整可（車速感応）</string>
+    <string name="setFunc04item3">調整可（雨滴感応）</string>
+    <string name="setFunc04name">フロントワイパー間欠作動時間</string>
+    <string name="setFunc04name_title">フロントワイパー間欠作動時間</string>
+    <string name="setFunc05item0">なし</string>
+    <string name="setFunc05item1">あり</string>
+    <string name="setFunc05item2">あり（ウォッシャー液再ふき取り機能あり）</string>
+    <string name="setFunc05name">ウォッシャー連動ワイパー</string>
+    <string name="setFunc05name_title">ウォッシャー連動ワイパー</string>
+    <string name="setFunc06item0">0秒</string>
+    <string name="setFunc06item1">4秒</string>
+    <string name="setFunc06item2">8秒</string>
+    <string name="setFunc06item3">16秒</string>
+    <string name="setFunc06name">リア　間欠作動時間</string>
+    <string name="setFunc06name_title">リア　間欠作動時間</string>
+    <string name="setFunc07item0">なし</string>
+    <string name="setFunc07item1">1分</string>
+    <string name="setFunc07item2">3分</string>
+    <string name="setFunc07item3">5分</string>
+    <string name="setFunc07item4">10分</string>
+    <string name="setFunc07name">充電口照明の点灯時間</string>
+    <string name="setFunc07name_title">充電口照明の点灯時間</string>
+    <string name="setFunc08item0">なし</string>
+    <string name="setFunc08item1">復帰(車速感応）</string>
+    <string name="setFunc08item2">エンジンスイッチON/OFF及び運転席ドア開/閉による復帰/格納</string>
+    <string name="setFunc08item3_0">キーレスエントリー（キーレスオペレーション）がUNLOCKで復帰　LOCKで格納</string>
+    <string name="setFunc08item3_1">キーレスエントリー（キーレスオペレーション）がUNLOCKで復帰 LOCKで格納</string>
+    <string name="setFunc08name">ドアミラー自動格納/復帰</string>
+    <string name="setFunc08name_title">ドアミラー自動格納/復帰</string>
+    <string name="setFunc09item0">早い</string>
+    <string name="setFunc09item1">やや早い</string>
+    <string name="setFunc09item2">普通</string>
+    <string name="setFunc09item3">やや遅い</string>
+    <string name="setFunc09item4">遅い</string>
+    <string name="setFunc09name">オートライト点灯タイミング</string>
+    <string name="setFunc09name_title">オートライト点灯タイミング</string>
+    <string name="setFunc10item0">なし</string>
+    <string name="setFunc10item1">あり</string>
+    <string name="setFunc10name">ワイパー連動ヘッドライト（ライトスイッチAUTO位置のみ）</string>
+    <string name="setFunc10name_title">ワイパー連動ヘッドライト（ライトスイッチAUTO位置のみ）</string>
+    <string name="setFunc11item0">0秒(タイマー機能無し)</string>
+    <string name="setFunc11item1">7.5秒</string>
+    <string name="setFunc11item2">15秒</string>
+    <string name="setFunc11item3">30秒</string>
+    <string name="setFunc11item4">1分</string>
+    <string name="setFunc11item5">2分</string>
+    <string name="setFunc11item6">3分</string>
+    <string name="setFunc11name">ドアを閉じたときにルームランプが消灯するまでの時間</string>
+    <string name="setFunc11name_title">ドアを閉じたときにルームランプが消灯するまでの時間</string>
+    <string name="setFunc12item0">なし</string>
+    <string name="setFunc12item1">あり（車幅灯連続点灯機能なし）</string>
+    <string name="setFunc12item2">あり</string>
+    <string name="setFunc12item3">あり</string>
+    <string name="setFunc12item4">あり（車幅灯連続点灯機能あり）</string>
+    <string name="setFunc12item5">あり</string>
+    <string name="setFunc12name">ヘッドライトオートカット</string>
+    <string name="setFunc12name_title">ヘッドライトオートカット</string>
+    <string name="setFunc13item0">なし</string>
+    <string name="setFunc13item1">3分</string>
+    <string name="setFunc13item2">30分</string>
+    <string name="setFunc13item3">60分</string>
+    <string name="setFunc13name">インテリアランプオートカット時間</string>
+    <string name="setFunc13name_title">インテリアランプオートカット時間</string>
+    <string name="setFunc14item0">短い</string>
+    <string name="setFunc14item1">長い</string>
+    <string name="setFunc14name">方向指示灯３回点滅機能のレバー操作受付時間</string>
+    <string name="setFunc14name_title">方向指示灯３回点滅機能のレバー操作受付時間</string>
+    <string name="setFunc15item0">なし</string>
+    <string name="setFunc15item1">あり</string>
+    <string name="setFunc15name">ウォッシャーレバーのワンタッチ操作時自動洗浄機能</string>
+    <string name="setFunc15name_title">ウォッシャーレバーのワンタッチ操作時自動洗浄機能</string>
+    <string name="setFunc16item0">なし</string>
+    <string name="setFunc16item1">セレクターレバーP位置連動</string>
+    <string name="setFunc16item2">セレクターレバーP位置&amp;ウィンドウロックスイッチ連動</string>
+    <string name="setFunc16item3">エンジンスイッチLOCK位置連動</string>
+    <string name="setFunc16item4">エンジンスイッチLOCK位置&amp;ウィンドウロックスイッチ連動</string>
+    <string name="setFunc16name">ドア自動解錠</string>
+    <string name="setFunc16name_title">ドア自動解錠</string>
+    <string name="setFunc17item0">全席</string>
+    <string name="setFunc17item1">運転席のみ</string>
+    <string name="setFunc17name">解錠時の対象となるドア</string>
+    <string name="setFunc17name_title">解錠時の対象となるドア</string>
+    <string name="setFunc19item0">2回</string>
+    <string name="setFunc19item1">1回</string>
+    <string name="setFunc19name">デッドロック状態にするためのロックボタン操作回数</string>
+    <string name="setFunc19name_title">デッドロック状態にするためのロックボタン操作回数</string>
+    <string name="setFunc20item0">なし</string>
+    <string name="setFunc20item1">毎回吹鳴</string>
+    <string name="setFunc20item2">毎回吹鳴（ライトスイッチAUTO時夜間吹鳴禁止）</string>
+    <string name="setFunc20item3">スイッチ2度押しで吹鳴</string>
+    <string name="setFunc20item4">スイッチ2度押しで吹鳴（ライトスイッチAUTO時夜間吹鳴禁止）</string>
+    <string name="setFunc20name">施錠時ホーン吹鳴</string>
+    <string name="setFunc20name_title">施錠時ホーン吹鳴</string>
+    <string name="setFunc21item0">全システムなし</string>
+    <string name="setFunc21item1">キーレスオペレーションのみあり</string>
+    <string name="setFunc21item2">キーレスエントリーのみあり</string>
+    <string name="setFunc21item3">全システムあり</string>
+    <string name="setFunc21name">ドア解錠/施錠時のブザー吹鳴</string>
+    <string name="setFunc21name_title">ドア解錠/施錠時のブザー吹鳴</string>
+    <string name="setFunc22item0">30秒</string>
+    <string name="setFunc22item1">1分</string>
+    <string name="setFunc22item2">2分</string>
+    <string name="setFunc22item3">3分</string>
+    <string name="setFunc22name">キーレスエントリー（キーレスオペレーション）使用時のドア解錠放置後の自動施錠時間</string>
+    <string name="setFunc22name_title">キーレスエントリー（キーレスオペレーション）使用時のドア解錠放置後の自動施錠時間</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0秒</string>
+    <string name="setFunc24item1">30秒</string>
+    <string name="setFunc24item2">3分</string>
+    <string name="setFunc24item3">10分</string>
+    <string name="setFunc24name">パワーウィンドウ(サンルーフ)タイマー時間</string>
+    <string name="setFunc24name_title">パワーウィンドウ(サンルーフ)タイマー時間</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">なし</string>
+    <string name="setFunc26item1">"ウィンドウ：開/閉
+ドアミラー：復帰/格納"</string>
+    <string name="setFunc26item2">ウィンドウ：開/閉</string>
+    <string name="setFunc26item3">"ウィンドウ：閉
+ドアミラー：復帰/格納"</string>
+    <string name="setFunc26item4">ドアミラー：復帰/格納</string>
+    <string name="setFunc26item5">ウィンドウ：閉</string>
+    <string name="setFunc26name">パワーウィンドウ/ドアミラー操作</string>
+    <string name="setFunc26name_title">パワーウィンドウ/ドアミラー操作</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">短い</string>
+    <string name="setFunc28item1">長い</string>
+    <string name="setFunc28name">施錠時ホーン吹鳴時間</string>
+    <string name="setFunc28name_title">施錠時ホーン吹鳴時間</string>
+    <string name="setFunc29item0">リアワイパースイッチ ON</string>
+    <string name="setFunc29item1">フロント/リアワイパースイッチ ON</string>
+    <string name="setFunc29name">R(リバース)位置連動リアワイパー</string>
+    <string name="setFunc29name_title">R(リバース)位置連動リアワイパー</string>
+    <string name="setFunc32item0">なし</string>
+    <string name="setFunc32item1">3秒</string>
+    <string name="setFunc32item2">5秒</string>
+    <string name="setFunc32name">ドア施錠後の再解錠禁止時間</string>
+    <string name="setFunc32name_title">ドア施錠後の再解錠禁止時間</string>
+    <string name="setFunc33item0">なし</string>
+    <string name="setFunc33item1">あり</string>
+    <string name="setFunc33name">ホーン吹鳴によるエンジン動作確認</string>
+    <string name="setFunc33name_title">ホーン吹鳴によるエンジン動作確認</string>
+    <string name="setFunc34item0">あり</string>
+    <string name="setFunc34item1">なし</string>
+    <string name="setFunc34name">エンジンスイッチOFF後のウィンドウ開</string>
+    <string name="setFunc34name_title">エンジンスイッチOFF後のウィンドウ開</string>
+    <string name="setFunc35item0">全席</string>
+    <string name="setFunc35item1">運転席のみ</string>
+    <string name="setFunc35name">ウィンドウロックスイッチON時の運転席からの開閉可能ドアガラス</string>
+    <string name="setFunc35name_title">ウィンドウロックスイッチON時の運転席からの開閉可能ドアガラス</string>
+    <string name="setFunc36item0">なし</string>
+    <string name="setFunc36item1">30分</string>
+    <string name="setFunc36item2">60分</string>
+    <string name="setFunc36name">ACC電源の自動オフ（エンジンスイッチがACC時のみ）</string>
+    <string name="setFunc36name_title">ACC電源の自動オフ（エンジンスイッチがACC時のみ）</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">なし</string>
+    <string name="setFunc42item1">15秒</string>
+    <string name="setFunc42item2">30秒</string>
+    <string name="setFunc42item3">1分</string>
+    <string name="setFunc42item4">3分</string>
+    <string name="setFunc42name">降車後ヘッドライト点灯機能</string>
+    <string name="setFunc42name_title">降車後ヘッドライト点灯機能</string>
+    <string name="setFunc43item0">なし</string>
+    <string name="setFunc43item1">車幅灯点灯</string>
+    <string name="setFunc43item2">ヘッドライト点灯</string>
+    <string name="setFunc43name">リモコンアンロックボタン操作時ライト点灯機能</string>
+    <string name="setFunc43name_title">リモコンアンロックボタン操作時ライト点灯機能</string>
+    <string name="setFunc50item0">なし</string>
+    <string name="setFunc50item1">あり</string>
+    <string name="setFunc50name">内外気自動制御</string>
+    <string name="setFunc50name_title">内外気自動制御</string>
+    <string name="setFunc51item0">なし</string>
+    <string name="setFunc51item1">あり</string>
+    <string name="setFunc51name">エアコンスイッチ自動制御</string>
+    <string name="setFunc51name_title">エアコンスイッチ自動制御</string>
+    <string name="setFunc53item0">エコ</string>
+    <string name="setFunc53item1">快適</string>
+    <string name="setFunc53name">ECOモード</string>
+    <string name="setFunc53name_title">ECOモード</string>
+    <string name="setFunc54item0">普通</string>
+    <string name="setFunc54item1">足元強</string>
+    <string name="setFunc54item2">ウィンドウガラス強</string>
+    <string name="setFunc54name">足元／ウィンドウガラスの風量調整</string>
+    <string name="setFunc54name_title">足元／ウィンドウガラスの風量調整</string>
+    <string name="setFunc55item0">普通</string>
+    <string name="setFunc55item1">上半身強</string>
+    <string name="setFunc55item2">足元強</string>
+    <string name="setFunc55name">上半身／足元の風量調整</string>
+    <string name="setFunc55name_title">上半身／足元の風量調整</string>
+    <string name="setFunc56item0">なし</string>
+    <string name="setFunc56item1">あり (0℃)</string>
+    <string name="setFunc56name">（エンジン）始動時のオートリアデフォッガー作動温度</string>
+    <string name="setFunc56name_title">（エンジン）始動時のオートリアデフォッガー作動温度</string>
+    <string name="setFunc57item0">なし</string>
+    <string name="setFunc57item1">あり</string>
+    <string name="setFunc57name">ドア解錠連動空調</string>
+    <string name="setFunc57name_title">ドア解錠連動空調</string>
+    <string name="setFunc58item0">なし</string>
+    <string name="setFunc58item1">あり</string>
+    <string name="setFunc58name">足元設定時のウィンドウガラスへの送風</string>
+    <string name="setFunc58name_title">足元設定時のウィンドウガラスへの送風</string>
+    <string name="setFunc60item0">なし</string>
+    <string name="setFunc60item1">あり</string>
+    <string name="setFunc60name">暖房優先</string>
+    <string name="setFunc60name_title">暖房優先</string>
+    <string name="setFuncGroup01">キーレスエントリー</string>
+    <string name="setFuncGroup02">キーレスオペレーション</string>
+    <string name="setFuncGroup03">ワイパー</string>
+    <string name="setFuncGroup04">ライト</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">パワーウィンドウ</string>
+    <string name="setFuncGroup07">方向指示灯</string>
+    <string name="setFuncGroup08">ドア解錠/施錠</string>
+    <string name="setFuncGroup09">エアコン</string>
+    <string name="setFuncGroup10">その他</string>
+    <string name="setSend">送信</string>
+    <string name="setany">無線LANチャンネル設定</string>
+    <string name="setcarset">車両設定</string>
+    <string name="setinfo_changewpaonestr">無線LANパスワードの変更</string>
+    <string name="setinfo_changewpatwostr">車両の無線LANパスワードの変更ができます。</string>
+    <string name="setinfoeightstr">"車台番号登録を解除できます。解除すると車両との通信ができなくなります。
+解除後再度通信するには、再登録が必要になります。"</string>
+    <string name="setinfoelevenstr">無線LANチャンネル設定</string>
+    <string name="setinfofifteenstr">盗難警報履歴</string>
+    <string name="setinfofivestr">SSIDの変更</string>
+    <string name="setinfofourstr">アプリ起動時の暗証番号の変更ができます。</string>
+    <string name="setinfofourteenstr">"車両の設定の変更ができます。
+（ETACSのカスタマイズ）"</string>
+    <string name="setinfoninestr">無線LAN通信設定</string>
+    <string name="setinfoonestr">暗証番号入力省略</string>
+    <string name="setinfosevenstr">車台番号登録解除</string>
+    <string name="setinfosisteenstr">盗難警報の作動履歴を確認できます。</string>
+    <string name="setinfosixstr">車両のSSIDの変更ができます。</string>
+    <string name="setinfotenstr">車両との無線LAN通信を常時行うか、車両のパワースイッチがOFFの時だけ行うか、選択できます。</string>
+    <string name="setinfothirteenstr">車両設定</string>
+    <string name="setinfothreestr">暗証番号変更</string>
+    <string name="setinfotwelvestr">無線LAN通信で使用するチャンネルを変更することができます。変更すると、一時的に無線LAN通信が切断された後、自動的に再接続されます。切断後、5分経過しても再接続されない場合は、アプリを閉じ、Wi-Fi設定画面で車両にWi-Fi接続されていることをご確認下さい。</string>
+    <string name="setinfotwostr">アプリ起動時の暗証番号入力要否の設定ができます。</string>
+    <string name="setinit">車台番号登録解除</string>
+    <string name="setinitinfo">"以下の設定を初期化してもよろしいですか？
+
+"<ul><li>"タイマー充電のスケジュール
+"</li><li>"プレ空調のスケジュール
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"以下の設定を初期化してもよろしいですか？
+
+"<ul><li>"タイマー充電のスケジュール
+"</li><li>"プレ空調のスケジュール
+"</li><li>"SSID
+"</li><li>無線LANパスワード</li></ul></string>
+    <string name="setinitq">車台番号の登録を解除してもよろしいですか？</string>
+    <string name="setnewssidinfo">新SSID</string>
+    <string name="setnewwpainfo">新しいパスワード</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">現在のパスワード</string>
+    <string name="setpasscode">暗証番号変更</string>
+    <string name="setpasscodedis">"暗証番号が登録されていません。
+
+暗証番号を登録するには、｢暗証番号入力省略｣をオフにして下さい。"</string>
+    <string name="setpasscodestep1">現在の暗証番号を入力してください。</string>
+    <string name="setpasscodestep2">新しい暗証番号を入力してください。</string>
+    <string name="setpasscodestep3">もう一度新しい暗証番号を入力してください。</string>
+    <string name="setrenewwpainfo">新しいパスワードの確認</string>
+    <string name="setspnum">登録スマートフォン数</string>
+    <string name="setssid">SSIDの変更</string>
+    <string name="setssiderr">入力エラー</string>
+    <string name="setssiderrinfo">使用できない文字が含まれています。</string>
+    <string name="setssidinfo">半角英数字および半角記号で1～32文字まで設定可能。大文字・小文字は区別されます。</string>
+    <string name="setssidokinfo">一時的に無線LAN通信が切断された後、自動的に再接続されます。切断後、5分経過しても再接続されない場合は、アプリを閉じ、AndroidのWi-Fi設定画面で車両にWi-Fi接続されていることをご確認下さい。</string>
+    <string name="setssidoktips">アプリを終了します。</string>
+    <string name="setthefthistory">盗難警報履歴</string>
+    <string name="setthefthistoryinfo">盗難警報履歴を全て消去しますか？</string>
+    <string name="settingtitle">設定</string>
+    <string name="setusepasscode">暗証番号入力省略</string>
+    <string name="setusepasscodeinfo">暗証番号を入力してください。</string>
+    <string name="setver">バージョン情報</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">車両ソフトウェア</string>
+    <string name="setwifiinfoon">"常時通信オン：
+常時、車両側の無線LAN通信がオン
+
+常時通信オフ：
+パワースイッチOffの時のみ、車両側の無線LAN通信がオン
+
+お使いの無線LAN機器をスマートフォン連携ディスプレイオーディオなどに接続する場合は常時通信オフにしてください。"</string>
+    <string name="setwifilabel">常時通信</string>
+    <string name="setwpa">無線LANパスワードの変更</string>
+    <string name="setwpaerr_1">入力エラー</string>
+    <string name="setwpaerr_2">入力エラー</string>
+    <string name="setwpaerr_3">入力エラー</string>
+    <string name="setwpaerr_4">入力エラー</string>
+    <string name="setwpaerrinfo_1">使用できない文字が含まれています。ヘルプから、使用できる文字を確認してください。</string>
+    <string name="setwpaerrinfo_2">「新しいパスワード」 と 「新しいパスワードの確認」 が一致していません。新しいパスワードを再度入力してください。</string>
+    <string name="setwpaerrinfo_3">新しいパスワードの文字数が14文字以外です。パスワードは14文字にしてください。</string>
+    <string name="setwpaerrinfo_4">現在のパスワードが正しくありません。現在のパスワードを再度入力してください。</string>
+    <string name="setwpaerrinfo_5">"以下の原因が考えられます。
+"<ul><li>"パワースイッチがACC以外
+"</li><li>"ブザーが鳴ってから、10分以上経過
+
+車両が登録待機状態になっていることを確認してください。"</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"パスワードは、半角英数字および半角記号で14文字に設定して下さい。大文字・小文字は区別されます。
+"</li><li>"パスワードは大文字／小文字／数字／記号を組み合わせ、安全性の高いパスワードに設定することをお勧めします。
+"</li><li>パスワードはお客様ご自身で大切に管理してください。</li></ul></string>
+    <string name="setwpaokinfo">一時的に無線LAN通信が切断された後、自動的に再接続されます。切断後、5分経過しても再接続されない場合は、アプリを閉じ、AndroidのWi-Fi設定画面で車両にWi-Fi接続されていることをご確認下さい。</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"車両以外のネットワーク（インターネットなど）に接続しています。
+
+車両に接続しますか。"</string>
+    <string name="ssidinfo">SSIDを変更します。</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">車両のSSIDとパスワードを入力しOKスイッチを押してください。</string>
+    <string name="stepfiveonestring">運転席のドアを閉じてください。</string>
+    <string name="stepfivethreestring">"STEP 2の後10秒以内に、キーレスオペレーションキーのLOCKスイッチとUNLOCKスイッチを交互に5回(LOCKスイッチから始め計10回)押します。
+ブザーが鳴り、車両が登録待機状態になります。"</string>
+    <string name="stepfivetwostring">車両のパワースイッチをACCにします。(ブレーキペダルを踏まずにパワースイッチを押すと、｢OFF｣→｢ACC｣→｢ON｣→｢OFF｣の順に切り換わります)</string>
+    <string name="stepfouronestring">運転席のドアを閉じてください。</string>
+    <string name="stepfourthreestring">"STEP 2の後10秒以内に、キーレスオペレーションキーのLOCKスイッチとUNLOCKスイッチを交互に5回(LOCKスイッチから始め計10回)押します。
+ブザーが鳴り、車両が登録待機状態になります。"</string>
+    <string name="stepfourtwostring">車両のパワースイッチをACCにします。(ブレーキペダルを踏まずにパワースイッチを押すと、｢OFF｣→｢ACC｣→｢ON｣→｢OFF｣の順に切り換わります)</string>
+    <string name="stu1_1">パワースイッチOFF</string>
+    <string name="stu1_2">パワースイッチONもしくはACC</string>
+    <string name="stu1_3">盗難警報解除</string>
+    <string name="stu1_4">盗難警報セット</string>
+    <string name="stu1_5">警報作動中</string>
+    <string name="stu2info1leftstr">ポジションランプが</string>
+    <string name="stu2info1rightstr">点灯しています</string>
+    <string name="stu2info1str">ポジションランプが点灯しています。</string>
+    <string name="stu2info2leftstr">ハザードランプが</string>
+    <string name="stu2info2rightstr">点灯しています</string>
+    <string name="stu2info2str">ハザードランプが点灯しています。</string>
+    <string name="stu2info3leftstr">ドアが</string>
+    <string name="stu2info3rightstr">開いています</string>
+    <string name="stu2info3str">ドアが開いています。</string>
+    <string name="stu2info4leftstr">ヘッドライトが</string>
+    <string name="stu2info4rightstr">点灯しています</string>
+    <string name="stu2info4str">ヘッドライトが点灯しています。</string>
+    <string name="stu2info5leftstr">エンジンフードが</string>
+    <string name="stu2info5rightstr">開いています</string>
+    <string name="stu2info5str">エンジンフードが開いています。</string>
+    <string name="stu2info6leftstr">ルームランプが</string>
+    <string name="stu2info6rightstr">点灯しています</string>
+    <string name="stu2info6str">ルームランプが点灯しています。</string>
+    <string name="stu2info7leftstr">テールゲートが</string>
+    <string name="stu2info7rightstr">開いています</string>
+    <string name="stu2info7str">テールゲートが開いています。</string>
+    <string name="stu2info8leftstr">テールランプが</string>
+    <string name="stu2info8rightstr">点灯しています</string>
+    <string name="stu2info8str">テールランプが点灯しています。</string>
+    <string name="sun">日曜日</string>
+    <string name="sun1">日</string>
+    <string name="switchoff">オフ</string>
+    <string name="switchon">オン</string>
+    <string name="theft2_1">ヘッドランプ操作</string>
+    <string name="theft2_4">ポジションランプ操作</string>
+    <string name="theft2dis2twostr">"車両がつぎの状態のとき、この操作はできません。
+
+"<ul><li>"パワースイッチがOFF以外
+"</li><li>ヘッドライトもしくはポジションランプが点灯中</li></ul></string>
+    <string name="thu">木曜日</string>
+    <string name="thu1">木</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode">P</string>
+    <string name="titleback">戻る</string>
+    <string name="titlehelp">ヘルプ</string>
+    <string name="titleupdate1">消去</string>
+    <string name="titleupdate2">初期化</string>
+    <string name="titleupdate3">送信</string>
+    <string name="topUpdateTime" formatted="false">%m/%d %t</string>
+    <string name="topacdisable">"車両がつぎの状態のとき、この操作はできません。
+
+"<ul><li>"エンジンスイッチがOFF以外
+"</li><li>急速充電中</li></ul></string>
+    <string name="topacmode">空調モード</string>
+    <string name="topacwait">充電待機中</string>
+    <string name="topbattwarm">ウォームアップ中</string>
+    <string name="topbattwarminginfo">"駆動用バッテリーの温度低下を防ぐため、プラグインしてください。
+ウォームアップを開始します。"</string>
+    <string name="topbattwarminginfo_plugin_1">"駆動用バッテリーの温度低下により、走行できなくなる可能性があります。
+
+駆動用バッテリーを温めるため、車両をREADY（走行可能状態）にするか、普通充電をしてください。"</string>
+    <string name="topbattwarminginfo_plugin_2">"駆動用バッテリーの温度低下により、走行できません。
+
+駆動用バッテリーを温めるため、普通充電をしてください。"</string>
+    <string name="topbattwarminginfo_stop_1">"駆動用バッテリーの温度低下により走行できません。
+駆動用バッテリーのウォームアップが必要ですが、条件が整っていません。
+
+外気温が上昇したら、ウォームアップを開始します。"</string>
+    <string name="topbattwarminginfo_stop_2">"駆動用バッテリーの温度低下により走行できません。
+
+駆動用バッテリー暖房が必要ですが、条件が整っていません。
+
+外気温が上昇したら、駆動用バッテリーの暖房を開始しますので、プラグインして、お待ちください。"</string>
+    <string name="topbattwarminginfo_warm_1">駆動用バッテリーの温度が上昇しましたので、走行できます。</string>
+    <string name="topbattwarminginfo_warm_2">"駆動用バッテリーの温度低下により、走行できません。
+
+ただ今、駆動用バッテリーを温めていますので、お待ちください。"</string>
+    <string name="topbattwarmingtitle">車両情報</string>
+    <string name="topcanntac">｢タイマー｣画面内の｢空調｣から空調モードを選択してください。</string>
+    <string name="topcanntac2">"”今すぐ空調”が設定されています。
+”今すぐ空調”が終了すると、タイマー空調は自動的にオンに戻ります。"</string>
+    <string name="topcanntchg">｢タイマー｣画面でタイマーを設定してください。</string>
+    <string name="topchargeEndTime">充電完了まで</string>
+    <string name="topchargeEndTimeHour">時間</string>
+    <string name="topchargeEndTimeMin">分</string>
+    <string name="topchargefinish">充電終了</string>
+    <string name="topchargetimer">タイマー ON/OFF</string>
+    <string name="topfastchg">急速</string>
+    <string name="tophelp100v">普通 (100V)</string>
+    <string name="tophelp200v">普通 (200V)</string>
+    <string name="tophelp22">冷房</string>
+    <string name="tophelp24">暖房</string>
+    <string name="tophelp26">デフロスター</string>
+    <string name="tophelp41">つながりやすい</string>
+    <string name="tophelp42">つながりにくい</string>
+    <string name="tophelp43">つながらない</string>
+    <string name="tophelp44">このボタンを押すと、車両と通信して情報を更新します。</string>
+    <string name="tophelpwarm"><ul><li>"駆動用バッテリーの温度低下を防ぐため、ウォームアップをしています。
+"</li><li>"駆動用バッテリーの残量が減る場合があります。
+"</li><li>"タイマー充電を設定している場合でも、ウォームアップを優先して、充電する場合があります。
+"</li><li>室内空調ファンが作動する場合があります。</li></ul></string>
+    <string name="topwaitcharge">待機中</string>
+    <string name="towebsitestr">Webサイトに移動します</string>
+    <string name="tue">火曜日</string>
+    <string name="tue1">火</string>
+    <string name="v2hv2l">給電器起動</string>
+    <string name="warning6str">更新ボタンを押して、車両と通信してください。</string>
+    <string name="warning7timeronestr">タイマー1を選択している曜日の全ての時刻が変更されます。</string>
+    <string name="warning7timerthreestr">タイマー3を選択している曜日の全ての時刻が変更されます。</string>
+    <string name="warning7timertwostr">タイマー2を選択している曜日の全ての時刻が変更されます。</string>
+    <string name="wed">水曜日</string>
+    <string name="wed1">水</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">無線LAN通信設定</string>
+    <string name="wpainfo">無線LANパスワードを変更します。</string>
+</resources>

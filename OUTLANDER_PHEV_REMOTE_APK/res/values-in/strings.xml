@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">Menit</string>
+    <string name="ACWorking">Aktivasi Waktu A/C tidak dapat diubah saat A/C telah diaktifkan menggunakan timer atau remote control.</string>
+    <string name="ACtim"><ul><li>"Jangan gunakan fungsi remote control ketika ada orang atau hewan peliharaan di dalam kendaraan anda. Suhu di dalam mobil dapat menyebabkan kecelakaan karena suhu di luar terlalu tinggi atau terlalu rendah.
+
+"</li><li>"Pemakaian A/C yang terlalu lama menyebabkan pengurangan daya pada baterai.
+
+"</li><li>Jika baterai lemah, waktu pengoperasian A/C dapat lebih singkat daripada waktu yang telah ditetapkan.</li></ul></string>
+    <string name="ACtimeLabel">Waktu pengoperasian A/C</string>
+    <string name="AcsettingARM">"Jika peringatan keamanan diaktifkan, pengaturan kendaraan tidak dapat diubah
+Buka kunci kendaraan menggunakan sistem \"masuk tanpa kunci\".
+
+Hal ini dapat menonaktifkan sistem keamanan dan pengaturan kendaraan dapat diubah."</string>
+    <string name="EVInit">Kondisi Awal</string>
+    <string name="EVInitInfo">Anda akan mengatur ulang pengaturan kendaraan?</string>
+    <string name="Everyday">Setiap hari</string>
+    <string name="ResetAllschude">Anda ingin mengatur ulang semua jadwal?</string>
+    <string name="ResetOneschude">Anda ingin mengatur ulang jadwal ini?</string>
+    <string name="Schudle">Jadwal</string>
+    <string name="abc_action_bar_home_description">Navigasi ke beranda</string>
+    <string name="abc_action_bar_up_description">Navigasi naik</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spasi</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Kueri penelusuran</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan ke %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="accstr">ACC(oranye)</string>
+    <string name="acoptiontimelong2">Waktu pengoperasian A/C</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Informasi</string>
+    <string name="bartitle5">Pengaturan</string>
+    <string name="bgdark" />
+    <string name="btnStart">Mulai</string>
+    <string name="cancel">Batalkan</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">Karakter yang dapat digunakan adalah sebagai berikut:</string>
+    <string name="channel_3">Saluran 3</string>
+    <string name="channel_8">Saluran 8</string>
+    <string name="clear">Atur Ulang Semua</string>
+    <string name="communicationstr">Komunikasi</string>
+    <string name="countdownTipsonestr">"Silakan gunakan panel kontrol pada suplai daya eksternal untuk mengatur pasokan daya dari kendaraan ke rumah selama 5 menit.
+
+Jika suplai daya eksternal gagal untuk memulai, penyebabnya adalah sebagai berikut"</string>
+    <string name="countdownTipstwostr">suplai daya eksternal tidak mendukung fitur ini</string>
+    <string name="countdownTipstwostrfivestr">kesalahan pada suplai daya eksternal atau kendaraan</string>
+    <string name="countdownTipstwostrfourstr">Baterai 12V memiliki tegangan yang terlalu rendahada</string>
+    <string name="countdownTipstwostrthreestr">Tombol “Mulai” telah ditekan selama lebih dari 5 menit</string>
+    <string name="countdownTipstwostrtwostr">Konektor pengisi daya cepat pada suplai daya eksternal tidak terpasang ke kendaraan dengan benar</string>
+    <string name="daySelct">Ulangi</string>
+    <string name="delay1">0 menit</string>
+    <string name="delay10">120 menit</string>
+    <string name="delay11">150 menit</string>
+    <string name="delay12">180 menit</string>
+    <string name="delay2">5 menit</string>
+    <string name="delay3">10 menit</string>
+    <string name="delay4">20 menit</string>
+    <string name="delay5">30 menit</string>
+    <string name="delay6">40 menit</string>
+    <string name="delay7">50 menit</string>
+    <string name="delay8">60 menit</string>
+    <string name="delay9">90 menit</string>
+    <string name="demo">Versi Percobaan</string>
+    <string name="durationstr">Durasi</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">Kunci illegal telah digunakan/Penggunaan kunci illegal</string>
+    <string name="err1intrusion">Terjadi intrusi tanpa izin</string>
+    <string name="err1movement">Pergerakan tidak biasa pada kendaraan terjadi</string>
+    <string name="err1other">Terjadi akses tanpa izin pada kendaraan</string>
+    <string name="err1perimeter">Pintu mobil dibuka tanpa izin</string>
+    <string name="err1silent">Getaran abnormal terjadi</string>
+    <string name="err1title">Pemberitahuan Alarm Anti-Maling</string>
+    <string name="errACinfo">"Mungkin disebabkan oleh:
+
+"<ul><li>"Pintu mobil terbuka
+"</li><li>Daya baterai rendah</li></ul></string>
+    <string name="errACinfoEx">"Mungkin disebabkan oleh:
+
+"<ul><li>"Pintu mobil terbuka
+"</li><li>"Daya baterai rendah
+"</li><li>Suhu baterai rendah</li></ul></string>
+    <string name="errACtitle">Pemberitahuan : A/C berhenti</string>
+    <string name="errCHGinfo">Timer pengisian daya tidak dapat diaktifkan</string>
+    <string name="errCHGtitle">Pemberitahuan kesalahan pada timer pengisi daya</string>
+    <string name="errRegMaxtitle">Registrasi gagal</string>
+    <string name="errTimerinfo">Timer tidak berfungsi dengan benar</string>
+    <string name="errTimertitle">Pemberitahuan kesalahan kontrol timer</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Kode Kesalahan :</string>
+    <string name="evACCool">Pendinginan</string>
+    <string name="evACHot">Pemanasan</string>
+    <string name="evACOFF">OFF</string>
+    <string name="evACSetTitle">Pengaturan timer pada A/C</string>
+    <string name="evCharge1Auto">Berdasarkan lokasi yang terdaftar :</string>
+    <string name="evCharge1End">akhir</string>
+    <string name="evCharge1Start">mulai</string>
+    <string name="evCharge1full">pengisian penuh</string>
+    <string name="evChargeSetTitle">Pengaturan waktu pengisian daya</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">Kirim</string>
+    <string name="evSendAsk">Perubahan pengaturan ini belum dikirim. Apakah anda akan kembali ke tampilan sebelumnya dan mengirimnya?</string>
+    <string name="evSendAsk5ch">"Perubahan pengaturan ini belum dikirim.
+Apakah anda akan kembali ke tampilan sebelumnya dan mengirimnya?"</string>
+    <string name="evTimerSet">Pengaturan Timer</string>
+    <string name="evhCHG12info">"Pengaturan pengisian daya penuh adalah pengisian daya terus menerus hingga baterai terisi penuh saat belum terisi penuh selama waktu yang ditentukan pada timer.
+Harap perhatikan, menghubungkan pengisi daya ketika waktu pengisian daya berakhir tidak akan mengisi daya."</string>
+    <string name="evhCHG17myinfo1">A/C manual</string>
+    <string name="evhCHG22ginfo1">Mode pengisian daya manual</string>
+    <string name="evhCHG22ginfo3">Mode timer pengisian daya</string>
+    <string name="evhCHG22infofourstr">Fitur berbasis lokasi tidak akan tersedia.</string>
+    <string name="evhCHG22infoonestr">Jika mobil dilengkapi oleh MMCS:</string>
+    <string name="evhCHG22infothreestr">Jika mobil tidak dilengkapi oleh MMCS:</string>
+    <string name="evhCHG22infotwostr">"“Berbasis lokasi yang terdaftar” adalah fungsi untuk mengganti mode pengisian daya sesuai lokasi kendaraan. Ketika kendaraan berada di sekitar lokasi yang telah terdaftar, maka secara otomatis akan beralih ke pengisian daya sesuai timer yang telah ditetapkan.
+
+Jika tidak maka secara otomatis beralih ke mode pengisian daya manual. FItur ini memungkinkan timer pengisian daya memanfaatkan harga listrik pada larut malam di area yang terdaftar serta pengalihan otomatis ke pengisian daya manual ketika menggunakan perangkat pengisi daya yang disediakan oleh pusat perbelanjaan."</string>
+    <string name="evhelpCHG1item2">Apa itu \"Pengaturan Pengisian Daya Penuh\"</string>
+    <string name="evhelpCHG2item2">Apa itu \"Berbasis lokasi yang terdaftar\" ?</string>
+    <string name="evhmanualACitem4infofourstr">Hanya mode pendinginan yang bisa dipilih pada A/C mode.</string>
+    <string name="evhmanualACitem4infoonestr">Jika kendaraan dilengkapi dengan pemanas Mitsubishi:</string>
+    <string name="evhmanualACitem4infothreestr">Jika kendaraan tidak dilengkapi pemanas Mitsubishi:</string>
+    <string name="evhmanualACitem4infotwostr">"Mode Pemanasan/Pendinginan/Defogger dapat dipilih pada A/C.
+Hanya satu mode A/C yang dapat dipilih untuk semua pengaturan timer. Tidak memungkinkan untuk mengatur mode yang berbeda pada setiap timer."</string>
+    <string name="evmCHchargstr">Pengisian</string>
+    <string name="evmCHclimatestr">A/C</string>
+    <string name="evmCHsetstr">Pengaturan</string>
+    <string name="evmCHstatusstr">Informasi</string>
+    <string name="evmaccancelltimestr">Pembatalan</string>
+    <string name="evmaccanceltimer">Pembatalan Timer</string>
+    <string name="evmacwarn5str">Batalkan Timer A/C.</string>
+    <string name="evmainac">A/C</string>
+    <string name="evmaincharge">Pengisian Daya</string>
+    <string name="evmchacwarn5no">Tidak</string>
+    <string name="evmchacwarn5yes">Ya</string>
+    <string name="evmchargeTimerSch">Jadwal timer pengisi daya</string>
+    <string name="evmchargetschstr">"Anda dapat membatalkan timer sementara dengan tidak mencentangnya.
+Jadwal timer pengisian daya yang dibatalkan sementara dapat dilanjutkan kembali secara otomatis dengan mencentang kembali atau ketika mode operasi sakelar daya dihidupkan."</string>
+    <string name="evmchargstatusstr">Status pengisian daya</string>
+    <string name="evmchtempcancellstr">Pembatalan sementara</string>
+    <string name="evmchupdatingstr">(Memperbarui)</string>
+    <string name="evmchwarn5str">Batalkan timer pengisian daya untuk sementara.</string>
+    <string name="evmclimateTimerSch">Jadwal timer A/C</string>
+    <string name="evmclimatetschstr">Anda dapat membatalkan timer dengan tidak mencentangnya.</string>
+    <string name="evmdrivebattlevelstr">Tingkat perangkat baterai</string>
+    <string name="evmerrstartcommun">Mulai komunikasi</string>
+    <string name="evmlastupdatedstr">Aplikasi ini menampilkan status kendaraan yang terakhir diperbarui. Sebelum memperbarui status kendaraan, aplikasi ini dapat menampilkan status kendaraan sebelumnya.</string>
+    <string name="evmregtroublereg">Mengalami kesulitan saat registrasi?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Pembatalan Timer Sementara</string>
+    <string name="evmupdatedTime">Terakhir diperbarui</string>
+    <string name="evpsfailcontent">Kondisi ini mungkin disebabkan oleh kerusakan kendaraan. Silakan hubungi dealer resmi Mitsubishi</string>
+    <string name="evpsfailtitle">suplai daya tidak bisa dihidupkan</string>
+    <string name="evpspage1">Anda dapat menggunakan aplikasi ini untuk memasok daya dari kendaraan ke rumah Anda dengan menggunakan suplai daya eksternal(peralatan V2H / V2L).</string>
+    <string name="evpspage1threestr">Diperlukan pengumpan/suplai daya yang kompatibel dengan fitur ini. Silakan hubungi Mitsubishi Motors untuk detailnya.</string>
+    <string name="evpspage1twostr">Anda juga dapat memasok daya untuk menghidupkan V2H dari kendaraan Anda ketika rumah Anda mengalami kegagalan daya dll.</string>
+    <string name="evpspage2">Sakelar daya pada posisi OFF dan hubungkan konektor pengisi daya cepat dari catu daya eksternal ke kendaraan</string>
+    <string name="evpspage3">Ketika tombol \"mulai\" ditekan, kendaraan mulai memasok daya ke suplai daya eksternal. Jika anda tidak dapat menekan tombol \"Mulai\", kembali ke tampilan sebelumnya dan coba lagi</string>
+    <string name="exitdemostr">Exit Demo</string>
+    <string name="fri">Jumat</string>
+    <string name="fri1">Jum</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">MITSUBISHI Remote Control tidak disarankan.</string>
+    <string name="jailbreak_title">OS telah dimodifikasi</string>
+    <string name="language">in</string>
+    <string name="linkwarningstr">"Anda tidak dapat menggunakan jaringan kendaraan untuk menjelajah internet saat terhubung ke kendaraan. Silakan gunakan data seluler atau ubah ke titik akses LAN nirkabel yang lain.
+
+Sambungkan ke SSID kendaraan untuk menggunakan aplikasi ini lagi."</string>
+    <string name="loadwndinfo">"Anda tidak dapat terhubung ke jaringan lain (Internet, dll.) saat menggunakan MITSUBISHI REMOTE CONTROL.
+
+Anda tidak dapat menggunakan MITSUBISHI REMOTE CONTROL saat menghubungkan perangkat seluler ke sistem Smartphone Link Display Audio."</string>
+    <string name="login_ssid_txtPwd">Kata sandi</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"Kapasitas baterai pada kendaraan terlalu rendah, kendaraan tidak dapat memasok daya ke suplai daya eksternal
+
+Fitur ini dapat digunakan saat kapasitas baterai lebih dari setengah penuh
+
+Silakan lihat bagian \"Pengisian Daya\" dan \"Pengalihan Mode Pengisian Daya\" pada panduan pengguna kendaraan sebelum mengisi daya."</string>
+    <string name="lowbatterytitle">Tidak dapat memasok daya ke sumber daya eksternal</string>
+    <string name="manacModenoset">Setelah mode A/C diatur, tekan tombol A/C ON.</string>
+    <string name="manacModesetClimateShutDown">"Timer A/C dihentikan sementara karena A/C manual telah diaktifkan.
+
+Setelah pengoperasian A/C manual selesai, timer A/C akan aktif secara otomatis."</string>
+    <string name="manachelptitle">Pengaturan A/C manual</string>
+    <string name="manactim">Jangan menggunakan remote control A/C pada saat terdapat orang atau hewan peliharaan di mobil. Suhu di dalam mobil dapat menyebabkan kecelakaan karena peningkatan atau penurunan suhu eksternal.</string>
+    <string name="modeselect">Anda harus mendaftar terlebih dahulu untuk mengoperasikan kendaraan. Apakah anda ingin mendaftarkan kode Vin sekarang dan mengaktifkan aplikasi?</string>
+    <string name="mon">Senin</string>
+    <string name="mon1">Sen</string>
+    <string name="needPINinfo">Kata sandi diperlukan saat program dimulai.</string>
+    <string name="newfunctioninfo">"Komunikasi nirkabel LAN diatur \"Selalu Berkomunikasi: OFF\" Anda dapat berkomunikasi dengan kendaraan ketika sakelar daya pada kendaraan dalam posisi OFF.
+
+Anda dapat mengubah pengaturan dengan \"Pengaturan\" > \"Komunikasi LAN nirkabel\""</string>
+    <string name="newfunctioninfo2">Jangan tampilkan lagi</string>
+    <string name="nextstr">Lanjut</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">Anda tidak perlu lagi memasukkan kata sandi saat program dimulai.</string>
+    <string name="passcodeErr">Kata sandi salah</string>
+    <string name="passcodeErrinfo">Kata sandi yang anda masukkan salah. Silakan masukkan lagi.</string>
+    <string name="passcodeTitle">Kata Sandi</string>
+    <string name="preset">Timer</string>
+    <string name="preset1">Timer 1</string>
+    <string name="preset2">Timer 2</string>
+    <string name="preset3">Timer 3</string>
+    <string name="preset4">Timer 4</string>
+    <string name="preset5">Timer 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Registrasi</string>
+    <string name="regErr">Registrasi gagal</string>
+    <string name="regErrConn">Tidak dapat mendaftar</string>
+    <string name="regOk">Kode VIN berhasil terdaftar</string>
+    <string name="releaseinfothreestr">Siapkan SSID dan kata sandi yang disertakan dengan mobil saat anda membeli mobil.</string>
+    <string name="remainTime">Waktu yang tersisa</string>
+    <string name="reset">Atur Ulang</string>
+    <string name="sTime">～</string>
+    <string name="sat">Sabtu</string>
+    <string name="sat1">Sab</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="sendConn">Terhubung…</string>
+    <string name="sendErr">Tidak dapat berkomunikasi</string>
+    <string name="sendMsg">Mengirim…</string>
+    <string name="sendNavi">Navigasi dioperasikan...</string>
+    <string name="sendOK">Selesai</string>
+    <string name="sendUpdate">Memperbarui…</string>
+    <string name="sendimmediately">A/C ON</string>
+    <string name="setErr">Pengaturan kesalahan</string>
+    <string name="setErrInfo">Komunikasi gagal. Silakan hubungi dealer Mitsubishi terdekat anda.</string>
+    <string name="setFunc01item0">Saklar pengapian ON atau ACC ON</string>
+    <string name="setFunc01item1">Sakelar pengapian ON</string>
+    <string name="setFunc01name">Operasi posisi kunci</string>
+    <string name="setFunc01name_title">Operasi posisi kunci</string>
+    <string name="setFunc02item0">OFF</string>
+    <string name="setFunc02item1">ON</string>
+    <string name="setFunc02name">Lampu indikator perubahan jalur (Sentuh sekali berkedip tiga kali)</string>
+    <string name="setFunc02name_title">Lampu indikator perubahan jalur (Sentuh sekali berkedip tiga kali)</string>
+    <string name="setFunc03item0">Kunci: Sekali Membuka kunci: Dua kali</string>
+    <string name="setFunc03item1">Kunci: Sekali Membuka kunci: OFF</string>
+    <string name="setFunc03item2">Kunci: OFF Membuka kunci: Dua kali</string>
+    <string name="setFunc03item3">Kunci: Dua kali Membuka kunci: Sekali</string>
+    <string name="setFunc03item4">Kunci: OFF Membuka kunci: Sekali</string>
+    <string name="setFunc03item5">Kunci: Dua kali Membuka kunci: OFF</string>
+    <string name="setFunc03item6">OFF</string>
+    <string name="setFunc03name">Respon Lampu Indikator Arah</string>
+    <string name="setFunc03name_title">Respon Lampu Indikator Arah</string>
+    <string name="setFunc04item0">Tetap (4 detik)</string>
+    <string name="setFunc04item1">Dapat disesuaikan</string>
+    <string name="setFunc04item2">Dapat disesuaikan (Sensitif terhadap kecepatan kendaraan)</string>
+    <string name="setFunc04item3">Dapat disesuaikan (sensitif terhadap tetesan hujan)</string>
+    <string name="setFunc04name">Operasi intermiten wiper kaca depan</string>
+    <string name="setFunc04name_title">Operasi intermiten wiper kaca depan</string>
+    <string name="setFunc05item0">OFF</string>
+    <string name="setFunc05item1">ON</string>
+    <string name="setFunc05item2">Tertunda untuk menyeka air hujan saat dibuka</string>
+    <string name="setFunc05name">Washer terhubung dengan wiper</string>
+    <string name="setFunc05name_title">Washer terhubung dengan wiper</string>
+    <string name="setFunc06item0">0 detik</string>
+    <string name="setFunc06item1">4 detik</string>
+    <string name="setFunc06item2">8 detik</string>
+    <string name="setFunc06item3">16 detik</string>
+    <string name="setFunc06name">Interval intermiten wiper belakang</string>
+    <string name="setFunc06name_title">Interval intermiten wiper belakang</string>
+    <string name="setFunc07item0">OFF</string>
+    <string name="setFunc07item1">1 menit</string>
+    <string name="setFunc07item2">3 menit</string>
+    <string name="setFunc07item3">5 menit</string>
+    <string name="setFunc07item4">10 menit</string>
+    <string name="setFunc07name">Durasi lampu pencahayaan saat memulai pengisian daya</string>
+    <string name="setFunc07name_title">Durasi lampu pencahayaan saat memulai pengisian daya</string>
+    <string name="setFunc08item0">OFF</string>
+    <string name="setFunc08item1">Buka dengan kecepatan kendaraan</string>
+    <string name="setFunc08item2">Pemulihan/Penyimpanan dengan sakelar pengapian ON/OFF dan Pintu pengemudi membuka atau menutup</string>
+    <string name="setFunc08item3_0">Sistem tanpa kunci untuk mengunci dan membuka kunci</string>
+    <string name="setFunc08item3_1">เปิด/ปิด ตามสถานะ ล็อค/ปลดล็อค โดยกุญแจอัจฉริยะ</string>
+    <string name="setFunc08name">Kaca spion lipat otomatis</string>
+    <string name="setFunc08name_title">Kaca spion lipat otomatis</string>
+    <string name="setFunc09item0">Dini</string>
+    <string name="setFunc09item1">Sedikit lebih awal</string>
+    <string name="setFunc09item2">Normal</string>
+    <string name="setFunc09item3">Sedikit lambat</string>
+    <string name="setFunc09item4">Nanti</string>
+    <string name="setFunc09name">Kepekaan lampu otomatis</string>
+    <string name="setFunc09name_title">Kepekaan lampu otomatis</string>
+    <string name="setFunc10item0">OFF</string>
+    <string name="setFunc10item1">ON</string>
+    <string name="setFunc10name">Lampu otomatis terhubung ke wiper</string>
+    <string name="setFunc10name_title">Lampu otomatis terhubung ke wiper</string>
+    <string name="setFunc11item0">0 detik (tidak ada fungsi timer)</string>
+    <string name="setFunc11item1">7.5 detik</string>
+    <string name="setFunc11item2">15 detik</string>
+    <string name="setFunc11item3">30 detik</string>
+    <string name="setFunc11item4">1 menit</string>
+    <string name="setFunc11item5">2 menit</string>
+    <string name="setFunc11item6">3 menit</string>
+    <string name="setFunc11name">Durasi lampu kabin tetap dihidupkan setelah pintu ditutup</string>
+    <string name="setFunc11name_title">Durasi lampu kabin tetap dihidupkan setelah pintu ditutup</string>
+    <string name="setFunc12item0">OFF</string>
+    <string name="setFunc12item1">Lampu belakang/lampu depan: selalu terputus</string>
+    <string name="setFunc12item2">ON</string>
+    <string name="setFunc12item3">ON</string>
+    <string name="setFunc12item4">"Lampu belakang: Terputus sekali
+Lampu depan: Selalu terputus"</string>
+    <string name="setFunc12item5">ON</string>
+    <string name="setFunc12name">Fungsi cut-off otomatis lampu depan</string>
+    <string name="setFunc12name_title">Fungsi cut-off otomatis lampu depan</string>
+    <string name="setFunc13item0">OFF</string>
+    <string name="setFunc13item1">3 menit</string>
+    <string name="setFunc13item2">30 menit</string>
+    <string name="setFunc13item3">60 menit</string>
+    <string name="setFunc13name">Waktu terputus otomatis Lampu interior</string>
+    <string name="setFunc13name_title">Waktu terputus otomatis Lampu interior</string>
+    <string name="setFunc14item0">Pendek</string>
+    <string name="setFunc14item1">Panjang</string>
+    <string name="setFunc14name">Waktu aktivasi lampu indikator perubahan jalur</string>
+    <string name="setFunc14name_title">Waktu aktivasi lampu indikator perubahan jalur</string>
+    <string name="setFunc15item0">OFF</string>
+    <string name="setFunc15item1">ON</string>
+    <string name="setFunc15name">Fungsi pembersihan otomatis pada satu kali pada pengoperasian tuas washer</string>
+    <string name="setFunc15name_title">Fungsi pembersihan otomatis pada satu kali pada pengoperasian tuas washer</string>
+    <string name="setFunc16item0">OFF</string>
+    <string name="setFunc16item1">Saat beralih ke parkir</string>
+    <string name="setFunc16item2">Saat beralih pada posisi P dengan kondisi jendela tidak terkunci</string>
+    <string name="setFunc16item3">Ketika kunci kontak diputar ke posisi terkunci</string>
+    <string name="setFunc16item4">Kunci kontak diputar ke posisi terkunci di keadaan jendela tidak terkunci</string>
+    <string name="setFunc16name">Buka kunci otomatis</string>
+    <string name="setFunc16name_title">Buka kunci otomatis</string>
+    <string name="setFunc17item0">Semua pintu mobil</string>
+    <string name="setFunc17item1">Hanya pintu pengemudi</string>
+    <string name="setFunc17name">Operasi buka kunci</string>
+    <string name="setFunc17name_title">Operasi buka kunci</string>
+    <string name="setFunc19item0">2 kali</string>
+    <string name="setFunc19item1">1 kali</string>
+    <string name="setFunc19name">Jumlah penekanan tombol kunci hingga keadaan deadlock</string>
+    <string name="setFunc19name_title">Jumlah penekanan tombol kunci hingga keadaan deadlock</string>
+    <string name="setFunc20item0">OFF</string>
+    <string name="setFunc20item1">Tekan tombol sekali</string>
+    <string name="setFunc20item2">Tekan tombol sekali pada siang hari</string>
+    <string name="setFunc20item3">Tekan tombol dua kali untuk berbunyi</string>
+    <string name="setFunc20item4">Tekan tombol dua kali pada siang hari</string>
+    <string name="setFunc20name">Suara klakson setelah mengunci</string>
+    <string name="setFunc20name_title">Suara klakson setelah mengunci</string>
+    <string name="setFunc21item0">Seluruh sistem dimatikan</string>
+    <string name="setFunc21item1">Dering selama pengoperasian tanpa kunci</string>
+    <string name="setFunc21item2">Dering selama pengoperasian tanpa kunci</string>
+    <string name="setFunc21item3">Seluruh sistem dihidupkan</string>
+    <string name="setFunc21name">Respons suara Beep pada operasi tanpa kunci</string>
+    <string name="setFunc21name_title">Respons suara Beep pada operasi tanpa kunci</string>
+    <string name="setFunc22item0">30 detik</string>
+    <string name="setFunc22item1">1 menit</string>
+    <string name="setFunc22item2">2 menit</string>
+    <string name="setFunc22item3">3 menit</string>
+    <string name="setFunc22name">Secara otomatis mengunci kembali setelah buka kunci dari operasi jarak jauh</string>
+    <string name="setFunc22name_title">Secara otomatis mengunci kembali setelah buka kunci dari operasi jarak jauh</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 detik</string>
+    <string name="setFunc24item1">30 detik</string>
+    <string name="setFunc24item2">3 menit</string>
+    <string name="setFunc24item3">10 menit</string>
+    <string name="setFunc24name">Fungsi timer setelah kunci kontak dimatikan</string>
+    <string name="setFunc24name_title">Fungsi timer setelah kunci kontak dimatikan</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">OFF</string>
+    <string name="setFunc26item1">Sakelar jendela elektrik, kaca spion: OFF ON</string>
+    <string name="setFunc26item2">Sakelar jendela elektrik: OFF ON</string>
+    <string name="setFunc26item3">"Sakelar jendela elektrik: OFF
+Kaca spion : ON &amp; OFF"</string>
+    <string name="setFunc26item4">Kaca spion: OFF ON</string>
+    <string name="setFunc26item5">Sakelar jendela elektrik: OFF</string>
+    <string name="setFunc26name">Sistem masuk tanpa kunci multi-mode</string>
+    <string name="setFunc26name_title">Sistem masuk tanpa kunci multi-mode</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Pendek</string>
+    <string name="setFunc28item1">Panjang</string>
+    <string name="setFunc28name">Durasi suara respons klakson</string>
+    <string name="setFunc28name_title">Durasi suara respons klakson</string>
+    <string name="setFunc29item0">Saat wiper belakang ON</string>
+    <string name="setFunc29item1">Saat Wiper depan atau belakang ON</string>
+    <string name="setFunc29name">Wiper belakang aktif saat gigi mundur dioperasikan</string>
+    <string name="setFunc29name_title">Wiper belakang aktif saat gigi mundur dioperasikan</string>
+    <string name="setFunc32item0">OFF</string>
+    <string name="setFunc32item1">3 detik</string>
+    <string name="setFunc32item2">5 detik</string>
+    <string name="setFunc32name">Waktu penonaktifan kunci buka jarak jauh setelah mengunci</string>
+    <string name="setFunc32name_title">Waktu penonaktifan kunci buka jarak jauh setelah mengunci</string>
+    <string name="setFunc33item0">OFF</string>
+    <string name="setFunc33item1">ON</string>
+    <string name="setFunc33name">Klakson berbunyi saat mesin dihidupkan dari jarak jauh</string>
+    <string name="setFunc33name_title">Klakson berbunyi saat mesin dihidupkan dari jarak jauh</string>
+    <string name="setFunc34item0">ON</string>
+    <string name="setFunc34item1">OFF</string>
+    <string name="setFunc34name">Jendela terbuka ketika kunci kontak dimatikan</string>
+    <string name="setFunc34name_title">Jendela terbuka ketika kunci kontak dimatikan</string>
+    <string name="setFunc35item0">Semua pintu mobil</string>
+    <string name="setFunc35item1">Hanya pintu pengemudi</string>
+    <string name="setFunc35name">Kaca jendela dapat dioperasikan dari kursi pengemudi ketika kunci jendela aktif</string>
+    <string name="setFunc35name_title">Kaca jendela dapat dioperasikan dari kursi pengemudi ketika kunci jendela aktif</string>
+    <string name="setFunc36item0">OFF</string>
+    <string name="setFunc36item1">30 menit</string>
+    <string name="setFunc36item2">60 menit</string>
+    <string name="setFunc36name">Catu daya ACC secara otomatis terputus</string>
+    <string name="setFunc36name_title">Catu daya ACC secara otomatis terputus</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">OFF</string>
+    <string name="setFunc42item1">15 detik</string>
+    <string name="setFunc42item2">30 detik</string>
+    <string name="setFunc42item3">1 menit</string>
+    <string name="setFunc42item4">3 menit</string>
+    <string name="setFunc42name">Lampu depan dihidupkan ketika meninggalkan kendaraan</string>
+    <string name="setFunc42name_title">Lampu depan dihidupkan ketika meninggalkan kendaraan</string>
+    <string name="setFunc43item0">OFF</string>
+    <string name="setFunc43item1">Lampu parkir</string>
+    <string name="setFunc43item2">Lampu depan</string>
+    <string name="setFunc43name">Lampu eksterior dihidupkan saat buka kunci jarak jauh</string>
+    <string name="setFunc43name_title">Lampu eksterior dihidupkan saat buka kunci jarak jauh</string>
+    <string name="setFunc50item0">Manual</string>
+    <string name="setFunc50item1">Otomatis</string>
+    <string name="setFunc50name">Kontrol sirkulasi ulang</string>
+    <string name="setFunc50name_title">Kontrol sirkulasi ulang</string>
+    <string name="setFunc51item0">Manual</string>
+    <string name="setFunc51item1">Otomatis</string>
+    <string name="setFunc51name">Sakelar kontrol A/C</string>
+    <string name="setFunc51name_title">Sakelar kontrol A/C</string>
+    <string name="setFunc53item0">Hemat energi</string>
+    <string name="setFunc53item1">Nyaman</string>
+    <string name="setFunc53name">Mode hemat energi</string>
+    <string name="setFunc53name_title">Mode hemat energi</string>
+    <string name="setFunc54item0">Normal</string>
+    <string name="setFunc54item1">Lebih banyak aliran udara di kaki</string>
+    <string name="setFunc54item2">Lebih banyak aliran udara di defroster</string>
+    <string name="setFunc54name">Rasio aliran kaki/defroster</string>
+    <string name="setFunc54name_title">Rasio aliran kaki/defroster</string>
+    <string name="setFunc55item0">Normal</string>
+    <string name="setFunc55item1">Lebih banyak aliran udara di wajah</string>
+    <string name="setFunc55item2">Lebih banyak aliran udara di kaki</string>
+    <string name="setFunc55name">Rasio aliran udara wajah/kaki</string>
+    <string name="setFunc55name_title">Rasio aliran udara wajah/kaki</string>
+    <string name="setFunc56item0">OFF</string>
+    <string name="setFunc56item1">ON</string>
+    <string name="setFunc56name">Jendela belakang defrost otomatis saat startup</string>
+    <string name="setFunc56name_title">Jendela belakang defrost otomatis saat startup</string>
+    <string name="setFunc57item0">OFF</string>
+    <string name="setFunc57item1">ON</string>
+    <string name="setFunc57name">Hidupkan A/C atau pemanas saat pintu mobil tidak terkunci</string>
+    <string name="setFunc57name_title">Hidupkan A/C atau pemanas saat pintu mobil tidak terkunci</string>
+    <string name="setFunc58item0">OFF</string>
+    <string name="setFunc58item1">ON</string>
+    <string name="setFunc58name">Sangat sedikit udara mengalir melalui defroster di mode kaki</string>
+    <string name="setFunc58name_title">Sangat sedikit udara mengalir melalui defroster di mode kaki</string>
+    <string name="setFunc60item0">OFF</string>
+    <string name="setFunc60item1">ON</string>
+    <string name="setFunc60name">Idle cepat untuk performa pemanas saat berhenti</string>
+    <string name="setFunc60name_title">Idle cepat untuk performa pemanas saat berhenti</string>
+    <string name="setFuncGroup01">Sistem masuk tanpa kunci</string>
+    <string name="setFuncGroup02">Sistem operasi tanpa kunci</string>
+    <string name="setFuncGroup03">Wiper</string>
+    <string name="setFuncGroup04">Lampu eksterior/lampu interior</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Sakelar jendela elektrik</string>
+    <string name="setFuncGroup07">Respon Lampu Indikator Arah</string>
+    <string name="setFuncGroup08">Kunci pintu listrik</string>
+    <string name="setFuncGroup09">Kondisioner udara</string>
+    <string name="setFuncGroup10">Lainnya</string>
+    <string name="setSend">Kirim</string>
+    <string name="setany">Pengaturan saluran LAN nirkabel</string>
+    <string name="setcarset">Pengaturan kendaraan</string>
+    <string name="setinfo_changewpaonestr">Ubah kata sandi LAN nirkabel</string>
+    <string name="setinfo_changewpatwostr">Anda dapat mengubah kata sandi LAN nirkabel kendaraan.</string>
+    <string name="setinfoeightstr">Anda dapat membatalkan registrasi kode VIN. Anda tidak dapat berkomunikasi dengan kendaraan setelah pembatalan registrasi, Registrasi ulang dibutuhkan untuk kembali berkomunikasi</string>
+    <string name="setinfoelevenstr">Pengaturan kanal LAN nirkabel</string>
+    <string name="setinfofifteenstr">Riwayat alarm anti-maling</string>
+    <string name="setinfofivestr">Ubah SSID</string>
+    <string name="setinfofourstr">Anda dapat menentukan mengubah kata sandi untuk kemanan saat memulai inisialisasi pada Aplikasi</string>
+    <string name="setinfofourteenstr">Ubah berbagai pengaturan kendaraan. (penyesuaian ETACS)</string>
+    <string name="setinfoninestr">Pengaturan komunikasi LAN Nirkabel</string>
+    <string name="setinfoonestr">Abaikan permintaan kata sandi</string>
+    <string name="setinfosevenstr">Batalakan registrasi kode VIN</string>
+    <string name="setinfosisteenstr">Anda dapat memeriksa riwayat alarm anti-maling</string>
+    <string name="setinfosixstr">Ubah SSID kendaraan.</string>
+    <string name="setinfotenstr">Anda dapat memilihi komunikasi LAN nirkabel \"Selalu Berkomunikasi\" atau komunikasi LAN nirkabel ON ketika sakelar daya pada kendaraan OFF</string>
+    <string name="setinfothirteenstr">Pengaturan kendaraan</string>
+    <string name="setinfothreestr">Ubah Kata Sandi</string>
+    <string name="setinfotwelvestr">Anda dapat memilih kanal LAN nirkabel. Setelah mengubah kanal LAN nirkabel, komunikasi nirkabel akan terputus dan secara otomatis terhubung kembali. Jika program aplikasi tidak tersambung kembali setelah 5 menit, silakan tutup program aplikasi di layar pengaturan Wifi dan periksa sambungan LAN nirkabel kendaraan.</string>
+    <string name="setinfotwostr">Anda dapat mengatur permintaan kata sandi kemanan saat memulai inisialisasi pada Aplikasi</string>
+    <string name="setinit">Batalkan registrasi kode VIN</string>
+    <string name="setinitinfo">"Informasi berikut akan diinisialisasi. OK untuk lanjutkan.
+
+"<ul><li>"Semua pengaturan timer pengisian daya
+"</li><li>"Semua pengaturan timer A/C
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Informasi berikut akan diinisialisasi. OK untuk lanjutkan.
+
+"<ul><li>"Semua pengaturan timer pengisian daya
+"</li><li>"Semua pengaturan timer A/C
+"</li><li>"SSID
+"</li><li>Kata sandi LAN nirkabel</li></ul></string>
+    <string name="setinitq">Anda yakin ingin membatalkan pendaftaran kode VIN?</string>
+    <string name="setnewssidinfo">SSID baru</string>
+    <string name="setnewwpainfo">Kata sandi baru</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Kata sandi saat ini</string>
+    <string name="setpasscode">Ubah kata sandi</string>
+    <string name="setpasscodedis">"Kata sandi belum diatur.
+
+Registrasikan kata sandi dengan mematikan pengaturan \"Abaikan permintaan kata sandi\"."</string>
+    <string name="setpasscodestep1">Silakan masukkan kata sandi saat ini</string>
+    <string name="setpasscodestep2">Silakan masukkan kata sandi baru</string>
+    <string name="setpasscodestep3">Silakan masukkan kata sandi baru lagi</string>
+    <string name="setrenewwpainfo">Konfirmasikan kata sandi baru</string>
+    <string name="setspnum">Jumlah perangkat seluler yang terdaftar</string>
+    <string name="setssid">Ubah SSID</string>
+    <string name="setssiderr">Kesalahan input</string>
+    <string name="setssiderrinfo">Karakter yang dimasukkan yang tidak dapat digunakan.</string>
+    <string name="setssidinfo">Terdiri dari 1 hingga 32 karakter. Huruf kapital dan huruf kecil terdeteksi secara terpisah</string>
+    <string name="setssidokinfo">"Setelah mengubah SSID, komunikasi nirkabel akan terputus kemudian terhubung kembali secara otomatis.
+Jika aplikasi tidak tersambung kembali setelah 5 menit, silakan tutup aplikasi dan periksa status sambungan LAN nirkabel di pengaturan Wifi Android."</string>
+    <string name="setssidoktips">Tekan OK untuk menutup Aplikasi</string>
+    <string name="setthefthistory">Riwayat alarm anti-maling</string>
+    <string name="setthefthistoryinfo">Hapus semua riwayat alarm anti-maling?</string>
+    <string name="settingtitle">Pengaturan</string>
+    <string name="setusepasscode">Abaikan permintaan kata sandi</string>
+    <string name="setusepasscodeinfo">Silakan masukkan kata sandi anda</string>
+    <string name="setver">Informasi versi</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Perangkat lunak kendaraan</string>
+    <string name="setwifiinfoon">"Pengaturan \"Selalu Terhubung: ON\":
+Komunikasi antara LAN nirkabel dan kendaraan selalu terhubung
+
+Pengaturan \"Selalu Terhubung\": OFF:
+Komunikasi antara LAN nirkabel dan kendaraan ON ketika sakelar daya pada kendaraan OFF
+
+Bila anda menggunakan perangkat nirkabel yang terhubung pada perangkat audio dari perangkat seluler anda, mohon matikan pengaturan ini."</string>
+    <string name="setwifilabel">Selalu berkomunikasi</string>
+    <string name="setwpa">Ubah kata sandi LAN nirkabel</string>
+    <string name="setwpaerr_1">Kesalahan input</string>
+    <string name="setwpaerr_2">Kesalahan input</string>
+    <string name="setwpaerr_3">Kesalahan input</string>
+    <string name="setwpaerr_4">Kesalahan input</string>
+    <string name="setwpaerrinfo_1">"Berisi karakter yang tidak dapat digunakan.
+Silakan lihat bantuan untuk mengonfirmasi karakter yang dapat digunakan."</string>
+    <string name="setwpaerrinfo_2">Kata sandi baru harus sama, silakan masukkan kembali kata sandi baru anda.</string>
+    <string name="setwpaerrinfo_3">Kata sandi baru harus mengandung hanya 14 karakter. Silakan pilih kata sandi lain.</string>
+    <string name="setwpaerrinfo_4">Kata sandi saat ini yang anda masukkan salah. Silakan coba lagi.</string>
+    <string name="setwpaerrinfo_5">"Kemungkinan penyebab kesalahan adalah:
+- Saklar daya tidak dalam posisi ACC
+- Waktu pendaftaran telah melebihi 10 menit
+
+Pastikan kendaraan Anda dalam keadaan siaga untuk registrasi"</string>
+    <string name="setwpainfoonestr"><ul><li>"Silakan masukkan kata sandi yang berisi 14 karakter
+"</li><li>"Kata sandi dapat membedakan huruf kecil dan huruf kapital; Anda dapat menggunakan huruf, angka dan simbol.
+"</li><li>Ingat kata sandi ada dan jangan bagikan ke orang lain</li></ul></string>
+    <string name="setwpaokinfo">"Setelah mengubah kata sandi jaringan nirkabel, komunikasi nirkabel akan terputus dan kemudian secara otomatis terhubung kembali.
+Jika app belum tersambung kembali setelah 5 menit, tutup app dan periksa status sambungan LAN nirkabel di antarmuka pengaturan Wifi Android."</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Perangkat terhubung ke jaringan lain selain kendaraan.
+
+Apakah anda ingin terhubung dengan kendaraan?"</string>
+    <string name="ssidinfo">SSID akan diubah</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Setelah memasukkan SSID dan kata sandi kendaraan, tekan \"OK\" untuk melanjutkan.</string>
+    <string name="stepfiveonestring">Tutup pintu mobil.</string>
+    <string name="stepfivethreestring">Dalam 10 detik setelah Step 2 selesai, tekan tombol kunci dan buka kunci pada kunci mobil sebanyak 5 kali secara bergantian (total 10 kali penekanan, dimulai dengan menekan tombol kunci terlebih dahulu). Buzzer akan berbunyi menandakan kendaraan menunggu untuk registrasi.</string>
+    <string name="stepfivetwostring">Saklar pengapian diatur ke posisi ACC (ketika rem tidak ditekan, tekan tombol pengapian, gear akan beralih sesuai dengan urutan \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")</string>
+    <string name="stepfouronestring">Tutup pintu mobil.</string>
+    <string name="stepfourthreestring">Dalam 10 detik setelah Step 2 selesai, tekan tombol kunci dan buka kunci pada kunci mobil sebanyak 5 kali secara bergantian (total 10 kali penekanan, dimulai dengan menekan tombol kunci terlebih dahulu). Buzzer akan berbunyi menandakan kendaraan menunggu untuk registrasi.</string>
+    <string name="stepfourtwostring">Saklar pengapian diatur ke posisi ACC (ketika rem tidak ditekan, tekan tombol pengapian, gear akan beralih sesuai dengan urutan \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")</string>
+    <string name="stu1_1">Sakelar daya OFF</string>
+    <string name="stu1_2">Sakelar daya ON atau ACC</string>
+    <string name="stu1_3">Alarm anti-maling OFF</string>
+    <string name="stu1_4">Alarm anti-maling ON</string>
+    <string name="stu1_5">Alarm anti-maling telah ON</string>
+    <string name="stu2info1leftstr">Lampu parkir</string>
+    <string name="stu2info1rightstr">menyala</string>
+    <string name="stu2info1str">Lampu parkir menyala</string>
+    <string name="stu2info2leftstr">Lampu peringatan bahaya</string>
+    <string name="stu2info2rightstr">berkedip/menyala</string>
+    <string name="stu2info2str">Lampu peringatan bahaya berkedip/menyala</string>
+    <string name="stu2info3leftstr">Pintu mobil</string>
+    <string name="stu2info3rightstr">terbuka</string>
+    <string name="stu2info3str">Pintu mobil terbuka</string>
+    <string name="stu2info4leftstr">Lampu depan</string>
+    <string name="stu2info4rightstr">menyala</string>
+    <string name="stu2info4str">Lampu depan menyala</string>
+    <string name="stu2info5leftstr">Kap mesin</string>
+    <string name="stu2info5rightstr">terbuka</string>
+    <string name="stu2info5str">Kap mesin terbuka</string>
+    <string name="stu2info6leftstr">Lampu interior</string>
+    <string name="stu2info6rightstr">menyala</string>
+    <string name="stu2info6str">Lampu interior menyala</string>
+    <string name="stu2info7leftstr">Pintu bagian belakang mobil</string>
+    <string name="stu2info7rightstr">terbuka</string>
+    <string name="stu2info7str">Pintu bagian belakang mobil terbuka</string>
+    <string name="stu2info8leftstr">Lampu bagian belakang</string>
+    <string name="stu2info8rightstr">menyala</string>
+    <string name="stu2info8str">Lampu bagian belakang menyala</string>
+    <string name="sun">Minggu</string>
+    <string name="sun1">Min</string>
+    <string name="switchoff">OFF</string>
+    <string name="switchon">ON</string>
+    <string name="theft2_1">Pengoperasian lampu depan</string>
+    <string name="theft2_4">Pengoperasian lampu parkir</string>
+    <string name="theft2dis2twostr">"Operasi ini tidak dapat dilakukan ketika kendaraan dalam kondisi berikut.
+
+"<ul><li>"Sakelar daya tidak OFF
+"</li><li>Lampu depan atau lampu parkir menyala</li></ul></string>
+    <string name="thu">Kamis</string>
+    <string name="thu1">Kam</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode" />
+    <string name="titleback">Kembali</string>
+    <string name="titlehelp">Bantuan</string>
+    <string name="titleupdate1">Hapus</string>
+    <string name="titleupdate2">Inisialisasi</string>
+    <string name="titleupdate3">Kirim</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"Operasi ini tidak dapat dilakukan pada saat:
+
+"<ul><li>"Sakelar Daya tidak mati.
+"</li><li>Kendaraan sedang dalam pengisian daya cepat.</li></ul></string>
+    <string name="topacmode">Mode</string>
+    <string name="topacwait">Menunggu</string>
+    <string name="topbattwarm">Pemanasan</string>
+    <string name="topbattwarminginfo">"Silakan sambungkan pengisi daya untuk menghindari penurunan suhu pada perangkat baterai. 
+Pemanasan akan dimulai setelah pengisi daya dihubungkan"</string>
+    <string name="topbattwarminginfo_plugin_1">"Kendaraan tidak dapat dioperasikan, ada kemungkinan suhu baterai rendah.
+
+Silakan atur kendaraan dalam keadaan \"READY\" atau pasang pengisi daya untuk memanaskan baterai"</string>
+    <string name="topbattwarminginfo_plugin_2">"Kendaraan tidak dapat dioperasikan karena suhu pada driver baterai rendah.
+
+Untuk memanaskan baterai, silakan sambungkan pengisi daya pada pengisian daya normal"</string>
+    <string name="topbattwarminginfo_stop_1">"Kendaraan tidak dapat dioperasikan karena suhu baterai terlalu rendah. Untuk mengoperasikan kendaraan, Anda perlu memanaskan baterai, namun kondisi untuk memanaskan tidak mendukung.
+
+Silakan tunggu sampai suhu udara luar meningkat."</string>
+    <string name="topbattwarminginfo_stop_2">"Kendaraan tidak dapat dioperasikan karena suhu baterai terlalu rendah.
+
+Untuk mengoperasikan kendaraan, Anda perlu memanaskan baterai, tetapi kondisi untuk memanaskan tidak mendukung.
+
+Sambungkan pengisi daya pada kendaraan. Ketika suhu udara meningkat, pemanasan pada driver baterai akan dimulai. Mohon tunggu."</string>
+    <string name="topbattwarminginfo_warm_1">Suhu perangkat baterai telah meningkat, kendaraan dapat digunakan</string>
+    <string name="topbattwarminginfo_warm_2">"Kendaraan tidak dapat dioperasikan karena suhu driver baerai terlalu rendah.
+
+Perangkat aterai sedang dalam pemanasan, mohon tunggu."</string>
+    <string name="topbattwarmingtitle">Informasi kendaraan</string>
+    <string name="topcanntac">Pilih mode A/C pada \"Mode\" dalam layar timer</string>
+    <string name="topcanntac2">"A/C manual telah diatur.
+Setelah pengaturan A/C manual selesai, timer A/C akan diaktifkan secara otomatis."</string>
+    <string name="topcanntchg">Atur timer pada layar timer</string>
+    <string name="topchargeEndTime">"Waktu Pengisian 
+Penuh Baterai"</string>
+    <string name="topchargeEndTimeHour">jam</string>
+    <string name="topchargeEndTimeMin">menit</string>
+    <string name="topchargefinish">Pengisian daya selesai</string>
+    <string name="topchargetimer">Timer ON/OFF</string>
+    <string name="topfastchg">Cepat</string>
+    <string name="tophelp100v">Normal (100V)</string>
+    <string name="tophelp200v">Normal (200V)</string>
+    <string name="tophelp22">pendinginan</string>
+    <string name="tophelp24">pemanasan</string>
+    <string name="tophelp26">Defogger</string>
+    <string name="tophelp41">Koneksi stabil</string>
+    <string name="tophelp42">Koneksi tidak stabil</string>
+    <string name="tophelp43">Tidak terhubung</string>
+    <string name="tophelp44">Tekan tombol ini untuk komunikasi dengan kendaraan dan memperbarui informasi.</string>
+    <string name="tophelpwarm"><ul><li>"Memanaskan baterai utama untuk mencegah baterai tidak berfungsi akibat suhu baterai menurun.
+"</li><li>"Daya baterai yang tersisa dapat berkurang.
+"</li><li>"Pengisian daya memungkinkan walaupun timer pengisian daya telah ditetapkan sebelumnya.
+"</li><li>Proses pemanasan sebelumnya memungkinkan A/C diaktifkan.</li></ul></string>
+    <string name="topwaitcharge">Menunggu</string>
+    <string name="towebsitestr">Buka Website</string>
+    <string name="tue">Selasa</string>
+    <string name="tue1">Sel</string>
+    <string name="v2hv2l">Memulai suplai daya eksternal</string>
+    <string name="warning6str">Tekan tombol \"Update\" untuk komunikasi dengan kendaraan.</string>
+    <string name="warning7timeronestr">Pengaturan waktu pada semua hari lain akan berubah ketika Timer 1 dipilih.</string>
+    <string name="warning7timerthreestr">Pengaturan waktu pada semua hari lain akan berubah ketika Timer 3 dipilih.</string>
+    <string name="warning7timertwostr">Pengaturan waktu pada semua hari lain akan berubah ketika Timer 2 dipilih.</string>
+    <string name="wed">Rabu</string>
+    <string name="wed1">Rab</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">Pengaturan komunikasi LAN nirkabel</string>
+    <string name="wpainfo">Kata sandi LAN nirkabel akan diubah</string>
+</resources>

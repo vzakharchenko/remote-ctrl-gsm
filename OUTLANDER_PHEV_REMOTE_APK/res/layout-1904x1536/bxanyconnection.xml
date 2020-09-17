@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/connectionfirstlayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/helpnav_title" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/connectionsecondlayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="@dimen/dp_30" android:layout_below="@id/connectionfirstlayout">
+        <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="@dimen/dp_200" android:layout_height="60.0dip" android:text="@string/setwifilabel" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_24" android:layout_alignParentStart="true" app:MmcTypeface="1" />
+        <com.inventec.controls.SwitchView android:id="@id/btnCheck" android:focusable="false" android:layout_width="@dimen/dp_52" android:layout_height="@dimen/dp_32" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_35" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/connectionsend" android:layout_below="@id/connectionsecondlayout">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/text_color_deepgray" android:id="@id/anyconn_info_text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_10" android:text="@string/setwifiinfoon" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+        </RelativeLayout>
+    </ScrollView>
+    <com.inventec.controls.MyButton android:textSize="@dimen/sp_16" android:textColor="#ffffffff" android:id="@id/connectionsend" android:background="@drawable/btn_big_red" android:layout_width="@dimen/dp_351" android:layout_height="@dimen/dp_72" android:layout_marginBottom="@dimen/dp_17" android:text="Send" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

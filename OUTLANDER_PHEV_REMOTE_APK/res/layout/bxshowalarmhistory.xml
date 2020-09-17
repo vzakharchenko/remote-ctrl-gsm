@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/historytoplayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/timerlist_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout1" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="34.0dip" android:layout_below="@id/historytoplayout">
+        <ListView android:id="@id/ListView2" android:background="#00000000" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="@dimen/dp_0" />
+    </LinearLayout>
+</RelativeLayout>

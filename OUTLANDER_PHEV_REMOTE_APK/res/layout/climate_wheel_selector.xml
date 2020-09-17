@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_216"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/ic_timer_selector_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    <kankan.wheel.widget.WheelView android:id="@id/wvHourSt" android:layout_width="@dimen/dp_120" android:layout_height="@dimen/dp_200" android:layout_centerInParent="true" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_borders" android:layout_centerVertical="true" />
+</RelativeLayout>

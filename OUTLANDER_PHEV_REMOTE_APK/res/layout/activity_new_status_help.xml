@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/statushelpnav" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/timerlist_title" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/statushelpnav">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_15">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_238" android:layout_height="@dimen/dp_408" android:src="@drawable/statuscarhelp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_29" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/dp_8">
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_12">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lione" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info1_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info1leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info1_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info1rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_litwo" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info2_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info2leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info2_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info2rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lithr" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info3_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info3leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info3_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info3rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lifuor" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info4_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info4leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info4_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info4rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lifive" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info5_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info5leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info5_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info5rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lisix" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info6_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info6leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info6_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info6rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lisen" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info7_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info7leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info7_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info7rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_marginTop="@dimen/dp_16">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/ic_lieight" android:layout_marginStart="@dimen/dp_16" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/stu2info8_1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info8leftstr" android:layout_marginStart="@dimen/dp_11" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/seletor_enable" android:layout_gravity="center_vertical" android:id="@id/stu2info8_2" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:text="@string/stu2info8rightstr" android:layout_marginStart="@dimen/dp_2" />
+                </LinearLayout>
+                <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_180" android:layout_marginTop="@dimen/dp_20" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/dp_8">
+                <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_180" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_52" android:layout_height="@dimen/dp_52" android:layout_marginTop="@dimen/dp_38" android:src="@drawable/ic_poweron" android:layout_centerHorizontal="true" />
+                    <com.inventec.controls.MmcFontTextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_170" android:layout_height="@dimen/dp_70" android:layout_marginBottom="@dimen/dp_4" android:text="@string/stu1_2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_180" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_1">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_66" android:layout_height="@dimen/dp_44" android:layout_marginTop="@dimen/dp_40" android:src="@drawable/ic_theft_off" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/status_tv5" android:layout_width="@dimen/dp_170" android:layout_height="@dimen/dp_70" android:layout_marginBottom="@dimen/dp_4" android:text="@string/stu1_3" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_180" android:layout_marginTop="@dimen/dp_1" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/dp_8">
+                <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_180" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_57" android:layout_height="@dimen/dp_44" android:layout_marginTop="@dimen/dp_40" android:src="@drawable/ic_theft_on" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/status_tv4" android:layout_width="@dimen/dp_170" android:layout_height="@dimen/dp_70" android:layout_marginBottom="@dimen/dp_4" android:text="@string/stu1_4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_180" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_1">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_66" android:layout_height="@dimen/dp_49" android:layout_marginTop="@dimen/dp_40" android:src="@drawable/ic_theft_act" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/status_tv3" android:layout_width="@dimen/dp_170" android:layout_height="@dimen/dp_70" android:layout_marginBottom="@dimen/dp_4" android:text="@string/stu1_5" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_180" android:layout_marginTop="@dimen/dp_1" android:layout_marginBottom="@dimen/dp_10" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/dp_8">
+                <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_180" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_53" android:layout_height="@dimen/dp_29" android:layout_marginTop="@dimen/dp_46" android:src="@drawable/ic_statuslightoperation" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/status_tv6" android:layout_width="@dimen/dp_170" android:layout_height="@dimen/dp_70" android:layout_marginBottom="@dimen/dp_4" android:text="@string/theft2_4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="@dimen/dp_180" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_1">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_52" android:layout_height="@dimen/dp_32" android:layout_marginTop="@dimen/dp_45" android:src="@drawable/ic_statushelpheadlightoperation" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="@dimen/sp_13" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/status_tv7" android:layout_width="@dimen/dp_170" android:layout_height="@dimen/dp_70" android:layout_marginBottom="@dimen/dp_4" android:text="@string/theft2_1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

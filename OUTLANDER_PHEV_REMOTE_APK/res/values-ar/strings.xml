@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">دقيقة</string>
+    <string name="ACWorking">نظرا لأنه يتم التحكم في التكييف من خلال المؤقت أو جهاز التحكم عن بعد، فيتعذر تغيير توقيت تشغيل التكييف.</string>
+    <string name="ACtim"><ul><li>"يجب عدم استخدام وظيفة التحكم في المكيف عن بُعد للحفاظ على برودة السيارة أو تسخينها أثناء وجود الأشخاص أو الحيوانات الأليفة في السيارة. قد تحدث حوادث غير متوقعة.
+
+"</li><li>"كلما طالت مدة تشغيل مكيف الهواء ، زادت الطاقة التي يستهلكها لتشغيل البطارية
+
+"</li><li>إذا كانت البطارية منخفضة ، فقد يكون وقت التشغيل الفعلي للتحكم في المناخ أقصر من الضبط الأصلي.</li></ul></string>
+    <string name="ACtimeLabel">وقت التشغيل المكيف الهواء</string>
+    <string name="AcsettingARM">"إذا تم تمكين تنبيه الأمان، لن يمكن تغيير إعدادات السيارة. يرجى إلغاء قفل السيارة من خلال الدخول بدون مفتاح أو باستخدام نظام التشغيل بدون مفتاح.
+
+سيؤدي ذلك إلى تعطيل نظام الأمان، مما يسمح بتغيير إعدادات السيارة."</string>
+    <string name="EVInit">إعادة ضبط</string>
+    <string name="EVInitInfo">هل تريد إعادة ضبط إعدادات السيارة؟</string>
+    <string name="Everyday">كل يوم</string>
+    <string name="ResetAllschude">هل تريد إعادة ضبط جميع المواعيد ؟</string>
+    <string name="ResetOneschude">هل تريد إعادة ضبط هذا الموعد ؟</string>
+    <string name="Schudle">جدول المواعيد</string>
+    <string name="abc_action_bar_home_description">التنقل إلى الشاشة الرئيسية</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات إضافية</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">تشغيل</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">القائمة+</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب البحث</string>
+    <string name="abc_searchview_description_search">بحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">البحث الصوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="accstr">ACC (البرتقالي)</string>
+    <string name="acoptiontimelong2">وقت التشغيل المكيف الهواء</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">الحالة</string>
+    <string name="bartitle5">الإعدادات</string>
+    <string name="bgdark" />
+    <string name="btnStart">تشغيل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="changessidchartable">"‏0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~‏"</string>
+    <string name="changessidhelpinfo">الأحرف التي يمكن استخدامها هي كما يلي:</string>
+    <string name="channel_3">القناة 3</string>
+    <string name="channel_8">القناة 8</string>
+    <string name="clear">إعادة ضبط الكل</string>
+    <string name="communicationstr">اتصالات</string>
+    <string name="countdownTipsonestr">"يرجى استخدام لوحة التشغيل الخاصة بوحدة تزويد الطاقة الخارجية لتعيين طاقة التزويد من السيارة إلى المنزل في غضون 5 دقائق.
+
+إذا لم يتم تشغيل مصدر الطاقة الخارجي، فمن الأسباب المحتملة:"</string>
+    <string name="countdownTipstwostr">وحدة تزويد الطاقة الخارجية لا تدعم هذه الوظيفة.</string>
+    <string name="countdownTipstwostrfivestr">هناك بعض الأخطاء في مزود الطاقة الخارجي أو السيارة.</string>
+    <string name="countdownTipstwostrfourstr">بطارية 12V في السيارة بها جهد كهربي منخفض.</string>
+    <string name="countdownTipstwostrthreestr">لقد مرت أكثر من 5 دقائق منذ تشغيل تم الضغط على الزر.</string>
+    <string name="countdownTipstwostrtwostr">موصل الشحن السريع لمزود الطاقة الخارجي غير متصل بالمركبة بإحكام.</string>
+    <string name="daySelct">اعاد</string>
+    <string name="delay1">0دقيقة</string>
+    <string name="delay10">120دقيقة</string>
+    <string name="delay11">150دقيقة</string>
+    <string name="delay12">180دقيقة</string>
+    <string name="delay2">5دقائق</string>
+    <string name="delay3">10دقائق</string>
+    <string name="delay4">20دقيقة</string>
+    <string name="delay5">30دقيقة</string>
+    <string name="delay6">40دقيقة</string>
+    <string name="delay7">50دقيقة</string>
+    <string name="delay8">60دقيقة</string>
+    <string name="delay9">90دقيقة</string>
+    <string name="demo">نسخة التجربة</string>
+    <string name="durationstr">مدة تشغيل</string>
+    <string name="err1date" formatted="false">%w %t %d يوم %m شهر %y سنة</string>
+    <string name="err1ignition">تم استخدام مفتاح غير قانوني.</string>
+    <string name="err1intrusion">حدث تسلل غير المصرح به</string>
+    <string name="err1movement">حدثت حركة مركبة غير قانونية.</string>
+    <string name="err1other">حدث دخول غير قانوني.</string>
+    <string name="err1perimeter">تم فتح الباب بطريقة غير مشروعة.</string>
+    <string name="err1silent">يحدث اهتزاز غير طبيعي</string>
+    <string name="err1title">إشعار إنذار السرقة</string>
+    <string name="errACinfo">"الأسباب المحتملة لذلك هي كما يلي :
+
+"<ul><li>"الباب مفتوح.
+"</li><li>مستوى البطارية الرئيسي منخفض.</li></ul></string>
+    <string name="errACinfoEx">"الأسباب المحتملة لذلك هي كما يلي :
+
+"<ul><li>"الباب مفتوح.
+"</li><li>"مستوى البطارية الرئيسي منخفض.
+"</li><li>درجة حرارة البطارية منخفضة.</li></ul></string>
+    <string name="errACtitle">إشعار: تم إيقاف المكيف مؤقتا.</string>
+    <string name="errCHGinfo">لا يمكن تفعيل مؤقت الشحن</string>
+    <string name="errCHGtitle">إشعار خطأ في مؤقت الشحن.</string>
+    <string name="errRegMaxtitle">خطأ في التسجيل</string>
+    <string name="errTimerinfo">تعذر تفعيل التحكم المؤقت</string>
+    <string name="errTimertitle">إشعار بخطأ في مؤقت التحكم في المكيف</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">الرمز خاطئ :</string>
+    <string name="evACCool">تبريد</string>
+    <string name="evACHot">تسخين</string>
+    <string name="evACOFF">غلق</string>
+    <string name="evACSetTitle">إعدادات توقيت مكيف الهواء</string>
+    <string name="evCharge1Auto">تحديد الموقع :</string>
+    <string name="evCharge1End">الانتهاء</string>
+    <string name="evCharge1Start">بدء</string>
+    <string name="evCharge1full">مشحون بالكامل</string>
+    <string name="evChargeSetTitle">ضبط مؤقت الشحن</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">إرسال</string>
+    <string name="evSendAsk">لم يتم إرسال تغيير الإعداد هذا بعد. هل تريد العودة إلى الواجهة السابقة وإرسالها؟</string>
+    <string name="evSendAsk5ch">"لن يتم إرسال الإعدادات المعدلة إلى السيارة.
+هل أنت متأكد. تريد الإلغاء والعودة إلى الشاشة السابقة؟"</string>
+    <string name="evTimerSet">الإعداد الموقت</string>
+    <string name="evhCHG12info">"وظيفة الشحن الكامل ، تشحن البطارية حتى يتم شحنها بالكامل. في الحالات التي لم يتم فيها شحن البطارية بالكامل خلال فترة الشحن المؤقت.
+يجب الانتباه إلى أن الشحن لن يحدث عند إدخال القابس بعد انتهاء فترة الشحن."</string>
+    <string name="evhCHG17myinfo1">المكيف اليدوي</string>
+    <string name="evhCHG22ginfo1">وضع الشحن اليدوي</string>
+    <string name="evhCHG22ginfo3">وضع توقيت الشحن</string>
+    <string name="evhCHG22infofourstr">لن تكون ميزة رابط مكان التسجيل متاحة.</string>
+    <string name="evhCHG22infoonestr">إذا تم تجهيز السيارة مع MMCS</string>
+    <string name="evhCHG22infothreestr">إذا لم تكن السيارة مجهزة بـ MMCS</string>
+    <string name="evhCHG22infotwostr">يُطلق على وظيفة تبديل وضع الشحن وفقًا لموقع السيارة اسم الربط مكان التسجيل. عندما تكون السيارة في جوار موقع التسجيل المحدد ، فإنها تتحول تلقائيًا إلى وضع الشحن الموقوت ، وإلا فإنها تتحول تلقائيًا إلى وضع الشحن اليدوي. تتيح هذه الميزة إمكانية الشحن في الوقت المحدد للاستفادة من سعر منطقة التسجيل في وقت متأخر من الليل ، وكذلك التبديل التلقائي إلى الشحن اليدوي عند الخروج لاستخدام جهاز شحن مثل مركز تسوق.</string>
+    <string name="evhelpCHG1item2">ما هو \"إعداد الشحن الكامل\"</string>
+    <string name="evhelpCHG2item2">ما هو محدد الموقع؟</string>
+    <string name="evhmanualACitem4infofourstr">يتم تثبيت وضع تكييف الهواء للتبريد</string>
+    <string name="evhmanualACitem4infoonestr">عندما تكون مجهزة مع سخان كهربائي ميتسوبيشي</string>
+    <string name="evhmanualACitem4infothreestr">عندما لا يكون سخان \"الميتسوبيشي\" غير مرفق</string>
+    <string name="evhmanualACitem4infotwostr">في وضع تكييف الهواء في نظام التدفئة / التبريد / إزالة السديم يمكن تحديد وضع تكييف هواء واحد فقط. لا يمكن ضبط وضع التكييف اليومي بشكل منفصل.</string>
+    <string name="evmCHchargstr">الشحن</string>
+    <string name="evmCHclimatestr">مكيف الهواء</string>
+    <string name="evmCHsetstr">الإعدادات</string>
+    <string name="evmCHstatusstr">الحالة</string>
+    <string name="evmaccancelltimestr">إلغاء</string>
+    <string name="evmaccanceltimer">إلغاء الموقت</string>
+    <string name="evmacwarn5str">الغاء موقت المكيف.</string>
+    <string name="evmainac">مكيف الهواء</string>
+    <string name="evmaincharge">الشحن</string>
+    <string name="evmchacwarn5no">لا</string>
+    <string name="evmchacwarn5yes">نعم</string>
+    <string name="evmchargeTimerSch">جدول موقت الشحن</string>
+    <string name="evmchargetschstr">"يمكنك إلغاء المؤقت مؤقتًا عن طريق إلغاء تحديده.
+يمكن استئناف جدول إلغاء مؤقت الشحن مؤقتًا تلقائيًا عن طريق التحقق منه مرة أخرى أو عند وضع وضع تشغيل مفتاح الطاقة في وضع التشغيل."</string>
+    <string name="evmchargstatusstr">حالة الشحن</string>
+    <string name="evmchtempcancellstr">الإلغاء المؤقت</string>
+    <string name="evmchupdatingstr">(تحديث)</string>
+    <string name="evmchwarn5str">الغاء موقت الشحن مؤقتا.</string>
+    <string name="evmclimateTimerSch">جدول مؤقت المناخ</string>
+    <string name="evmclimatetschstr">يمكنك إلغاء الموقت عن طريق إلغاء تحديده.</string>
+    <string name="evmdrivebattlevelstr">مستوى البطارية</string>
+    <string name="evmerrstartcommun">بدء الاتصال</string>
+    <string name="evmlastupdatedstr">يعرض APP آخر حالة مركبة محدثة. وقبل تحديث أحدث حالة مركبة، قد يعرض APP حالة السيارة السابقة.</string>
+    <string name="evmregtroublereg">هل تواجه مشكلة أثناء التسجيل؟</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">الغاء المؤقت وقتيا</string>
+    <string name="evmupdatedTime">الوقت المحدث</string>
+    <string name="evpsfailcontent">"الأسباب المحتملة لهذا هي أخطاء المركبات.
+يرجى الاتصال بموزع ميتسوبيشي موتورز المعتمد."</string>
+    <string name="evpsfailtitle">لا يمكن أن تبدأ امدادات الطاقة</string>
+    <string name="evpspage1">استخدام هذا التطبيق ، يمكنك توفير الطاقة من سيارتك الهجينة أو الكهربائية إلى منزلك باستخدام مصدر الطاقة الخارجي (معدات V2H / V2L).</string>
+    <string name="evpspage1threestr">مزود الطاقة الخارجي المطابق لهذه الميزة مطلوب للاستخدام. يرجى الاتصال بميتسوبيشي موتورز للحصول على التفاصيل.</string>
+    <string name="evpspage1twostr">يمكنك أيضًا توفير الطاقة لبدء تشغيل المعدات V2H من سيارتك عندما يكون منزلك قد فقد الطاقة.</string>
+    <string name="evpspage2">أدر مفتاح الطاقة إلى وضع الإيقاف (OFF) وقم بتوصيل موصل الشحن السريع الخاص بموفر الطاقة الخارجي بالمركبة.</string>
+    <string name="evpspage3">"إذا ضغطت على الزر \"تشغيل\" ، فستبدأ السيارة في توفير الطاقة إلى \"مزود الطاقة الخارجي\".
+إذا لم تتمكن من الضغط على الزر \"تشغيل\" ، فيرجى إعادة المحاولة من الشاشة السابقة."</string>
+    <string name="exitdemostr">خروج العرض</string>
+    <string name="fri">الجمعة</string>
+    <string name="fri1">الجمعة</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">لا ينصح باستخدام MITSUBISHI Remote Control.</string>
+    <string name="jailbreak_title">تم تعديلOS</string>
+    <string name="language">ar</string>
+    <string name="linkwarningstr">"لا يمكنك استخدام شبكة السيارة لتصفح الإنترنت عند الاتصال بالسيارة. ويرجى استخدام بيانات الهاتف المحمول أو التغيير إلى نقطة وصول LAN أخرى.
+لاستخدام App مرة أخرى، يرجى الاتصال بـ SSID للسيارة."</string>
+    <string name="loadwndinfo">"لا يمكنك الاتصال بشبكات أخرى (الإنترنت ، إلخ) أثناء استخدام ميزة MITSUBISHI REMOTE CONTROL.
+
+ لا يمكنك استخدام MITSUBISHI REMOTE CONTROL أثناء توصيل هاتفك الذكي بالشاشة المشتركة لهاتفك الذكي."</string>
+    <string name="login_ssid_txtPwd">كلمة المرور</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"لا يمكن إنشاء مصدر الطاقة من السيارة إلى مزود الطاقة الخارجي لأن السعة المتبقية لبطارية القيادة منخفضة.
+
+يمكنك استخدام هذه الوظيفة عندما تكون السعة المتبقية لبطارية أكثر من النصف.
+
+يرجى الرجوع إلى الفصلين \"Charging\" و \"Charge Mode Switch\" في دليل المالك الخاص بسيارتك قبل الشحن."</string>
+    <string name="lowbatterytitle">الفشل في توفير الطاقة إلى مزود الطاقة الخارجي</string>
+    <string name="manacModenoset">لم يتم تحديد نمط التكييف، قم بالتحديد، ثم بالضغط على زر الإرسال في الحال</string>
+    <string name="manacModesetClimateShutDown">"سيتم إيقاف مؤقت المكيف مؤقتًا. لأن المكيف اليدوي قد تم ضبطه.
+
+إذا انتهى \"المكيف اليدوي\" ، فسيتم تشغيل \"مؤقت المكيف\" تلقائيًا."</string>
+    <string name="manachelptitle">ضبط المكيف يدوياً</string>
+    <string name="manactim">لا تستخدمها عندما يكون هناك أشخاص أو حيوانات أليفة في السيارة. قد تتسبب درجة الحرارة داخل السيارة في وقوع حادث بسبب زيادة أو نقصان في درجة الحرارة الخارجية.</string>
+    <string name="modeselect">تحتاج إلى تسجيل رقم VIN للمتابعة. هل ترغب في إتاحة التطبيق عن طريق تسجيل رقم VIN الخاص بك؟</string>
+    <string name="mon">الإثنين</string>
+    <string name="mon1">الإثنين</string>
+    <string name="needPINinfo">الرقم السري مطلوب لفتح البرنامج</string>
+    <string name="newfunctioninfo">"نظرًا لأن إعداد شبكة LAN اللاسلكية هو [الاتصال اللحظي: مغلق] ، لا يمكن إجراء الاتصالات مع السيارة إلا عند إيقاف تشغيل مفتاح تشغيل السيارة. 
+ 
+ يمكن التعرف على إعدادات اتصال شبكة LAN اللاسلكية من خلال الإعدادات ← إعدادات اتصال شبكة LAN اللاسلكية."</string>
+    <string name="newfunctioninfo2">لا تسألني مرة أخرى.</string>
+    <string name="nextstr">التالى</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">لم تعد بحاجة إلى إدخال كلمة مرور عند بدء البرنامج.</string>
+    <string name="passcodeErr">كلمة مرور خاطئة</string>
+    <string name="passcodeErrinfo">كلمة المرور التي أدخلتها غير صحيحة. يرجى إدخالها مرة أخرى.</string>
+    <string name="passcodeTitle">يرجى إدخال كلمة المرور</string>
+    <string name="preset">الموقت</string>
+    <string name="preset1">الموقت 1</string>
+    <string name="preset2">الموقت 2</string>
+    <string name="preset3">الموقت 3</string>
+    <string name="preset4">الموقت 4</string>
+    <string name="preset5">الموقت 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">‏Privacy Policy‏</string>
+    <string name="reg">تسجيل</string>
+    <string name="regErr">خطأ في التسجيل</string>
+    <string name="regErrConn">لا يمكن التسجيل</string>
+    <string name="regOk">تم تسجيل رمز VIN بنجاح</string>
+    <string name="releaseinfothreestr">ستحتاج إلى SSID وكلمة المرور. يتم تضمين كلاهما مع المفتاح في وقت الشراء.</string>
+    <string name="remainTime">الوقت المتبقي</string>
+    <string name="reset">إعادة ضبط</string>
+    <string name="sTime">～</string>
+    <string name="sat">السبت</string>
+    <string name="sat1">السبت</string>
+    <string name="search_menu_title">البحث</string>
+    <string name="sendConn">جار الربط…</string>
+    <string name="sendErr">غير قادر على الاتصال</string>
+    <string name="sendMsg">جار الإرسال …</string>
+    <string name="sendNavi">الملاحة قيد التشغيل…</string>
+    <string name="sendOK">أكملت</string>
+    <string name="sendUpdate">تحديث …</string>
+    <string name="sendimmediately">تفعيل مكيف الهواء</string>
+    <string name="setErr">خطأ في الإعداد</string>
+    <string name="setErrInfo">خطأ في الاتصال ، يرجى الاتصال بموزع ميتسوبيشي موتورز المعتمد.</string>
+    <string name="setFunc01item0">مفتاح الإشعال عند تشغيل أو الإكسسوار</string>
+    <string name="setFunc01item1">عند التشغيل</string>
+    <string name="setFunc01name">العمل في وضع المفتاح</string>
+    <string name="setFunc01name_title">العمل في وضع المفتاح</string>
+    <string name="setFunc02item0">غلق</string>
+    <string name="setFunc02item1">فتح</string>
+    <string name="setFunc02name">ضوء مؤشر الممر (3 لمسات لكل لمسة)</string>
+    <string name="setFunc02name_title">ضوء مؤشر الممر (3 لمسات لكل لمسة)</string>
+    <string name="setFunc03item0">قفل: مرة واحدة فتح : مرتين</string>
+    <string name="setFunc03item1">قفل: مرة واحدة فتح : إيقاف</string>
+    <string name="setFunc03item2">قفل: إيقاف فتح: مرتين</string>
+    <string name="setFunc03item3">قفل: مرتين فتح : مرة واحدة</string>
+    <string name="setFunc03item4">قفل: إيقاف فتح: مرة واحدة</string>
+    <string name="setFunc03item5">قفل: مرتين فتح : إيقاف</string>
+    <string name="setFunc03item6">غلق</string>
+    <string name="setFunc03name">استجابة إشارة تغيير الاتجاه</string>
+    <string name="setFunc03name_title">استجابة إشارة تغيير الاتجاه</string>
+    <string name="setFunc04item0">ثابت (4 ثواني)</string>
+    <string name="setFunc04item1">قابل للتعديل</string>
+    <string name="setFunc04item2">الاستشعار السريع القابل للتعديل</string>
+    <string name="setFunc04item3">استشعار المطر القابل للتعديل</string>
+    <string name="setFunc04name">تشغيل متقطع لمساحة الزجاج</string>
+    <string name="setFunc04name_title">تشغيل متقطع لمساحة الزجاج</string>
+    <string name="setFunc05item0">غلق</string>
+    <string name="setFunc05item1">فتح</string>
+    <string name="setFunc05item2">تأخر الانتهاء من المساحات عند الفتح</string>
+    <string name="setFunc05name">المساحات متصلة بالغسالة</string>
+    <string name="setFunc05name_title">المساحات متصلة بالغسالة</string>
+    <string name="setFunc06item0">0ثانية</string>
+    <string name="setFunc06item1">4ثواني</string>
+    <string name="setFunc06item2">8ثواني</string>
+    <string name="setFunc06item3">16ثانية</string>
+    <string name="setFunc06name">الوقت الفاصل بعد الغسل</string>
+    <string name="setFunc06name_title">الوقت الفاصل بعد الغسل</string>
+    <string name="setFunc07item0">غلق</string>
+    <string name="setFunc07item1">1دقيقة</string>
+    <string name="setFunc07item2">3دقائق</string>
+    <string name="setFunc07item3">5دقائق</string>
+    <string name="setFunc07item4">10دقائق</string>
+    <string name="setFunc07name">يتم قطع ضوء غطاء الشحن تلقائيًا</string>
+    <string name="setFunc07name_title">يتم قطع ضوء غطاء الشحن تلقائيًا</string>
+    <string name="setFunc08item0">غلق</string>
+    <string name="setFunc08item1">فتح وفقاً لسرعة السيارة</string>
+    <string name="setFunc08item2">فتح / إغلاق بواسطة IG On / Off. باب السائق فتح / إغلاق</string>
+    <string name="setFunc08item3_0">فتح وإغلاق بواسطة دخول بدون مفتاح. عند الضغط على زر الاقفال و الفتح</string>
+    <string name="setFunc08item3_1">اضغط على حالة قفل / إلغاء قفل نظام التشغيل لتشغيل / إيقاف التشغيل</string>
+    <string name="setFunc08name">مرآة قابلة للطي تلقائياً</string>
+    <string name="setFunc08name_title">مرآة قابلة للطي تلقائياً</string>
+    <string name="setFunc09item0">مبكرا</string>
+    <string name="setFunc09item1">في وقت سابق</string>
+    <string name="setFunc09item2">طبيعي</string>
+    <string name="setFunc09item3">لاحقا</string>
+    <string name="setFunc09item4">متأخر</string>
+    <string name="setFunc09name">حساسية الضوء التلقائي</string>
+    <string name="setFunc09name_title">حساسية الضوء التلقائي</string>
+    <string name="setFunc10item0">غلق</string>
+    <string name="setFunc10item1">فتح</string>
+    <string name="setFunc10name">يتم توصيل الضوء التلقائي إلى المساحات</string>
+    <string name="setFunc10name_title">يتم توصيل الضوء التلقائي إلى المساحات</string>
+    <string name="setFunc11item0">0ثانية (لا توجد وظيفة مؤقت</string>
+    <string name="setFunc11item1">7.5ثانية</string>
+    <string name="setFunc11item2">15ثانية</string>
+    <string name="setFunc11item3">30ثانية</string>
+    <string name="setFunc11item4">1دقيقة</string>
+    <string name="setFunc11item5">2دقيقة</string>
+    <string name="setFunc11item6">3دقائق</string>
+    <string name="setFunc11name">مدة ضوء قمرة القيادة التي ألقيت بعد إغلاق الباب</string>
+    <string name="setFunc11name_title">مدة ضوء قمرة القيادة التي ألقيت بعد إغلاق الباب</string>
+    <string name="setFunc12item0">غلق</string>
+    <string name="setFunc12item1">المصابيح الخلفية / المصابيح الأمامية:اطفاء دائم</string>
+    <string name="setFunc12item2">فتح</string>
+    <string name="setFunc12item3">فتح</string>
+    <string name="setFunc12item4">"المصابيح الخلفية :اطفاءمرة واحدة
+المصابيح الأمامية : اطفاء تام"</string>
+    <string name="setFunc12item5">فتح</string>
+    <string name="setFunc12name">ميزة اطفاء المصابيح الأمامية التلقائي</string>
+    <string name="setFunc12name_title">ميزة اطفاء المصابيح الأمامية التلقائي</string>
+    <string name="setFunc13item0">غلق</string>
+    <string name="setFunc13item1">3دقائق</string>
+    <string name="setFunc13item2">30دقيقة</string>
+    <string name="setFunc13item3">60دقيقة</string>
+    <string name="setFunc13name">أضواء السيارات الداخلية تقطع تلقائيا الوقت</string>
+    <string name="setFunc13name_title">أضواء السيارات الداخلية تقطع تلقائيا الوقت</string>
+    <string name="setFunc14item0">قصير</string>
+    <string name="setFunc14item1">طويل</string>
+    <string name="setFunc14name">وقت التفعيل لإشارات تغيير المسار</string>
+    <string name="setFunc14name_title">وقت التفعيل لإشارات تغيير المسار</string>
+    <string name="setFunc15item0">غلق</string>
+    <string name="setFunc15item1">فتح</string>
+    <string name="setFunc15name">الغسيل المريح</string>
+    <string name="setFunc15name_title">الغسيل المريح</string>
+    <string name="setFunc16item0">غلق</string>
+    <string name="setFunc16item1">التبديل عند ركن السيارة</string>
+    <string name="setFunc16item2">التبديل إلى ركن السيارة عندما يتم فتح النافذة</string>
+    <string name="setFunc16item3">عندما يتم التبديل من تشغيل مفتاح الإشعال إلى وضع القفل</string>
+    <string name="setFunc16item4">في وضع عدم قفل الشبابيك تبديل من تشغيل مفتاح الإشعال إلى وضع الغلق</string>
+    <string name="setFunc16name">الفتح التلقائي</string>
+    <string name="setFunc16name_title">الفتح التلقائي</string>
+    <string name="setFunc17item0">جميع الأبواب</string>
+    <string name="setFunc17item1">باب السائق فقط</string>
+    <string name="setFunc17name">عملية الفتح</string>
+    <string name="setFunc17name_title">عملية الفتح</string>
+    <string name="setFunc19item0">مرتين</string>
+    <string name="setFunc19item1">مرة واحدة</string>
+    <string name="setFunc19name">قم بالضغط عدة مرات على زر القفل المقابل لزر الجمود</string>
+    <string name="setFunc19name_title">قم بالضغط عدة مرات على زر القفل المقابل لزر الجمود</string>
+    <string name="setFunc20item0">غلق</string>
+    <string name="setFunc20item1">زر الضغط لمرة واحدة</string>
+    <string name="setFunc20item2">اضغط على الزر مرة واحدة خلال اليوم</string>
+    <string name="setFunc20item3">الضغط مرتين على زر الزمارة للتنبيه</string>
+    <string name="setFunc20item4">اضغط على الزر مرتين خلال اليوم</string>
+    <string name="setFunc20name">يصدر صوت الزمارة استجابة عند قفل الإدخال بدون مفتاح</string>
+    <string name="setFunc20name_title">يصدر صوت الزمارة استجابة عند قفل الإدخال بدون مفتاح</string>
+    <string name="setFunc21item0">إيقاف تشغيل النظام بأكمله</string>
+    <string name="setFunc21item1">رنين أثناء التشغيل بدون مفتاح</string>
+    <string name="setFunc21item2">رنين أثناء العمل بدون مفتاح</string>
+    <string name="setFunc21item3">النظام بأكمله مفتوح</string>
+    <string name="setFunc21name">صوت تنبيه الاستجابة للعمل بدون مفتاح</string>
+    <string name="setFunc21name_title">صوت تنبيه الاستجابة للعمل بدون مفتاح</string>
+    <string name="setFunc22item0">30ثانية</string>
+    <string name="setFunc22item1">1دقيقة</string>
+    <string name="setFunc22item2">2دقيقة</string>
+    <string name="setFunc22item3">3دقائق</string>
+    <string name="setFunc22name">إعادة غلق التلقائي بعد الفتح بواسطة جهاز التحكم عن بعد</string>
+    <string name="setFunc22name_title">إعادة غلق التلقائي بعد الفتح بواسطة جهاز التحكم عن بعد</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0ثانية</string>
+    <string name="setFunc24item1">30ثانية</string>
+    <string name="setFunc24item2">3دقائق</string>
+    <string name="setFunc24item3">10دقائق</string>
+    <string name="setFunc24name">وظيفة الموقت بعد إيقاف تشغيل مفتاح الإشعال</string>
+    <string name="setFunc24name_title">وظيفة الموقت بعد إيقاف تشغيل مفتاح الإشعال</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">غلق</string>
+    <string name="setFunc26item1">نافذة كهربائية ، مرآة الرؤية الخلفية: فتح غلق</string>
+    <string name="setFunc26item2">نافذة كهربائية: فتح غلق</string>
+    <string name="setFunc26item3">"نوافذ كهربائية: إغلاق
+مرآة الباب: فتح إغلاق"</string>
+    <string name="setFunc26item4">مرآة الباب: فتح إغلاق</string>
+    <string name="setFunc26item5">نافذة كهربائية: إغلاق</string>
+    <string name="setFunc26name">الدخول للنظم بأنماط متعدد بدون مفتاح</string>
+    <string name="setFunc26name_title">الدخول للنظم بأنماط متعدد بدون مفتاح</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">قصير</string>
+    <string name="setFunc28item1">طويل</string>
+    <string name="setFunc28name">وقت استمرار صوت الاستجابة للزمارة</string>
+    <string name="setFunc28name_title">وقت استمرار صوت الاستجابة للزمارة</string>
+    <string name="setFunc29item0">عندما يتم تشغيل المساحات الخلفية</string>
+    <string name="setFunc29item1">عند تشغيل المساحات الأمامية أو الخلفية</string>
+    <string name="setFunc29name">تشغيل المساحات الخلفية عند الرجوع للخلف</string>
+    <string name="setFunc29name_title">تشغيل المساحات الخلفية عند الرجوع للخلف</string>
+    <string name="setFunc32item0">غلق</string>
+    <string name="setFunc32item1">3ثواني</string>
+    <string name="setFunc32item2">5ثواني</string>
+    <string name="setFunc32name">وقت التوقف لفتح التحكم عن بعد بعد القفل</string>
+    <string name="setFunc32name_title">وقت التوقف لفتح التحكم عن بعد بعد القفل</string>
+    <string name="setFunc33item0">غلق</string>
+    <string name="setFunc33item1">فتح</string>
+    <string name="setFunc33name">استجابة الزمارة عندما يتم تشغيل المحرك عن بعد</string>
+    <string name="setFunc33name_title">استجابة الزمارة عندما يتم تشغيل المحرك عن بعد</string>
+    <string name="setFunc34item0">فتح</string>
+    <string name="setFunc34item1">غلق</string>
+    <string name="setFunc34name">افتح مفتاح الإشعال بعد إيقاف تشغيله</string>
+    <string name="setFunc34name_title">افتح مفتاح الإشعال بعد إيقاف تشغيله</string>
+    <string name="setFunc35item0">جميع الأبواب</string>
+    <string name="setFunc35item1">باب السائق فقط</string>
+    <string name="setFunc35name">وضع نافذة الطاقة محظور بواسطة مفتاح القفل</string>
+    <string name="setFunc35name_title">وضع نافذة الطاقة محظور بواسطة مفتاح القفل</string>
+    <string name="setFunc36item0">غلق</string>
+    <string name="setFunc36item1">30دقيقة</string>
+    <string name="setFunc36item2">60دقيقة</string>
+    <string name="setFunc36name">يتم قطع إمدادات الطاقة ACC تلقائيا</string>
+    <string name="setFunc36name_title">يتم قطع إمدادات الطاقة ACC تلقائيا</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">غلق</string>
+    <string name="setFunc42item1">15ثانية</string>
+    <string name="setFunc42item2">30ثانية</string>
+    <string name="setFunc42item3">1دقيقة</string>
+    <string name="setFunc42item4">3دقائق</string>
+    <string name="setFunc42name">يتم تشغيل المصابيح الأمامية عند مغادرة السيارة</string>
+    <string name="setFunc42name_title">يتم تشغيل المصابيح الأمامية عند مغادرة السيارة</string>
+    <string name="setFunc43item0">غلق</string>
+    <string name="setFunc43item1">ضوء وقوف السيارات</string>
+    <string name="setFunc43item2">مصباح أمامي</string>
+    <string name="setFunc43name">عند إلغاء قفل جهاز التحكم عن بُعد ، يتم تشغيل الضوء الخارجي.</string>
+    <string name="setFunc43name_title">عند إلغاء قفل جهاز التحكم عن بُعد ، يتم تشغيل الضوء الخارجي.</string>
+    <string name="setFunc50item0">يدويا</string>
+    <string name="setFunc50item1">تلقائي</string>
+    <string name="setFunc50name">التحكم في إعادة الدوران</string>
+    <string name="setFunc50name_title">التحكم في إعادة الدوران</string>
+    <string name="setFunc51item0">يدويا</string>
+    <string name="setFunc51item1">تلقائي</string>
+    <string name="setFunc51name">التحكم في مفاتيح مكيف الهواء</string>
+    <string name="setFunc51name_title">التحكم في مفاتيح مكيف الهواء</string>
+    <string name="setFunc53item0">توفير الطاقة</string>
+    <string name="setFunc53item1">مريح</string>
+    <string name="setFunc53name">وضع توفير الطاقة</string>
+    <string name="setFunc53name_title">وضع توفير الطاقة</string>
+    <string name="setFunc54item0">طبيعي</string>
+    <string name="setFunc54item1">المزيد من تدفق الهواء عند القدم</string>
+    <string name="setFunc54item2">المزيد من تدفق الهواء في مزيل الصقيع</string>
+    <string name="setFunc54name">عند القدم / مزيل الصقيع</string>
+    <string name="setFunc54name_title">عند القدم / مزيل الصقيع</string>
+    <string name="setFunc55item0">طبيعي</string>
+    <string name="setFunc55item1">المزيد من تدفق الهواء في الوجه</string>
+    <string name="setFunc55item2">المزيد من تدفق الهواء عند القدم</string>
+    <string name="setFunc55name">نسبة تدفق الهواء في الوجه / القدم</string>
+    <string name="setFunc55name_title">نسبة تدفق الهواء في الوجه / القدم</string>
+    <string name="setFunc56item0">غلق</string>
+    <string name="setFunc56item1">فتح</string>
+    <string name="setFunc56name">تذويب تلقائي للنافذة الخلفية عند بدء التشغيل</string>
+    <string name="setFunc56name_title">تذويب تلقائي للنافذة الخلفية عند بدء التشغيل</string>
+    <string name="setFunc57item0">غلق</string>
+    <string name="setFunc57item1">فتح</string>
+    <string name="setFunc57name">ابدأ تشغيل مكيف الهواء أو المدفأة عندما يكون الباب مفتوحًا</string>
+    <string name="setFunc57name_title">ابدأ تشغيل مكيف الهواء أو المدفأة عندما يكون الباب مفتوحًا</string>
+    <string name="setFunc58item0">غلق</string>
+    <string name="setFunc58item1">فتح</string>
+    <string name="setFunc58name">القليل جدا من الهواء يتدفق عبر مزيل الصقيع في وضع القدم</string>
+    <string name="setFunc58name_title">القليل جدا من الهواء يتدفق عبر مزيل الصقيع في وضع القدم</string>
+    <string name="setFunc60item0">غلق</string>
+    <string name="setFunc60item1">فتح</string>
+    <string name="setFunc60name">زيادة سرعة المحرك لتحسين أداء المدفأة عندما تكون السيارة في حالة توقف تام</string>
+    <string name="setFunc60name_title">زيادة سرعة المحرك لتحسين أداء المدفأة عندما تكون السيارة في حالة توقف تام</string>
+    <string name="setFuncGroup01">دخول نظام بدون مفتاح</string>
+    <string name="setFuncGroup02">نظام التشغيل بدون مفتاح</string>
+    <string name="setFuncGroup03">ممسحة الزجاج الأمامي</string>
+    <string name="setFuncGroup04">ضوء خارجي / ضوء داخلي</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">نافذة كهربائية</string>
+    <string name="setFuncGroup07">ضوء الاشارة</string>
+    <string name="setFuncGroup08">قفل الباب الكهربائي</string>
+    <string name="setFuncGroup09">مكيف الهواء</string>
+    <string name="setFuncGroup10">آخر</string>
+    <string name="setSend">إرسال</string>
+    <string name="setany">إعدادات قناة WLAN اللاسلكية</string>
+    <string name="setcarset">إعدادات السيارة</string>
+    <string name="setinfo_changewpaonestr">قم بتغيير كلمة مرور LAN اللاسلكية</string>
+    <string name="setinfo_changewpatwostr">يمكنك تغيير كلمة مرور شبكة LAN اللاسلكية.</string>
+    <string name="setinfoeightstr">إلغاء تسجيل رمز VIN ولن يكون بمقدورك التواصل مع السيارة بعد إلغاء التسجيل. إذا كنت بحاجة إلى التواصل مرة أخرى ، فيجب عليك إعادة التسجيل.</string>
+    <string name="setinfoelevenstr">إعدادات قناة LAN اللاسلكية</string>
+    <string name="setinfofifteenstr">تاريخ التنبيه ضد السرقة</string>
+    <string name="setinfofivestr">تغيرSSID</string>
+    <string name="setinfofourstr">تغيير رمز المرور بدء التشغيل</string>
+    <string name="setinfofourteenstr">تغيير الإعدادات المتنوعة للمركبة. (مخصص ETACS)</string>
+    <string name="setinfoninestr">قم بإعداد اتصال شبكة LAN اللاسلكية</string>
+    <string name="setinfoonestr">تجاوز رمز المرور</string>
+    <string name="setinfosevenstr">إلغاء تسجيل رمز VIN</string>
+    <string name="setinfosisteenstr">عرض تاريخ التنبيه ضد السرقة</string>
+    <string name="setinfosixstr">يمكنك تغيير SSID الخاص بالسيارة</string>
+    <string name="setinfotenstr">يمكن الاتصال LANدائمًا لاسلكيًا مع السيارة أو فقط عندما يكون مفتاح الطاقة في السيارة في حالة OFF.</string>
+    <string name="setinfothirteenstr">إعدادات السيارة</string>
+    <string name="setinfothreestr">تغيير رمز المرور</string>
+    <string name="setinfotwelvestr">يمكنك تحديد قناة LAN لاسلكية. بعد تعديل قناة LAN لاسلكية ، سيتم قطع الاتصال اللاسلكي وإعادة توصيله تلقائيًا. إذا لم يتم إعادة الاتصال بالبرنامج بعد 5 دقائق ، أغلق التطبيق في شاشة إعدادات Wifi وتحقق من اتصال شبكة LAN اللاسلكية.</string>
+    <string name="setinfotwostr">حدد ما إذا كنت تريد إدخال رمز المرور عند بدء البرنامج</string>
+    <string name="setinit">إلغاء رمز التسجيل VIN</string>
+    <string name="setinitinfo">"ستتم تهيئة المعلومات التالية ، هل تريد المتابعة؟
+
+"<ul><li>"الجدول الزمني لمؤقت الشحن
+"</li><li>" الجدول الزمني للتحكم في المكيف
+"</li>‏<li>SSID</li>‏</ul></string>
+    <string name="setinitinfo_wpa">"ستتم تهيئة المعلومات التالية ، هل تريد المتابعة؟
+
+"<ul><li>"الجدول الزمني لمؤقت الشحن
+"</li><li>" الجدول الزمني للتحكم في المكيف
+"</li>‏<li>"SSID
+"</li>‏<li>الرقم السري LAN</li></ul></string>
+    <string name="setinitq">هل أنت متأكد من حذف رمز التسجيل VIN ?</string>
+    <string name="setnewssidinfo">SSID الجديدة</string>
+    <string name="setnewwpainfo">كلمة المرور الجديدة</string>
+    <string name="setoldssidinfo">‏SSID‏</string>
+    <string name="setoldwpainfo">كلمة المرور الحالية</string>
+    <string name="setpasscode">تغيير رمز المرور</string>
+    <string name="setpasscodedis">"رمز المرور غير مسجل.
+
+من أجل تسجيل رمز مرور ، يرجى إيقاف تشغيل \"تجاوز إدخال رمز المرور\"."</string>
+    <string name="setpasscodestep1">قم بإدخال كلمة المرور الحالية</string>
+    <string name="setpasscodestep2">يرجى إدخال الرقم السري</string>
+    <string name="setpasscodestep3">يرجى إدخال رمز المرور الجديد مرة أخرى</string>
+    <string name="setrenewwpainfo">أكد كلمة المرور الجديدة</string>
+    <string name="setspnum">عدد الأجهزة المسجلة</string>
+    <string name="setssid">تغيير SSID</string>
+    <string name="setssiderr">إدخال خطأ</string>
+    <string name="setssiderrinfo">يحتوي على أحرف لا يمكن استخدامها.</string>
+    <string name="setssidinfo">يرجى إدخال من 1~32 من حروف أو أرقام أو رموز وأحرف كبيرة أو صغيرة</string>
+    <string name="setssidokinfo">بعد تغيير SSID ، سيتم قطع الاتصال اللاسلكي ثم إعادة الاتصال تلقائيًا. إذا لم تتم إعادة الاتصال بالتطبيق بعد 5 دقائق ، فيرجى إغلاق التطبيق والتحقق من اتصال الشبكة المحلية اللاسلكية بالمركبة على شاشة إعدادات Android Wifi.</string>
+    <string name="setssidoktips">انقر فوق OK لإغلاق التطبيق.</string>
+    <string name="setthefthistory">تاريخ إنذار السرقة</string>
+    <string name="setthefthistoryinfo">هل أنت متأكد من أنك تريد مسح كل سجل إنذار ضد السرقة؟</string>
+    <string name="settingtitle">إعدادات</string>
+    <string name="setusepasscode">تجاوز إدخال رمز المرور</string>
+    <string name="setusepasscodeinfo">يرجى إدخال كلمة المرور</string>
+    <string name="setver">معلومات الإصدار</string>
+    <string name="setverapp">‏MITSUBISHI Remote Control‏</string>
+    <string name="setverev">برنامج السيارة</string>
+    <string name="setwifiinfoon">"الإعدادات ON: 
+ يتم دائمًا تشغيل اتصال الشبكة المحلية اللاسلكية على جانب السيارة. 
+ 
+ الإعدادات OFF: 
+ يتم تشغيل اتصال الشبكة المحلية اللاسلكية على جانب السيارة عندما يكون مفتاح تشغيل الطاقة في وضع إيقاف التشغيل. 
+
+ 
+ إذا كنت ترغب في توصيل جهازك بنظام Smartphone Link Display Audio ، فيرجى إيقاف تشغيل هذه الإعدادات."</string>
+    <string name="setwifilabel">الاتصال الدائم</string>
+    <string name="setwpa">تغيير كلمة مرور LAN اللاسلكية</string>
+    <string name="setwpaerr_1">خطأ في الإدخال</string>
+    <string name="setwpaerr_2">خطأ في الإدخال</string>
+    <string name="setwpaerr_3">خطأ في الإدخال</string>
+    <string name="setwpaerr_4">خطأ في الإدخال</string>
+    <string name="setwpaerrinfo_1">"يحتوي على أحرف لا يمكن استخدامها. 
+ يرجى الرجوع إلى المساعدة لتأكيد الحروف التي يمكن استخدامها."</string>
+    <string name="setwpaerrinfo_2">لابد من توافق الرقم السري الجديد، يرجى إعادة إدخال الرقم السري الخاص بك مجدداً</string>
+    <string name="setwpaerrinfo_3">يجب أن تحتوي كلمة المرور الجديدة على 14 حرفًا فقط. يرجى اختيار كلمة مرور أخرى.</string>
+    <string name="setwpaerrinfo_4">كلمة المرور الحالية التي أدخلتها غير صحيحة ، الرجاء المحاولة مرة أخرى.</string>
+    <string name="setwpaerrinfo_5">"أسباب الخطأ المحتملة هي:
+"<ul><li>"مفتاح الإشعال ليس في موضع ACC، كان.
+"</li><li>"في وضع التسجيل لأكثر من 10 دقائق.
+
+قم بإعداد السيارة إلى وضع الاستعداد للتسجيل."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"الرجاء إدخال كلمة مرور مؤمّنة من 14 حرفًا.
+"</li><li>"كلمة المرور حساسة لحالة الأحرف ويمكنك استخدام الأحرف والأرقام والرموز.
+"</li><li> يرجى تذكر كلمة المرور ولا تشاركها مع الآخرين.</li></ul></string>
+    <string name="setwpaokinfo">"بعد تغيير كلمة مرور الشبكة اللاسلكية ، سيتم قطع الاتصال اللاسلكي ثم إعادة توصيله تلقائيًا.
+إذا لم يتم إعادة الاتصال بالتطبيق بعد 5 دقائق ، فيرجى إغلاق التطبيق والتحقق من حالة اتصال الشبكة المحلية اللاسلكية في واجهة إعدادات Android Wifi."</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">‏Open Source License‏</string>
+    <string name="ssidErr">"الجهاز متصل بشبكة أخرى غير السيارة. 
+ 
+هل أنت متصل بالمركبة؟"</string>
+    <string name="ssidinfo">سيتم تغيير SSID</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">بعد إدخال SSID وكلمة المرور الخاصة بالسيارة ، اضغط على \"OK\" للمتابعة</string>
+    <string name="stepfiveonestring">أغلق باب السائق.</string>
+    <string name="stepfivethreestring">"في غضون 10 ثوان بعد STEP 2 ، اضغط على LOCK و UNLOCK على المفتاح البديل 5 مرات (إجمالي 10 مكابس تبدأ من الزر LOCK) 
+صوت يشير إلى أن السيارة تنتظر التسجيل."</string>
+    <string name="stepfivetwostring">‏اضبط مفتاح الطاقة على ACC (لا تدس على الفرامل عند إجراء هذه العملية. يعمل الزر كما يلي OFF ← ON ← ACC ← OFF )‏</string>
+    <string name="stepfouronestring">أغلق باب السائق.</string>
+    <string name="stepfourthreestring">"في غضون 10 ثوان بعد STEP 2 ، اضغط على LOCK و UNLOCK على المفتاح البديل 5 مرات (إجمالي 10 مكابس تبدأ من الزر LOCK) 
+صوت يشير إلى أن السيارة تنتظر التسجيل."</string>
+    <string name="stepfourtwostring">‏اضبط مفتاح الطاقة على ACC (لا تدس على الفرامل عند إجراء هذه العملية. يعمل الزر كما يلي OFF ← ON ← ACC ← OFF )‏</string>
+    <string name="stu1_1">مفتاح التشغيل OFF</string>
+    <string name="stu1_2">مفتاح التشغيل ON أو ACC</string>
+    <string name="stu1_3">لا يتم تشغيل التنبيه ضد السرقة</string>
+    <string name="stu1_4">تم تشغيل التنبيه ضد السرقة</string>
+    <string name="stu1_5">جار التنبيه ضد السرقة</string>
+    <string name="stu2info1leftstr">أضواء وقوف السيارة</string>
+    <string name="stu2info1rightstr">تم تشغيل</string>
+    <string name="stu2info1str">تم تشغيل أضواء وقوف السيارة</string>
+    <string name="stu2info2leftstr">أضواء الخطر</string>
+    <string name="stu2info2rightstr">تم تشغيل</string>
+    <string name="stu2info2str">تم تشغيل أضواء الخطر</string>
+    <string name="stu2info3leftstr">السيارة مفتوحة</string>
+    <string name="stu2info3rightstr">أبواب</string>
+    <string name="stu2info3str">أبواب السيارة مفتوحة</string>
+    <string name="stu2info4leftstr">تشغيل أضواء الأمامية</string>
+    <string name="stu2info4rightstr">تم</string>
+    <string name="stu2info4str">تم تشغيل أضواء الأمامية</string>
+    <string name="stu2info5leftstr">غطاء محرك</string>
+    <string name="stu2info5rightstr">السيارة مفتوح</string>
+    <string name="stu2info5str">غطاء محرك السيارة مفتوح</string>
+    <string name="stu2info6leftstr">الإضاءة الداخلية في وضع التشغيل</string>
+    <string name="stu2info6rightstr" />
+    <string name="stu2info6str">الإضاءة الداخلية في وضع التشغيل</string>
+    <string name="stu2info7leftstr">الباب الخلفي مفتوح</string>
+    <string name="stu2info7rightstr" />
+    <string name="stu2info7str">الباب الخلفي مفتوح</string>
+    <string name="stu2info8leftstr">الأضواء الخلفية في وضع التشغيل</string>
+    <string name="stu2info8rightstr" />
+    <string name="stu2info8str">الأضواء الخلفية في وضع التشغيل</string>
+    <string name="sun">الأحد</string>
+    <string name="sun1">الأحد</string>
+    <string name="switchoff">ايقاف</string>
+    <string name="switchon">تشغيل</string>
+    <string name="theft2_1">تم تشغيل الأضواء الأمامية</string>
+    <string name="theft2_4">افتح ضوء ركن السيارة</string>
+    <string name="theft2dis2twostr">"لا يمكن تشغيل هذه الميزة إلا إذا:
+
+"<ul><li>" مفتاح الطاقة مطفأ.
+"</li><li> المصابيح الأمامية وأضواء مواقف السيارات مغلقة.</li></ul></string>
+    <string name="thu">الخميس</string>
+    <string name="thu1">الخميس</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode" />
+    <string name="titleback">ارجع</string>
+    <string name="titlehelp">مساعدة</string>
+    <string name="titleupdate1">مسح</string>
+    <string name="titleupdate2">إعادة ضبط</string>
+    <string name="titleupdate3">إرسال</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"لا يمكن تنفيذ هذا الإجراء في الحالات التالية:
+
+"<ul><li>" مفتاح الطاقة غير مطفأ.
+"</li><li> الشحن السريع نشط.</li></ul></string>
+    <string name="topacmode">الوضع</string>
+    <string name="topacwait">انتظار</string>
+    <string name="topbattwarm">قيد التسخين</string>
+    <string name="topbattwarminginfo">يرجى توصيل كابل الشحن ، لمنع انخفاض درجة حرارة البطارية. سوف تبدأ عملية الاحماء عند توصيلها.</string>
+    <string name="topbattwarminginfo_plugin_1">"ربما بسبب انخفاض درجة حرارة البطارية، فيتعذر على السيارة الانطلاق. 
+
+ وللانطلاق بحاجة لتسخين البطارية. يرجى ضبط السيارة على وضع READY أو إدخال مقبس الشحن لرفع درجة حرارة البطارية."</string>
+    <string name="topbattwarminginfo_plugin_2">"بسبب النقص الحاد في درجة حرارة البطارية، فلا يمكن للسيارة الانطلاق بعد. 
+
+ فيرجى توصيل المقبس العادي للشحن من أجل رفع درجة الحرارة."</string>
+    <string name="topbattwarminginfo_stop_1">"بسبب نقص درجة حرارة البطارية، فيتعذر على السيارة الانطلاق. 
+ ومن أجل السير، أنت بحاجة لزيادة حرارة البطارية، ولم تصل البطارية للحرارة المطلوبة.
+
+ فيرجى الانتظار حتى ترتفع درجة الحرارة الخارجية."</string>
+    <string name="topbattwarminginfo_stop_2">"بسبب نقص درجة حرارة البطارية بشكل حاد، فيتعذر على السيارة الانطلاق.
+
+ومن أجل تشغيل السيارة، أنت بحاجة لزيادة حرارة البطارية، ولم تصل البطارية للحرارة المطلوبة.
+
+فيرجى إدخال مقبس الشحن والانتظار ريثما يتم الوصول لدرجة الحرارة الخارجية، عندها ابدأ في رفع درجة الحرارة للبطارية."</string>
+    <string name="topbattwarminginfo_warm_1">ارتفعت درجة حرارة بطارية المركبة، ويمكنك الأن القيادة</string>
+    <string name="topbattwarminginfo_warm_2">"نظراً لانخفاض درجة حرارة البطارية بشكل حاد، فيتعذر على السيارة الانطلاق. 
+
+يرجى الانتظار ريثما يتم رفع الحرارة."</string>
+    <string name="topbattwarmingtitle">معلومات السيارة</string>
+    <string name="topcanntac">يرجى ضبط وضع تكييف الهواء في شاشة الجدول الزمني الموقت. أولاً.</string>
+    <string name="topcanntac2">"تم تعيينها \"قم بتشغيل تكييف الهواء على الفور.\"
+ في نهاية \" قم بتشغيل تكييف الهواء على الفور \" ، سيعود تكييف الهواء المؤقت تلقائيًا إلى الحالة التشغيل."</string>
+    <string name="topcanntchg">يرجى ضبط الموقت في شاشة \"الموقت\" أولاً.</string>
+    <string name="topchargeEndTime">اكتمل الشحن</string>
+    <string name="topchargeEndTimeHour">ساعة</string>
+    <string name="topchargeEndTimeMin">دقيقة</string>
+    <string name="topchargefinish">اكتمل الشحن</string>
+    <string name="topchargetimer">المؤقت : ايقاف/ تشغيل</string>
+    <string name="topfastchg">شحن سريع</string>
+    <string name="tophelp100v">الشحن البطيء</string>
+    <string name="tophelp200v">الشحن العادي</string>
+    <string name="tophelp22">بارد</string>
+    <string name="tophelp24">التدفئة</string>
+    <string name="tophelp26">إزالة الصقيع</string>
+    <string name="tophelp41">اتصال جيد</string>
+    <string name="tophelp42">اتصال ضعيف</string>
+    <string name="tophelp43">لا يمكن الاتصال</string>
+    <string name="tophelp44">اضغط على هذا الزر للتواصل بالسيارة وتحديث المعلومات.</string>
+    <string name="tophelpwarm"><ul><li>"البطارية الرئيسية قيد تسخين ، لمنع عطل البطارية بسبب انخفاض درجة الحرارة.
+"</li><li>"هناك احتمال أن يتم تقليل الشحن المتبقية على البطارية الرئيسية.
+"</li><li>"هناك احتمال أن تبدأ البطارية في الشحن حتى في حالة ضبط شحن المؤقت.
+"</li><li>هناك احتمال أن تكون مروحة التحكم في تكيف الهواء نشطة.</li></ul></string>
+    <string name="topwaitcharge">انتظار</string>
+    <string name="towebsitestr">اذهب الى الموقع الالكتروني</string>
+    <string name="tue">الثلاثاء</string>
+    <string name="tue1">الثلاثاء</string>
+    <string name="v2hv2l">بدء امدادات الطاقة الخارجية</string>
+    <string name="warning6str">اضغط على زر \"التحديث\" للتواصل مع السيارة.</string>
+    <string name="warning7timeronestr">توقيت الموقت 1 المحدد لجميع الأيام الأخرى. سوف تتغير.</string>
+    <string name="warning7timerthreestr">توقيت الموقت 3 المحدد لجميع الأيام الأخرى. سوف تتغير.</string>
+    <string name="warning7timertwostr">توقيت الموقت 2 المحدد لجميع الأيام الأخرى. سوف تتغير.</string>
+    <string name="wed">الأربعاء</string>
+    <string name="wed1">الأربعاء</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">إعداد اتصال LAN اللاسلكية</string>
+    <string name="wpainfo">سيتم تغيير كلمة مرور WLAN.</string>
+</resources>

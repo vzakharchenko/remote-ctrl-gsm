@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/channelfirstlayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/helpnav_title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_200" android:layout_marginTop="@dimen/dp_38" android:layout_below="@id/channelfirstlayout">
+        <ListView android:layout_gravity="center" android:id="@id/vlistChannelChange" android:background="#00000000" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="@dimen/dp_164" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@color/transparent" />
+    </RelativeLayout>
+    <com.inventec.controls.MyButton android:textSize="@dimen/sp_16" android:textColor="#ffffffff" android:id="@id/btnOk_channel" android:background="@drawable/btn_big_red" android:layout_width="@dimen/dp_351" android:layout_height="@dimen/dp_72" android:layout_marginBottom="@dimen/dp_17" android:text="@string/setSend" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:buttonShadowType="red" />
+</RelativeLayout>

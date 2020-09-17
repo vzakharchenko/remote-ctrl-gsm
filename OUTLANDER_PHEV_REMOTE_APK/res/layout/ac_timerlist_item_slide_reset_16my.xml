@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/timer_reset_backgroundcolor" android:layout_width="@dimen/dp_96" android:layout_height="@dimen/dp_112"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_reset" android:layout_width="wrap_content" android:layout_height="@dimen/dp_24" android:layout_marginTop="@dimen/dp_24" android:src="@drawable/ic_img_timerlist_reset" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/white" android:gravity="center" android:id="@id/reset_slider_text" android:layout_width="fill_parent" android:layout_height="@dimen/dp_38" android:layout_marginTop="@dimen/dp_8" android:text="@string/reset" android:layout_below="@id/img_reset" android:layout_centerHorizontal="true" />
+</RelativeLayout>

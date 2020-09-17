@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/carsubtoplayout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/timerlist_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout1" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_96" android:layout_marginBottom="@dimen/dp_90">
+        <ListView android:layout_gravity="center" android:id="@id/vlist" android:background="#00000000" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@color/transparent" android:dividerHeight="@dimen/dp_0" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:layout_alignParentBottom="true">
+        <com.inventec.controls.MyButton android:textSize="@dimen/sp_16" android:textColor="#ffffffff" android:id="@id/btnOk" android:background="@drawable/btn_big_red" android:layout_width="@dimen/dp_351" android:layout_height="@dimen/dp_72" android:text="@string/setSend" app:buttonShadowType="red" />
+    </RelativeLayout>
+</RelativeLayout>

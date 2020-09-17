@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">min</string>
+    <string name="ACWorking">Det indstillede tidspunkt for brug af klimaanlægget kan ikke ændres, når klimakontrollen aktiveres af timeren eller fjernbetjeningen.</string>
+    <string name="ACtim"><ul><li>"Fjernklimafunktionen må ikke bruges til at holde køretøjet køligt eller varmt, mens mennesker eller kæledyr er i det parkerede køretøj. Uventede ulykker kan forekomme.
+
+"</li><li>"Længere drift af klimaanlæg vil reducere batteriniveau.
+
+"</li><li>Hvis batteriniveauet er lavt, kan den faktiske driftstid for klimaanlægget være kortere end oprindeligt indstillet.</li></ul></string>
+    <string name="ACtimeLabel">Aktiveringstiden af klimastyring</string>
+    <string name="AcsettingARM">"Hvis bilalarmen er aktiv, kan køretøjsindstillinger ikke ændres.
+
+Venligst lås køretøjet op ved brug af nøglefri adgang eller med det nøglefrie betjeningssystem. Dette deaktiverer sikkerhedssystemet, og køretøjsindstillinger kan ændres"</string>
+    <string name="EVInit">Nulstil</string>
+    <string name="EVInitInfo">Ønsker du at nulstille indstillingerne?</string>
+    <string name="Everyday">hver dag</string>
+    <string name="ResetAllschude">Ønsker du at nulstille alle tidsplaner?</string>
+    <string name="ResetOneschude">Ønsker du at nulstille denne tidsplan?</string>
+    <string name="Schudle">Tidsplan</string>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Naviger op</string>
+    <string name="abc_action_menu_overflow_description">Flere muligheder</string>
+    <string name="abc_action_mode_done">Luk</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgslen</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="accstr">ACC (orange)</string>
+    <string name="acoptiontimelong2">Aktiv funktionstid</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Status</string>
+    <string name="bartitle5">Indstillinger</string>
+    <string name="bgdark" />
+    <string name="btnStart">TIL</string>
+    <string name="cancel">Annuller</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">Følgende tegn kan benyttes:</string>
+    <string name="channel_3">Kanal 3</string>
+    <string name="channel_8">Kanal 8</string>
+    <string name="clear">Nulstil alt</string>
+    <string name="communicationstr">Kommunikation</string>
+    <string name="countdownTipsonestr">"Brug den eksterne strømforsynings betjeningspanel til at indstille fra køretøjet til huset inden for 5 min.
+
+Hvis den eksterne strømforsyning ikke starter, kan det muligvis skyldes følgende:"</string>
+    <string name="countdownTipstwostr">Den eksterne strømforsyning understøtter ikke funktionen.</string>
+    <string name="countdownTipstwostrfivestr">Der er funktionsfejl i den eksterne strømforsyning eller i køretøjet.</string>
+    <string name="countdownTipstwostrfourstr">Batteristanden på 12 V-batteriet i køretøjet er lavt.</string>
+    <string name="countdownTipstwostrthreestr">Der er gået mere end 5 minutter, siden du trykkede på TIL -knappen.</string>
+    <string name="countdownTipstwostrtwostr">Lyn opladningsstikket på den eksterne strømforsyning er ikke tilsluttet korrekt til køretøjet.</string>
+    <string name="daySelct">Gentag</string>
+    <string name="delay1">0 min</string>
+    <string name="delay10">120 min</string>
+    <string name="delay11">150 min</string>
+    <string name="delay12">180 min</string>
+    <string name="delay2">5 min</string>
+    <string name="delay3">10 min</string>
+    <string name="delay4">20 min</string>
+    <string name="delay5">30 min</string>
+    <string name="delay6">40 min</string>
+    <string name="delay7">50 min</string>
+    <string name="delay8">60 min</string>
+    <string name="delay9">90 min</string>
+    <string name="demo">Testversion</string>
+    <string name="durationstr">Varighed</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">Ukendt nøgle blev anvendt.</string>
+    <string name="err1intrusion">Uautoriseret indtrængen opstod</string>
+    <string name="err1movement">Der opstod en uventet bevægelse af køretøjet</string>
+    <string name="err1other">Ulovlig adgang opstod</string>
+    <string name="err1perimeter">Døren blev åbnet uautoriseret</string>
+    <string name="err1silent">Uventede vibrationer opstod</string>
+    <string name="err1title">Advarsel fra tyverialarm</string>
+    <string name="errACinfo">"Mulige årsager til dette er som følger:
+
+"<ul><li>"Døren er åben.
+"</li><li>Primært batteriniveau er lavt.</li></ul></string>
+    <string name="errACinfoEx">"Mulige arsager til dette er som følger:
+
+"<ul><li>"Døren er åben.
+"</li><li>"Primært batteriniveau er lavt.
+"</li><li>Batteritemperaturen er for lav.</li></ul></string>
+    <string name="errACtitle">Meddelelse: Pre-aircondition er standset</string>
+    <string name="errCHGinfo">Timerfunktion af opladning kunne ikke aktiveres</string>
+    <string name="errCHGtitle">Fejlnotifikation på timerfunktion af oplader</string>
+    <string name="errRegMaxtitle">Registreringsfejl</string>
+    <string name="errTimerinfo">Timerkontrol kunne ikke aktiveres</string>
+    <string name="errTimertitle">Fejlmeddelse af timerkontrol</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Fejlkode :</string>
+    <string name="evACCool">Køling</string>
+    <string name="evACHot">Varme</string>
+    <string name="evACOFF">FRA</string>
+    <string name="evACSetTitle">Tidsindstillinger for klimaanlæg</string>
+    <string name="evCharge1Auto">Lokationsbaseret :</string>
+    <string name="evCharge1End">slut</string>
+    <string name="evCharge1Start">start</string>
+    <string name="evCharge1full">Fuld opladning</string>
+    <string name="evChargeSetTitle">Indstillinger for timer af opladning</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">Send</string>
+    <string name="evSendAsk">Den nye tidsplan er ikke blevet sendt. Kunne du tænke dig at gå tilbage og sende den?</string>
+    <string name="evSendAsk5ch">"Ændrede indstillinger blev ikke sendt til køretøjet.
+Er du sikker på, at du ønsker at annullere og vende tilbage til forrige skærm?"</string>
+    <string name="evTimerSet">Timerindstillinger</string>
+    <string name="evhCHG12info">"Funktionen Fuldt opladet - oplader batteriet indtil det er fuldt opladet, i tilfælde hvor batteriet ikke har været fuldt opladet i løbet af perioden med time styring.
+Vær opmærksom på, at opladning ikke vil ske, når stikket er indsat efter at perioden med opladning med timestyring er slut."</string>
+    <string name="evhCHG17myinfo1">Manuelt klimaanlæg</string>
+    <string name="evhCHG22ginfo1">Manuel opladningstilstand</string>
+    <string name="evhCHG22ginfo3">Tilstand på opladning med timestyring</string>
+    <string name="evhCHG22infofourstr">Lokationsfunktionen kan ikke benyttes.</string>
+    <string name="evhCHG22infoonestr">Når MMCS er udstyret.</string>
+    <string name="evhCHG22infothreestr">Når MMCS ikke er monteret</string>
+    <string name="evhCHG22infotwostr">"Denne funktion ændrer opladningstilstand afhængig af din placering. Den er indstillet til tidsstyringen når nære steder er valgt i adressebogen, og er indstillet til manuel funktion for alle andre områder.
+Denne tilstand gør det muligt for timeren at være indstillet til opladning for adresseplaceringer, hvor nattetid opladning anvendes, og til manuel opladning på destinationer som indkøbscentre."</string>
+    <string name="evhelpCHG1item2">Hvad er indstilling for fuld opladning?</string>
+    <string name="evhelpCHG2item2">Hvad er lokationsbaseret?</string>
+    <string name="evhmanualACitem4infofourstr">Tilstand er kun afkølling.</string>
+    <string name="evhmanualACitem4infoonestr">Nar det elektriske varmeapparat er installeret.</string>
+    <string name="evhmanualACitem4infothreestr">Når det elektriske varmeapparat ikke er installeret</string>
+    <string name="evhmanualACitem4infotwostr">"Tilstand vælges fra Opvarmning/afkøling/Optøning. 
+En valgt tilstand gælder for alle timeindstillingerne. Det er ikke muligt at indstille forskellige tilstande for hver timerindstilling"</string>
+    <string name="evmCHchargstr">Oplader</string>
+    <string name="evmCHclimatestr">Klima</string>
+    <string name="evmCHsetstr">Indstillinger</string>
+    <string name="evmCHstatusstr">Status</string>
+    <string name="evmaccancelltimestr">Afbrydelse</string>
+    <string name="evmaccanceltimer">Afbrydelse af Timer</string>
+    <string name="evmacwarn5str">Sluk klimatimeren.</string>
+    <string name="evmainac">Klimakontrol</string>
+    <string name="evmaincharge">Opladning</string>
+    <string name="evmchacwarn5no">Nej</string>
+    <string name="evmchacwarn5yes">Ja</string>
+    <string name="evmchargeTimerSch">Tidsplan for opladning</string>
+    <string name="evmchargetschstr">"Du kan afbryde timeren midlertidigt ved ikke at markere den.
+Midlertidigt annulleret tidsplan for timeropladning kan genoptages automatisk ved at kontrollere det igen, eller når driftsindstillingen for strømmen er TIL.
+"</string>
+    <string name="evmchargstatusstr">Opladningsstatus</string>
+    <string name="evmchtempcancellstr">Midlertidig afbrydelse</string>
+    <string name="evmchupdatingstr">(Opdatere)</string>
+    <string name="evmchwarn5str">Opladningstimeren er midlertidigt afbrudt.</string>
+    <string name="evmclimateTimerSch">Tidsplan for kliamaanlæg</string>
+    <string name="evmclimatetschstr">Du kan annullere timeren ved ikke at markere denne.</string>
+    <string name="evmdrivebattlevelstr">Køre batteriniveau</string>
+    <string name="evmerrstartcommun">Begynd at kommunikere</string>
+    <string name="evmlastupdatedstr">App viser den sidst opdaterede køretøjsstatus. Inden opdateringen af den nyeste køretøjsstatus, viser appen muligvis den forrige køretøjsstatus.</string>
+    <string name="evmregtroublereg">Har du problemer med at registrere dig?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Midlertidig Afbrydelse af Timer</string>
+    <string name="evmupdatedTime">Sidst opdateret</string>
+    <string name="evpsfailcontent">"En mulig årsag kan være funktionsfejl i køretøjet.
+Du skal kontakte en autoriseret Mitsubishi forhandler."</string>
+    <string name="evpsfailtitle">Strømforsyningen starter ikke</string>
+    <string name="evpspage1">Med denne app kan du via dit el- eller hybridkøretøj, forsyne dit hus med strøm ved brug af ekstern strømforsyning (V2H-/V2L-enhed).</string>
+    <string name="evpspage1threestr">Der kræves en ekstern strømforsyning for at benytte denne funktion. Kontakt din nærmeste autoriserede Mitsubishi forhandler</string>
+    <string name="evpspage1twostr">Når der er en strømafbrydelse i huset, kan du bruge V2H-enheden med strømforsyning fra køretøjet.</string>
+    <string name="evpspage2">Sluk for bilen og tilslut den eksterne strømforsyning til køretøjes lynopladningsstik.</string>
+    <string name="evpspage3">"Køretøjet begynder at levere strøm til den eksterne strømforsyning. Når du aktivere TIL knappen.
+Hvis du ikke kan trykke på TIL-knappen, skal du prøve igen fra den forrige skærm."</string>
+    <string name="exitdemostr">Afslut demo</string>
+    <string name="fri">Fredag</string>
+    <string name="fri1">Fre</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">Vi anbefaler ikke at bruge MITSUBISHI Remote Control.</string>
+    <string name="jailbreak_title">Det operative system er ændret</string>
+    <string name="language">da</string>
+    <string name="linkwarningstr">"Du kan ikke bruge køretøjsnetværk til internetsøgning, når det er tilsluttet køretøjet. Brug mobildata, eller skift til et andet trådløst netværk.
+Opret forbindelse til køretøjets SSID for at bruge App igen."</string>
+    <string name="loadwndinfo">"Når du bruger MITSUBISHI REMOTE CONTROL, kan du ikke oprette forbindelse til andre netværker (internettet osv.).
+
+Når du tilslutter din smartphone til Smartphone Link Display Audio systemet, kan MITSUBISHI REMOTE CONTROL ikke bruges."</string>
+    <string name="login_ssid_txtPwd">Adgangskode</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"Strøm fra bilen til den eksterne strømforsyning kan ikke leveres, fordi den resterende kapacitet af det kørende batteri er lavt.
+
+Du kan bruge denne funktion hvis den resterende batteri kapacitet er mere end 50%.
+
+Se mere i brugervejledningen under ” Opladning” og ” Opladning mode skift” før du vil oplade."</string>
+    <string name="lowbatterytitle">Strøm til den eksterne strømforsyning kan ikke leveres</string>
+    <string name="manacModenoset">Tryk på [Klima TIL] efter indstilling af tilstand.</string>
+    <string name="manacModesetClimateShutDown">"Timeren frakobler midlertidigt fordi manuelt klimaanlæg allerede er indstillet. Hvis manuelt klimaanlæg deaktiveres, starter timeren.
+
+Minutur funktionen vil aktiveres automatisk hvis \"Tænd luftanlæg straks\" slukkes."</string>
+    <string name="manachelptitle">Manuelle indstillinger for klimaanlæg</string>
+    <string name="manactim">Den fjernbetjente klimakontrolfunktion må ikke bruges til at holde køretøjet køligt eller opvarmet, når mennesker eller kæledyr opholder sig i det parkerede køretøj. Der kan ske uventede ulykker.</string>
+    <string name="modeselect">Du skal registrere dit stelnummer for at fortsætte. Vil du gøre applicationen til rådighed ved at registrere dit stelnummer?</string>
+    <string name="mon">Mandag</string>
+    <string name="mon1">Man</string>
+    <string name="needPINinfo">Adgangskode kræves</string>
+    <string name="newfunctioninfo">"Du kan kommunikere med køretøjet når bilen er slukket, fordi kommunikation indstillingen er \"Altid Kommunikerer: OFF\".
+
+Du kan ændre indstillingen ved hjælp af \"Indstillinger\">\"Indstilling af trådløse LAN Kommunikation\"."</string>
+    <string name="newfunctioninfo2">Spørg ikke mere.</string>
+    <string name="nextstr">Næste</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">Når du åbner App, kræves adgangskode ikke</string>
+    <string name="passcodeErr">Fejl i adgangskode</string>
+    <string name="passcodeErrinfo">Adgangskoden er forkert. Prøv venligst igen.</string>
+    <string name="passcodeTitle">Adgangskoden</string>
+    <string name="preset">Timer</string>
+    <string name="preset1">Timer 1</string>
+    <string name="preset2">Timer 2</string>
+    <string name="preset3">Timer 3</string>
+    <string name="preset4">Timer 4</string>
+    <string name="preset5">Timer 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Registrering</string>
+    <string name="regErr">Registreringsfejl</string>
+    <string name="regErrConn">Kan ikke registrere</string>
+    <string name="regOk">Stelnummerregistrering gennemført</string>
+    <string name="releaseinfothreestr">Du skal bruge SSID og adgangskode, begge er inkluderet med nøglen på købstidspunktet.</string>
+    <string name="remainTime">Resterende tid</string>
+    <string name="reset">Nulstil</string>
+    <string name="sTime">-</string>
+    <string name="sat">Lørdag</string>
+    <string name="sat1">Lør</string>
+    <string name="search_menu_title">Søg</string>
+    <string name="sendConn">Tilslutter…</string>
+    <string name="sendErr">Kan ikke kommunikere</string>
+    <string name="sendMsg">Sender...</string>
+    <string name="sendNavi">Bilnavigation betjenes...</string>
+    <string name="sendOK">Fuldført</string>
+    <string name="sendUpdate">Opdaterer...</string>
+    <string name="sendimmediately">Klimaanlæg TIL</string>
+    <string name="setErr">Fejl indstillinger</string>
+    <string name="setErrInfo">Kommunikationsfejl. Venligst kontakt en autoriseret Mitsubishi forhandler.</string>
+    <string name="setFunc01item0">Tænding aktiveret eller tilbehør</string>
+    <string name="setFunc01item1">Tænding Aktiveret</string>
+    <string name="setFunc01name">Funktion i nøgleposition</string>
+    <string name="setFunc01name_title">Funktion i nøgleposition</string>
+    <string name="setFunc02item0">Fra</string>
+    <string name="setFunc02item1">Til</string>
+    <string name="setFunc02name">Signal for baneskift (tre blink ved 1 tryk)</string>
+    <string name="setFunc02name_title">Signal for baneskift (tre blink ved 1 tryk)</string>
+    <string name="setFunc03item0">Lås: Én gang Lås op: To gange</string>
+    <string name="setFunc03item1">Lås: Én gang Lås op: Fra</string>
+    <string name="setFunc03item2">Lås: Fra Lås op: To gange</string>
+    <string name="setFunc03item3">Lås: To gange Lås op: En gang</string>
+    <string name="setFunc03item4">Lås: Fra Lås op: Én gang</string>
+    <string name="setFunc03item5">Lås: To gange Lås op: Fra</string>
+    <string name="setFunc03item6">Fra</string>
+    <string name="setFunc03name">Aktiver tilbagemelding med blinklys</string>
+    <string name="setFunc03name_title">Aktiver tilbagemelding med blinklys</string>
+    <string name="setFunc04item0">Fast (4 sekunder)</string>
+    <string name="setFunc04item1">Justerbar</string>
+    <string name="setFunc04item2">Justerbar og hastighedsafhængig</string>
+    <string name="setFunc04item3">Justerbar og regnfølsom</string>
+    <string name="setFunc04name">Intervalfunktion for viskere</string>
+    <string name="setFunc04name_title">Intervalfunktion for viskere</string>
+    <string name="setFunc05item0">Fra</string>
+    <string name="setFunc05item1">Til</string>
+    <string name="setFunc05item2">Til med forsinket for afslutningsvisk</string>
+    <string name="setFunc05name">Viskere starter ved brug af sprinklere</string>
+    <string name="setFunc05name_title">Viskere starter ved brug af sprinklere</string>
+    <string name="setFunc06item0">0 sekunder</string>
+    <string name="setFunc06item1">4 sekunder</string>
+    <string name="setFunc06item2">8 sekunder</string>
+    <string name="setFunc06item3">16 sekunder</string>
+    <string name="setFunc06name">Intervalfunktion for bagerste viskere</string>
+    <string name="setFunc06name_title">Intervalfunktion for bagerste viskere</string>
+    <string name="setFunc07item0">Fra</string>
+    <string name="setFunc07item1">1 minut</string>
+    <string name="setFunc07item2">3 minutter</string>
+    <string name="setFunc07item3">5 minutter</string>
+    <string name="setFunc07item4">10 minutter</string>
+    <string name="setFunc07name">Opladedæksel, automatisk slukning af lys</string>
+    <string name="setFunc07name_title">Opladedæksel, automatisk slukning af lys</string>
+    <string name="setFunc08item0">Fra</string>
+    <string name="setFunc08item1">Åben efter køretøjets hastighed</string>
+    <string name="setFunc08item2">Åbn/Luk ved tænding Tænd/Sluk og førerdør Åbn/Luk</string>
+    <string name="setFunc08item3_0">Åben/Luk ved nøglefri Åben/Luk</string>
+    <string name="setFunc08item3_1">Åben/Luk ved Keyless Operation System Åben/Luk</string>
+    <string name="setFunc08name">Automatisk foldbare sidespejle</string>
+    <string name="setFunc08name_title">Automatisk foldbare sidespejle</string>
+    <string name="setFunc09item0">Tidligt</string>
+    <string name="setFunc09item1">Lidt tidligt</string>
+    <string name="setFunc09item2">Normal</string>
+    <string name="setFunc09item3">Lidt sent</string>
+    <string name="setFunc09item4">Sent</string>
+    <string name="setFunc09name">Følsomhed for automatisk lys</string>
+    <string name="setFunc09name_title">Følsomhed for automatisk lys</string>
+    <string name="setFunc10item0">Fra</string>
+    <string name="setFunc10item1">Til</string>
+    <string name="setFunc10name">Automatisk lys forbundet til visker</string>
+    <string name="setFunc10name_title">Automatisk lys forbundet til visker</string>
+    <string name="setFunc11item0">0 sekunder (ingen timerfunktion)</string>
+    <string name="setFunc11item1">7,5 sekunder</string>
+    <string name="setFunc11item2">15 sekunder</string>
+    <string name="setFunc11item3">30 sekunder</string>
+    <string name="setFunc11item4">1 minut</string>
+    <string name="setFunc11item5">2 minutter</string>
+    <string name="setFunc11item6">3 minutter</string>
+    <string name="setFunc11name">Varighed af kabinelys efter dør lukkes</string>
+    <string name="setFunc11name_title">Varighed af kabinelys efter dør lukkes</string>
+    <string name="setFunc12item0">Fra</string>
+    <string name="setFunc12item1">Baglygte/forlygte: Altid slukning</string>
+    <string name="setFunc12item2">Til</string>
+    <string name="setFunc12item3">Til</string>
+    <string name="setFunc12item4">"Baglys: Slukning en gang
+Forlygter: Altid slukning"</string>
+    <string name="setFunc12item5">Til</string>
+    <string name="setFunc12name">Forlygter - autoslukningsfunktion</string>
+    <string name="setFunc12name_title">Forlygter - autoslukningsfunktion</string>
+    <string name="setFunc13item0">Fra</string>
+    <string name="setFunc13item1">3 minutter</string>
+    <string name="setFunc13item2">30 minutter</string>
+    <string name="setFunc13item3">60 minutter</string>
+    <string name="setFunc13name">Kabinelys - autoslukningstid</string>
+    <string name="setFunc13name_title">Kabinelys - autoslukningstid</string>
+    <string name="setFunc14item0">Kort</string>
+    <string name="setFunc14item1">Lang</string>
+    <string name="setFunc14name">Aktiveringstid for signaler for vognbaneskift</string>
+    <string name="setFunc14name_title">Aktiveringstid for signaler for vognbaneskift</string>
+    <string name="setFunc15item0">Fra</string>
+    <string name="setFunc15item1">Til</string>
+    <string name="setFunc15name">Komfortvisker</string>
+    <string name="setFunc15name_title">Komfortvisker</string>
+    <string name="setFunc16item0">Fra</string>
+    <string name="setFunc16item1">Når bilen står i park</string>
+    <string name="setFunc16item2">Ved skift til parkering med vinduer ulåst</string>
+    <string name="setFunc16item3">Når tænding ændres til Lås</string>
+    <string name="setFunc16item4">Når tænding ændres til Lås med vinduer ulåst</string>
+    <string name="setFunc16name">Automatisk oplåsning</string>
+    <string name="setFunc16name_title">Automatisk oplåsning</string>
+    <string name="setFunc17item0">Alle døre</string>
+    <string name="setFunc17item1">Kun førerdør</string>
+    <string name="setFunc17name">Lås op</string>
+    <string name="setFunc17name_title">Lås op</string>
+    <string name="setFunc19item0">2 gange</string>
+    <string name="setFunc19item1">1 gang</string>
+    <string name="setFunc19name">Antal tryk på lås-knap for sikkerhedslås</string>
+    <string name="setFunc19name_title">Antal tryk på lås-knap for sikkerhedslås</string>
+    <string name="setFunc20item0">Fra</string>
+    <string name="setFunc20item1">Ét tryk på knappen</string>
+    <string name="setFunc20item2">Ét tryk på knappen ved dagslys</string>
+    <string name="setFunc20item3">To tryk på knappen aktiverer lyd</string>
+    <string name="setFunc20item4">To tryk på knappen aktiverer lyd ved dagslys</string>
+    <string name="setFunc20name">Horn lyder ved nøglefri låsning</string>
+    <string name="setFunc20name_title">Horn lyder ved nøglefri låsning</string>
+    <string name="setFunc21item0">Alle systemer fra</string>
+    <string name="setFunc21item1">Lyd ved Keyless Operation</string>
+    <string name="setFunc21item2">Lyd ved nøglefri anvendelse</string>
+    <string name="setFunc21item3">Alle systemer til</string>
+    <string name="setFunc21name">Lyd ved nøglefri anvendelse</string>
+    <string name="setFunc21name_title">Lyd ved nøglefri anvendelse</string>
+    <string name="setFunc22item0">30 sekunder</string>
+    <string name="setFunc22item1">1 minut</string>
+    <string name="setFunc22item2">2 minutter</string>
+    <string name="setFunc22item3">3 minutter</string>
+    <string name="setFunc22name">Automatisk genlåsning efter oplåsning med fjernbetjening</string>
+    <string name="setFunc22name_title">Automatisk genlåsning efter oplåsning med fjernbetjening</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 sekunder</string>
+    <string name="setFunc24item1">30 sekunder</string>
+    <string name="setFunc24item2">3 minutter</string>
+    <string name="setFunc24item3">10 minutter</string>
+    <string name="setFunc24name">Timerfunktion efter tænding slukkes</string>
+    <string name="setFunc24name_title">Timerfunktion efter tænding slukkes</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">Fra</string>
+    <string name="setFunc26item1">Elrude, sidespejl: Åben og luk</string>
+    <string name="setFunc26item2">Elrude: Åben og luk</string>
+    <string name="setFunc26item3">"Elrude: Luk
+Sidespejl: Åben og luk"</string>
+    <string name="setFunc26item4">Sidespejl: Åben og luk</string>
+    <string name="setFunc26item5">Elrude: Luk</string>
+    <string name="setFunc26name">Multifunktion ved nøglefri adgang</string>
+    <string name="setFunc26name_title">Multifunktion ved nøglefri adgang</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Kort</string>
+    <string name="setFunc28item1">Lang</string>
+    <string name="setFunc28name">Varighed af lyd fra signalhorn</string>
+    <string name="setFunc28name_title">Varighed af lyd fra signalhorn</string>
+    <string name="setFunc29item0">Når bagvisker er aktiveret</string>
+    <string name="setFunc29item1">Når front- og bagvisker er aktiveret</string>
+    <string name="setFunc29name">Bagvisker aktiveret i bakgear</string>
+    <string name="setFunc29name_title">Bagvisker aktiveret i bakgear</string>
+    <string name="setFunc32item0">Fra</string>
+    <string name="setFunc32item1">3 sekunder</string>
+    <string name="setFunc32item2">5 sekunder</string>
+    <string name="setFunc32name">Tid for deaktivering af oplåsning efter låsning</string>
+    <string name="setFunc32name_title">Tid for deaktivering af oplåsning efter låsning</string>
+    <string name="setFunc33item0">Fra</string>
+    <string name="setFunc33item1">Til</string>
+    <string name="setFunc33name">Horn lyder ved start af motoren m. fjernstarter</string>
+    <string name="setFunc33name_title">Horn lyder ved start af motoren m. fjernstarter</string>
+    <string name="setFunc34item0">Til</string>
+    <string name="setFunc34item1">Fra</string>
+    <string name="setFunc34name">Åben betjening efter slukning af tænding</string>
+    <string name="setFunc34name_title">Åben betjening efter slukning af tænding</string>
+    <string name="setFunc35item0">Alle døre</string>
+    <string name="setFunc35item1">Kun førerdør</string>
+    <string name="setFunc35name">Elrudeindstilling forhindret af låskontakt</string>
+    <string name="setFunc35name_title">Elrudeindstilling forhindret af låskontakt</string>
+    <string name="setFunc36item0">Fra</string>
+    <string name="setFunc36item1">30 minutter</string>
+    <string name="setFunc36item2">60 minutter</string>
+    <string name="setFunc36name">Automatisk afbrydning af ACC-strøm</string>
+    <string name="setFunc36name_title">Automatisk afbrydning af ACC-strøm</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">Fra</string>
+    <string name="setFunc42item1">15 sekunder</string>
+    <string name="setFunc42item2">30 sekunder</string>
+    <string name="setFunc42item3">1 minut</string>
+    <string name="setFunc42item4">3 minutter</string>
+    <string name="setFunc42name">Forlygter TIL, når køretøj forlades</string>
+    <string name="setFunc42name_title">Forlygter TIL, når køretøj forlades</string>
+    <string name="setFunc43item0">Fra</string>
+    <string name="setFunc43item1">Parkeringslys</string>
+    <string name="setFunc43item2">Forlygter</string>
+    <string name="setFunc43name">Ydre lys TIL ved fjernoplåsning</string>
+    <string name="setFunc43name_title">Ydre lys TIL ved fjernoplåsning</string>
+    <string name="setFunc50item0">Manuel</string>
+    <string name="setFunc50item1">Automatisk</string>
+    <string name="setFunc50name">Recirkulationskontrol</string>
+    <string name="setFunc50name_title">Recirkulationskontrol</string>
+    <string name="setFunc51item0">Manuel</string>
+    <string name="setFunc51item1">Automatisk</string>
+    <string name="setFunc51name">Styring af klimaanlæg</string>
+    <string name="setFunc51name_title">Styring af klimaanlæg</string>
+    <string name="setFunc53item0">ECO</string>
+    <string name="setFunc53item1">Komfort</string>
+    <string name="setFunc53name">ECO mode</string>
+    <string name="setFunc53name_title">ECO mode</string>
+    <string name="setFunc54item0">Normal</string>
+    <string name="setFunc54item1">Mere luftstrøm til fod</string>
+    <string name="setFunc54item2">Mere luftstrøm til defroster</string>
+    <string name="setFunc54name">Luftstrøm, forhold fod/defroster</string>
+    <string name="setFunc54name_title">Luftstrøm, forhold fod/defroster</string>
+    <string name="setFunc55item0">Normal</string>
+    <string name="setFunc55item1">Mere luftstrøm til ansigt</string>
+    <string name="setFunc55item2">Mere luftstrøm til fod</string>
+    <string name="setFunc55name">Luftstrøm, forhold ansigt/fod</string>
+    <string name="setFunc55name_title">Luftstrøm, forhold ansigt/fod</string>
+    <string name="setFunc56item0">Fra</string>
+    <string name="setFunc56item1">TIL</string>
+    <string name="setFunc56name">Automatisk defrost af bagrude ved start</string>
+    <string name="setFunc56name_title">Automatisk defrost af bagrude ved start</string>
+    <string name="setFunc57item0">Fra</string>
+    <string name="setFunc57item1">Til</string>
+    <string name="setFunc57name">Start klimaanlæg eller varme ved døroplåsning</string>
+    <string name="setFunc57name_title">Start klimaanlæg eller varme ved døroplåsning</string>
+    <string name="setFunc58item0">Fra</string>
+    <string name="setFunc58item1">Til</string>
+    <string name="setFunc58name">I fod-tilstand, lidt luftstrøm gennem defroster</string>
+    <string name="setFunc58name_title">I fod-tilstand, lidt luftstrøm gennem defroster</string>
+    <string name="setFunc60item0">Fra</string>
+    <string name="setFunc60item1">Til</string>
+    <string name="setFunc60name">Hurtig stop af høj opvarmining, når du stopper.</string>
+    <string name="setFunc60name_title">Hurtig stop af høj opvarmining, når du stopper.</string>
+    <string name="setFuncGroup01">Nøglefri adgang</string>
+    <string name="setFuncGroup02">Nøglefri adgang</string>
+    <string name="setFuncGroup03">Viskere</string>
+    <string name="setFuncGroup04">Udvendigt lys / indvendigt lys</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Elruder</string>
+    <string name="setFuncGroup07">Blinklys</string>
+    <string name="setFuncGroup08">Centrallås</string>
+    <string name="setFuncGroup09">Aircondition</string>
+    <string name="setFuncGroup10">Andet</string>
+    <string name="setSend">Send</string>
+    <string name="setany">Indstillinger af trådløse kanaler</string>
+    <string name="setcarset">Køretøjsindstillinger</string>
+    <string name="setinfo_changewpaonestr">Ændre adgangskoden til det trådløse netværk</string>
+    <string name="setinfo_changewpatwostr">Du kan ændre adgangskoden til det trådløse netværk</string>
+    <string name="setinfoeightstr">Du kan annullere stelnummeregistrering. Du vil ikke kunne kommunikere med køretøjet efter annulleringen. Tilmelding på ny er nødvendig for at kommunikere igen.</string>
+    <string name="setinfoelevenstr">Indstillinger af trådløs LAN kanal</string>
+    <string name="setinfofifteenstr">Historik for tyverialarm</string>
+    <string name="setinfofivestr">Skift SSID</string>
+    <string name="setinfofourstr">Du kan ændre nødvendigheden af adgangskodebeskyttelse ved App Initialisering.</string>
+    <string name="setinfofourteenstr">Du kan ændre bilens indstillinger. (ETACS tilpasning)</string>
+    <string name="setinfoninestr">Indstillinger for trådløs LAN-kommunikation</string>
+    <string name="setinfoonestr">Adgangskode udeladt</string>
+    <string name="setinfosevenstr">Annuller stelnummerregistrering</string>
+    <string name="setinfosisteenstr">Viser tidligere tyverialarm aktiveringer</string>
+    <string name="setinfosixstr">Du kan ændre køretøjets SSID.</string>
+    <string name="setinfotenstr">Du kan vælge, at trådløs LAN-kommunikation altid er tændt, eller at trådløs LAN-kommunikation er tændt, når køretøjets tændingslås er OFF.</string>
+    <string name="setinfothirteenstr">Bil indstillinger</string>
+    <string name="setinfothreestr">Skift kode</string>
+    <string name="setinfotwelvestr">Du kan vælge en trådløs forbindelse. Efter at den trådløse kommunikation er ændret, vil den afbryde forbindelsen og genforbinde automatisk igen. Hvis appen ikke genforbindes efter 5 minutter, luk venligst appen, og kontroller den trådløse LAN forbindelse til køretøjet, som vises på WIFI indstillinger skærmen.</string>
+    <string name="setinfotwostr">Du kan vælge, om det er nødvendigt med adgangskodebeskyttelse ved App Initialisering.</string>
+    <string name="setinit">Annuller VIN Registrering</string>
+    <string name="setinitinfo">"Er du sikker på, at du vil starte nedenstående indstillinger?
+
+"<ul><li>"Tidsplan for Opladning
+"</li><li>"Tidsplan for klimakontrol
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Er du sikker på, at du vil starte nedenstående indstillinger?
+
+"<ul><li>"Tidsplan for Opladning
+"</li><li>"Tidsplan for klimakontrol
+"</li><li>"SSID
+"</li><li>Adgangskode af trådløs LAN</li></ul></string>
+    <string name="setinitq">Er du sikker på du vil slette VIN registreringen?</string>
+    <string name="setnewssidinfo">Ny SSID</string>
+    <string name="setnewwpainfo">Ny adgangskode</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Aktuel adgangskode</string>
+    <string name="setpasscode">Skift kode</string>
+    <string name="setpasscodedis">"Adgangskode er ikke registreret.
+
+For at registrere en adgangskode, skal du slukke \"Udelad brug af adgangskode\""</string>
+    <string name="setpasscodestep1">Indtast adgangskode</string>
+    <string name="setpasscodestep2">Indtast venligst den nye adgangskode.</string>
+    <string name="setpasscodestep3">Indtast venligst den nye adgangskode igen.</string>
+    <string name="setrenewwpainfo">Bekræft ny adgangskode</string>
+    <string name="setspnum">Antal registrerede Smartphones</string>
+    <string name="setssid">Skift SSID</string>
+    <string name="setssiderr">Indtastningsfejl</string>
+    <string name="setssiderrinfo">Indeholder tegn, der ikke kan bruges.</string>
+    <string name="setssidinfo">Du kan vælge 1 ~ 32 tegn. Der skelnes mellem små og store bogstaver.</string>
+    <string name="setssidokinfo">"Det tådløse net vil afbrydes og derefter automatisk koble sig på igen, efter ændring af SSID. 
+
+Hvis app’en ikke forbinder med netværket efter 5 minutter, anbefales det at slukke app'en, og kontrollere Wifi forbindelsen fra Android indstillingen til bilen."</string>
+    <string name="setssidoktips">Klik OK for at afslutte.</string>
+    <string name="setthefthistory">Historik af tyverialarm</string>
+    <string name="setthefthistoryinfo">Ryd tyveri alarm historik?</string>
+    <string name="settingtitle">Indstillinger</string>
+    <string name="setusepasscode">Udelad brug af adgangskode</string>
+    <string name="setusepasscodeinfo">Angiv adgangskoden.</string>
+    <string name="setver">Versionsoplysninger</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Køretøjets software</string>
+    <string name="setwifiinfoon">"Aktiver kommunikation:
+Kommunikation fra bilen er altid tændt.
+
+Deaktiver kommunikation:
+Kommunikation er kun aktiv, når bilen er slukket i tændingen.
+
+Venligst deaktiver denne funktion, hvis du ønsker at koble din trådløse enhed til smartphone Link Display Audio. 
+"</string>
+    <string name="setwifilabel">Kommuniker altid</string>
+    <string name="setwpa">Skift adgangskoden på trådløst netværk</string>
+    <string name="setwpaerr_1">Inputfejl</string>
+    <string name="setwpaerr_2">Inputfejl</string>
+    <string name="setwpaerr_3">Inputfejl</string>
+    <string name="setwpaerr_4">Inputfejl</string>
+    <string name="setwpaerrinfo_1">"Indeholder ugyldige tegn.
+Efterse de gyldige tegn i Hjælp vinduet."</string>
+    <string name="setwpaerrinfo_2">Den nye adgangskode skal passe, indtast den nye adgangskode igen.</string>
+    <string name="setwpaerrinfo_3">Den nye adgangskode skal indeholde præcist 14-tegn, vælg en ny adgangskode igen.</string>
+    <string name="setwpaerrinfo_4">Den indtastede adgangskode er forkert. Venligst forsøg igen.</string>
+    <string name="setwpaerrinfo_5">"Mulige årsager til fejlen:
+"<ul><li>"Tænding er ikke i ACC position.
+"</li><li>"Der er gået mere end 10 min. undervejs ved registrering.
+
+Indstil bilen til registrerings standbytilstand."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"Indtast en adgangskode med 14-tegn.
+"</li><li>"Adgangskoden kan indeholde store samt små bogstaver, du kan bruge alfabet, tal og tegn.
+"</li><li>Husk din adgangskode, og fortæl den ikke til andre.</li></ul></string>
+    <string name="setwpaokinfo">"Efter ændring af adgangskode, vil LAN netværket blive frakoblet, for derefter at forbinde automatisk igen. Hvis app’en ikke er tilsluttet efter 5 min, venligst luk app’en, og check forbindelsen til det trådløse netværk under Android Wifi indstillinger
+
+Hvis app’en ikke forbinder med netværket efter 5 minutter, anbefales det at slukke app'en, og kontrollere Wifi forbindelsen fra Android indstillingen til bilen."</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Enhed er forbundet til et andet netværk end køretøjets
+
+Er du tilsluttet køretøjet?"</string>
+    <string name="ssidinfo">SSID ændres.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Angiv SSID og adgangskode. Tryk derefter på \"OK\".</string>
+    <string name="stepfiveonestring">Luk førerdøren.</string>
+    <string name="stepfivethreestring">"Inden for 10 sekunder efter STEP 2 Tryk på LOCK og UNLOCK knappen på nøglen skiftevis 5 gange (i alt 10 tryk hvor der startes med LOCK-knappen)
+En summen lyder for at indikere, at køretøjet venter på at blive registreret."</string>
+    <string name="stepfivetwostring">Sæt tændingen på ACC (Træd ikke på bremse, når du udfører denne handling. Tastefunktioner som følger \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")</string>
+    <string name="stepfouronestring">Luk førerdøren.</string>
+    <string name="stepfourthreestring">"Inden for 10 sekunder efter STEP 2 Tryk på LOCK og UNLOCK knappen på nøglen skiftevis 5 gange (i alt 10 tryk hvor der startes med LOCK-knappen)
+En summer lyd indikere, at køretøjet venter på at blive registreret."</string>
+    <string name="stepfourtwostring">Sæt afbryderen på ACC (Træd ikke på bremse, når du udfører denne handling. Tastefunktioner som følger \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")</string>
+    <string name="stu1_1">Afbryderknappen FRA</string>
+    <string name="stu1_2">Tænding TIL eller ACC</string>
+    <string name="stu1_3">Tyverialarm er frakoblet</string>
+    <string name="stu1_4">Tyverialarm er tilkoblet</string>
+    <string name="stu1_5">Tyverialarm er aktiveret</string>
+    <string name="stu2info1leftstr">Parkeringslys er</string>
+    <string name="stu2info1rightstr">tændt</string>
+    <string name="stu2info1str">Parkeringslys er tændt</string>
+    <string name="stu2info2leftstr">Advarselslygter</string>
+    <string name="stu2info2rightstr">blinker</string>
+    <string name="stu2info2str">Advarselslygter blinker</string>
+    <string name="stu2info3leftstr">Dør er</string>
+    <string name="stu2info3rightstr">åben</string>
+    <string name="stu2info3str">Dør er åben</string>
+    <string name="stu2info4leftstr">Forlygter er</string>
+    <string name="stu2info4rightstr">tændt</string>
+    <string name="stu2info4str">Forlygter er tændt</string>
+    <string name="stu2info5leftstr">Motorhjelmen er</string>
+    <string name="stu2info5rightstr">åben</string>
+    <string name="stu2info5str">Motorhjelmen er åben</string>
+    <string name="stu2info6leftstr">Indvendig belysning</string>
+    <string name="stu2info6rightstr">TIL</string>
+    <string name="stu2info6str">Indvendig belysning TIL</string>
+    <string name="stu2info7leftstr">Bagklappen er</string>
+    <string name="stu2info7rightstr">åben</string>
+    <string name="stu2info7str">Bagklappen er åben</string>
+    <string name="stu2info8leftstr">Baglygter er</string>
+    <string name="stu2info8rightstr">tændt</string>
+    <string name="stu2info8str">Baglygter er tændt</string>
+    <string name="sun">Søndag</string>
+    <string name="sun1">Søn</string>
+    <string name="switchoff">FRA</string>
+    <string name="switchon">TIL</string>
+    <string name="theft2_1">Brug af forlygter</string>
+    <string name="theft2_4">Betjening af parkeringslys</string>
+    <string name="theft2dis2twostr">"Denne funktion kan ikke fungere, medmindre:
+
+"<ul><li>"Der er slukket for strømmen.
+"</li><li>Forlygter og parkeringslys er slukket. </li></ul></string>
+    <string name="thu">Torsdag</string>
+    <string name="thu1">Tor</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode">P</string>
+    <string name="titleback">Tilbage</string>
+    <string name="titlehelp">Hjælp</string>
+    <string name="titleupdate1">Ryd</string>
+    <string name="titleupdate2">Nulstil</string>
+    <string name="titleupdate3">Send</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"Denne funktion kan ikke bruges når:
+
+"<ul><li>"Strømtilslutning ikke er slukket.
+"</li><li>Hurtig opladning er aktiv.</li></ul></string>
+    <string name="topacmode">Funktion</string>
+    <string name="topacwait">Venter</string>
+    <string name="topbattwarm">Opvarmingsfasen</string>
+    <string name="topbattwarminginfo">"Venligst indsæt et ladekabel for at forhindre lav batteri temperatur.
+Opvarmningsfasen starter efter tilkobling."</string>
+    <string name="topbattwarminginfo_plugin_1">"Bilen kan måske ikke køre normalt på grund af lav temperatur på batteriet.
+
+For at opvarme batteriet, indstil bilen til READY tilstand, eller indsæt en normal oplader."</string>
+    <string name="topbattwarminginfo_plugin_2">"Bilen kan måske ikke køre normalt på grund af lav temperatur på batteriet.
+
+Indsæt en normal oplader for at varme batteriet."</string>
+    <string name="topbattwarminginfo_stop_1">"Køretøjet kan ikke køre på grund af den lave temperatur på kørebatteriet.
+Opvarming af kørebatteriet er nødvendig for at køre, men betingelserne for opvarmningen er ikke opfyldt.
+
+Vent, indtil udetemperaturen stiger."</string>
+    <string name="topbattwarminginfo_stop_2">"Køretøjet kan ikke køre på grund af den lave temperatur på kørebatteriet.
+
+Opvarmning af kørebatteriet er nødvendig for at køre, men betingelserne for opvarmningen er ikke opfyldt.
+
+Opvarmning af kørebatteriet starter når udetemperaturen stiger og køretøjet er sat til opladning, vent venligst."</string>
+    <string name="topbattwarminginfo_warm_1">Køretøjet kan nu køre da temperaturen på kørebatteriet er steget.</string>
+    <string name="topbattwarminginfo_warm_2">"Køretøjet kan ikke køre på grund af den lave temperatur på kørebatteriet.
+
+Kørebatteriet varmer nu op, vent venligst."</string>
+    <string name="topbattwarmingtitle">Status for køretøjet</string>
+    <string name="topcanntac">Vælg venligst Klimakontrol tilstand fra \"Tilstand\" i timertidsskemaet skærmen.</string>
+    <string name="topcanntac2">\"Manuel klima\" har været indstillet. Klima nedtællinger vil aktiveres automatisk hvis Manuel klima gøres færdig.</string>
+    <string name="topcanntchg">Venligst opsæt timertidsskemaet på \"timer\" skærm</string>
+    <string name="topchargeEndTime">Opladning fuldført</string>
+    <string name="topchargeEndTimeHour">t.</string>
+    <string name="topchargeEndTimeMin">min</string>
+    <string name="topchargefinish">Opladning afsluttet</string>
+    <string name="topchargetimer">Timer TIL/FRA</string>
+    <string name="topfastchg">Hurtig</string>
+    <string name="tophelp100v">Vedligehold</string>
+    <string name="tophelp200v">Normal</string>
+    <string name="tophelp22">Afkøling</string>
+    <string name="tophelp24">Opvarmning</string>
+    <string name="tophelp26">Optøning</string>
+    <string name="tophelp41">God forbindelse</string>
+    <string name="tophelp42">Svag forbindelse</string>
+    <string name="tophelp43">Kan ikke forbinde</string>
+    <string name="tophelp44">Tryk på denne knap for at kommunikere med bilen og opdatere oplysningerne.</string>
+    <string name="tophelpwarm"><ul><li>"Kørebatteriet har en opvarmingsfunktion for at forhindre fejlfunktion grundet temperaturfald.
+"</li><li>"Det er muligt, at strømmen på kørebatteriet er reduceret
+"</li><li>"Det er muligt, at kørebatteriet oplader, selv om den timeren er sat til.
+"</li><li>Det er muligt, at blæseren for air-conditioning starter.</li></ul></string>
+    <string name="topwaitcharge">Afventer</string>
+    <string name="towebsitestr">Gå til webstedet</string>
+    <string name="tue">Tirsdag</string>
+    <string name="tue1">Tir</string>
+    <string name="v2hv2l">Start den eksterne strømforsyning</string>
+    <string name="warning6str">Tryk på \"Opdater\" knappen for at kommunikere med køretøjet.</string>
+    <string name="warning7timeronestr">Indstilling for Timer 1 ændres på alle dage med denne Timer.</string>
+    <string name="warning7timerthreestr">Indstilling for Timer 3 ændres på alle dage med denne Timer.</string>
+    <string name="warning7timertwostr">Indstilling for Timer 2 ændres på alle dage med denne Timer.</string>
+    <string name="wed">Onsdag</string>
+    <string name="wed1">Ons</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">Indstillinger for trådløs LAN-forbindelse</string>
+    <string name="wpainfo">Den trådløse adgangskode vil blive ændret</string>
+</resources>

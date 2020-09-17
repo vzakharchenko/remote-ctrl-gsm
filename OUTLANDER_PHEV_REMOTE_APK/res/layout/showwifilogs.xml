@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:cursorVisible="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EVR Server IP:" />
+        <TextView android:id="@id/EditText01" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scroller" android:scrollbars="none" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/tvMsg" android:background="#ff440044" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+</LinearLayout>

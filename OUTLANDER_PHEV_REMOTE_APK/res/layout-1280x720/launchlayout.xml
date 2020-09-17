@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/launch_background_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.2">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/appicon_imageview" android:background="@drawable/app_launchicon" android:layout_width="@dimen/dp_174" android:layout_height="@dimen/dp_185" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.3">
+        <TextView android:textSize="@dimen/sp_20" android:textColor="#ff646464" android:id="@id/launch_text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dp_37" android:text="@string/loadwndinfo" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dp_32" android:layout_marginEnd="@dimen/dp_32" app:autoSizeMaxTextSize="@dimen/sp_20" app:autoSizeMinTextSize="1.0sp" app:autoSizeTextType="uniform" />
+    </RelativeLayout>
+</LinearLayout>

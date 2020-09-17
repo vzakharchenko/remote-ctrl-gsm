@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">min</string>
+    <string name="ACWorking">Продолжительность работы климат-контроля не может быть изменена, если климат-контроль был активирован таймером или пультом дистанционного управления.</string>
+    <string name="ACtim"><ul><li>"Для предовращения несчастных случаев, запрещается использовать функцию дистанционного управления климат-контролем при нахождении людей или животных в припаркованном автомобиле.
+
+"</li><li>"Длительная работа климат-контроля может уменьшить заряд тяговой батареи.
+
+"</li><li>При низком заряде тяговой батареи фактическое время работы климат-контроля может быть меньше, чем установленное значение.</li></ul></string>
+    <string name="ACtimeLabel">Время активации климат-контроля</string>
+    <string name="AcsettingARM">"Если охранная сигнализация включена, то невозможно изменить установки. Снимите автомобиль с охраны при помощи брелока дистанционного управления замками дверей или брелока системы дистанционного управления автомобилем.
+
+После этого можно изменить настройки."</string>
+    <string name="EVInit">Сброс</string>
+    <string name="EVInitInfo">Вы хотите сбросить настройки автомобиля?</string>
+    <string name="Everyday">Каждый день</string>
+    <string name="ResetAllschude">Вы хотите сбросить все расписания?</string>
+    <string name="ResetOneschude">Вы хотите сбросить это расписание?</string>
+    <string name="Schudle">Расписание</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_capital_off">ОТКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Ввод</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">Пробел</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Меню +</string>
+    <string name="abc_search_hint">Поиск</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ приложению \"%s\"</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="accstr">ACC (оранжевый)</string>
+    <string name="acoptiontimelong2">Время работы кондиц-ра</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Статус</string>
+    <string name="bartitle5">Настройки</string>
+    <string name="bgdark" />
+    <string name="btnStart">Включение</string>
+    <string name="cancel">Отмена</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">Разрешённые символы:</string>
+    <string name="channel_3">Канал 3</string>
+    <string name="channel_8">Канал 8</string>
+    <string name="clear">Сбросить всё</string>
+    <string name="communicationstr">Связь</string>
+    <string name="countdownTipsonestr">"Используйте панель управления внешнего источника питания, за 5 минут выполнить настройку для питания семьи.
+
+Если внешний источник питания не запускается, причины, возможно, такие:"</string>
+    <string name="countdownTipstwostr">Данная функция не поддерживается оборудованием.</string>
+    <string name="countdownTipstwostrfivestr">Неисправность внешнего источника питания или автомобиля.</string>
+    <string name="countdownTipstwostrfourstr">Напряжение вспомогательной аккумуляторнорной батареи (12 В) слишком низкое.</string>
+    <string name="countdownTipstwostrthreestr">Прошло уже более 5 минут после включения режима ON.</string>
+    <string name="countdownTipstwostrtwostr">Штекер кабеля для зарядки плохо соединён с разъемом быстрой зарядки в автомобиле.</string>
+    <string name="daySelct">Повтор</string>
+    <string name="delay1">0 мин</string>
+    <string name="delay10">120 мин</string>
+    <string name="delay11">150 мин</string>
+    <string name="delay12">180 мин</string>
+    <string name="delay2">5 мин</string>
+    <string name="delay3">10 мин</string>
+    <string name="delay4">20 мин</string>
+    <string name="delay5">30 мин</string>
+    <string name="delay6">40 мин</string>
+    <string name="delay7">50 мин</string>
+    <string name="delay8">60 мин</string>
+    <string name="delay9">90 мин</string>
+    <string name="demo">Режим Демо</string>
+    <string name="durationstr">Продолжительность</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">Попытка доступа незарегистрированным ключем</string>
+    <string name="err1intrusion">Зарегистрировано неавторизированное вторжение</string>
+    <string name="err1movement">Зарегистрировано движение автомобиля</string>
+    <string name="err1other">Нелегальный доступ к автомобилю</string>
+    <string name="err1perimeter">Несанкционированное открытие двери</string>
+    <string name="err1silent">Зарегистрирована вибрация автомобиля</string>
+    <string name="err1title">Предупреждение противоугонной системы</string>
+    <string name="errACinfo">"Возможные причины этого заключаются в следующем:
+
+"<ul><li>"Дверь открыта.
+"</li><li>Низкий уровень заряда тяговой батареи.</li></ul></string>
+    <string name="errACinfoEx">"Возможные причины этого заключаются в следующем:
+
+"<ul><li>"Дверь открыта.
+"</li><li>"Низкий уровень заряда тяговой батареи.
+"</li><li>Низкая температура тяговой батареи.</li></ul></string>
+    <string name="errACtitle">Уведомление: предустановленный таймер климат-контроля остановлен.</string>
+    <string name="errCHGinfo">Таймер зарядки не может быть активирован</string>
+    <string name="errCHGtitle">Предупреждение ошибки таймера зарядки</string>
+    <string name="errRegMaxtitle">Ошибка регистрации</string>
+    <string name="errTimerinfo">Управление таймером не может быть активировано</string>
+    <string name="errTimertitle">Предупреждение об ошибке управления таймером</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Код ошибки :</string>
+    <string name="evACCool">Охлаждение</string>
+    <string name="evACHot">Нагрев</string>
+    <string name="evACOFF">ВЫКЛ</string>
+    <string name="evACSetTitle">Настройки таймера кондиционера</string>
+    <string name="evCharge1Auto">Зависимость от места :</string>
+    <string name="evCharge1End">Окончание</string>
+    <string name="evCharge1Start">Старт</string>
+    <string name="evCharge1full">Полная зарядка</string>
+    <string name="evChargeSetTitle">Настройки таймера зарядки</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">отправить</string>
+    <string name="evSendAsk">Новое расписание не было отправлено. Хотите вернуться и отправить его?</string>
+    <string name="evSendAsk5ch">"Измененные параметры не будут отправлены автомобилю.
+Изменения будут отменены и выполнен возврат к предыдущему экрану. Выполнить?"</string>
+    <string name="evTimerSet">Настройки таймера</string>
+    <string name="evhCHG12info">"Функция полной зарядки поможет зарядить батарею полностью продлив время зарядки, если за период времени, определенного таймером зарядки, батарея не была полностью заряжена.
+Примите к сведению, что зарядка не начнется, если штепсель был вставлен после окончания периода таймера зарядки."</string>
+    <string name="evhCHG17myinfo1">Ручное управление кондиционером</string>
+    <string name="evhCHG22ginfo1">Режим зарядки вручную</string>
+    <string name="evhCHG22ginfo3">Режим таймера зарядки</string>
+    <string name="evhCHG22infofourstr">Функция \"Зависимость от места\" работать не будет.</string>
+    <string name="evhCHG22infoonestr">Если автомобиль укомплектован MMCS:</string>
+    <string name="evhCHG22infothreestr">Если автомобиль не укомплектован MMCS:</string>
+    <string name="evhCHG22infotwostr">"Эта функция изменяет режим зарядки с учётом вашего местоположения.
+
+Режим таймера активен, когда ближайшие местоположения записаны в адресную книгу, для других локаций устанавливается ручной режим.
+Это позволяет использовать режим зарядки по таймеру для локаций из адресной книги при ночной зарядке и ручной режим в таких локациях, как торговые центры."</string>
+    <string name="evhelpCHG1item2">Что такое настройка полной зарядки?</string>
+    <string name="evhelpCHG2item2">Что такое Зависимость от места?</string>
+    <string name="evhmanualACitem4infofourstr">Климат-контроль имеет только режим охлаждения.</string>
+    <string name="evhmanualACitem4infoonestr">Если автомобиль оборудован электрическим подогревателем:</string>
+    <string name="evhmanualACitem4infothreestr">Если автомобиль не оборудован электрическим подогревателем:</string>
+    <string name="evhmanualACitem4infotwostr">"Выбрать режим работы климат-контроля обогрева / охлаждения / обдув лобового стекла.
+Выбранный режим работы климат-контроля применится в использованном таймере. Для разных таймеров используется один режим работы."</string>
+    <string name="evmCHchargstr">Зарядка</string>
+    <string name="evmCHclimatestr">Климат</string>
+    <string name="evmCHsetstr">Настройки</string>
+    <string name="evmCHstatusstr">Статус</string>
+    <string name="evmaccancelltimestr">Отмена</string>
+    <string name="evmaccanceltimer">Таймер отменен</string>
+    <string name="evmacwarn5str">Отмена таймера Климат-контроля.</string>
+    <string name="evmainac">Климат-контроль</string>
+    <string name="evmaincharge">Зарядка</string>
+    <string name="evmchacwarn5no">Нет</string>
+    <string name="evmchacwarn5yes">Да</string>
+    <string name="evmchargeTimerSch">Расписание зарядки по таймеру</string>
+    <string name="evmchargetschstr">"Вы можете временно отменить таймер, выключив его.
+Временно отмененное расписание таймера зарядки может возобновиться автоматически путём повторного его контроля или включения выключателя питания."</string>
+    <string name="evmchargstatusstr">Режим зарядки</string>
+    <string name="evmchtempcancellstr">Временная отмена</string>
+    <string name="evmchupdatingstr">(Расчёт)</string>
+    <string name="evmchwarn5str">Временная отмена таймера зарядки.</string>
+    <string name="evmclimateTimerSch">Расписание работы кондиционером</string>
+    <string name="evmclimatetschstr">Вы можете отменить таймер, выключив его.</string>
+    <string name="evmdrivebattlevelstr">Уровень заряда тяговой батареи</string>
+    <string name="evmerrstartcommun">Запуск соединения</string>
+    <string name="evmlastupdatedstr">Данное приложение отображает последний обновленный статус транспортного средства. Перед обновлением последнего статуса приложение может отображать предыдущий статус автомобиля.</string>
+    <string name="evmregtroublereg">Возникла проблема при регистрации?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Временная отмена таймера</string>
+    <string name="evmupdatedTime">Обновленное время</string>
+    <string name="evpsfailcontent">"Возможно, это из-за неисправности автомобиля.
+Обратитесь в авторизованный сервисный центр Mitsubishi Motors."</string>
+    <string name="evpsfailtitle">Функция внешнего питания не может быть запущена</string>
+    <string name="evpspage1">Используя данную функцию, можно использовать автомобиль как внешний источник питания (необходимо оборудование V2H/V2L (Vehicle to Home/Vehicle to Load)).</string>
+    <string name="evpspage1threestr">Для реализации функции источника внешнего питания необходимо специальное оборудование. За дополнительной информацией обратитесь к официальному дилеру Mitsubishi Motors.</string>
+    <string name="evpspage1twostr">Можно использовать автомобиль как источник электропитания бытовой сети дома во время отключения электроэнергии при помощи оборудования V2H.</string>
+    <string name="evpspage2">Включите режим работы OFF и подсоедините оборудование к разъёму быстрой зарядки.</string>
+    <string name="evpspage3">"Включите режим работы ON. Автомобиль станет источником питания подключённой сети.
+Если режим работы ON не включается, попробуйте с шага STEP 2/3."</string>
+    <string name="exitdemostr">Выход из режима Demo</string>
+    <string name="fri">Пятница</string>
+    <string name="fri1">Пт</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">Не рекомендуется использовать дистанционное управление MITSUBISHI Remote Control.</string>
+    <string name="jailbreak_title">OS была обновлена</string>
+    <string name="language">ru</string>
+    <string name="linkwarningstr">"Нельзя использовать сеть автомобиля для просмотра интернет-страниц при подключении к автомобилю. Используйте мобильную передачу данных или перейдите на другую точку доступа.
+Чтобы снова использовать приложеине, подключитесь к SSID автомобиля."</string>
+    <string name="loadwndinfo">"При использовании дистанционного управления (MITSUBISHI REMOTE CONTROL), нельзя соединиться с другими беспроводными сетями (Интернетом и т.д.).
+
+При подсоединении телефона к Smartphone link Display Audio, нельзя использовать дистанционное управление (MITSUBISHI REMOTE CONTROL)."</string>
+    <string name="login_ssid_txtPwd">Пароль</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"Работа не возможна из-за низкого уровня заряда тяговой батареи.
+
+Вы можете использовать данную функцию если уровень заряда тяговой батареи более 50%.
+
+Обратитетесь к Руководству по эксплуатации, главы «Зарядка» и «Переключение режима зарядки»."</string>
+    <string name="lowbatterytitle">Ошибка при подключении к внешнему источнику питания.</string>
+    <string name="manacModenoset">После установления режима кондиционера, нажать кнопку «эксплуатация немедленно использующего кондиционера».</string>
+    <string name="manacModesetClimateShutDown">"В случае ручного включения климат-контроля, работа по таймеру приостанавливается.
+
+В случае отключения ручного управления климат-контролем, работа по таймеру возобновляется."</string>
+    <string name="manachelptitle">Ручн.настр. кондиционера</string>
+    <string name="manactim">Для предовращения несчастных случаев, запрещается использовать функцию дистанционного управления климат-контролем при нахождении людей или животных в припаркованном автомобиле.</string>
+    <string name="modeselect">Вам нужно зарегистрировать свой VIN номер, чтобы продолжить. Разрешить приложению регистрацию Вашего VIN номера?</string>
+    <string name="mon">Понедельник</string>
+    <string name="mon1">Пн</string>
+    <string name="needPINinfo">Необходим пароль</string>
+    <string name="newfunctioninfo">"Вы можете установить соединение с автомобилем, при кнопке запуска в положении OFF, так как в настройках беспроводной сети указано \"OFF\".
+
+Вы можете изменить, через пункт \"Настройка\" → \"Настройка беспроводного соединения\"."</string>
+    <string name="newfunctioninfo2">Не показывается это сообщение в следующий раз.</string>
+    <string name="nextstr">Следующий</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">Пароль не запрашивается для открытия приложения</string>
+    <string name="passcodeErr">Ошибка пароля</string>
+    <string name="passcodeErrinfo">Пароль неверен. Попробуйте еще раз.</string>
+    <string name="passcodeTitle">код доступа</string>
+    <string name="preset">Таймер</string>
+    <string name="preset1">Таймер 1</string>
+    <string name="preset2">Таймер 2</string>
+    <string name="preset3">Таймер 3</string>
+    <string name="preset4">Таймер 4</string>
+    <string name="preset5">Таймер 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Регистрация</string>
+    <string name="regErr">Ошибка регистрации</string>
+    <string name="regErrConn">Не выполняется регистрация</string>
+    <string name="regOk">Регистрация VIN завершена</string>
+    <string name="releaseinfothreestr">Вам понадобится SSID и пароль, оба прилагались к ключу при покупке автомобиля.</string>
+    <string name="remainTime">Оставшееся время</string>
+    <string name="reset">Сброс</string>
+    <string name="sTime">-</string>
+    <string name="sat">Суббота</string>
+    <string name="sat1">Сб</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="sendConn">Соединение…</string>
+    <string name="sendErr">Невозможно связаться</string>
+    <string name="sendMsg">Отправка...</string>
+    <string name="sendNavi">Работает навигация автомобиля ...</string>
+    <string name="sendOK">Завершено</string>
+    <string name="sendUpdate">Обновление...</string>
+    <string name="sendimmediately">Вкл. кондиц-ра</string>
+    <string name="setErr">Ошибка настроек</string>
+    <string name="setErrInfo">Ошибка связи с автомобилем. Обратитесь к авторизированному дилеру Mitsubishi Motors.</string>
+    <string name="setFunc01item0">Зажигание включено или в положении АСС</string>
+    <string name="setFunc01item1">Зажигание включено</string>
+    <string name="setFunc01name">Работа в основном положении</string>
+    <string name="setFunc01name_title">Работа в основном положении</string>
+    <string name="setFunc02item0">ВЫКЛ.</string>
+    <string name="setFunc02item1">Вкл.</string>
+    <string name="setFunc02name">Указатели поворотов (мигают 3 раз. после перемещ.подрул.перекл.)</string>
+    <string name="setFunc02name_title">Указатели поворотов (мигают 3 раз. после перемещ.подрул.перекл.)</string>
+    <string name="setFunc03item0">Закрыть: одинарный Открыть: двойной</string>
+    <string name="setFunc03item1">Закрыть: одинарный Открыть: Off.</string>
+    <string name="setFunc03item2">Закрыть: Off. Открыть: двойной</string>
+    <string name="setFunc03item3">Закрыть: двойной Открыть: одинарный</string>
+    <string name="setFunc03item4">Закрыть: Off. Открыть: одинарный</string>
+    <string name="setFunc03item5">Закрыть: двойной Открыть: Off.</string>
+    <string name="setFunc03item6">ВЫКЛ.</string>
+    <string name="setFunc03name">Включение указателей поворота</string>
+    <string name="setFunc03name_title">Включение указателей поворота</string>
+    <string name="setFunc04item0">Фиксированный (4 сек.)</string>
+    <string name="setFunc04item1">Переменная</string>
+    <string name="setFunc04item2">Регулируемый и зависящий от скорости</string>
+    <string name="setFunc04item3">Регулируемый и зависящий от дождя</string>
+    <string name="setFunc04name">Прерывистый режим работы стеклоочистителей</string>
+    <string name="setFunc04name_title">Прерывистый режим работы стеклоочистителей</string>
+    <string name="setFunc05item0">ВЫКЛ.</string>
+    <string name="setFunc05item1">Вкл.</string>
+    <string name="setFunc05item2">Включение с задержкой завершения очистки</string>
+    <string name="setFunc05name">Вкл. стеклоочист. при вкл. стеклоомыват.</string>
+    <string name="setFunc05name_title">Вкл. стеклоочист. при вкл. стеклоомыват.</string>
+    <string name="setFunc06item0">0 сек.</string>
+    <string name="setFunc06item1">4 сек.</string>
+    <string name="setFunc06item2">8 сек.</string>
+    <string name="setFunc06item3">16 сек.</string>
+    <string name="setFunc06name">Прерывистый работы очистителя заднего стекла</string>
+    <string name="setFunc06name_title">Прерывистый работы очистителя заднего стекла</string>
+    <string name="setFunc07item0">Выкл.</string>
+    <string name="setFunc07item1">1 мин</string>
+    <string name="setFunc07item2">3 мин.</string>
+    <string name="setFunc07item3">5 мин.</string>
+    <string name="setFunc07item4">10 мин.</string>
+    <string name="setFunc07name">Автовыключение подсветки отсека зарядки</string>
+    <string name="setFunc07name_title">Автовыключение подсветки отсека зарядки</string>
+    <string name="setFunc08item0">ВЫКЛ.</string>
+    <string name="setFunc08item1">Открытие при определенной скорости</string>
+    <string name="setFunc08item2">Откр./закр. при вкл./выкл. зажиг. и откр./закр. вод. дв.</string>
+    <string name="setFunc08item3_0">Cинхронная работа с системой дистанционнго управления замками дверей</string>
+    <string name="setFunc08item3_1">Cинхронная работа с системой Keyless Operation System</string>
+    <string name="setFunc08name">Автоматическое складывание зеркал</string>
+    <string name="setFunc08name_title">Автоматическое складывание зеркал</string>
+    <string name="setFunc09item0">Быстро</string>
+    <string name="setFunc09item1">Достаточно быстро</string>
+    <string name="setFunc09item2">Обычное</string>
+    <string name="setFunc09item3">Достаточно долго</string>
+    <string name="setFunc09item4">Поздно</string>
+    <string name="setFunc09name">Чувствительность автоматического включения фар</string>
+    <string name="setFunc09name_title">Чувствительность автоматического включения фар</string>
+    <string name="setFunc10item0">ВЫКЛ.</string>
+    <string name="setFunc10item1">Вкл.</string>
+    <string name="setFunc10name">Включение фар при включении стеклоочистителей</string>
+    <string name="setFunc10name_title">Включение фар при включении стеклоочистителей</string>
+    <string name="setFunc11item0">0 сек. (таймер отключен)</string>
+    <string name="setFunc11item1">7,5 сек.</string>
+    <string name="setFunc11item2">15 сек.</string>
+    <string name="setFunc11item3">30 сек.</string>
+    <string name="setFunc11item4">1 мин</string>
+    <string name="setFunc11item5">2 мин.</string>
+    <string name="setFunc11item6">3 мин.</string>
+    <string name="setFunc11name">Продолжительность работы освещ. салона после закр. дверей</string>
+    <string name="setFunc11name_title">Продолжительность работы освещ. салона после закр. дверей</string>
+    <string name="setFunc12item0">ВЫКЛ.</string>
+    <string name="setFunc12item1">Задние габаритные фонари/фары: всегда выключаются</string>
+    <string name="setFunc12item2">Вкл.</string>
+    <string name="setFunc12item3">Вкл.</string>
+    <string name="setFunc12item4">"Задн. фонари: выкл. один раз
+Фары: всегда выкл."</string>
+    <string name="setFunc12item5">Вкл.</string>
+    <string name="setFunc12name">Функция автоматического выключения фар</string>
+    <string name="setFunc12name_title">Функция автоматического выключения фар</string>
+    <string name="setFunc13item0">ВЫКЛ.</string>
+    <string name="setFunc13item1">3 мин.</string>
+    <string name="setFunc13item2">30 мин.</string>
+    <string name="setFunc13item3">60 мин.</string>
+    <string name="setFunc13name">Время выключения освещения салона</string>
+    <string name="setFunc13name_title">Время выключения освещения салона</string>
+    <string name="setFunc14item0">Короткий</string>
+    <string name="setFunc14item1">Длинный</string>
+    <string name="setFunc14name">Время активации указателей поворотов</string>
+    <string name="setFunc14name_title">Время активации указателей поворотов</string>
+    <string name="setFunc15item0">ВЫКЛ.</string>
+    <string name="setFunc15item1">Вкл.</string>
+    <string name="setFunc15name">Комфортный стеклоомыватель</string>
+    <string name="setFunc15name_title">Комфортный стеклоомыватель</string>
+    <string name="setFunc16item0">ВЫКЛ.</string>
+    <string name="setFunc16item1">В полож. Р</string>
+    <string name="setFunc16item2">В полож. Р с разблокировкой стекол</string>
+    <string name="setFunc16item3">В полож. Lock</string>
+    <string name="setFunc16item4">В полож. Lock с разблокировкой стекол</string>
+    <string name="setFunc16name">Автоматическое отпирание дверей</string>
+    <string name="setFunc16name_title">Автоматическое отпирание дверей</string>
+    <string name="setFunc17item0">Все двери</string>
+    <string name="setFunc17item1">Только дверь водителя</string>
+    <string name="setFunc17name">Отпирание дверей</string>
+    <string name="setFunc17name_title">Отпирание дверей</string>
+    <string name="setFunc19item0">2 раза</string>
+    <string name="setFunc19item1">1 раз</string>
+    <string name="setFunc19name">Кол-во нажатий кнопки блокировки для активирования Dead Lock</string>
+    <string name="setFunc19name_title">Кол-во нажатий кнопки блокировки для активирования Dead Lock</string>
+    <string name="setFunc20item0">ВЫКЛ.</string>
+    <string name="setFunc20item1">Одно нажатие кнопки</string>
+    <string name="setFunc20item2">Одно нажатие кнопки в дневное время</string>
+    <string name="setFunc20item3">Звуковой сигнал при двойном нажатии кнопки</string>
+    <string name="setFunc20item4">Двойное нажатие кнопки в дневное время</string>
+    <string name="setFunc20name">Звуковой сигнал при запирании дверей</string>
+    <string name="setFunc20name_title">Звуковой сигнал при запирании дверей</string>
+    <string name="setFunc21item0">Выкл.</string>
+    <string name="setFunc21item1">Cигнал при активации системы дистанционного управления автомобилем</string>
+    <string name="setFunc21item2">Cигнал при активации системы дистанционного управления замками дверей</string>
+    <string name="setFunc21item3">Cигнал при активации систем дистанционного управления</string>
+    <string name="setFunc21name">Звуковой сигнал системы дистанционного управления автомобилем</string>
+    <string name="setFunc21name_title">Звуковой сигнал системы дистанционного управления автомобилем</string>
+    <string name="setFunc22item0">30 сек.</string>
+    <string name="setFunc22item1">1 мин</string>
+    <string name="setFunc22item2">2 мин.</string>
+    <string name="setFunc22item3">3 мин.</string>
+    <string name="setFunc22name">Авт. запирание дверей, если двер не были открыты</string>
+    <string name="setFunc22name_title">Авт. запирание дверей, если двер не были открыты</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 сек.</string>
+    <string name="setFunc24item1">30 сек.</string>
+    <string name="setFunc24item2">3 мин.</string>
+    <string name="setFunc24item3">10 мин.</string>
+    <string name="setFunc24name">Работа таймера после выключения зажигания</string>
+    <string name="setFunc24name_title">Работа таймера после выключения зажигания</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">ВЫКЛ.</string>
+    <string name="setFunc26item1">Cтеклоподъемники, бок. зеркала: откр./закр.</string>
+    <string name="setFunc26item2">Электростеклоподъемники: открытие/закрытие</string>
+    <string name="setFunc26item3">"Стеклоподъемники: закр. 
+Двери. бок. зерк.: откр./закр."</string>
+    <string name="setFunc26item4">Наружные зеркала заднего вида: открытие/закрытие</string>
+    <string name="setFunc26item5">Электростеклоподъемники: закрытие</string>
+    <string name="setFunc26name">Система дистанционного управления автомобилем</string>
+    <string name="setFunc26name_title">Система дистанционного управления автомобилем</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Короткий</string>
+    <string name="setFunc28item1">Длинный</string>
+    <string name="setFunc28name">Продолжительность звукового сигнала автомобиля</string>
+    <string name="setFunc28name_title">Продолжительность звукового сигнала автомобиля</string>
+    <string name="setFunc29item0">Если задний стеклоочиститель включён</string>
+    <string name="setFunc29item1">Если передний или задний стеклоочиститель включён</string>
+    <string name="setFunc29name">Очистителя задн. стекла при задн.ходе</string>
+    <string name="setFunc29name_title">Очистителя задн. стекла при задн.ходе</string>
+    <string name="setFunc32item0">ВЫКЛ.</string>
+    <string name="setFunc32item1">3 сек.</string>
+    <string name="setFunc32item2">5 сек.</string>
+    <string name="setFunc32name">Время отключения системы дистанционного управления</string>
+    <string name="setFunc32name_title">Время отключения системы дистанционного управления</string>
+    <string name="setFunc33item0">ВЫКЛ.</string>
+    <string name="setFunc33item1">Вкл.</string>
+    <string name="setFunc33name">Cигнал при дистанционном запуске</string>
+    <string name="setFunc33name_title">Cигнал при дистанционном запуске</string>
+    <string name="setFunc34item0">Вкл.</string>
+    <string name="setFunc34item1">ВЫКЛ.</string>
+    <string name="setFunc34name">Открывание после выключения зажигания</string>
+    <string name="setFunc34name_title">Открывание после выключения зажигания</string>
+    <string name="setFunc35item0">Все двери</string>
+    <string name="setFunc35item1">Только дверь водителя</string>
+    <string name="setFunc35name">Блокировка стеклоподъемников</string>
+    <string name="setFunc35name_title">Блокировка стеклоподъемников</string>
+    <string name="setFunc36item0">ВЫКЛ.</string>
+    <string name="setFunc36item1">30 мин.</string>
+    <string name="setFunc36item2">60 мин.</string>
+    <string name="setFunc36name">Автоматич. откл. питания доп. оборудования</string>
+    <string name="setFunc36name_title">Автоматич. откл. питания доп. оборудования</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">ВЫКЛ.</string>
+    <string name="setFunc42item1">15 сек.</string>
+    <string name="setFunc42item2">30 сек.</string>
+    <string name="setFunc42item3">1 мин</string>
+    <string name="setFunc42item4">3 мин.</string>
+    <string name="setFunc42name">Включение фар при выходе из автомобиля</string>
+    <string name="setFunc42name_title">Включение фар при выходе из автомобиля</string>
+    <string name="setFunc43item0">ВЫКЛ.</string>
+    <string name="setFunc43item1">Стояночные огни</string>
+    <string name="setFunc43item2">Фары</string>
+    <string name="setFunc43name">Вкл. наруж. освещ. при дистанционном откр. дверей</string>
+    <string name="setFunc43name_title">Вкл. наруж. освещ. при дистанционном откр. дверей</string>
+    <string name="setFunc50item0">Вручную</string>
+    <string name="setFunc50item1">Автоматически</string>
+    <string name="setFunc50name">Управление рециркуляцией</string>
+    <string name="setFunc50name_title">Управление рециркуляцией</string>
+    <string name="setFunc51item0">Вручную</string>
+    <string name="setFunc51item1">Автоматически</string>
+    <string name="setFunc51name">Управление переключателем кондиционера</string>
+    <string name="setFunc51name_title">Управление переключателем кондиционера</string>
+    <string name="setFunc53item0">Эколог.</string>
+    <string name="setFunc53item1">Комфорт</string>
+    <string name="setFunc53name">Эко-режим</string>
+    <string name="setFunc53name_title">Эко-режим</string>
+    <string name="setFunc54item0">Обычное</string>
+    <string name="setFunc54item1">Больше воздуха к ногам</string>
+    <string name="setFunc54item2">Больше воздуха на стекла</string>
+    <string name="setFunc54name">Распределение воздуха к ногам/на стекла</string>
+    <string name="setFunc54name_title">Распределение воздуха к ногам/на стекла</string>
+    <string name="setFunc55item0">Обычное</string>
+    <string name="setFunc55item1">Больше воздуха к лицу</string>
+    <string name="setFunc55item2">Больше воздуха к ногам</string>
+    <string name="setFunc55name">Распределение воздуха к лицу/к ногам</string>
+    <string name="setFunc55name_title">Распределение воздуха к лицу/к ногам</string>
+    <string name="setFunc56item0">Выкл.</string>
+    <string name="setFunc56item1">ВКЛ.</string>
+    <string name="setFunc56name">Автоматический обогрев заднего стекла при запуске</string>
+    <string name="setFunc56name_title">Автоматический обогрев заднего стекла при запуске</string>
+    <string name="setFunc57item0">Выкл.</string>
+    <string name="setFunc57item1">Вкл.</string>
+    <string name="setFunc57name">Запуск кондиционера или отопителя при отпирании двери</string>
+    <string name="setFunc57name_title">Запуск кондиционера или отопителя при отпирании двери</string>
+    <string name="setFunc58item0">Выкл.</string>
+    <string name="setFunc58item1">Вкл.</string>
+    <string name="setFunc58name">В режиме подачи к ногам подавать немного воздуха на стекла</string>
+    <string name="setFunc58name_title">В режиме подачи к ногам подавать немного воздуха на стекла</string>
+    <string name="setFunc60item0">Выкл.</string>
+    <string name="setFunc60item1">Вкл.</string>
+    <string name="setFunc60name">Высокие обороты холостого хода для повышения эффективности отопителя при остановке</string>
+    <string name="setFunc60name_title">Высокие обороты холостого хода для повышения эффективности отопителя при остановке</string>
+    <string name="setFuncGroup01">Система дистанционного управления замками дверей</string>
+    <string name="setFuncGroup02">Система дистанционного управления автомобилем</string>
+    <string name="setFuncGroup03">Стеклоочистители</string>
+    <string name="setFuncGroup04">Наружное освещение/ освещение салона</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Электростеклоподъемники</string>
+    <string name="setFuncGroup07">Указатели поворота</string>
+    <string name="setFuncGroup08">Электроприводы замков дверей</string>
+    <string name="setFuncGroup09">Кондиционер</string>
+    <string name="setFuncGroup10">Прочее</string>
+    <string name="setSend">Отправить</string>
+    <string name="setany">Настройки канала беспроводной сети</string>
+    <string name="setcarset">Настройки автомобиля</string>
+    <string name="setinfo_changewpaonestr">Изменить пароль беспроводной сети</string>
+    <string name="setinfo_changewpatwostr">Вы можете изменить пароль беспроводной локальной сети.</string>
+    <string name="setinfoeightstr">Вы можете отменить регистрацию VIN. После отмены подключение к автомобилю будет невозможно. Для восстановления подключения будет необходима перерегистрация.</string>
+    <string name="setinfoelevenstr">Настройки канала беспроводной сети</string>
+    <string name="setinfofifteenstr">История сигнализации</string>
+    <string name="setinfofivestr">Изменить SSID</string>
+    <string name="setinfofourstr">Вы можете изменить пароль запуска приложения.</string>
+    <string name="setinfofourteenstr">Вы можете изменить настройки автомобиля. (Пользовательские настройки ETACS)</string>
+    <string name="setinfoninestr">Настройки беспроводной сети</string>
+    <string name="setinfoonestr">Пропустить ввод пароля</string>
+    <string name="setinfosevenstr">Отменить регистрацию VIN</string>
+    <string name="setinfosisteenstr">Отображение предыдущих активаций сигнализации</string>
+    <string name="setinfosixstr">Вы можете изменить SSID автомобиля.</string>
+    <string name="setinfotenstr">Вы можете выбрать постоянное соединение по беспроводной сети, либо когда включён режим работы OFF.</string>
+    <string name="setinfothirteenstr">Настройки автомобиля</string>
+    <string name="setinfothreestr">Изменить пароль</string>
+    <string name="setinfotwelvestr">"Вы можете выбрать канал сети. 
+После изменения канал сети, беспроводная связь будет отключена и подключится заново.
+Если в течение 5 минут приложение не восстановит соединение, то закройте его и проверьте настройки беспроводной сети Wifi."</string>
+    <string name="setinfotwostr">Вы можете защитить паролем запуск приложения дистанционного управления.</string>
+    <string name="setinit">Отменить регистрацию VIN</string>
+    <string name="setinitinfo">"Вы уверены, что хотите изменить следующие настройки?
+
+"<ul><li>"Расписание таймера зарядки
+"</li><li>"Расписание таймера климат-контроля
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Вы уверены, что хотите изменить следующие настройки?
+
+"<ul><li>"Расписание таймера зарядки
+"</li><li>"Расписание таймера климат-контроля
+"</li><li>"SSID
+"</li><li>пароль беспроводной локальной сети</li></ul></string>
+    <string name="setinitq">Вы уверены, что хотите удалить регистрацию VIN?</string>
+    <string name="setnewssidinfo">Новый SSID</string>
+    <string name="setnewwpainfo">Новый пароль</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Текущий пароль</string>
+    <string name="setpasscode">Изменить пароль</string>
+    <string name="setpasscodedis">"Пароль не зарегистрирован.
+
+Для того, чтобы зарегистрировать пароль, отключите функцию отмены запроса пароля."</string>
+    <string name="setpasscodestep1">Введите ваш пароль</string>
+    <string name="setpasscodestep2">Введите новый пароль</string>
+    <string name="setpasscodestep3">Пожалуйста, повторите новый пароль</string>
+    <string name="setrenewwpainfo">Подтверждение нового пароля</string>
+    <string name="setspnum">Количество зарегистрированных смартфонов</string>
+    <string name="setssid">Изменить SSID</string>
+    <string name="setssiderr">Ошибка ввода</string>
+    <string name="setssiderrinfo">Содержит не разрешённые символы.</string>
+    <string name="setssidinfo">Можно задать от 1 до 32 символов. Регистр имеет значение.</string>
+    <string name="setssidokinfo">"После изменения SSID, беспроводная связь будет отключена и подключится заново.
+Если в течение 5 минут приложение не восстановит соединение, то закроите его и проверьте настройки беспроводной сети Wifi."</string>
+    <string name="setssidoktips">Нажмите ОК для закрытия приложения.</string>
+    <string name="setthefthistory">История работы противоугонной системы</string>
+    <string name="setthefthistoryinfo">Очистить историю противоугонной системы?</string>
+    <string name="settingtitle">Настройки</string>
+    <string name="setusepasscode">Пропустить ввод пароля</string>
+    <string name="setusepasscodeinfo">Введите пароль</string>
+    <string name="setver">Информация о версии</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Программное обеспечение автомобиля</string>
+    <string name="setwifiinfoon">"ON: беспроводное соединение всегда включено.
+
+OFF:
+бесповодное соединение включено при кнопке запуска в положении OFF.
+
+При подключении телефона к Smartphone Link Display Audio следует выбрать режим OFF."</string>
+    <string name="setwifilabel">Постоянно подключено</string>
+    <string name="setwpa">Изменить пароль беспроводной сети</string>
+    <string name="setwpaerr_1">Ошибка ввода</string>
+    <string name="setwpaerr_2">Ошибка ввода</string>
+    <string name="setwpaerr_3">Ошибка ввода</string>
+    <string name="setwpaerr_4">Ошибка ввода</string>
+    <string name="setwpaerrinfo_1">"Содержит символы, которые не могут быть использованы.
+С помощью см. символов, которые могут быть использованы."</string>
+    <string name="setwpaerrinfo_2">Введёныне пароли не совпадают, введите новый пароль.</string>
+    <string name="setwpaerrinfo_3">Новый пароль должен содержать 14 символов, выберите другой пароль.</string>
+    <string name="setwpaerrinfo_4">Вводный текущий пароль неверный, попробуете снова.</string>
+    <string name="setwpaerrinfo_5">"Возможная причина ошибки:
+"<ul><li>"Кнопка запуска не находится в режиме АСС.
+"</li><li>"Превышен лимит во времени регистарации в 10 минут.
+
+Выполните условия, указанные выше."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"Введите безопасный пароль с 14 символами.
+"</li><li>"Вы можете использовать сточные и заглавные символы, цифры и знаки.
+"</li><li>Запомните ваш пароль и никому его не сообщайте.</li></ul></string>
+    <string name="setwpaokinfo">"После изменения пароля, беспроводная связь будет отключена и подключится заново.
+Если в течение 5 минут приложение не восстановит соединение, то закроите его и проверьте настройки беспроводной сети Wifi."</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Устройство подключено к сети, отличной от сети автомобиля.
+
+Подключен ли телефон к сети автомобиля?"</string>
+    <string name="ssidinfo">SSID будет изменен.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Введите SSID и пароль. Затем нажмите кнопку \"OK\".</string>
+    <string name="stepfiveonestring">Закройте дверь водителя.</string>
+    <string name="stepfivethreestring">"В течение 10 секунд после STEP 2 нажмите поочередно кнопки электронного ключа LOCK и UNLOCK 5 раз (общее количество нажатий равняется 10, начиная с кнопки LOCK).
+Прозвучит сигнал о готовности автомобиля к регистрации."</string>
+    <string name="stepfivetwostring">Включите режим ACC кнопкой запуска. Не нажимайте на педаль тормоза. При этом кнопкой запуска можно будет включить следующие режимы: \"OFF\" → \"ACC\" → \"ON\" → \"OFF\".</string>
+    <string name="stepfouronestring">Закройте дверь водителя.</string>
+    <string name="stepfourthreestring">"В течение 10 секунд после STEP 2 нажмите поочередно кнопки электронного ключа LOCK и UNLOCK 5 раз (общее количество нажатий равняется 10, начиная с кнопки LOCK).
+Прозвучит сигнал о готовности автомобиля к регистрации."</string>
+    <string name="stepfourtwostring">Включите режим ACC кнопкой запуска. Не нажимайте на педаль тормоза. При этом кнопкой запуска можно будет включить следующие режимы: \"OFF\" → \"ACC\" → \"ON\" → \"OFF\".</string>
+    <string name="stu1_1">Питание ВЫКЛ</string>
+    <string name="stu1_2">Режим работы ON или ACC</string>
+    <string name="stu1_3">Сигнализация отключена</string>
+    <string name="stu1_4">Сигнализация включена</string>
+    <string name="stu1_5">Сигнализация активирована</string>
+    <string name="stu2info1leftstr">Стояночный фонарь</string>
+    <string name="stu2info1rightstr">ВКЛ</string>
+    <string name="stu2info1str">Стояночный фонарь ВКЛ</string>
+    <string name="stu2info2leftstr">Горит аварийная световая</string>
+    <string name="stu2info2rightstr">сигнализация</string>
+    <string name="stu2info2str">Горит аварийная световая сигнализация</string>
+    <string name="stu2info3leftstr">Дверь(и)</string>
+    <string name="stu2info3rightstr">открыта(ы)</string>
+    <string name="stu2info3str">Дверь(и) открыта(ы)</string>
+    <string name="stu2info4leftstr">Фары головного света</string>
+    <string name="stu2info4rightstr">ВКЛ</string>
+    <string name="stu2info4str">Фары головного света ВКЛ</string>
+    <string name="stu2info5leftstr">Капот</string>
+    <string name="stu2info5rightstr">открыт</string>
+    <string name="stu2info5str">Капот открыт</string>
+    <string name="stu2info6leftstr">Освещение салона</string>
+    <string name="stu2info6rightstr">ВКЛ</string>
+    <string name="stu2info6str">Освещение салона ВКЛ</string>
+    <string name="stu2info7leftstr">Открыта дверь багажного</string>
+    <string name="stu2info7rightstr">отделения</string>
+    <string name="stu2info7str">Открыта дверь багажного отделения</string>
+    <string name="stu2info8leftstr">Задние комбинированные фонари</string>
+    <string name="stu2info8rightstr">ВКЛ</string>
+    <string name="stu2info8str">Задние комбинированные фонари ВКЛ</string>
+    <string name="sun">Воскресенье</string>
+    <string name="sun1">Вс</string>
+    <string name="switchoff">ВЫКЛ</string>
+    <string name="switchon">ВКЛ</string>
+    <string name="theft2_1">Работа фар головного света</string>
+    <string name="theft2_4">Работа стояночных огней</string>
+    <string name="theft2dis2twostr">"Условия работы фунцкии:
+
+"<ul><li>"Кнопка запуска в положении OFF
+"</li><li>Фары и габаритные огни выключены.</li></ul></string>
+    <string name="thu">Четверг</string>
+    <string name="thu1">Чт</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode">P</string>
+    <string name="titleback">Назад</string>
+    <string name="titlehelp">Помощь</string>
+    <string name="titleupdate1">Очистить</string>
+    <string name="titleupdate2">Сброс</string>
+    <string name="titleupdate3">Отправить</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"Эта функция не работает, когда:
+
+"<ul><li>"Кнопка запуска в положении, оттличном от OFF.
+"</li><li>Автомобиль подключён к станции быстрой зарядки.</li></ul></string>
+    <string name="topacmode">Режим</string>
+    <string name="topacwait">Ожидание</string>
+    <string name="topbattwarm">Подогрев</string>
+    <string name="topbattwarminginfo">"Пожалуйста, подключите зарядку тяговой батареи для предотвращения понижения температуры.
+Прогрев батареи начнется после подключения зарядки."</string>
+    <string name="topbattwarminginfo_plugin_1">"Невозможно движение автомобиля из-за низкой температуры тяговой батареи.
+
+Для прогрева батареи включите режим READY или подключите зарядку."</string>
+    <string name="topbattwarminginfo_plugin_2">"Невозможно движение автомобиля из-за низкой температуры тяговой батареи.
+
+Подключите зарядку для прогрева батареи."</string>
+    <string name="topbattwarminginfo_stop_1">"Автомобиль не может эксплуатироваться из-за низкой температуры тяговой батареи.
+Требуется подогреть батарею, но не обеспечены необходимые условия для подогрева. 
+
+Пожалуйста, подождите, пока повысится внешняя температура."</string>
+    <string name="topbattwarminginfo_stop_2">"Автомобиль не может эксплуатироваться из-за низкой температуры тяговой батареи.
+
+Необходимо подогреть батарею, но не обеспечены необходимые условия для подогрева.
+
+Нагрев батареи начнется, как только внешняя температура повысится и автомобиль будет подключен к зарядному устройству. Пожалуйста, подождите!"</string>
+    <string name="topbattwarminginfo_warm_1">Температура тяговой батареи повысилась, автомобиль может начать движение.</string>
+    <string name="topbattwarminginfo_warm_2">"Автомобиль не может эксплуатироваться из-за низкой температуры тяговой батареи.
+
+Батарея подогревается. Пожалуйста, подождите!"</string>
+    <string name="topbattwarmingtitle">Информация об автомобиле</string>
+    <string name="topcanntac">Выберите режим климат-контроля в разделе \"Режим\" экрана расписания таймера.</string>
+    <string name="topcanntac2">Уже была настроена \"сразу же включается кондиционирование воздуха.\"После того, как \"сразу же включается кондиционирование воздуха\" было закончено, таймер кондиционирования воздуха автоматически возвращается в включенном положении.</string>
+    <string name="topcanntchg">Установите расписание таймера в экране \"таймер\".</string>
+    <string name="topchargeEndTime">Завершение зарядки</string>
+    <string name="topchargeEndTimeHour">часов</string>
+    <string name="topchargeEndTimeMin">минут</string>
+    <string name="topchargefinish">Завершение зарядки</string>
+    <string name="topchargetimer">Таймер ВКЛ/ВЫКЛ</string>
+    <string name="topfastchg">Быстрый</string>
+    <string name="tophelp100v">Медленный</string>
+    <string name="tophelp200v">Нормальный</string>
+    <string name="tophelp22">Охлаждение</string>
+    <string name="tophelp24">Обогрев</string>
+    <string name="tophelp26">Обдув лобового стекла</string>
+    <string name="tophelp41">Хорошая сигнал</string>
+    <string name="tophelp42">Слабый сигнал</string>
+    <string name="tophelp43">Нет сигнала</string>
+    <string name="tophelp44">Нажмите эту кнопку, чтобы связаться с автомобилем и обновить информацию.</string>
+    <string name="tophelpwarm"><ul><li>"Тяговая батарея подогревается, чтобы предотвратить неисправности батареи из-за низкой температуры.
+"</li><li>"Существует возможность того, что заряд тяговой батареи будет уменьшен.
+"</li><li>"Существует возможность того, что батарея начнет заряжаться, даже если установлен таймер заряда.
+"</li><li>Существует возможность того, что вентилятор охлаждения, расположенный в моторном отсеке, будет включен.</li></ul></string>
+    <string name="topwaitcharge">Ожидание</string>
+    <string name="towebsitestr">Перейти на сайт</string>
+    <string name="tue">Вторник</string>
+    <string name="tue1">Вт</string>
+    <string name="v2hv2l">Подключение автомобиля как внешнего источника питания</string>
+    <string name="warning6str">Нажмите кнопку \"Обновить\", чтобы связаться с автомобилем.</string>
+    <string name="warning7timeronestr">Таймер 1, выбранный для всех остальных дней, будет изменен.</string>
+    <string name="warning7timerthreestr">Таймер 3, выбранный для всех остальных дней, будет изменен.</string>
+    <string name="warning7timertwostr">Таймер 2, выбранный для всех остальных дней, будет изменен.</string>
+    <string name="wed">Среда</string>
+    <string name="wed1">Ср</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">Настройки параметров беспроводной связи</string>
+    <string name="wpainfo">Пароль беспроводной сети будет изменён.</string>
+</resources>

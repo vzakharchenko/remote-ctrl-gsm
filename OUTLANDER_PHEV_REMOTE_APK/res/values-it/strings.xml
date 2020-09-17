@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ACMinString">minuti</string>
+    <string name="ACWorking">"Il tempo di attivazione del climatizzatore non può più essere modificato dopo l'attivazione tramite timer o telecomando."</string>
+    <string name="ACtim"><ul><li>"Non utilizzare il Remote Control del clima in presenza di persone o animali. L'eccessivo abbassamento o innalzamento della temperatura potrebbero provocare danni.
+
+"</li><li>"L'attivazione prolungata del climatizzatore ridurrà ulteriormente la capacità della batteria.
+
+"</li><li>In caso di bassa carica della batteria il tempo di attivazione effettiva del climatizzatore può risultare più breve del tempo programmato.</li></ul></string>
+    <string name="ACtimeLabel">Tempo di attivazione climatizzatore</string>
+    <string name="AcsettingARM">"Se l'allarme di Sicurezza è abilitata, le impostazioni veicolo non possono essere modificate.
+
+Si prega di accedere al veicolo tramite KEYLESS. Dopo lo sblocco le modifiche delle impostazioni saranno disponibili."</string>
+    <string name="EVInit">Reset</string>
+    <string name="EVInitInfo">Si vogliono ripristinare le impostazioni del veicolo?</string>
+    <string name="Everyday">Ogni Giorno</string>
+    <string name="ResetAllschude">Tutte le pianificazioni verranno ripristinate, continua?</string>
+    <string name="ResetOneschude">La pianificazione verrà ripristinata, continua?</string>
+    <string name="Schudle">Pianifica</string>
+    <string name="abc_action_bar_home_description">Vai alla home page</string>
+    <string name="abc_action_bar_up_description">Vai in alto</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
+    <string name="abc_action_mode_done">Fine</string>
+    <string name="abc_activity_chooser_view_see_all">Visualizza tutte</string>
+    <string name="abc_activitychooserview_choose_application">"Scegli un'applicazione"</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">ALT +</string>
+    <string name="abc_menu_ctrl_shortcut_label">CTRL +</string>
+    <string name="abc_menu_delete_shortcut_label">CANC</string>
+    <string name="abc_menu_enter_shortcut_label">INVIO</string>
+    <string name="abc_menu_function_shortcut_label">FUNZIONE +</string>
+    <string name="abc_menu_meta_shortcut_label">META +</string>
+    <string name="abc_menu_shift_shortcut_label">MAIUSC +</string>
+    <string name="abc_menu_space_shortcut_label">barra spaziatrice</string>
+    <string name="abc_menu_sym_shortcut_label">SYM +</string>
+    <string name="abc_prepend_shortcut_label">MENU +</string>
+    <string name="abc_search_hint">Cerca…</string>
+    <string name="abc_searchview_description_clear">Cancella query</string>
+    <string name="abc_searchview_description_query">Query di ricerca</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_searchview_description_submit">Invia query</string>
+    <string name="abc_searchview_description_voice">Ricerca vocale</string>
+    <string name="abc_shareactionprovider_share_with">Condividi con</string>
+    <string name="abc_shareactionprovider_share_with_application">Condividi tramite %s</string>
+    <string name="abc_toolbar_collapse_description">Comprimi</string>
+    <string name="accstr">ACC (arancione)</string>
+    <string name="acoptiontimelong2">Tempo di utilizzo</string>
+    <string name="apacheLicenseeightLink">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</string>
+    <string name="apacheLicensefiveLink">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</string>
+    <string name="apacheLicensefourLink">"4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+a.You must give any other recipients of the Work or Derivative Works a copy of this License; and
+b.You must cause any modified files to carry prominent notices stating that You changed the files; and
+c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\\nd.If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License."</string>
+    <string name="apacheLicensenineLink">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</string>
+    <string name="apacheLicenseoneLink">"\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work."</string>
+    <string name="apacheLicensesevenLink">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</string>
+    <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
+    <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
+    <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
+    <string name="app_name">Remote Ctrl</string>
+    <string name="bartitle3">Stato</string>
+    <string name="bartitle5">Impostaz.</string>
+    <string name="bgdark" />
+    <string name="btnStart">ON</string>
+    <string name="cancel">Annulla</string>
+    <string name="changessidchartable">"0-9 A-Z a-z
+! # $ % &amp; ' ( ) * + - _ / : ; &lt; = > ? @ [ \\ ] ^ _ ` { | } ~"</string>
+    <string name="changessidhelpinfo">I caratteri disponibili sono i seguenti:</string>
+    <string name="channel_3">Canale 3</string>
+    <string name="channel_8">Canale 8</string>
+    <string name="clear">Ripristina tutto</string>
+    <string name="communicationstr">Comunicazione</string>
+    <string name="countdownTipsonestr">"Si prega di impostare l’alimentazione domestica con la macchina nel panello di controllo di alimentazione esterna entro 5 minuti
+
+Se l’alimentazione esterna non è avviata, le cause potrebbero essere:"</string>
+    <string name="countdownTipstwostr">Alimentazione esterna non supporta questa funzione.</string>
+    <string name="countdownTipstwostrfivestr">Malfunzioni di macchina o di alimentazione esterna.</string>
+    <string name="countdownTipstwostrfourstr">Il voltaggio della batteria di macchina (12V) è troppo basso.</string>
+    <string name="countdownTipstwostrthreestr">È più di 5 minuti quando il tasto ON è premuto.</string>
+    <string name="countdownTipstwostrtwostr">Il caricatore veloce della alimentazione esterna non è connesso strettamente con la macchina.</string>
+    <string name="daySelct">Ripeti</string>
+    <string name="delay1">0 minuti</string>
+    <string name="delay10">120 minuti</string>
+    <string name="delay11">150 minuti</string>
+    <string name="delay12">180 minuti</string>
+    <string name="delay2">5 minuti</string>
+    <string name="delay3">10 minuti</string>
+    <string name="delay4">20 minuti</string>
+    <string name="delay5">30 minuti</string>
+    <string name="delay6">40 minuti</string>
+    <string name="delay7">50 minuti</string>
+    <string name="delay8">60 minuti</string>
+    <string name="delay9">90 minuti</string>
+    <string name="demo">Demo</string>
+    <string name="durationstr">Durata</string>
+    <string name="err1date" formatted="false">%w %m/%d/%y %t</string>
+    <string name="err1ignition">la chiave utilizzata non è quella del veicolo</string>
+    <string name="err1intrusion">"Si è verificata un'intrusione non autorizzata"</string>
+    <string name="err1movement">Si è verificato un movimento illegale del veicolo</string>
+    <string name="err1other">Si è verificato un accesso illegale</string>
+    <string name="err1perimeter">La porta è stata aperta in modo illegale</string>
+    <string name="err1silent">Si è verificata una vibrazione non autorizzata</string>
+    <string name="err1title">Notificazione Allarme Antifurto</string>
+    <string name="errACinfo">"possibili cause di questo sono le seguenti:
+
+"<ul><li>"Porta è aperta.
+"</li><li>Il livello della batteria è debole.</li></ul></string>
+    <string name="errACinfoEx">"possibili cause di questo sono le seguenti:
+
+"<ul><li>"Porta è aperta.
+"</li><li>"Il livello della batteria è debole.
+"</li><li>La temperatura della batteria è bassa.</li></ul></string>
+    <string name="errACtitle">notifica: timer clima si è fermato</string>
+    <string name="errCHGinfo">Il Timer di Caricamento non può essere attivato</string>
+    <string name="errCHGtitle">Notificazione Errore Timer di Caricamento</string>
+    <string name="errRegMaxtitle">Errore in Registrazione</string>
+    <string name="errTimerinfo">Il Controllo del Timer non può essere attivato</string>
+    <string name="errTimertitle">Notificazione Errore Controllo del Timer</string>
+    <string name="errorcode2101link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2101</string>
+    <string name="errorcode2102link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2102</string>
+    <string name="errorcode2103link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2103</string>
+    <string name="errorcode2104link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2104</string>
+    <string name="errorcode2201link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2201</string>
+    <string name="errorcode2301link">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/errorcode.html#2301</string>
+    <string name="errorcodestr">Codice errore :</string>
+    <string name="evACCool">RAFFREDDAMENTO</string>
+    <string name="evACHot">Riscaldamento</string>
+    <string name="evACOFF">OFF</string>
+    <string name="evACSetTitle">Impostazioni Timer Clima</string>
+    <string name="evCharge1Auto">Localizzazione :</string>
+    <string name="evCharge1End">End</string>
+    <string name="evCharge1Start">Start</string>
+    <string name="evCharge1full">Carica completa</string>
+    <string name="evChargeSetTitle">Impostazioni Timer di Ricarica</string>
+    <string name="evOK">OK</string>
+    <string name="evSend">Invia</string>
+    <string name="evSendAsk">La nuova pianificazione non è stata inviata. Si vuole tornare indietro e inviarla?</string>
+    <string name="evSendAsk5ch">"Le impostazione modificate non sono inviate al veicolo.
+Vuoi annullare le modifiche e tornare all'Interfaccia precedente?"</string>
+    <string name="evTimerSet">Impostazioni timer</string>
+    <string name="evhCHG12info">"La funzione di Carica Completa ricarica la batteria fino a quando è completamente carica nel caso in cui la batteria non si fosse caricata completamente durante il periodo impostato nel Timer di Caricamento.
+Si tenga presente che il caricamento non si verificherà quando la spina è stata inserita dopo che il periodo del Timer di Caricamento è terminato."</string>
+    <string name="evhCHG17myinfo1">Climate Manuale</string>
+    <string name="evhCHG22ginfo1">Modalità Caricamento Manuale</string>
+    <string name="evhCHG22ginfo3">Modalità Timer di Caricamento</string>
+    <string name="evhCHG22infofourstr">la funzione di localizzazione non funziona.</string>
+    <string name="evhCHG22infoonestr">Quando il MMCS è Installato.</string>
+    <string name="evhCHG22infothreestr">Quando MMCS non è installato,</string>
+    <string name="evhCHG22infotwostr">"Questa funzione modifica la modalità di caricamento a seconda della vostra positione. La modalità è impostata su Modalità Timer quando in vicinanza a luoghi presenti nella Rubrica ed è impostata in Modalità Manuale per tutte le altre aree.
+In questo modo la modalità può essere impostata come Timer di Caricamento per le posizioni della Rubrica in cui si utilizza la carica notturna e come Caricamento Manuale nelle destinazioni come centri commerciali."</string>
+    <string name="evhelpCHG1item2">"Cos'è l'impostazione di caricamento completa?"</string>
+    <string name="evhelpCHG2item2">"Cos'è il Servizio di Localizzazione"</string>
+    <string name="evhmanualACitem4infofourstr">Il Climate verrà impostato solo in modo A/C.</string>
+    <string name="evhmanualACitem4infoonestr">"Quando l'Electric Heater è applicato:"</string>
+    <string name="evhmanualACitem4infothreestr">"Quando l'Electric Heater non è applicato:"</string>
+    <string name="evhmanualACitem4infotwostr">"Seleziona ciò che preferisci tra Riscalda/AC/Sbrina.
+La modalità selezionata verrà applicata sulla impostazione del timer attualmente utilizzata."</string>
+    <string name="evmCHchargstr">Caricamen.</string>
+    <string name="evmCHclimatestr">Clima</string>
+    <string name="evmCHsetstr">Impostaz.</string>
+    <string name="evmCHstatusstr">Stato</string>
+    <string name="evmaccancelltimestr">Annullamento</string>
+    <string name="evmaccanceltimer">Annullamento del Timer</string>
+    <string name="evmacwarn5str">Annulla il Timer Climatico.</string>
+    <string name="evmainac">Clima</string>
+    <string name="evmaincharge">Caricam.</string>
+    <string name="evmchacwarn5no">No</string>
+    <string name="evmchacwarn5yes">Sì</string>
+    <string name="evmchargeTimerSch">Programma Timer di Ricarica</string>
+    <string name="evmchargetschstr">"È possibile annullare temporaneamente il timer deselezionandolo. 
+Per interrompere l'impostazione riselezionare il comando."</string>
+    <string name="evmchargstatusstr">Stato di Ricarica</string>
+    <string name="evmchtempcancellstr">Annullamento temporaneo</string>
+    <string name="evmchupdatingstr">(Aggiorn.)</string>
+    <string name="evmchwarn5str">Annullamento temporaneo del Timer di Ricarica.</string>
+    <string name="evmclimateTimerSch">Programma Timer Clima</string>
+    <string name="evmclimatetschstr">È possibile annullare il timer deselezionandolo.</string>
+    <string name="evmdrivebattlevelstr">Livello batteria di trazione</string>
+    <string name="evmerrstartcommun">Iniziare la comunicazione</string>
+    <string name="evmlastupdatedstr">"L'app visualizza l'ultimo stato di aggiornamento del veicolo. Prima di procedere con l'aggiornamento l'APP potrebbe mostrare la precedente versione dell'aggiornamento."</string>
+    <string name="evmregtroublereg">Problemi durante la registrazione?</string>
+    <string name="evmregtroublereglink">https://www.mitsubishi-motors.com/en/products/outlander_phev/app/remote/jizen.html#check</string>
+    <string name="evmtemptimercance">Stop Temporaneo del Timer</string>
+    <string name="evmupdatedTime">Timing aggiornato</string>
+    <string name="evpsfailcontent">"Potrebbero esserci malfunzionamenti della macchina.
+Si prega di rivolgersi ai rivenditori autorizzati di mitsubishi motors."</string>
+    <string name="evpsfailtitle">L’alimentazione non riesce ad avviare</string>
+    <string name="evpspage1">"Tramite l'App potete utilizzare alimentazione esterna (dispositivi V2H/V2L) per l’alimentazione domestica con la macchina ibrida o elettrica."</string>
+    <string name="evpspage1threestr">La presente funzione deve utilizzare la alimentazione esterna corrispondente. Per maggiori informazioni si prefa di contattare i concessionari Mitsubishi Motors.</string>
+    <string name="evpspage1twostr">Potete avviare i dispositivi V2H con l’alimentazione della macchina in caso di assenza l’alimentazione domestica.</string>
+    <string name="evpspage2">Seleziona l’interruttore alimentatore alla posizione OFF e collega il caricatore rapido della alimentazione esterna con la macchina.</string>
+    <string name="evpspage3">"Preme il tasto ON e la macchina inizia a caricare la alimentazione esterna.
+In caso che non è possibile di premere il tasto ON, torna alla pagina precedente e riprova."</string>
+    <string name="exitdemostr">Exit Demo</string>
+    <string name="fri">Venerdì</string>
+    <string name="fri1">Ven</string>
+    <string name="helpspace">:</string>
+    <string name="jailbreak_info">"L'utilizzo del Remote Control non è consigliato al momento."</string>
+    <string name="jailbreak_title">OS è stato modificato</string>
+    <string name="language">it</string>
+    <string name="linkwarningstr">"Non puoi usare il veicolo per navigare su internet quando si è connessi. Per cortesia si prega di usare la propria connesione dati o una'altra tere LAN."</string>
+    <string name="loadwndinfo">"Durante l'utilizzo di MITSUBISHI REMOTE CONTROL, le conessioni di network (Internet ecc) non sono disponibili.
+
+Durante il collegamento tra il vostro smartphone e il sistema di Audio con Display di Collegamento Smartphone, l'utilizzo di MITSUBISHI REMOTE CONTROL non è disponibile."</string>
+    <string name="login_ssid_txtPwd">Password</string>
+    <string name="login_ssid_txtSSID">SSID</string>
+    <string name="lowbatterycontent">"A causa della bassa capacità rimanente delle batterie motrici, il veicolo non riesce ad alimentare l’alimentazione esterna.
+
+La presente funzionalità è abilitata solo quando la capacità rimanente delle batterie motrici è più di 50%.
+
+Prima di ricaricare si prega di consultare i capitoli “Ricarica” e “Cambiamento della Modalità Ricarica” del manuale d’utente del veicolo."</string>
+    <string name="lowbatterytitle">Connessione alla alimentazione esterna non riuscita</string>
+    <string name="manacModenoset">Preme \"Climate On\" dopo aver impostato il modo Climate.</string>
+    <string name="manacModesetClimateShutDown">"Il timer del condizionatore è temporalmente disattivato perché l'impostazone attuale è \"Condizionatore Accesso\".
+
+Quando il comando \"Condizionatore Accesso\" è disattivato, il timer del condizionatore verrrà attivato automaticamente."</string>
+    <string name="manachelptitle">Impostazione Clima Manuale</string>
+    <string name="manactim">"Non utilizzare il Climate Control renmoto in presenza delle persone o degli animali. L'abbassamento o l'aumento della temperatura in eccesso potrebbre provocare accidenti."</string>
+    <string name="modeselect">"È necessario registrare il proprio numero di VIN per procedere. Ti preghiamo di rpocedere con l'applicazione registrando il tuo numero di VIN."</string>
+    <string name="mon">Lunedi</string>
+    <string name="mon1">Lun</string>
+    <string name="needPINinfo">"Codice d'Accesso Necessario"</string>
+    <string name="newfunctioninfo">"Puoi comunicare con il veicolo quando la connessione Wireless LAN è spenta.
+
+Si può cambiare l'impostazione della communicazione del WLAN tramite \"Impostazione\" →\" Impostazione della communicazione del WLAN\"."</string>
+    <string name="newfunctioninfo2">Non mostrare più il messaggio</string>
+    <string name="nextstr">Avanti</string>
+    <string name="numonestr">1</string>
+    <string name="numthreestr">3</string>
+    <string name="numtwostr">2</string>
+    <string name="omitPINinfo">"Codice d'Accesso non necessario quando si apre l'App"</string>
+    <string name="passcodeErr">Errore passcode</string>
+    <string name="passcodeErrinfo">Passcode non è corretto. Si prega di riprovare.</string>
+    <string name="passcodeTitle">Codice di accesso</string>
+    <string name="preset">Timer</string>
+    <string name="preset1">Timer 1</string>
+    <string name="preset2">Timer 2</string>
+    <string name="preset3">Timer 3</string>
+    <string name="preset4">Timer 4</string>
+    <string name="preset5">Timer 5</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="privacypolicylink">https://www.mitsubishi-motors.com/en/privacy/</string>
+    <string name="privacypolicystr">Privacy Policy</string>
+    <string name="reg">Registrazione</string>
+    <string name="regErr">Errore in registrazione</string>
+    <string name="regErrConn">Non può registrare</string>
+    <string name="regOk">Registrazione VIN completata</string>
+    <string name="releaseinfothreestr">"Avrete bisogno dell'SSID e della password, entrambe incluse sulla card abbinata alla chiave al momento dell'acquisto."</string>
+    <string name="remainTime">Tempo rimanente</string>
+    <string name="reset">Reset</string>
+    <string name="sTime">-</string>
+    <string name="sat">Sabato</string>
+    <string name="sat1">Sab</string>
+    <string name="search_menu_title">Ricerca</string>
+    <string name="sendConn">collegamento...</string>
+    <string name="sendErr">Connessione fallita</string>
+    <string name="sendMsg">In invio...</string>
+    <string name="sendNavi">Sistema di navigazione per la macchina in funzione...</string>
+    <string name="sendOK">Completata</string>
+    <string name="sendUpdate">In aggiornamento...</string>
+    <string name="sendimmediately">Clima ON</string>
+    <string name="setErr">Errore Impostazione</string>
+    <string name="setErrInfo">Errore di comunicazione, si prega di contattare un rivenditore autorizzato di Mitsubishi Motors</string>
+    <string name="setFunc01item0">Interruttore di accensione attivo o accessorio</string>
+    <string name="setFunc01item1">Interruttore di accensione attivo</string>
+    <string name="setFunc01name">Funzionamento nella posizione chiave</string>
+    <string name="setFunc01name_title">Funzionamento nella posizione chiave</string>
+    <string name="setFunc02item0">Off</string>
+    <string name="setFunc02item1">On</string>
+    <string name="setFunc02name">Segnalatori cambio corsia (lampeggia 3 volte con un tocco)</string>
+    <string name="setFunc02name_title">Segnalatori cambio corsia (lampeggia 3 volte con un tocco)</string>
+    <string name="setFunc03item0">Blocco: una volta Sblocco: due volte</string>
+    <string name="setFunc03item1">Blocco: una volta Sblocco: Off</string>
+    <string name="setFunc03item2">Blocco: Disattiva Sblocco: due volte</string>
+    <string name="setFunc03item3">Blocco: Due volte Sblocco: Una volta</string>
+    <string name="setFunc03item4">Blocco: Disattiva Sblocco: una volta</string>
+    <string name="setFunc03item5">Blocco: due volte Sblocco: Off</string>
+    <string name="setFunc03item6">Off</string>
+    <string name="setFunc03name">Risposta delle luci dei segnalatori di svolta</string>
+    <string name="setFunc03name_title">Risposta delle luci dei segnalatori di svolta</string>
+    <string name="setFunc04item0">Fisso (4 secondi)</string>
+    <string name="setFunc04item1">Regolabile</string>
+    <string name="setFunc04item2">Regolabile e sensibile alla velocità</string>
+    <string name="setFunc04item3">Regolabile e sensibile alla pioggia</string>
+    <string name="setFunc04name">Funzionamento ad intermittenza dei tergicristalli</string>
+    <string name="setFunc04name_title">Funzionamento ad intermittenza dei tergicristalli</string>
+    <string name="setFunc05item0">Off</string>
+    <string name="setFunc05item1">On</string>
+    <string name="setFunc05item2">Attivo con fine pulitura ritardata</string>
+    <string name="setFunc05name">Tergicristalli collegati al dispositivo di lavaggio</string>
+    <string name="setFunc05name_title">Tergicristalli collegati al dispositivo di lavaggio</string>
+    <string name="setFunc06item0">0 secondi</string>
+    <string name="setFunc06item1">4 secondi</string>
+    <string name="setFunc06item2">8 secondi</string>
+    <string name="setFunc06item3">16 secondi</string>
+    <string name="setFunc06name">Intervallo ad intermittenza dei tergicristalli posteriori</string>
+    <string name="setFunc06name_title">Intervallo ad intermittenza dei tergicristalli posteriori</string>
+    <string name="setFunc07item0">Off</string>
+    <string name="setFunc07item1">1 minuto</string>
+    <string name="setFunc07item2">3 minuti</string>
+    <string name="setFunc07item3">5 minuti</string>
+    <string name="setFunc07item4">10 minuti</string>
+    <string name="setFunc07name">Spegnimento automatico luce coperchio punto di ricarica</string>
+    <string name="setFunc07name_title">Spegnimento automatico luce coperchio punto di ricarica</string>
+    <string name="setFunc08item0">Off</string>
+    <string name="setFunc08item1">Apri con velocità veicolo</string>
+    <string name="setFunc08item2">Aper/chius con att/disat acc. e apert/chius porta conduc.</string>
+    <string name="setFunc08item3_0">Apertura/chiusura con blocco/ sblocco di Keyless Entry</string>
+    <string name="setFunc08item3_1">Apertura/chiusura con blocco/ sblocco di Keyless Operation System</string>
+    <string name="setFunc08name">Specchietti autoripiegabili</string>
+    <string name="setFunc08name_title">Specchietti autoripiegabili</string>
+    <string name="setFunc09item0">Presto</string>
+    <string name="setFunc09item1">"Un po' in ritardo"</string>
+    <string name="setFunc09item2">Normale</string>
+    <string name="setFunc09item3">"Un po' prima"</string>
+    <string name="setFunc09item4">In ritardo</string>
+    <string name="setFunc09name">Sensibilità per luce automatica</string>
+    <string name="setFunc09name_title">Sensibilità per luce automatica</string>
+    <string name="setFunc10item0">Off</string>
+    <string name="setFunc10item1">On</string>
+    <string name="setFunc10name">Luce automatica collegata al tergicristallo</string>
+    <string name="setFunc10name_title">Luce automatica collegata al tergicristallo</string>
+    <string name="setFunc11item0">0 secondi (nessuna funzione timer)</string>
+    <string name="setFunc11item1">7,5 secondi</string>
+    <string name="setFunc11item2">15 secondi</string>
+    <string name="setFunc11item3">30 secondi</string>
+    <string name="setFunc11item4">1 minuto</string>
+    <string name="setFunc11item5">2 minuti</string>
+    <string name="setFunc11item6">3 minuti</string>
+    <string name="setFunc11name">Durata accensione luce a cupola dopo chiusura portiera</string>
+    <string name="setFunc11name_title">Durata accensione luce a cupola dopo chiusura portiera</string>
+    <string name="setFunc12item0">Off</string>
+    <string name="setFunc12item1">Luce di posizione posteriore/faro principale: disattivare sempre</string>
+    <string name="setFunc12item2">On</string>
+    <string name="setFunc12item3">On</string>
+    <string name="setFunc12item4">"Luce di posizione posteriore: disattivare 1 volta
+faro principale: disattivare sempre"</string>
+    <string name="setFunc12item5">On</string>
+    <string name="setFunc12name">Funzione di spegnimento automatico dei fari principali</string>
+    <string name="setFunc12name_title">Funzione di spegnimento automatico dei fari principali</string>
+    <string name="setFunc13item0">Off</string>
+    <string name="setFunc13item1">3 minuti</string>
+    <string name="setFunc13item2">30 minuti</string>
+    <string name="setFunc13item3">60 minuti</string>
+    <string name="setFunc13name">Tempo di spegnimento automatico delle luci interne</string>
+    <string name="setFunc13name_title">Tempo di spegnimento automatico delle luci interne</string>
+    <string name="setFunc14item0">Breve</string>
+    <string name="setFunc14item1">Lungo</string>
+    <string name="setFunc14name">Tempo di attivazione per segnalatore cambio corsia</string>
+    <string name="setFunc14name_title">Tempo di attivazione per segnalatore cambio corsia</string>
+    <string name="setFunc15item0">Off</string>
+    <string name="setFunc15item1">On</string>
+    <string name="setFunc15name">Lavaggio comfort</string>
+    <string name="setFunc15name_title">Lavaggio comfort</string>
+    <string name="setFunc16item0">Off</string>
+    <string name="setFunc16item1">Con il passaggio a parcheggio</string>
+    <string name="setFunc16item2">Con il passaggio a parcheggio con finestrini sbloccati</string>
+    <string name="setFunc16item3">"Quando l'accensione è spostata su Blocco"</string>
+    <string name="setFunc16item4">"Quando l'accensione è spostata su Blocco con finestrini sbloccati"</string>
+    <string name="setFunc16name">Sblocco automatico</string>
+    <string name="setFunc16name_title">Sblocco automatico</string>
+    <string name="setFunc17item0">Tutte le portiere</string>
+    <string name="setFunc17item1">Solo portiera del guidatore</string>
+    <string name="setFunc17name">Sblocca funzionamento</string>
+    <string name="setFunc17name_title">Sblocca funzionamento</string>
+    <string name="setFunc19item0">2 volte</string>
+    <string name="setFunc19item1">1 volta</string>
+    <string name="setFunc19name">Numero di pressioni del pulsante Blocco per blocco inattivo</string>
+    <string name="setFunc19name_title">Numero di pressioni del pulsante Blocco per blocco inattivo</string>
+    <string name="setFunc20item0">Off</string>
+    <string name="setFunc20item1">Pessione singola</string>
+    <string name="setFunc20item2">Pressione singola di giorno</string>
+    <string name="setFunc20item3">Dippia pressione con segnale sonoro</string>
+    <string name="setFunc20item4">Dippia pressione con segnale sonoro di giorno</string>
+    <string name="setFunc20name">Suoni risposta clacson al blocco di Keyless Entry</string>
+    <string name="setFunc20name_title">Suoni risposta clacson al blocco di Keyless Entry</string>
+    <string name="setFunc21item0">Tutto il sistema disattivo</string>
+    <string name="setFunc21item1">Suono in Keyless Operation</string>
+    <string name="setFunc21item2">Suono in Keyless Entry</string>
+    <string name="setFunc21item3">Tutto il sistema attivo</string>
+    <string name="setFunc21name">Viene emesso il bip di risposta della Keyless Operation</string>
+    <string name="setFunc21name_title">Viene emesso il bip di risposta della Keyless Operation</string>
+    <string name="setFunc22item0">30 secondi</string>
+    <string name="setFunc22item1">1 minuto</string>
+    <string name="setFunc22item2">2 minuti</string>
+    <string name="setFunc22item3">3 minuti</string>
+    <string name="setFunc22name">Blocco automatico in seguito a sblocco con telecomando</string>
+    <string name="setFunc22name_title">Blocco automatico in seguito a sblocco con telecomando</string>
+    <string name="setFunc23item0" />
+    <string name="setFunc23item1" />
+    <string name="setFunc23name" />
+    <string name="setFunc23name_title" />
+    <string name="setFunc24item0">0 secondi</string>
+    <string name="setFunc24item1">30 secondi</string>
+    <string name="setFunc24item2">3 minuti</string>
+    <string name="setFunc24item3">10 minuti</string>
+    <string name="setFunc24name">"Azionamento del timer dopo la disattivazione dell'interruttore di accensione"</string>
+    <string name="setFunc24name_title">"Azionamento del timer dopo la disattivazione dell'interruttore di accensione"</string>
+    <string name="setFunc25item0" />
+    <string name="setFunc25item1" />
+    <string name="setFunc25item2" />
+    <string name="setFunc25name" />
+    <string name="setFunc25name_title" />
+    <string name="setFunc26item0">Off</string>
+    <string name="setFunc26item1">Finestrino elettrico, specchietto portiera: apertura e chiusura</string>
+    <string name="setFunc26item2">Finestrini elettrici: apertura e chiusura</string>
+    <string name="setFunc26item3">"Finestrini elettrici: Chiudi
+specchietto portiera: apertura e chiusura"</string>
+    <string name="setFunc26item4">Specchietto portiera: apertura e chiusura</string>
+    <string name="setFunc26item5">Finestrini elettrici: Chiudi</string>
+    <string name="setFunc26name">Keyless Entry System a modalità multipla</string>
+    <string name="setFunc26name_title">Keyless Entry System a modalità multipla</string>
+    <string name="setFunc27item0" />
+    <string name="setFunc27item1" />
+    <string name="setFunc27name" />
+    <string name="setFunc27name_title" />
+    <string name="setFunc28item0">Breve</string>
+    <string name="setFunc28item1">Lungo</string>
+    <string name="setFunc28name">Durata del suono di risposta del clacson</string>
+    <string name="setFunc28name_title">Durata del suono di risposta del clacson</string>
+    <string name="setFunc29item0">Quando il tergicristallo posteriore è (ON)</string>
+    <string name="setFunc29item1">Quando il tergicristallo anteriore o posteriore è (ON)</string>
+    <string name="setFunc29name">Tergicristalli posteriore attivato in retromarcia</string>
+    <string name="setFunc29name_title">Tergicristalli posteriore attivato in retromarcia</string>
+    <string name="setFunc32item0">Off</string>
+    <string name="setFunc32item1">3 secondi</string>
+    <string name="setFunc32item2">5 secondi</string>
+    <string name="setFunc32name">Intervallo per disattivazione sblocco con telecomando dopo blocco</string>
+    <string name="setFunc32name_title">Intervallo per disattivazione sblocco con telecomando dopo blocco</string>
+    <string name="setFunc33item0">Off</string>
+    <string name="setFunc33item1">On</string>
+    <string name="setFunc33name">"Avvisi acustici all'avvio motore con comando a distanza"</string>
+    <string name="setFunc33name_title">"Avvisi acustici all'avvio motore con comando a distanza"</string>
+    <string name="setFunc34item0">On</string>
+    <string name="setFunc34item1">Off</string>
+    <string name="setFunc34name">Apri Funzionamento dopo disattivazione interruttore accensione</string>
+    <string name="setFunc34name_title">Apri Funzionamento dopo disattivazione interruttore accensione</string>
+    <string name="setFunc35item0">Tutte le portiere</string>
+    <string name="setFunc35item1">Solo portiera del guidatore</string>
+    <string name="setFunc35name">"Posizione finestrino elettrico non permessa dall'interruttore blocco"</string>
+    <string name="setFunc35name_title">"Posizione finestrino elettrico non permessa dall'interruttore blocco"</string>
+    <string name="setFunc36item0">Off</string>
+    <string name="setFunc36item1">30 minuti</string>
+    <string name="setFunc36item2">60 minuti</string>
+    <string name="setFunc36name">"Disattivazione automatica dell'alimentazione"</string>
+    <string name="setFunc36name_title">"Disattivazione automatica dell'alimentazione"</string>
+    <string name="setFunc41item0" />
+    <string name="setFunc41item1" />
+    <string name="setFunc41item2" />
+    <string name="setFunc41item3" />
+    <string name="setFunc41name" />
+    <string name="setFunc41name_title" />
+    <string name="setFunc42item0">Off</string>
+    <string name="setFunc42item1">15 secondi</string>
+    <string name="setFunc42item2">30 secondi</string>
+    <string name="setFunc42item3">1 minuto</string>
+    <string name="setFunc42item4">3 minuti</string>
+    <string name="setFunc42name">Fari principali attivi con veicolo in uscita</string>
+    <string name="setFunc42name_title">Fari principali attivi con veicolo in uscita</string>
+    <string name="setFunc43item0">Off</string>
+    <string name="setFunc43item1">Luci di parcheggio</string>
+    <string name="setFunc43item2">Luci principali</string>
+    <string name="setFunc43name">Luci esterne attive con Sblocco con telecomando</string>
+    <string name="setFunc43name_title">Luci esterne attive con Sblocco con telecomando</string>
+    <string name="setFunc50item0">Manuale</string>
+    <string name="setFunc50item1">Automatico</string>
+    <string name="setFunc50name">Controllo ricircolo</string>
+    <string name="setFunc50name_title">Controllo ricircolo</string>
+    <string name="setFunc51item0">Manuale</string>
+    <string name="setFunc51item1">Automatico</string>
+    <string name="setFunc51name">Controllo interruttore A/C</string>
+    <string name="setFunc51name_title">Controllo interruttore A/C</string>
+    <string name="setFunc53item0">Eco</string>
+    <string name="setFunc53item1">Comfort</string>
+    <string name="setFunc53name">Modalità Eco</string>
+    <string name="setFunc53name_title">Modalità Eco</string>
+    <string name="setFunc54item0">Normale</string>
+    <string name="setFunc54item1">Più aria ai piedi</string>
+    <string name="setFunc54item2">Più aria allo sbrinatore</string>
+    <string name="setFunc54name">"Rapporto flusso d'aria piedi/sbrinatore"</string>
+    <string name="setFunc54name_title">"Rapporto flusso d'aria piedi/sbrinatore"</string>
+    <string name="setFunc55item0">Normale</string>
+    <string name="setFunc55item1">Più aria al viso</string>
+    <string name="setFunc55item2">Più aria ai piedi</string>
+    <string name="setFunc55name">"Rapporto flusso d'aria viso/piedi"</string>
+    <string name="setFunc55name_title">"Rapporto flusso d'aria viso/piedi"</string>
+    <string name="setFunc56item0">Off</string>
+    <string name="setFunc56item1">Attivo</string>
+    <string name="setFunc56name">"Sbrinamento posteriore automatico all'avvio"</string>
+    <string name="setFunc56name_title">"Sbrinamento posteriore automatico all'avvio"</string>
+    <string name="setFunc57item0">Off</string>
+    <string name="setFunc57item1">On</string>
+    <string name="setFunc57name">Avvia A/C o riscaldamento allo sblocco della portiera</string>
+    <string name="setFunc57name_title">Avvia A/C o riscaldamento allo sblocco della portiera</string>
+    <string name="setFunc58item0">Off</string>
+    <string name="setFunc58item1">On</string>
+    <string name="setFunc58name">"In modalità ai piedi, lieve flusso d'aria dallo sbrinatore"</string>
+    <string name="setFunc58name_title">"In modalità ai piedi, lieve flusso d'aria dallo sbrinatore"</string>
+    <string name="setFunc60item0">Off</string>
+    <string name="setFunc60item1">On</string>
+    <string name="setFunc60name">Minimo rapido per prestazioni superiori del riscaldamento in fase di arresto</string>
+    <string name="setFunc60name_title">Minimo rapido per prestazioni superiori del riscaldamento in fase di arresto</string>
+    <string name="setFuncGroup01">Keyless Entry System</string>
+    <string name="setFuncGroup02">Keyless Operation System</string>
+    <string name="setFuncGroup03">Tergicristalli</string>
+    <string name="setFuncGroup04">Luci interne/Luci esterne</string>
+    <string name="setFuncGroup05" />
+    <string name="setFuncGroup06">Finestrini elettrici</string>
+    <string name="setFuncGroup07">Segnale di svolta</string>
+    <string name="setFuncGroup08">Blocchi portiere elettriche</string>
+    <string name="setFuncGroup09">Aria condizionata</string>
+    <string name="setFuncGroup10">Altro</string>
+    <string name="setSend">Invia</string>
+    <string name="setany">Impostazioni dei Canali Wireless LAN</string>
+    <string name="setcarset">Impostazioni Veicolo</string>
+    <string name="setinfo_changewpaonestr">Modifica Password Wifi</string>
+    <string name="setinfo_changewpatwostr">Puoi modificare la password Wifi.</string>
+    <string name="setinfoeightstr">Si può cancellare la Registrazione VIN. Dopo la cancellazione non si sarà più in grado di comunicare con il veicolo. Per comunicare di nuovo è necessario effettuare di nuovo la registrazione.</string>
+    <string name="setinfoelevenstr">Impostazioni dei Canali Wireless LAN</string>
+    <string name="setinfofifteenstr">Cronologia allarme antifurto</string>
+    <string name="setinfofivestr">Modifica SSID</string>
+    <string name="setinfofourstr">"Si può decidere di modificare le impostazoni della protezione con Codice di Accesso nell'Inizializzazione App."</string>
+    <string name="setinfofourteenstr">Si possono modificare le impostazioni del veicolo. (Personalizzazione ETACS)</string>
+    <string name="setinfoninestr">Impostazione LAN Wireless</string>
+    <string name="setinfoonestr">"Inserimento Codice d'Accesso Bypass"</string>
+    <string name="setinfosevenstr">Cancellazione Registrazione VIN</string>
+    <string name="setinfosisteenstr">"Visualizza le Attivazioni precedenti dell'Allarme Antifurto"</string>
+    <string name="setinfosixstr">Si può modificare la SSID del veicolo</string>
+    <string name="setinfotenstr">"Seleziona le communicazioni LAN Wireless per sempre oppure solo quando l'alimentazione è in OFF."</string>
+    <string name="setinfothirteenstr">Impostazioni Veicolo</string>
+    <string name="setinfothreestr">"Modifica Codice d'Accesso"</string>
+    <string name="setinfotwelvestr">Puoi scegliere un canale Wireless LAN.Dopo aver cambiato il canale Wireless LAN, la comunicazione sarà disconnessa e riconnessa automaticamente.Se l’App non ha riconnesso dopo 5 minuti, vi prega di chiudere l’App e verificare la connessione Wireless LAN all veicolo nella schermata delle impostazioni Wifi.</string>
+    <string name="setinfotwostr">"Si può scegliere un codice d'accesso a protezione dell'App"</string>
+    <string name="setinit">Cancellazione Registrazione VIN</string>
+    <string name="setinitinfo">"Siete sicuri di voler inizializzare le impostazioni qui di seguito?
+
+"<ul><li>"Pianificazione Timer Caricamento
+"</li><li>"Pianificazione Timer Controllo del Clima
+"</li><li>SSID</li></ul></string>
+    <string name="setinitinfo_wpa">"Siete sicuri di voler inizializzare le impostazioni qui di seguito?
+
+"<ul><li>"Pianificazione Timer Caricamento
+"</li><li>"Pianificazione Timer Controllo del Clima
+"</li><li>"SSID
+"</li><li>password wireless LAN</li></ul></string>
+    <string name="setinitq">Siete sicuri di voler cancellare la Registrazione VIN?</string>
+    <string name="setnewssidinfo">Nuovo SSID</string>
+    <string name="setnewwpainfo">Password Nuova</string>
+    <string name="setoldssidinfo">SSID</string>
+    <string name="setoldwpainfo">Password Corrente</string>
+    <string name="setpasscode">Modifica Passcode</string>
+    <string name="setpasscodedis">"Passcode non è registrato.
+
+Per registrare un passcode, si prega di impostare su OFF la \"Bypass Immissione Passcode\""</string>
+    <string name="setpasscodestep1">"Inserire il Vostro Codice d'Accesso"</string>
+    <string name="setpasscodestep2">"Si prega di inserire il nuovo Codice d'Accesso"</string>
+    <string name="setpasscodestep3">"Si prega di inserire di nuovo il nuovo Codice d'Accesso"</string>
+    <string name="setrenewwpainfo">Conferma Password Nuova</string>
+    <string name="setspnum">Numero di Smartphone registrati</string>
+    <string name="setssid">Modifica SSID</string>
+    <string name="setssiderr">Errore di immissione</string>
+    <string name="setssiderrinfo">Contiene caratteri che non possono essere utilizzati.</string>
+    <string name="setssidinfo">Si possono scegliere 1-32 caratteri di lunghezza. Lettere maiuscole e minuscole sono considerate diversamente.</string>
+    <string name="setssidokinfo">Dopo modifica dello SSID, la comunicazione Wi-Fi verrà disconnessa e riconnessa. In caso di mancata connessione si prega di chiudere l’app e controllare lo stato connessione Wifi nell’interfaccia d’Impostazione Wifi dello smartphone.</string>
+    <string name="setssidoktips">"Cliccare OK per chiudere l'App."</string>
+    <string name="setthefthistory">Cronologia allarme antifurto</string>
+    <string name="setthefthistoryinfo">"Cancellare la cronologia dell'allarme antifurto"</string>
+    <string name="settingtitle">Impostazioni</string>
+    <string name="setusepasscode">"Inserimento Codice d'Accesso di Bypass"</string>
+    <string name="setusepasscodeinfo">Perfavore inserisci il tuo passcode</string>
+    <string name="setver">Informazioni versione</string>
+    <string name="setverapp">MITSUBISHI Remote Control</string>
+    <string name="setverev">Software del Veicolo</string>
+    <string name="setwifiinfoon">"Attiva Impostazione:
+Attiva il LAN Wireless nel veicolo.
+
+Disattiva Impostazione:
+\"LAN Wireless nel veicolo\" è attiva solo quando l'alimentazione del veicolo è interrotto.
+
+Se vuoi connettere il sistema SDA (Smartphone Link Display Audio system) con tuo dispositivo, disattiva questa impostazione."</string>
+    <string name="setwifilabel">Comunica sempre</string>
+    <string name="setwpa">Modifica Password Wifi</string>
+    <string name="setwpaerr_1">Errore di immissione</string>
+    <string name="setwpaerr_2">Errore di immissione</string>
+    <string name="setwpaerr_3">Errore di immissione</string>
+    <string name="setwpaerr_4">Errore di immissione</string>
+    <string name="setwpaerrinfo_1">"Contiene caratteri che non possono essere utilizzati.
+Da ulteriori informazioni, si prega di vedere i caratteri che possono essere utilizzati."</string>
+    <string name="setwpaerrinfo_2">La nuova password non è identica, riprova.</string>
+    <string name="setwpaerrinfo_3">La nuova password deve essere di 14 caratteri. Per favore scegline una nuova.</string>
+    <string name="setwpaerrinfo_4">La password inserita non è corretta. Si prega di riprovare.</string>
+    <string name="setwpaerrinfo_5">"Possibili Cause:
+"<ul><li>"Il pulsante \"Start\" non è in posizione ACC
+"</li><li>"Rimane in modalità Login più di 10 minuti.
+
+Si prega di impostare la macchina in modalità Standby."</li></ul></string>
+    <string name="setwpainfoonestr"><ul><li>"Inserisce la password di 14 caratteri.
+"</li><li>"La password distingue maiuscole e minuscole. Puoi utilizzare lettere, numeri e simboli.
+"</li><li>Ricordati la tua password e non condividerla ad altri</li></ul></string>
+    <string name="setwpaokinfo">Dopo la modifica della Password Wifi, la comunicazione Wi-Fi verrà disconnessa e riconnessa. In caso di mancata connessione si prega di chiudere l’app e controllare lo stato connessione Wifi nelle impostazioni dello smartphone.</string>
+    <string name="signaturekey">2A:20:6E:59:F7:E3:E5:FD:94:00:B0:9F:B6:54:CE:8A:4D:87:EA:19</string>
+    <string name="sourcelicensestr">Open Source License</string>
+    <string name="ssidErr">"Dispositivo è connesso a una rete diversa dal veicolo
+
+Si è collegati al veicolo?"</string>
+    <string name="ssidinfo">SSID è stata cambiata</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stepfivefivestring">Inserisci il SSID e la password. Quindi, premere il tasto \"OK\".</string>
+    <string name="stepfiveonestring">Chiudere la porta lato guida.</string>
+    <string name="stepfivethreestring">"Entro 10 secondi dopo lo STEP 2 premere il tasto LOCK e UNLOCK della chiave alternandoli per 5 volte (In totale, premere 10 volte iniziando con il pulsante LOCK)
+Un segnale acustico indicherà che il veicolo è in attesa di essere registrato."</string>
+    <string name="stepfivetwostring">"Impostare l'interruttore di accensione in posizione ACC (non usare il freno quando si esegue questa operazione. Funzioni dei pulsanti come segue \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")"</string>
+    <string name="stepfouronestring">Chiudere la porta lato guida.</string>
+    <string name="stepfourthreestring">"Entro 10 secondi dopo lo STEP 2 premere il tasto LOCK e UNLOCK della chiave alternandoli per 5 volte (In totale, premere 10 volte iniziando con il pulsante LOCK)
+Un segnale acustico indicherà che il veicolo è in attesa di essere registrato."</string>
+    <string name="stepfourtwostring">"Impostare l'interruttore di accensione in posizione ACC (non usare il freno quando si esegue questa operazione. Funzioni dei pulsanti come segue \"OFF\" → \"ACC\" → \"ON\" → \"OFF\")"</string>
+    <string name="stu1_1">Interruttore di Alimentazione OFF</string>
+    <string name="stu1_2">Interruttore di Alimentazione ON o ACC</string>
+    <string name="stu1_3">Allarme Antifurto disattivato</string>
+    <string name="stu1_4">Allarme Antifurto attivato</string>
+    <string name="stu1_5">Allarme Antifurto attivo</string>
+    <string name="stu2info1leftstr">Le Luci di Parcheggio sono</string>
+    <string name="stu2info1rightstr">ON</string>
+    <string name="stu2info1str">Le Luci di Parcheggio sono ON</string>
+    <string name="stu2info2leftstr">Le Luci di Emergenza</string>
+    <string name="stu2info2rightstr">lampeggiano</string>
+    <string name="stu2info2str">Le Luci di Emergenza lampeggiano</string>
+    <string name="stu2info3leftstr">La/le Porta(e) è(sono)</string>
+    <string name="stu2info3rightstr">aperta(e)</string>
+    <string name="stu2info3str">La/le Porta(e) è(sono) aperta(e)</string>
+    <string name="stu2info4leftstr">I Fari sono</string>
+    <string name="stu2info4rightstr">ON</string>
+    <string name="stu2info4str">I Fari sono ON</string>
+    <string name="stu2info5leftstr">Il Cofano motore è</string>
+    <string name="stu2info5rightstr">aperto</string>
+    <string name="stu2info5str">Il Cofano motore è aperto</string>
+    <string name="stu2info6leftstr">La Luce Interna è</string>
+    <string name="stu2info6rightstr">ON</string>
+    <string name="stu2info6str">La Luce Interna è ON</string>
+    <string name="stu2info7leftstr">Il Portellone è</string>
+    <string name="stu2info7rightstr">aperto</string>
+    <string name="stu2info7str">Il Portellone è aperto</string>
+    <string name="stu2info8leftstr">I Fanali Posteriori sono</string>
+    <string name="stu2info8rightstr">ON</string>
+    <string name="stu2info8str">I Fanali Posteriori sono ON</string>
+    <string name="sun">Domenica</string>
+    <string name="sun1">Dom</string>
+    <string name="switchoff">OFF</string>
+    <string name="switchon">ON</string>
+    <string name="theft2_1">funzione Fari.</string>
+    <string name="theft2_4">funzione Luci di Parcheggio</string>
+    <string name="theft2dis2twostr">"Questa funzione può non funzionare a meno che:
+
+"<ul><li>"L'interruttore di alimentazione è spento.
+"</li><li>I fari e le luci di posizione sono spenti.</li></ul></string>
+    <string name="thu">Giovedi</string>
+    <string name="thu1">Gio</string>
+    <string name="timeAM">AM</string>
+    <string name="timePM">PM</string>
+    <string name="timeSep">:</string>
+    <string name="timemode">P</string>
+    <string name="titleback">Indietro</string>
+    <string name="titlehelp">Aiuto</string>
+    <string name="titleupdate1">Canc.</string>
+    <string name="titleupdate2">Ripristina</string>
+    <string name="titleupdate3">Invia</string>
+    <string name="topUpdateTime" formatted="false">%d/%m %t</string>
+    <string name="topacdisable">"Questa funzione non si può eseguire quando:
+
+"<ul><li>"L'interruttore di alimentazione non è spento.
+"</li><li>La carica rapida è attiva.</li></ul></string>
+    <string name="topacmode">Modalità</string>
+    <string name="topacwait">Attendere</string>
+    <string name="topbattwarm">Riscaldamento</string>
+    <string name="topbattwarminginfo">"Si prega di inserire il cavo di carica per evitare la diminuzione della temperatura della batteria.
+A cavo inserito inserirà il processo di ricaldamento della batteria."</string>
+    <string name="topbattwarminginfo_plugin_1">"La macchina potrebbe non funzionare a causa della bassa temperatura della batteria.
+
+Per riscaldare la batteria si prega di impostare la macchina allo stato di READY oppure collegare il cavo di ricarica."</string>
+    <string name="topbattwarminginfo_plugin_2">"La macchina non funziona perché la temperatura della batteria è troppa bassa.
+
+Si prega di collegare il cavo di ricarica alla presa di corrente per riscaldare la batteria."</string>
+    <string name="topbattwarminginfo_stop_1">"Il veicolo non può essere utilizzato a causa della bassa temperatura della batteria di trazione.
+Il riscaldamento della batteria è necessario ma non è possible nelle condizioni attuali. 
+
+Si prega di attendere fino ad aumento della temperatura esterna."</string>
+    <string name="topbattwarminginfo_stop_2">"Il veicolo non può essere utilizzato a causa della bassa temperatura della batteria di trazione.
+
+Il riscaldamento della batteria è necessario ma non è possible nelle condizioni attuali.
+
+Il riscaldamento della batteria inizierà quando la temperatura esterna é aumentata e solo a veicolo collegato alla presa di ricarica."</string>
+    <string name="topbattwarminginfo_warm_1">"Il veicolo é ora pronto per l'uso.La temperatura della batteria di trazione é aumentata."</string>
+    <string name="topbattwarminginfo_warm_2">"Il veicolo non può essere utilizzato a causa della bassa temperatura della batteria di trazione.
+
+Riscaldamento della batteria in corso. Si prega di attendere."</string>
+    <string name="topbattwarmingtitle">Informazioni del veicolo</string>
+    <string name="topcanntac">Si prega di scegliere la modalità di Controllo del Clima nella schermata di pianificazione del timer.</string>
+    <string name="topcanntac2">"Avvizare la climatizzazione subito è stato impostato.Quando la funzione \" Avviare la climatizzazione subito \" è completata, il timer per climatizzazione ritornera' allo stato Acceso."</string>
+    <string name="topcanntchg">Si prega di impostare la pianificazione del timer nella schermata \"timer\"</string>
+    <string name="topchargeEndTime">Ricarica completa in</string>
+    <string name="topchargeEndTimeHour">ore</string>
+    <string name="topchargeEndTimeMin">minuti</string>
+    <string name="topchargefinish">Completamento Caricamento</string>
+    <string name="topchargetimer">Timer ON/OFF</string>
+    <string name="topfastchg">Veloce</string>
+    <string name="tophelp100v">Tenuta</string>
+    <string name="tophelp200v">Normale</string>
+    <string name="tophelp22">Raffreddamento</string>
+    <string name="tophelp24">Riscaldamento</string>
+    <string name="tophelp26">Sbrinamento</string>
+    <string name="tophelp41">buona connessione</string>
+    <string name="tophelp42">connessione debole</string>
+    <string name="tophelp43">Connessione non disponibile</string>
+    <string name="tophelp44">Clicca il bottone per comincare con il veicolo e aggiornare le informazioni.</string>
+    <string name="tophelpwarm"><ul><li>"La batteria principale viene riscaldata per evitare malfunzionamenti della batteria a causa della diminuzione di temperatura.
+"</li><li>"Vi è la possibilità che la carica residua della batteria principale diminuisca.
+"</li><li>"Vi è la possibilità che la batteria inizi a caricarsi anche se il timer per la carica è impostato.
+"</li><li>Vi è il possibilità che la ventola per la climatizzazione venga attivata.</li></ul></string>
+    <string name="topwaitcharge">Attendere</string>
+    <string name="towebsitestr">Visita il sito web</string>
+    <string name="tue">Martedì</string>
+    <string name="tue1">Mar</string>
+    <string name="v2hv2l">Attiva l’alimentazione esterna</string>
+    <string name="warning6str">Clicca \"Update\" per comunicare con il veicolo.</string>
+    <string name="warning7timeronestr">Tutti i giorni in cui è selezionato il Timer 1 verranno aggiornati.</string>
+    <string name="warning7timerthreestr">Tutti i giorni in cui è selezionato il Timer 3 verranno aggiornati.</string>
+    <string name="warning7timertwostr">Tutti i giorni in cui è selezionato il Timer 2 verranno aggiornati.</string>
+    <string name="wed">Mercoledì</string>
+    <string name="wed1">Mer</string>
+    <string name="wifilog">WiFi Log</string>
+    <string name="wifisetting">Impostazione LAN Wireless</string>
+    <string name="wpainfo">La password Wifi verrà modificata.</string>
+</resources>

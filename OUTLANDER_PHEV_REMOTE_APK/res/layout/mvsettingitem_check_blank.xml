@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_28"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.inventec.controls.SwitchView android:id="@id/btnCheck" android:focusable="false" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/dp_1" android:layout_marginRight="@dimen/dp_17" android:layout_centerVertical="true" android:layout_alignParentEnd="true" xmlns="default namespace" />
+    <com.inventec.controls.MmcFontTextView android:textAppearance="@style/charging_st" android:id="@id/txtTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_22" android:layout_toStartOf="@id/btnCheck" />
+</RelativeLayout>

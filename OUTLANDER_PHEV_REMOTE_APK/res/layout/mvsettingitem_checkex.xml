@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:tag="item_check" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.inventec.controls.MyTextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/txtTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="" android:layout_centerVertical="true" android:layout_toStartOf="@id/btnCheck" android:layout_alignParentStart="true" />
+    <com.inventec.controls.SwitchView android:id="@id/btnCheck" android:focusable="false" android:layout_width="150.0dip" android:layout_height="30.0dip" android:layout_margin="0.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/imgArrow" />
+    <ImageView android:id="@id/imgArrow" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/list_arrow" android:layout_alignParentEnd="true" />
+</RelativeLayout>
