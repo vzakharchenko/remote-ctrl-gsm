@@ -319,7 +319,7 @@
     goto :goto_7
 
     :cond_7
-    sget v8, Lcom/inventec/iMobile2/iMobile_AppGlobalVar;->f:I
+    sget v8, Lcom/inventec/iMobile12/iMobile_AppGlobalVar;->f:I
 
     iput v8, v10, Landroid/view/ViewGroup$MarginLayoutParams;->width:I
 
@@ -1035,7 +1035,7 @@
     goto :goto_27
 
     :cond_27
-    sget v11, Lcom/inventec/iMobile2/iMobile_AppGlobalVar;->f:I
+    sget v11, Lcom/inventec/iMobile12/iMobile_AppGlobalVar;->f:I
 
     iput v11, v10, Landroid/view/ViewGroup$MarginLayoutParams;->width:I
 

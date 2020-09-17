@@ -1,5 +1,5 @@
 .class public Lcom/inventec/controls/MyViewPager;
-.super Lcom/inventec/iMobile2/z1/b;
+.super Lcom/inventec/iMobile12/z1/b;
 .source ""
 
 
@@ -13,7 +13,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/inventec/iMobile2/z1/b;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/inventec/iMobile12/z1/b;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p1, 0x1
 
@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/inventec/iMobile2/z1/b;
+    check-cast v0, Lcom/inventec/iMobile12/z1/b;
 
     if-eqz v0, :cond_0
 
@@ -48,7 +48,7 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->requestDisallowInterceptTouchEvent(Z)V
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/inventec/iMobile2/z1/b;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Lcom/inventec/iMobile12/z1/b;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result p1
 
@@ -70,7 +70,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-super {p0, p1}, Lcom/inventec/iMobile2/z1/b;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Lcom/inventec/iMobile12/z1/b;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result p1
     :try_end_0

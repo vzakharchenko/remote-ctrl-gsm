@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kostal/car2017/frmEVChargeSet12$a;-><init>(Lcom/kostal/car2017/frmEVChargeSet12;Lcom/inventec/iMobile2/z1/e;)V
+    value = Lcom/kostal/car2017/frmEVChargeSet12$a;-><init>(Lcom/kostal/car2017/frmEVChargeSet12;Lcom/inventec/iMobile12/z1/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -64,11 +64,11 @@
     :cond_0
     iget-object v1, p0, Lcom/kostal/car2017/frmEVChargeSet12$a$h;->b:Lcom/kostal/car2017/frmEVChargeSet12$a;
 
-    invoke-static {v1}, Lcom/kostal/car2017/frmEVChargeSet12$a;->f(Lcom/kostal/car2017/frmEVChargeSet12$a;)Lcom/inventec/iMobile2/z1/e;
+    invoke-static {v1}, Lcom/kostal/car2017/frmEVChargeSet12$a;->f(Lcom/kostal/car2017/frmEVChargeSet12$a;)Lcom/inventec/iMobile12/z1/e;
 
     move-result-object v1
 
-    const-class v4, Lcom/inventec/iMobile2/NewFullChargeActivity;
+    const-class v4, Lcom/inventec/iMobile12/NewFullChargeActivity;
 
     invoke-virtual {p1, v1, v4}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
@@ -104,7 +104,7 @@
     goto :goto_2
 
     :cond_2
-    invoke-static {v1}, Lcom/kostal/car2017/frmEVChargeSet12$a;->g(Lcom/kostal/car2017/frmEVChargeSet12$a;)Lcom/inventec/iMobile2/z1/e;
+    invoke-static {v1}, Lcom/kostal/car2017/frmEVChargeSet12$a;->g(Lcom/kostal/car2017/frmEVChargeSet12$a;)Lcom/inventec/iMobile12/z1/e;
 
     move-result-object v0
 
@@ -117,7 +117,7 @@
 
     iget-object p1, p0, Lcom/kostal/car2017/frmEVChargeSet12$a$h;->b:Lcom/kostal/car2017/frmEVChargeSet12$a;
 
-    invoke-static {p1}, Lcom/kostal/car2017/frmEVChargeSet12$a;->h(Lcom/kostal/car2017/frmEVChargeSet12$a;)Lcom/inventec/iMobile2/z1/e;
+    invoke-static {p1}, Lcom/kostal/car2017/frmEVChargeSet12$a;->h(Lcom/kostal/car2017/frmEVChargeSet12$a;)Lcom/inventec/iMobile12/z1/e;
 
     move-result-object v3
 

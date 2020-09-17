@@ -37,9 +37,9 @@
 .method public run()V
     .locals 6
 
-    sget-object v0, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v0, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v1, Lcom/inventec/iMobile2/b2/d;->z2:S
+    sget-short v1, Lcom/inventec/iMobile12/b2/d;->z2:S
 
     const-string v2, "0"
 
@@ -62,7 +62,7 @@
     :cond_0
     aput-byte v5, v0, v1
 
-    sget-object v0, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v0, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
     const/4 v1, 0x6
 
@@ -71,7 +71,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    sget-short v1, Lcom/inventec/iMobile2/b2/d;->b2:S
+    sget-short v1, Lcom/inventec/iMobile12/b2/d;->b2:S
 
     aput-byte v5, v0, v1
 
@@ -104,9 +104,9 @@
     goto :goto_2
 
     :cond_2
-    sget-object v0, Lcom/inventec/iMobile2/b2/d;->u3:[B
+    sget-object v0, Lcom/inventec/iMobile12/b2/d;->u3:[B
 
-    sget-short v3, Lcom/inventec/iMobile2/b2/d;->e2:S
+    sget-short v3, Lcom/inventec/iMobile12/b2/d;->e2:S
 
     add-int/lit8 v1, v1, 0x5
 

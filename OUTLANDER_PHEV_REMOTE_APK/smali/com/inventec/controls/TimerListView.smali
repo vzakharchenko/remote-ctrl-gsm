@@ -708,7 +708,7 @@
     :cond_7
     iput-boolean v4, v9, Lcom/inventec/controls/TimerListView;->u:Z
 
-    sget-boolean v1, Lcom/inventec/iMobile2/b2/b;->z:Z
+    sget-boolean v1, Lcom/inventec/iMobile12/b2/b;->z:Z
 
     const/4 v3, 0x7
 
@@ -1646,7 +1646,7 @@
 
     if-eq v1, v2, :cond_1b
 
-    sget-boolean v4, Lcom/inventec/iMobile2/b2/b;->z:Z
+    sget-boolean v4, Lcom/inventec/iMobile12/b2/b;->z:Z
 
     const/4 v5, 0x7
 
