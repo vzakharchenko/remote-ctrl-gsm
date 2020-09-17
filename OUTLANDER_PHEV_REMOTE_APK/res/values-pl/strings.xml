@@ -69,7 +69,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
     <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
     <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
-    <string name="app_name">Remote Ctrl</string>
+    <string name="app_name">GSM Remote Ctrl</string>
     <string name="bartitle3">Stan</string>
     <string name="bartitle5">Ustawienia</string>
     <string name="bgdark" />
@@ -82,7 +82,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="channel_8">Kanał 8</string>
     <string name="clear">Resetuj wszystko</string>
     <string name="communicationstr">Komunikacja</string>
-    <string name="countdownTipsonestr">"Panel kontrolny służy do konfiguracji procesu przesyłu energii elektrycznej z pojazdu do zewnętrznego magazynu energii: 
+    <string name="countdownTipsonestr">"Panel kontrolny służy do konfiguracji procesu przesyłu energii elektrycznej z pojazdu do zewnętrznego magazynu energii:
 
 Jeśli proces przesyłu energii nie rozpoczął się, to przyczyny mogą być następujące:"</string>
     <string name="countdownTipstwostr">Zewnętrzny magazyn energii nie obsługuje tej funkcji.</string>
@@ -180,7 +180,7 @@ Wybrany tryb ma zastosowanie do wszystkich ustawień zegara. Nie można zmienia�
     <string name="evmchacwarn5yes">Tak</string>
     <string name="evmchargeTimerSch">Harmonogram Zegara Ładowania</string>
     <string name="evmchargetschstr">"Możesz tymczasowo odwołać zegar, żeby go odznaczyć.
-Tymczasowo odwołany harmonogrm Zegra Ładowania można wznowić automatycznie, sprawdzając go ponownie lub po włączeniu przełącznika zasilania na tryb ON. 
+Tymczasowo odwołany harmonogrm Zegra Ładowania można wznowić automatycznie, sprawdzając go ponownie lub po włączeniu przełącznika zasilania na tryb ON.
 "</string>
     <string name="evmchargstatusstr">Stan Ładowania</string>
     <string name="evmchtempcancellstr">Tymczasowe odwołanie</string>
@@ -282,15 +282,15 @@ W celu zmiany przejdź do ustawień sieci bezprzewodowej LAN."</string>
     <string name="setFunc02item1">Wł.</string>
     <string name="setFunc02name">Tryb zmiany pasa ruchu (Trzykrotne mignięcie po lekkim dotknięciu dźwigni)</string>
     <string name="setFunc02name_title">Tryb zmiany pasa ruchu (Trzykrotne mignięcie po lekkim dotknięciu dźwigni)</string>
-    <string name="setFunc03item0">"Zamykanie: Raz 
+    <string name="setFunc03item0">"Zamykanie: Raz
 Odblokowanie: Dwa razy"</string>
-    <string name="setFunc03item1">"Zamykanie: Raz 
+    <string name="setFunc03item1">"Zamykanie: Raz
 Odblokowanie: Wył."</string>
     <string name="setFunc03item2">"Zamykanie: Wył.
 Odblokowanie: Dwa razy"</string>
     <string name="setFunc03item3">"Zamykanie: Dwa razy
 Odblokowanie: Raz"</string>
-    <string name="setFunc03item4">"Zamykanie: Wył. 
+    <string name="setFunc03item4">"Zamykanie: Wył.
 Odblokowanie: Raz"</string>
     <string name="setFunc03item5">"Zamykanie: Dwa razy
 Odblokowanie: Wył."</string>

@@ -69,7 +69,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
     <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
     <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
-    <string name="app_name">Remote Ctrl</string>
+    <string name="app_name">GSM Remote Ctrl</string>
     <string name="bartitle3">Status</string>
     <string name="bartitle5">Indstillinger</string>
     <string name="bgdark" />
@@ -165,7 +165,7 @@ Denne tilstand gør det muligt for timeren at være indstillet til opladning for
     <string name="evhmanualACitem4infofourstr">Tilstand er kun afkølling.</string>
     <string name="evhmanualACitem4infoonestr">Nar det elektriske varmeapparat er installeret.</string>
     <string name="evhmanualACitem4infothreestr">Når det elektriske varmeapparat ikke er installeret</string>
-    <string name="evhmanualACitem4infotwostr">"Tilstand vælges fra Opvarmning/afkøling/Optøning. 
+    <string name="evhmanualACitem4infotwostr">"Tilstand vælges fra Opvarmning/afkøling/Optøning.
 En valgt tilstand gælder for alle timeindstillingerne. Det er ikke muligt at indstille forskellige tilstande for hver timerindstilling"</string>
     <string name="evmCHchargstr">Oplader</string>
     <string name="evmCHclimatestr">Klima</string>
@@ -575,7 +575,7 @@ For at registrere en adgangskode, skal du slukke \"Udelad brug af adgangskode\""
     <string name="setssiderr">Indtastningsfejl</string>
     <string name="setssiderrinfo">Indeholder tegn, der ikke kan bruges.</string>
     <string name="setssidinfo">Du kan vælge 1 ~ 32 tegn. Der skelnes mellem små og store bogstaver.</string>
-    <string name="setssidokinfo">"Det tådløse net vil afbrydes og derefter automatisk koble sig på igen, efter ændring af SSID. 
+    <string name="setssidokinfo">"Det tådløse net vil afbrydes og derefter automatisk koble sig på igen, efter ændring af SSID.
 
 Hvis app’en ikke forbinder med netværket efter 5 minutter, anbefales det at slukke app'en, og kontrollere Wifi forbindelsen fra Android indstillingen til bilen."</string>
     <string name="setssidoktips">Klik OK for at afslutte.</string>
@@ -593,7 +593,7 @@ Kommunikation fra bilen er altid tændt.
 Deaktiver kommunikation:
 Kommunikation er kun aktiv, når bilen er slukket i tændingen.
 
-Venligst deaktiver denne funktion, hvis du ønsker at koble din trådløse enhed til smartphone Link Display Audio. 
+Venligst deaktiver denne funktion, hvis du ønsker at koble din trådløse enhed til smartphone Link Display Audio.
 "</string>
     <string name="setwifilabel">Kommuniker altid</string>
     <string name="setwpa">Skift adgangskoden på trådløst netværk</string>

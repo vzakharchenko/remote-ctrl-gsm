@@ -70,7 +70,7 @@ You may add Your own copyright statement to Your modifications and may provide a
     <string name="apacheLicensesixLink">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</string>
     <string name="apacheLicensethreeLink">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.Object form.</string>
     <string name="apacheLicensetwoLink">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</string>
-    <string name="app_name">Remote Ctrl</string>
+    <string name="app_name">GSM Remote Ctrl</string>
     <string name="bartitle3">Informasi</string>
     <string name="bartitle5">Pengaturan</string>
     <string name="bgdark" />
@@ -686,7 +686,7 @@ Apakah anda ingin terhubung dengan kendaraan?"</string>
     <string name="topacmode">Mode</string>
     <string name="topacwait">Menunggu</string>
     <string name="topbattwarm">Pemanasan</string>
-    <string name="topbattwarminginfo">"Silakan sambungkan pengisi daya untuk menghindari penurunan suhu pada perangkat baterai. 
+    <string name="topbattwarminginfo">"Silakan sambungkan pengisi daya untuk menghindari penurunan suhu pada perangkat baterai.
 Pemanasan akan dimulai setelah pengisi daya dihubungkan"</string>
     <string name="topbattwarminginfo_plugin_1">"Kendaraan tidak dapat dioperasikan, ada kemungkinan suhu baterai rendah.
 
@@ -711,7 +711,7 @@ Perangkat aterai sedang dalam pemanasan, mohon tunggu."</string>
     <string name="topcanntac2">"A/C manual telah diatur.
 Setelah pengaturan A/C manual selesai, timer A/C akan diaktifkan secara otomatis."</string>
     <string name="topcanntchg">Atur timer pada layar timer</string>
-    <string name="topchargeEndTime">"Waktu Pengisian 
+    <string name="topchargeEndTime">"Waktu Pengisian
 Penuh Baterai"</string>
     <string name="topchargeEndTimeHour">jam</string>
     <string name="topchargeEndTimeMin">menit</string>
