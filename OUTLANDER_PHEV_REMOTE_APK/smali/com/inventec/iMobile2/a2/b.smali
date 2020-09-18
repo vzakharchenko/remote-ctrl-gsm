@@ -10,7 +10,7 @@
 
 .field public static h:Z = true
 
-.field static i:Z
+.field static i:Z = false
 
 .field static j:Ljava/lang/StringBuilder;
 
@@ -2782,6 +2782,14 @@
     if-eqz v2, :cond_16
 
     new-instance v2, Ljava/net/InetSocketAddress;
+
+    const-string v5, "4?5&8<3\"5 ;&"
+
+    const/4 v6, 0x5
+
+    invoke-static {v5, v6}, La;->a(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v5
 
     const-string v5, "192.168.8.46"
 
