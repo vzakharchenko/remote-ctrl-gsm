@@ -69,7 +69,7 @@
 
     iget-object p1, v0, Lcom/kostal/car2017/frmEVACSet22$a$d;->b:Lcom/kostal/car2017/frmEVACSet22$a;
 
-    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet22$a;->a(Lcom/kostal/car2017/frmEVACSet22$a;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet22$a;->a(Lcom/kostal/car2017/frmEVACSet22$a;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object v1
 

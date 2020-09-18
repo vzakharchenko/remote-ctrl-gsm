@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kostal/car2017/frmEVACSet20$c;-><init>(Lcom/kostal/car2017/frmEVACSet20;Lcom/inventec/iMobile12/z1/e;)V
+    value = Lcom/kostal/car2017/frmEVACSet20$c;-><init>(Lcom/kostal/car2017/frmEVACSet20;Lcom/inventec/iMobile2/z1/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -118,17 +118,17 @@
     return-void
 
     :cond_3
-    new-instance p1, Lcom/inventec/iMobile12/z1/i;
+    new-instance p1, Lcom/inventec/iMobile2/z1/i;
 
     iget-object v2, p0, Lcom/kostal/car2017/frmEVACSet20$c$g;->b:Lcom/kostal/car2017/frmEVACSet20$c;
 
-    invoke-static {v2}, Lcom/kostal/car2017/frmEVACSet20$c;->j(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {v2}, Lcom/kostal/car2017/frmEVACSet20$c;->j(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object v2
 
     const v3, 0x7f09009e
 
-    invoke-direct {p1, v2, v3}, Lcom/inventec/iMobile12/z1/i;-><init>(Lcom/inventec/iMobile12/z1/e;I)V
+    invoke-direct {p1, v2, v3}, Lcom/inventec/iMobile2/z1/i;-><init>(Lcom/inventec/iMobile2/z1/e;I)V
 
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -158,16 +158,16 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, p1, v2, v1}, Lcom/inventec/iMobile12/z1/i;->a(IIZ)V
+    invoke-virtual {v0, p1, v2, v1}, Lcom/inventec/iMobile2/z1/i;->a(IIZ)V
 
     :cond_5
     new-instance p1, Lcom/kostal/car2017/frmEVACSet20$c$g$a;
 
     invoke-direct {p1, p0}, Lcom/kostal/car2017/frmEVACSet20$c$g$a;-><init>(Lcom/kostal/car2017/frmEVACSet20$c$g;)V
 
-    invoke-virtual {v0, p1}, Lcom/inventec/iMobile12/z1/i;->b(Lcom/inventec/iMobile12/z1/i$f;)V
+    invoke-virtual {v0, p1}, Lcom/inventec/iMobile2/z1/i;->b(Lcom/inventec/iMobile2/z1/i$f;)V
 
-    invoke-virtual {v0}, Lcom/inventec/iMobile12/z1/i;->show()V
+    invoke-virtual {v0}, Lcom/inventec/iMobile2/z1/i;->show()V
 
     return-void
 .end method

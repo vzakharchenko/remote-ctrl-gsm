@@ -430,7 +430,7 @@
 
     invoke-static {v2, v4}, Lcom/inventec/controls/TimerListView;->b(Lcom/inventec/controls/TimerListView;I)I
 
-    sget-boolean v2, Lcom/inventec/iMobile12/b2/b;->z:Z
+    sget-boolean v2, Lcom/inventec/iMobile2/b2/b;->z:Z
 
     if-eqz v2, :cond_e
 
@@ -646,7 +646,7 @@
     invoke-interface {v7, v6, v2, v3}, Landroid/widget/ListAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
 
     :goto_17
-    sget-boolean v2, Lcom/inventec/iMobile12/b2/b;->z:Z
+    sget-boolean v2, Lcom/inventec/iMobile2/b2/b;->z:Z
 
     if-eqz v2, :cond_1a
 

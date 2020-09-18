@@ -121,7 +121,7 @@
 
     const/16 p1, 0x64
 
-    invoke-static {p1, v6}, Lcom/inventec/iMobile12/a2/p;->a(II)V
+    invoke-static {p1, v6}, Lcom/inventec/iMobile2/a2/p;->a(II)V
 
     move-object v7, v0
 

@@ -1,3 +1,0 @@
-.class public Lcom/inventec/iMobile12/z1/f;
-.super Ljava/lang/RuntimeException;
-.source ""

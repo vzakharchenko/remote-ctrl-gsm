@@ -546,7 +546,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/inventec/iMobile12/a2/b;->a(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/inventec/iMobile2/a2/b;->a(Ljava/lang/String;)V
 
     move-object v9, v0
 
@@ -635,7 +635,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/inventec/iMobile12/a2/b;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/inventec/iMobile2/a2/b;->a(Ljava/lang/String;)V
 
     return-void
 .end method

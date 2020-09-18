@@ -117,7 +117,7 @@
 
     const/16 p1, 0x64
 
-    invoke-static {p1, v8}, Lcom/inventec/iMobile12/a2/p;->a(II)V
+    invoke-static {p1, v8}, Lcom/inventec/iMobile2/a2/p;->a(II)V
 
     goto :goto_3
 

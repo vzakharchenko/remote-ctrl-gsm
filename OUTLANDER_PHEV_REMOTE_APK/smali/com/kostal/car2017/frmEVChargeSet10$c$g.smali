@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kostal/car2017/frmEVChargeSet10$c;-><init>(Lcom/kostal/car2017/frmEVChargeSet10;Lcom/inventec/iMobile12/z1/e;)V
+    value = Lcom/kostal/car2017/frmEVChargeSet10$c;-><init>(Lcom/kostal/car2017/frmEVChargeSet10;Lcom/inventec/iMobile2/z1/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,15 +37,15 @@
 .method public a(I)V
     .locals 3
 
-    new-instance v0, Lcom/inventec/iMobile12/z1/i;
+    new-instance v0, Lcom/inventec/iMobile2/z1/i;
 
     iget-object v1, p0, Lcom/kostal/car2017/frmEVChargeSet10$c$g;->a:Lcom/kostal/car2017/frmEVChargeSet10$c;
 
-    invoke-static {v1}, Lcom/kostal/car2017/frmEVChargeSet10$c;->j(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {v1}, Lcom/kostal/car2017/frmEVChargeSet10$c;->j(Lcom/kostal/car2017/frmEVChargeSet10$c;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/inventec/iMobile12/z1/i;-><init>(Lcom/inventec/iMobile12/z1/e;)V
+    invoke-direct {v0, v1}, Lcom/inventec/iMobile2/z1/i;-><init>(Lcom/inventec/iMobile2/z1/e;)V
 
     const-string v1, "0"
 
@@ -64,16 +64,16 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2, v1, v2}, Lcom/inventec/iMobile12/z1/i;->a(IIZ)V
+    invoke-virtual {v0, v2, v1, v2}, Lcom/inventec/iMobile2/z1/i;->a(IIZ)V
 
     :goto_0
     new-instance v1, Lcom/kostal/car2017/frmEVChargeSet10$c$g$a;
 
     invoke-direct {v1, p0, p1}, Lcom/kostal/car2017/frmEVChargeSet10$c$g$a;-><init>(Lcom/kostal/car2017/frmEVChargeSet10$c$g;I)V
 
-    invoke-virtual {v0, v1}, Lcom/inventec/iMobile12/z1/i;->b(Lcom/inventec/iMobile12/z1/i$f;)V
+    invoke-virtual {v0, v1}, Lcom/inventec/iMobile2/z1/i;->b(Lcom/inventec/iMobile2/z1/i$f;)V
 
-    invoke-virtual {v0}, Lcom/inventec/iMobile12/z1/i;->show()V
+    invoke-virtual {v0}, Lcom/inventec/iMobile2/z1/i;->show()V
 
     return-void
 .end method
@@ -185,7 +185,7 @@
 
     move-result-object p2
 
-    invoke-static {v0, p1, p2}, Lcom/inventec/iMobile12/b2/b;->b(IS[B)V
+    invoke-static {v0, p1, p2}, Lcom/inventec/iMobile2/b2/b;->b(IS[B)V
 
     move-object p2, v5
 
