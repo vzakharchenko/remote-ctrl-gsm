@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kostal/car2017/frmEVChargeSet12$a;-><init>(Lcom/kostal/car2017/frmEVChargeSet12;Lcom/inventec/iMobile12/z1/e;)V
+    value = Lcom/kostal/car2017/frmEVChargeSet12$a;-><init>(Lcom/kostal/car2017/frmEVChargeSet12;Lcom/inventec/iMobile2/z1/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -228,7 +228,7 @@
     :cond_8
     iget-object p1, p1, Lcom/kostal/car2017/frmEVChargeSet12$a;->N:Lcom/kostal/car2017/frmEVChargeSet12;
 
-    invoke-virtual {p1}, Lcom/inventec/iMobile12/z1/e;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Lcom/inventec/iMobile2/z1/e;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
@@ -325,7 +325,7 @@
     iget-object v4, v1, Lcom/kostal/car2017/frmEVChargeSet12;->U:[B
 
     :goto_a
-    invoke-static {v0, p1, v4}, Lcom/inventec/iMobile12/b2/b;->b(IS[B)V
+    invoke-static {v0, p1, v4}, Lcom/inventec/iMobile2/b2/b;->b(IS[B)V
 
     iget-object p1, p0, Lcom/kostal/car2017/frmEVChargeSet12$a$f;->b:Lcom/kostal/car2017/frmEVChargeSet12$a;
 

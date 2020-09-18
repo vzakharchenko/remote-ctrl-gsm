@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kostal/car2017/frmEVACSet20$c;-><init>(Lcom/kostal/car2017/frmEVACSet20;Lcom/inventec/iMobile12/z1/e;)V
+    value = Lcom/kostal/car2017/frmEVACSet20$c;-><init>(Lcom/kostal/car2017/frmEVACSet20;Lcom/inventec/iMobile2/z1/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -69,7 +69,7 @@
 
     iget-object p1, v0, Lcom/kostal/car2017/frmEVACSet20$c$e;->b:Lcom/kostal/car2017/frmEVACSet20$c;
 
-    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet20$c;->a(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet20$c;->a(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object v1
 

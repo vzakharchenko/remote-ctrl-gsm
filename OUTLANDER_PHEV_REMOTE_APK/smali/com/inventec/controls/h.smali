@@ -388,7 +388,7 @@
 
     move-result-object v1
 
-    sget-boolean v3, Lcom/inventec/iMobile12/b2/b;->z:Z
+    sget-boolean v3, Lcom/inventec/iMobile2/b2/b;->z:Z
 
     const/4 v8, 0x5
 
@@ -540,7 +540,7 @@
 
     move-result-object v3
 
-    sget-boolean v9, Lcom/inventec/iMobile12/b2/b;->z:Z
+    sget-boolean v9, Lcom/inventec/iMobile2/b2/b;->z:Z
 
     if-eqz v9, :cond_9
 
@@ -685,7 +685,7 @@
 
     invoke-virtual {v6, v1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    sget-boolean v6, Lcom/inventec/iMobile12/b2/b;->z:Z
+    sget-boolean v6, Lcom/inventec/iMobile2/b2/b;->z:Z
 
     if-eqz v6, :cond_10
 

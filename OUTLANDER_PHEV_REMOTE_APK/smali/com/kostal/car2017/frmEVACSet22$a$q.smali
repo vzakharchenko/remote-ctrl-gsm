@@ -118,7 +118,7 @@
     goto :goto_2
 
     :cond_2
-    invoke-static {p1, v7}, Lcom/inventec/iMobile12/a2/p;->a(II)V
+    invoke-static {p1, v7}, Lcom/inventec/iMobile2/a2/p;->a(II)V
 
     add-int/lit8 v1, v1, 0x3
 
@@ -158,7 +158,7 @@
     :cond_4
     iget-object v0, v1, Lcom/kostal/car2017/frmEVACSet22;->U:[B
 
-    invoke-static {p1, v4, v0}, Lcom/inventec/iMobile12/b2/b;->a(IS[B)V
+    invoke-static {p1, v4, v0}, Lcom/inventec/iMobile2/b2/b;->a(IS[B)V
 
     add-int/lit8 v7, v7, 0xb
 

@@ -4,3 +4,4 @@ my-keystore.keystore
 .idea/
 OUTLANDER_PHEV_REMOTE_APK/dist/
 OUTLANDER_PHEV_REMOTE_APK/build/
+*.apk

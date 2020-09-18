@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kostal/car2017/frmEVACSet20$c;-><init>(Lcom/kostal/car2017/frmEVACSet20;Lcom/inventec/iMobile12/z1/e;)V
+    value = Lcom/kostal/car2017/frmEVACSet20$c;-><init>(Lcom/kostal/car2017/frmEVACSet20;Lcom/inventec/iMobile2/z1/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -62,11 +62,11 @@
     :cond_0
     iget-object v1, p0, Lcom/kostal/car2017/frmEVACSet20$c$j;->b:Lcom/kostal/car2017/frmEVACSet20$c;
 
-    invoke-static {v1}, Lcom/kostal/car2017/frmEVACSet20$c;->m(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {v1}, Lcom/kostal/car2017/frmEVACSet20$c;->m(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object v1
 
-    const-class v3, Lcom/inventec/iMobile12/NewHelpAvtivity;
+    const-class v3, Lcom/inventec/iMobile2/NewHelpAvtivity;
 
     invoke-virtual {p1, v1, v3}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
@@ -108,7 +108,7 @@
     goto :goto_2
 
     :cond_2
-    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet20$c;->n(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet20$c;->n(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object p1
 
@@ -121,7 +121,7 @@
 
     iget-object p1, p0, Lcom/kostal/car2017/frmEVACSet20$c$j;->b:Lcom/kostal/car2017/frmEVACSet20$c;
 
-    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet20$c;->b(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile12/z1/e;
+    invoke-static {p1}, Lcom/kostal/car2017/frmEVACSet20$c;->b(Lcom/kostal/car2017/frmEVACSet20$c;)Lcom/inventec/iMobile2/z1/e;
 
     move-result-object v2
 

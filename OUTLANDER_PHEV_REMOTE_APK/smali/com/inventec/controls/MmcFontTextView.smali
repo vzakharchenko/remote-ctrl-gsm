@@ -147,7 +147,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v2, Lcom/inventec/iMobile12/n1;->MmcFontTextView:[I
+    sget-object v2, Lcom/inventec/iMobile2/n1;->MmcFontTextView:[I
 
     invoke-virtual {v1, p1, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

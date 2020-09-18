@@ -3,7 +3,7 @@
 .source ""
 
 # interfaces
-.implements Lcom/inventec/iMobile12/z1/i$f;
+.implements Lcom/inventec/iMobile2/z1/i$f;
 
 
 # annotations
@@ -37,9 +37,9 @@
 .method public a()V
     .locals 3
 
-    sget-object v0, Lcom/inventec/iMobile12/b2/d;->t3:[B
+    sget-object v0, Lcom/inventec/iMobile2/b2/d;->t3:[B
 
-    sget-short v1, Lcom/inventec/iMobile12/b2/d;->a2:S
+    sget-short v1, Lcom/inventec/iMobile2/b2/d;->a2:S
 
     aget-byte v0, v0, v1
 
@@ -57,17 +57,17 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/inventec/iMobile12/b2/d;->t3:[B
+    sget-object v0, Lcom/inventec/iMobile2/b2/d;->t3:[B
 
-    sget-short v2, Lcom/inventec/iMobile12/b2/d;->e2:S
+    sget-short v2, Lcom/inventec/iMobile2/b2/d;->e2:S
 
     aget-byte v0, v0, v2
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lcom/inventec/iMobile12/b2/d;->t3:[B
+    sget-object v0, Lcom/inventec/iMobile2/b2/d;->t3:[B
 
-    sget-short v2, Lcom/inventec/iMobile12/b2/d;->b2:S
+    sget-short v2, Lcom/inventec/iMobile2/b2/d;->b2:S
 
     aget-byte v0, v0, v2
 

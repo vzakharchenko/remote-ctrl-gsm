@@ -3,7 +3,7 @@
 .source ""
 
 # interfaces
-.implements Lcom/inventec/iMobile12/z1/i$f;
+.implements Lcom/inventec/iMobile2/z1/i$f;
 
 
 # annotations
