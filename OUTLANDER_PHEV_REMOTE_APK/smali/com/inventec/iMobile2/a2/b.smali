@@ -2783,13 +2783,7 @@
 
     new-instance v2, Ljava/net/InetSocketAddress;
 
-    const-string v5, "4?5&8<3\"5 ;&"
-
-    const/4 v6, 0x5
-
-    invoke-static {v5, v6}, La;->a(Ljava/lang/String;I)Ljava/lang/String;
-
-    move-result-object v5
+    const-string v5, "192.168.8.46"
 
     const/16 v7, 0x1f90
 
