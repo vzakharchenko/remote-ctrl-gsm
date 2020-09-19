@@ -1,34 +1,40 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
-## Описание
-Для доступа через интернет к модулю Outlander Remote Control необходим lte wifi роутер mikrotik например такой https://mikrotik.com/product/ltap_mini_lte_kit
-Также необходим mikrotik роутер дома или в другом месте с БЕЛЫМ IP либо Cloud с белым IP. Дешевый клауд можно купить например здесь https://www.scaleway.com/en/
-Основная идея доступа это построить VPN тунель от WiFI модуля к белому IP, и дальше через модифицированное родное приложение общатся с машиной.
+## Description
 
-## Модифицировано приложение https://play.google.com/store/apps/details?id=com.inventec.iMobile2   
-Что изменено:
-1. Приложение больше не требует WiFi соединения.
-2. MAC адрес захардкожен как 6C:C7:EC:2B:00:00.
-3. Приложение устанавливается рядом с родным приложением. (Можно использовать оба приложения)
+To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
+You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)
+The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the car through a modified native application.
 
-## Ограничения
-Можно зарегистрировать только одно устройство (пока не нашел способа как переносить регестрацию с устройства на устройство)
+## Requirements
+1. Setup Mikrotik ltap mini lte kit to the car
+2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.
 
-## Сборка приложения
-1. Создать свой ключ для подписи приложения (один раз)
+## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
+What changed:
+1. Removed Wi-Fi connection requirement.
+2. set the MAC address of the device to 6C:C7:EC:2B:00:00.
+
+## Restrictions
+You can register only one device (I have not yet found a way to transfer registration from device to device)
+
+## Build Application
+1. Setup java JDK on computer.
+2. Create your own key for signing the application (once)
 '''
 ./generateKey.sh
 '''
-2. Сборка и подпись приложения
+3. Build and signing application
 '''
 ./buildAndSign.sh
 '''
-3. установить приложение OUTLANDER_PHEV.apk на телефон
-## Способы построения тунеля
-1. Удобный способ но не секьюрный способом проброски порта
-2. Полностью секьюрный тунель спомощью VPN. Что-бы получить доступ нужно поднять тунель
+3. setup OUTLANDER_PHEV.apk on smartphone
 
-## Наcтройка Mikrotik с Белым IP
+## Ways to build a tunnel
+1. A convenient way, but not a secure way of port forwarding
+2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel
+
+## Setup Mikrotik with public IP (Mikrotik hap ac2 or analog)
 ```/ip firewall filter
 add action=accept chain=input comment="L2TP Rule" protocol=ipsec-esp
 add action=accept chain=input comment="L2TP Rule" dst-port=1701 protocol=udp
@@ -63,7 +69,7 @@ add distance=1 dst-address=192.168.8.0/24 gateway=192.168.188.99
 add distance=1 dst-address=192.168.188.0/24 gateway=192.168.188.99
 ```
 
-## Наcтройка Mikrotik в машине(https://mikrotik.com/product/ltap_mini_lte_kit)
+## Setup Mikrotik in the car [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
 
 ```
 /interface lte
@@ -169,45 +175,45 @@ set allowed-interface-list=LAN
 /tool mac-server mac-winbox
 set allowed-interface-list=LAN
 ```
-Где
-**YOUR_IP** - адрес микротика с Белым IP
-**MITSUBISHI_PASSWORD** - пароль от название сети в OUTLANDER PHEV
-**MITSUBISHI_SSID** - название сети в OUTLANDER PHEV
+Where  
+**YOUR_IP** - public ip of home router
+**MITSUBISHI_SSID** - Name of network in OUTLANDER PHEV (REMOTE55peee)
+**MITSUBISHI_PASSWORD** - password from network
 
-# Способы построения тунеля
-## Удобный но не секьюрный способ проброски порта
-1. На стороне mikrotik с белым IP: 
+# Ways to build a tunnel
+## Port forwarding
+1. Mikrotik with Public Ip:
 ```add action=dst-nat chain=dstnat dst-port=8080 protocol=tcp to-addresses=192.168.8.46 to-ports=8080```
-2. прописать Белый IP (https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2794) и порт(https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2796) 
-3. пересобрать приложение OUTLANDER_PHEV.apk
-4. установить приложение OUTLANDER_PHEV.apk
+2. set public ip in code in [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2794) and if needed the port [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2796)
+3. rebuild application OUTLANDER_PHEV.apk
+4. setup OUTLANDER_PHEV.apk on smartphone
 
-## Полностью секьюрный тунель спомощью VPN
+## Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 
-1. в телефоне создать vpn соединение
-Параметры соединения:
-**Тип**: L2TP/IPSec PSK
-**Адрес Сервера**: <Белый IP>
-**Общий Ключ IPSec**: 5TpfVoyORsfy72i3p2Cvmg8
-**Имя пользователя**: vpnUser
-**Пароль**: vpnUser
-2. Открыть приложение GSM Remote Ctrl
+1. Create Vpn connection on smartphone
+Connection paramters:
+**Type**: L2TP/IPSec PSK
+**Server Address**: <YOUR_IP>
+**Shared IPSec Key**: 5TpfVoyORsfy72i3p2Cvmg8
+**username**: vpnUser
+**password**: vpnUser
+2. Open and use application GSM Remote Ctrl
 
-# Смена Mac адреса
-1. на стороне Mikrotik в машине(https://mikrotik.com/product/ltap_mini_lte_kit)
+# Change Mac address
+1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
-2. Изменить mac-address в коде c 6C:C7:EC:2B:00:00 на XX:XX:XX:XX:XX:XX  https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali#L3798 
-где XX:XX:XX:XX:XX:XX новый мак адрес
-3. пересобрать приложение OUTLANDER_PHEV.apk
-4. установить приложение OUTLANDER_PHEV.apk
+2. Change mac-address in the code from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX (OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali)[https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali#L3798]
+Where XX:XX:XX:XX:XX:XX is new Mac address
+3. build  OUTLANDER_PHEV.apk
+4. setup application OUTLANDER_PHEV.apk
 
-# Подключение через Cloud
-1. Создать виртуальную машину с постоянным IP в клауде
-2. Установить Настроить PPTP сервер на виртуальной машине
-3. Настроить маршрутизацию с помощью iptables
-4. пробросить порт с помощью iptables или подключится через vpn
+# Connection through Cloud
+1. Create a Virtula Machine on the Cloud with public IP.
+2. Setup and configure PPTP server on  the  Virtual machine
+3. Setup routing using iptables
+4. forward the port using iptables or connect via vpn
 
 
 
