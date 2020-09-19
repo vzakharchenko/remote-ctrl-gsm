@@ -2,33 +2,33 @@
 
 ## Description
 
-To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
-You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)
+To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)  
+You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)  
 The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the car through a modified native application.
 
 ## Requirements
-1. Setup Mikrotik ltap mini lte kit to the car
-2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.
+1. Setup Mikrotik ltap mini lte kit to the car  
+2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.  
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
-What changed:
-1. Removed Wi-Fi connection requirement.
-2. set the MAC address of the device to 6C:C7:EC:2B:00:00.
+What changed:  
+1. Removed Wi-Fi connection requirement.  
+2. set the MAC address of the device to 6C:C7:EC:2B:00:00.  
 
 ## Restrictions
 You can register only one device (I have not yet found a way to transfer registration from device to device)
 
 ## Build Application
-1. Setup java JDK on computer.
-2. Create your own key for signing the application (once)
+1. Setup java JDK on computer.  
+2. Create your own key for signing the application (once)  
 '''
 ./generateKey.sh
 '''
-3. Build and signing application
+3. Build and signing application  
 '''
 ./buildAndSign.sh
 '''
-3. setup OUTLANDER_PHEV.apk on smartphone
+3. setup OUTLANDER_PHEV.apk on smartphone  
 
 ## Ways to build a tunnel
 1. A convenient way, but not a secure way of port forwarding
@@ -182,11 +182,11 @@ Where
 
 # Ways to build a tunnel
 ## Port forwarding
-1. Mikrotik with Public Ip:
+1. Mikrotik with Public Ip:  
 ```add action=dst-nat chain=dstnat dst-port=8080 protocol=tcp to-addresses=192.168.8.46 to-ports=8080```
-2. set public ip in code in [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2794) and if needed the port [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2796)
-3. rebuild application OUTLANDER_PHEV.apk
-4. setup OUTLANDER_PHEV.apk on smartphone
+2. set public ip in code in [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2794) and if needed the port [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2796)  
+3. rebuild application OUTLANDER_PHEV.apk  
+4. setup OUTLANDER_PHEV.apk on smartphone  
 
 ## Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 
@@ -204,7 +204,7 @@ Connection paramters:
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
-2. Change mac-address in the code from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX (OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali)[https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali#L3798]
+2. Change mac-address in the code from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali#L3798)  
 Where XX:XX:XX:XX:XX:XX is new Mac address  
 3. build  OUTLANDER_PHEV.apk  
 4. setup application OUTLANDER_PHEV.apk  
