@@ -176,9 +176,9 @@ set allowed-interface-list=LAN
 set allowed-interface-list=LAN
 ```
 Where  
-**YOUR_IP** - public ip of home router
-**MITSUBISHI_SSID** - Name of network in OUTLANDER PHEV (REMOTE55peee)
-**MITSUBISHI_PASSWORD** - password from network
+**YOUR_IP** - public ip of home router  
+**MITSUBISHI_SSID** - Name of network in OUTLANDER PHEV (REMOTE55peee)  
+**MITSUBISHI_PASSWORD** - password from network  
 
 # Ways to build a tunnel
 ## Port forwarding
@@ -190,30 +190,30 @@ Where
 
 ## Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 
-1. Create Vpn connection on smartphone
-Connection paramters:
-**Type**: L2TP/IPSec PSK
-**Server Address**: <YOUR_IP>
-**Shared IPSec Key**: 5TpfVoyORsfy72i3p2Cvmg8
-**username**: vpnUser
-**password**: vpnUser
-2. Open and use application GSM Remote Ctrl
+1. Create Vpn connection on smartphone  
+Connection paramters:  
+**Type**: L2TP/IPSec PSK  
+**Server Address**: <YOUR_IP>  
+**Shared IPSec Key**: 5TpfVoyORsfy72i3p2Cvmg8  
+**username**: vpnUser  
+**password**: vpnUser  
+2. Open and use application GSM Remote Ctrl  
 
 # Change Mac address
-1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)
+1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)  
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
 2. Change mac-address in the code from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX (OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali)[https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali#L3798]
-Where XX:XX:XX:XX:XX:XX is new Mac address
-3. build  OUTLANDER_PHEV.apk
-4. setup application OUTLANDER_PHEV.apk
+Where XX:XX:XX:XX:XX:XX is new Mac address  
+3. build  OUTLANDER_PHEV.apk  
+4. setup application OUTLANDER_PHEV.apk  
 
 # Connection through Cloud
-1. Create a Virtula Machine on the Cloud with public IP.
-2. Setup and configure PPTP server on  the  Virtual machine
-3. Setup routing using iptables
-4. forward the port using iptables or connect via vpn
+1. Create a Virtula Machine on the Cloud with public IP.  
+2. Setup and configure PPTP server on  the  Virtual machine  
+3. Setup routing using iptables  
+4. forward the port using iptables or connect via vpn  
 
 
 
