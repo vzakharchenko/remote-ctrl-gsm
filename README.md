@@ -4,12 +4,12 @@
 
 To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
 You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)
-The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.  
- ![sessionManagment.png](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/master/img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg?raw=true)  
-![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)  
-![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)  
-![img3](./img/Screenshot_20200920-135330_GSM%20Remote%20Ctrl.jpg)  
-![img4](./img/Screenshot_20200920-135338_GSM%20Remote%20Ctrl.jpg)  
+The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.
+ ![sessionManagment.png](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/master/img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg?raw=true)
+![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)
+![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)
+![img3](./img/Screenshot_20200920-135330_GSM%20Remote%20Ctrl.jpg)
+![img4](./img/Screenshot_20200920-135338_GSM%20Remote%20Ctrl.jpg)
 ## Features
  - control vehicle through 3g,4g,lte
  - support unlimited number of registered devices
@@ -24,7 +24,7 @@ What changed:
 2. set the MAC address of the device to 6C:C7:EC:2B:00:00.
 
 ## How to move registration from one device to another
-1. move phev folder from registered device to a new device
+1. copy /sdcard/phev folder from registered device to a new device
 2. install app on new device
 3. run application and use it
 
@@ -43,6 +43,7 @@ What changed:
 ## Ways to build a tunnel
 1. A convenient way, but not a secure way of port forwarding
 2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel
+![](./img/CarWiFI-Schema.png)
 
 ## Setup Mikrotik with public IP (Mikrotik hap ac2 or analog)
 ```/ip firewall filter
