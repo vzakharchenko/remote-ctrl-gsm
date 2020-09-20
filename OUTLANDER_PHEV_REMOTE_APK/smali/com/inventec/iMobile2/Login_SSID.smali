@@ -95,7 +95,7 @@
 
     iput-object v1, p0, Lcom/inventec/iMobile2/Login_SSID;->e0:Lcom/inventec/iMobile2/z1/x;
 
-    const-string v2, ""
+    const-string v2, "Outlander PHEV"
 
     iput-object v2, p0, Lcom/inventec/iMobile2/Login_SSID;->f0:Ljava/lang/String;
 

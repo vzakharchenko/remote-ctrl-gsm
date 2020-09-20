@@ -1998,12 +1998,15 @@
 .end method
 
 .method public static a(Landroid/content/Context;Ljava/util/ArrayList;Lcom/inventec/iMobile2/a2/g$b;)I
-    .locals 10
+    .registers 5
+    .param p0, "var0"    # Landroid/content/Context;
+    .param p2, "var2"    # Lcom/inventec/iMobile2/a2/g$b;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Ljava/util/ArrayList<",
+            "Ljava/util/ArrayList",
+            "<",
             "Lcom/inventec/iMobile2/a2/g$b;",
             ">;",
             "Lcom/inventec/iMobile2/a2/g$b;",
@@ -2011,358 +2014,54 @@
         }
     .end annotation
 
+    .prologue
+    .line 11
+    .local p1, "var1":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Lcom/inventec/iMobile2/a2/g$b;>;"
     invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
 
-    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->e(Landroid/content/Context;)Landroid/net/wifi/WifiManager;
+    .line 12
+    new-instance v0, Lcom/inventec/iMobile2/a2/g$b;
 
-    move-result-object p0
+    invoke-direct {v0}, Lcom/inventec/iMobile2/a2/g$b;-><init>()V
 
-    const/4 v0, -0x1
+    .line 13
+    .local v0, "e":Lcom/inventec/iMobile2/a2/g$b;
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    if-nez p0, :cond_0
+    .line 14
+    const-string v1, "Outlander PHEV"
 
-    return v0
+    iput-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
 
-    :cond_0
-    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getScanResults()Ljava/util/List;
+    .line 15
+    iget-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
 
-    move-result-object v1
+    iput-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->b:Ljava/lang/String;
 
-    const-string v2, "0"
+    .line 16
+    iget-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
 
-    const/4 v3, 0x0
+    iput-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->c:Ljava/lang/String;
 
-    if-eqz v1, :cond_8
+    .line 17
+    iget-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
 
-    const/4 v4, 0x0
+    iput-object v1, p2, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
 
-    :goto_0
-    invoke-interface {v1}, Ljava/util/List;->size()I
+    .line 18
+    iget-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->b:Ljava/lang/String;
 
-    move-result v5
+    iput-object v1, p2, Lcom/inventec/iMobile2/a2/g$b;->b:Ljava/lang/String;
 
-    if-ge v4, v5, :cond_4
+    .line 19
+    iget-object v1, v0, Lcom/inventec/iMobile2/a2/g$b;->c:Ljava/lang/String;
 
-    invoke-interface {v1}, Ljava/util/List;->size()I
+    iput-object v1, p2, Lcom/inventec/iMobile2/a2/g$b;->c:Ljava/lang/String;
 
-    move-result v5
+    .line 20
+    const/4 v1, 0x0
 
-    add-int/lit8 v5, v5, -0x1
-
-    :goto_1
-    if-le v5, v4, :cond_3
-
-    invoke-interface {v1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v6
-
-    invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v7
-
-    if-eqz v7, :cond_1
-
-    move-object v7, v3
-
-    goto :goto_2
-
-    :cond_1
-    check-cast v6, Landroid/net/wifi/ScanResult;
-
-    invoke-interface {v1, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v7
-
-    move-object v9, v7
-
-    move-object v7, v6
-
-    move-object v6, v9
-
-    :goto_2
-    check-cast v6, Landroid/net/wifi/ScanResult;
-
-    iget-object v7, v7, Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
-
-    iget-object v6, v6, Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
-
-    invoke-virtual {v7, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_2
-
-    invoke-interface {v1, v5}, Ljava/util/List;->remove(I)Ljava/lang/Object;
-
-    :cond_2
-    add-int/lit8 v5, v5, -0x1
-
-    goto :goto_1
-
-    :cond_3
-    add-int/lit8 v4, v4, 0x1
-
-    goto :goto_0
-
-    :cond_4
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
-    :goto_3
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_8
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v4
-
-    invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v5
-
-    if-eqz v5, :cond_5
-
-    const/16 v4, 0xa
-
-    move-object v7, v2
-
-    move-object v5, v3
-
-    move-object v6, v5
-
-    goto :goto_4
-
-    :cond_5
-    check-cast v4, Landroid/net/wifi/ScanResult;
-
-    new-instance v5, Lcom/inventec/iMobile2/a2/g$b;
-
-    invoke-direct {v5}, Lcom/inventec/iMobile2/a2/g$b;-><init>()V
-
-    const/4 v6, 0x6
-
-    const-string v7, "4"
-
-    move-object v6, v5
-
-    move-object v5, v4
-
-    const/4 v4, 0x6
-
-    :goto_4
-    if-eqz v4, :cond_6
-
-    iget-object v4, v5, Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
-
-    iput-object v4, v6, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    move-object v7, v2
-
-    goto :goto_5
-
-    :cond_6
-    move-object v6, v3
-
-    :goto_5
-    invoke-static {v7}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v4
-
-    if-eqz v4, :cond_7
-
-    goto :goto_6
-
-    :cond_7
-    iget-object v4, v5, Landroid/net/wifi/ScanResult;->BSSID:Ljava/lang/String;
-
-    iput-object v4, v6, Lcom/inventec/iMobile2/a2/g$b;->c:Ljava/lang/String;
-
-    :goto_6
-    invoke-virtual {p1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    goto :goto_3
-
-    :cond_8
-    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConfiguredNetworks()Ljava/util/List;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_c
-
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
-    :cond_9
-    :goto_7
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_c
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v4
-
-    invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v5
-
-    if-eqz v5, :cond_a
-
-    move-object v4, v3
-
-    move-object v5, v4
-
-    goto :goto_8
-
-    :cond_a
-    check-cast v4, Landroid/net/wifi/WifiConfiguration;
-
-    iget-object v5, v4, Landroid/net/wifi/WifiConfiguration;->SSID:Ljava/lang/String;
-
-    :goto_8
-    invoke-static {v5}, Lcom/inventec/iMobile2/a2/g;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object v6
-
-    :cond_b
-    invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v7
-
-    if-eqz v7, :cond_9
-
-    invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v7
-
-    check-cast v7, Lcom/inventec/iMobile2/a2/g$b;
-
-    iget-object v8, v7, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    invoke-virtual {v8, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_b
-
-    iget-object v4, v4, Landroid/net/wifi/WifiConfiguration;->preSharedKey:Ljava/lang/String;
-
-    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    if-eqz v4, :cond_9
-
-    const-string v5, "*"
-
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v5
-
-    if-nez v5, :cond_9
-
-    iput-object v4, v7, Lcom/inventec/iMobile2/a2/g$b;->b:Ljava/lang/String;
-
-    goto :goto_7
-
-    :cond_c
-    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_d
-
-    invoke-virtual {p0}, Landroid/net/wifi/WifiInfo;->getSSID()Ljava/lang/String;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_d
-
-    iget-object v1, p2, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/String;->length()I
-
-    move-result v1
-
-    if-nez v1, :cond_d
-
-    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    iput-object p0, p2, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    :cond_d
-    iget-object p0, p2, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
-
-    move-result p0
-
-    if-eqz p0, :cond_10
-
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object p0
-
-    :cond_e
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_10
-
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v4
-
-    if-eqz v4, :cond_f
-
-    move-object v1, v3
-
-    move-object v4, v1
-
-    goto :goto_9
-
-    :cond_f
-    check-cast v1, Lcom/inventec/iMobile2/a2/g$b;
-
-    iget-object v4, v1, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    :goto_9
-    iget-object v5, p2, Lcom/inventec/iMobile2/a2/g$b;->a:Ljava/lang/String;
-
-    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_e
-
-    invoke-virtual {p1, v1}, Ljava/util/ArrayList;->indexOf(Ljava/lang/Object;)I
-
-    move-result v0
-
-    iget-object p0, v1, Lcom/inventec/iMobile2/a2/g$b;->b:Ljava/lang/String;
-
-    iput-object p0, p2, Lcom/inventec/iMobile2/a2/g$b;->b:Ljava/lang/String;
-
-    :cond_10
-    return v0
+    return v1
 .end method
 
 .method public static a(Ljava/lang/String;)Ljava/lang/String;
