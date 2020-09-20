@@ -75,7 +75,7 @@
         <activity android:name="com.inventec.iMobile2.BxRemoveVin" android:screenOrientation="portrait"/>
         <activity android:name="com.inventec.iMobile2.BxShowAlarmHistory" android:screenOrientation="portrait"/>
         <activity android:name="com.inventec.iMobile2.BxShowAllVersion" android:screenOrientation="portrait"/>
-        <activity android:name="com.inventec.iMobile2.BxShowWiFiLogs" android:screenOrientation="portrait"/>
+        <activity android:name="com.inventec.iMobile2.BxShowWiFiLogs" android:exported="true" android:screenOrientation="portrait"/>
         <activity android:name="com.inventec.iMobile2.BxWifiConnectionSetting" android:screenOrientation="portrait"/>
         <activity android:name="com.inventec.iMobile2.Bxchannelchange" android:screenOrientation="portrait"/>
         <activity android:name="com.inventec.iMobile2.V2HDirectionsActivity" android:screenOrientation="portrait"/>

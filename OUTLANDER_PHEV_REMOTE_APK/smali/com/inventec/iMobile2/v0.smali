@@ -1222,8 +1222,6 @@
 
     :goto_32
     const/4 v3, 0x3
-    const/4 v2, 0x1
-    sput-boolean v2, Lcom/inventec/iMobile2/a2/b;->f:Z
 
     sget-boolean v2, Lcom/inventec/iMobile2/a2/b;->f:Z
 

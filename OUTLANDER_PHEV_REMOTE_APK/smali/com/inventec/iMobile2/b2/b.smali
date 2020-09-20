@@ -3760,8 +3760,7 @@
     move-result-object v0
 
     const v1, 0x8000
-
-    invoke-virtual {p0, v0, v1}, Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+    invoke-static {v0,v1}, Lcom/inventec/iMobile2/a2/g;->getOutputStream(Ljava/lang/String;I)Ljava/io/FileOutputStream;
 
     move-result-object p0
 
@@ -5567,7 +5566,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+    invoke-static {v0}, Lcom/inventec/iMobile2/a2/g;->getInputStream(Ljava/lang/String;)Ljava/io/FileInputStream;
 
     move-result-object p0
 

@@ -50,7 +50,7 @@
 
     const/16 v1, 0x12
 
-    if-lt v0, v1, :cond_0
+    goto :cond_0
 
     new-instance v0, Lcom/inventec/iMobile2/a2/a;
 
@@ -184,7 +184,7 @@
     goto :goto_2
 
     :cond_3
-    invoke-virtual {v2, v3, v1}, Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+    invoke-static {v3,v1}, Lcom/inventec/iMobile2/a2/g;->getOutputStream(Ljava/lang/String;I)Ljava/io/FileOutputStream;
 
     move-result-object v0
 
@@ -312,7 +312,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v6, v1}, Landroid/content/Context;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+    invoke-static {v1}, Lcom/inventec/iMobile2/a2/g;->getInputStream(Ljava/lang/String;)Ljava/io/FileInputStream;
 
     move-result-object v1
 

@@ -291,6 +291,7 @@
 
     move-result-object p2
 
+#     invoke-static {v0}, Lcom/inventec/iMobile2/a2/g;->saveFile1([B)V
     invoke-direct {p1, v0, p2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0

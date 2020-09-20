@@ -321,13 +321,99 @@
     return-void
 .end method
 
+.method public exportFiles()V
+    .registers 8
+
+    .prologue
+    .line 126
+    new-instance v1, Ljava/io/File;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v4, "/phev/export"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-direct {v1, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    .line 127
+    .local v1, "file":Ljava/io/File;
+    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
+
+    move-result v3
+
+    if-nez v3, :cond_25
+
+    .line 128
+    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
+
+    .line 130
+    :cond_25
+    invoke-virtual {p0}, Lcom/inventec/iMobile2/iMobile;->fileList()[Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 131
+    .local v2, "list":[Ljava/lang/String;
+    array-length v4, v2
+
+    const/4 v3, 0x0
+
+    :goto_2b
+    if-ge v3, v4, :cond_41
+
+    aget-object v0, v2, v3
+
+    .line 132
+    .local v0, "f":Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/inventec/iMobile2/iMobile;->getFileStreamPath(Ljava/lang/String;)Ljava/io/File;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Lcom/inventec/iMobile2/a2/g;->copyFileOrDirectory(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 131
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_2b
+
+    .line 134
+    .end local v0    # "f":Ljava/lang/String;
+    :cond_41
+    return-void
+.end method
+
 
 # virtual methods
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 12
 
     invoke-super {p0, p1}, Landroidx/appcompat/app/h;->onCreate(Landroid/os/Bundle;)V
-
+    invoke-virtual {p0}, Lcom/inventec/iMobile2/iMobile;->exportFiles()V
     const-string p1, "0"
 
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I

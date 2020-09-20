@@ -3799,36 +3799,317 @@
     return-object v0
 .end method
 
+.method public static copyFile(Ljava/io/File;Ljava/io/File;)V
+    .registers 8
+    .param p0, "sourceFile"    # Ljava/io/File;
+    .param p1, "destFile"    # Ljava/io/File;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 101
+    invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/io/File;->exists()Z
+
+    move-result v2
+
+    if-nez v2, :cond_11
+
+    .line 102
+    invoke-virtual {p1}, Ljava/io/File;->getParentFile()Ljava/io/File;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
+
+    .line 104
+    :cond_11
+    invoke-virtual {p1}, Ljava/io/File;->exists()Z
+
+    move-result v2
+
+    if-nez v2, :cond_1a
+
+    .line 105
+    invoke-virtual {p1}, Ljava/io/File;->createNewFile()Z
+
+    .line 108
+    :cond_1a
+    const/4 v1, 0x0
+
+    .line 109
+    .local v1, "source":Ljava/nio/channels/FileChannel;
+    const/4 v0, 0x0
+
+    .line 112
+    .local v0, "destination":Ljava/nio/channels/FileChannel;
+    :try_start_1c
+    new-instance v2, Ljava/io/FileInputStream;
+
+    invoke-direct {v2, p0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+
+    invoke-virtual {v2}, Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
+
+    move-result-object v1
+
+    .line 113
+    new-instance v2, Ljava/io/FileOutputStream;
+
+    invoke-direct {v2, p1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+
+    invoke-virtual {v2}, Ljava/io/FileOutputStream;->getChannel()Ljava/nio/channels/FileChannel;
+
+    move-result-object v0
+
+    .line 114
+    const-wide/16 v2, 0x0
+
+    invoke-virtual {v1}, Ljava/nio/channels/FileChannel;->size()J
+
+    move-result-wide v4
+
+    invoke-virtual/range {v0 .. v5}, Ljava/nio/channels/FileChannel;->transferFrom(Ljava/nio/channels/ReadableByteChannel;JJ)J
+    :try_end_37
+    .catchall {:try_start_1c .. :try_end_37} :catchall_42
+
+    .line 116
+    if-eqz v1, :cond_3c
+
+    .line 117
+    invoke-virtual {v1}, Ljava/nio/channels/FileChannel;->close()V
+
+    .line 119
+    :cond_3c
+    if-eqz v0, :cond_41
+
+    .line 120
+    invoke-virtual {v0}, Ljava/nio/channels/FileChannel;->close()V
+
+    .line 123
+    :cond_41
+    return-void
+
+    .line 116
+    :catchall_42
+    move-exception v2
+
+    if-eqz v1, :cond_48
+
+    .line 117
+    invoke-virtual {v1}, Ljava/nio/channels/FileChannel;->close()V
+
+    .line 119
+    :cond_48
+    if-eqz v0, :cond_4d
+
+    .line 120
+    invoke-virtual {v0}, Ljava/nio/channels/FileChannel;->close()V
+
+    .line 122
+    :cond_4d
+    throw v2
+.end method
+
+.method public static copyFileOrDirectory(Ljava/lang/String;Ljava/lang/String;)V
+    .registers 12
+    .param p0, "srcDir"    # Ljava/lang/String;
+    .param p1, "dstDir"    # Ljava/lang/String;
+
+    .prologue
+    .line 79
+    :try_start_0
+    new-instance v6, Ljava/io/File;
+
+    invoke-direct {v6, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    .line 80
+    .local v6, "src":Ljava/io/File;
+    new-instance v0, Ljava/io/File;
+
+    invoke-virtual {v6}, Ljava/io/File;->getName()Ljava/lang/String;
+
+    move-result-object v8
+
+    invoke-direct {v0, p1, v8}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 82
+    .local v0, "dst":Ljava/io/File;
+    invoke-virtual {v6}, Ljava/io/File;->isDirectory()Z
+
+    move-result v8
+
+    if-eqz v8, :cond_31
+
+    .line 84
+    invoke-virtual {v6}, Ljava/io/File;->list()[Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 85
+    .local v3, "files":[Ljava/lang/String;
+    array-length v4, v3
+
+    .line 86
+    .local v4, "filesLength":I
+    const/4 v5, 0x0
+
+    .local v5, "i":I
+    :goto_1a
+    if-ge v5, v4, :cond_34
+
+    .line 87
+    new-instance v8, Ljava/io/File;
+
+    aget-object v9, v3, v5
+
+    invoke-direct {v8, v6, v9}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    invoke-virtual {v8}, Ljava/io/File;->getPath()Ljava/lang/String;
+
+    move-result-object v7
+
+    .line 88
+    .local v7, "src1":Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 89
+    .local v1, "dst1":Ljava/lang/String;
+    invoke-static {v7, v1}, Lcom/inventec/iMobile2/a2/g;->copyFileOrDirectory(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 86
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_1a
+
+    .line 93
+    .end local v1    # "dst1":Ljava/lang/String;
+    .end local v3    # "files":[Ljava/lang/String;
+    .end local v4    # "filesLength":I
+    .end local v5    # "i":I
+    .end local v7    # "src1":Ljava/lang/String;
+    :cond_31
+    invoke-static {v6, v0}, Lcom/inventec/iMobile2/a2/g;->copyFile(Ljava/io/File;Ljava/io/File;)V
+    :try_end_34
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_34} :catch_35
+
+    .line 98
+    .end local v0    # "dst":Ljava/io/File;
+    .end local v6    # "src":Ljava/io/File;
+    :cond_34
+    :goto_34
+    return-void
+
+    .line 95
+    :catch_35
+    move-exception v2
+
+    .line 96
+    .local v2, "e":Ljava/lang/Exception;
+    invoke-virtual {v2}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_34
+.end method
+
+.method public static getFilePath(Ljava/lang/String;)Ljava/io/File;
+    .registers 3
+    .param p0, "fileName"    # Ljava/lang/String;
+
+    .prologue
+    .line 73
+    new-instance v0, Ljava/io/File;
+
+    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getStorageDir(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static getInputStream(Ljava/lang/String;)Ljava/io/FileInputStream;
+    .registers 4
+    .param p0, "fileName"    # Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/FileNotFoundException;
+        }
+    .end annotation
+
+    .prologue
+    .line 69
+    new-instance v0, Ljava/io/FileInputStream;
+
+    new-instance v1, Ljava/io/File;
+
+    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getStorageDir(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-direct {v0, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+
+    return-object v0
+.end method
+
+.method public static getOutputStream(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+    .registers 5
+    .param p0, "fileName"    # Ljava/lang/String;
+    .param p1, "mode"    # I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/FileNotFoundException;
+        }
+    .end annotation
+
+    .prologue
+    .line 63
+    new-instance v1, Ljava/io/FileOutputStream;
+
+    new-instance v2, Ljava/io/File;
+
+    .line 64
+    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getStorageDir(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v2, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    const v0, 0x8000
+
+    if-ne p1, v0, :cond_15
+
+    const/4 v0, 0x1
+
+    :goto_11
+    invoke-direct {v1, v2, v0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;Z)V
+
+    .line 63
+    return-object v1
+
+    .line 64
+    :cond_15
+    const/4 v0, 0x0
+
+    goto :goto_11
+.end method
 
 .method public static getStorageDir(Ljava/lang/String;)Ljava/lang/String;
     .registers 6
     .param p0, "fileName"    # Ljava/lang/String;
 
     .prologue
-    .line 24
-    const-string v2, "Hack"
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "input File "
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 26
+    .line 28
+    .line 29
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v2
@@ -3841,37 +4122,37 @@
 
     move-result v2
 
-    if-nez v2, :cond_9f
-
-    .line 27
-    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
-
-    invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_36
-
-    .line 28
-    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
-
-    const-string v3, ""
-
-    invoke-virtual {p0, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object p0
+    if-nez v2, :cond_6f
 
     .line 30
-    :cond_36
+    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
+
+    invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1e
+
+    .line 31
+    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
+
+    const-string v3, ""
+
+    invoke-virtual {p0, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 33
+    :cond_1e
     const-string v2, "/data/data/com.inventec.iMobile2/"
 
     invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
-    if-eqz v2, :cond_46
+    if-eqz v2, :cond_2e
 
-    .line 31
+    .line 34
     const-string v2, "/data/data/com.inventec.iMobile2/"
 
     const-string v3, ""
@@ -3880,8 +4161,8 @@
 
     move-result-object p0
 
-    .line 34
-    :cond_46
+    .line 37
+    :cond_2e
     new-instance v0, Ljava/io/File;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -3908,19 +4189,19 @@
 
     invoke-direct {v0, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 35
+    .line 38
     .local v0, "file":Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     move-result v2
 
-    if-nez v2, :cond_6b
+    if-nez v2, :cond_53
 
-    .line 36
+    .line 39
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
-    .line 38
-    :cond_6b
+    .line 41
+    :cond_53
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -3947,38 +4228,13 @@
 
     move-result-object v1
 
-    .line 39
-    .local v1, "filePath":Ljava/lang/String;
-    const-string v2, "Hack"
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "create FilePath for "
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 55
+    .line 58
     .end local v0    # "file":Ljava/io/File;
-    .end local v1    # "filePath":Ljava/lang/String;
-    :goto_9e
+    :goto_6e
     return-object v1
 
-    .line 42
-    :cond_9f
+    .line 45
+    :cond_6f
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -4009,32 +4265,9 @@
 
     move-result v2
 
-    if-nez v2, :cond_117
+    if-nez v2, :cond_b7
 
-    .line 43
-    const-string v2, "Hack22222222"
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "input File "
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 44
+    .line 47
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v2
@@ -4047,7 +4280,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 45
+    .line 48
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v4
@@ -4070,65 +4303,23 @@
 
     move-result-object v3
 
-    .line 44
-    invoke-virtual {p0, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object p0
-
-    .line 46
-    const-string v2, "Hack333333333"
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "input File "
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 48
-    :cond_117
-    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
-
-    invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_127
-
-    .line 49
-    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
-
-    const-string v3, "/phev"
-
+    .line 47
     invoke-virtual {p0, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
 
     .line 51
-    :cond_127
-    const-string v2, "/data/data/com.inventec.iMobile2/"
+    :cond_b7
+    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
 
     invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v2
 
-    if-eqz v2, :cond_137
+    if-eqz v2, :cond_c7
 
     .line 52
-    const-string v2, "/data/data/com.inventec.iMobile2/"
+    const-string v2, "/data/data/com.inventec.iMobile2.gsm/"
 
     const-string v3, "/phev"
 
@@ -4137,20 +4328,55 @@
     move-result-object p0
 
     .line 54
-    :cond_137
-    const-string v2, "Hack"
+    :cond_c7
+    const-string v2, "/data/data/com.inventec.iMobile2/"
+
+    invoke-virtual {p0, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_d7
+
+    .line 55
+    const-string v2, "/data/data/com.inventec.iMobile2/"
+
+    const-string v3, "/phev"
+
+    invoke-virtual {p0, v2, v3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    :cond_d7
+    move-object v1, p0
+
+    .line 58
+    goto :goto_6e
+.end method
+
+
+# virtual methods
+.method public exportFiles()V
+    .registers 8
+
+    .prologue
+    .line 126
+    new-instance v1, Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "create FilePath2 for "
+    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v4, "/phev/export"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -4158,13 +4384,197 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-direct {v1, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    move-object v1, p0
+    .line 127
+    .local v1, "file":Ljava/io/File;
+    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 55
-    goto/16 :goto_9e
+    move-result v3
+
+    if-nez v3, :cond_25
+
+    .line 128
+    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
+
+    .line 130
+    :cond_25
+    invoke-virtual {p0}, Lcom/inventec/iMobile2/a2/g;->fileList()[Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 131
+    .local v2, "list":[Ljava/lang/String;
+    array-length v4, v2
+
+    const/4 v3, 0x0
+
+    :goto_2b
+    if-ge v3, v4, :cond_41
+
+    aget-object v0, v2, v3
+
+    .line 132
+    .local v0, "f":Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/inventec/iMobile2/a2/g;->getFileStreamPath(Ljava/lang/String;)Ljava/io/File;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Lcom/inventec/iMobile2/a2/g;->copyFileOrDirectory(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 131
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_2b
+
+    .line 134
+    .end local v0    # "f":Ljava/lang/String;
+    :cond_41
+    return-void
 .end method
+
+
+.method public static saveFile1([B)V
+    .registers 5
+    .param p0, "data"    # [B
+
+    .prologue
+    .line 127
+    :try_start_0
+    new-instance v1, Ljava/io/FileOutputStream;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string v3, "/test1.txt"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+
+    .line 128
+    .local v1, "f":Ljava/io/FileOutputStream;
+    invoke-virtual {v1, p0}, Ljava/io/FileOutputStream;->write([B)V
+
+    .line 129
+    invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
+    :try_end_22
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_22} :catch_23
+
+    .line 133
+    .end local v1    # "f":Ljava/io/FileOutputStream;
+    :goto_22
+    return-void
+
+    .line 130
+    :catch_23
+    move-exception v0
+
+    .line 131
+    .local v0, "e":Ljava/io/IOException;
+    invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
+
+    goto :goto_22
+.end method
+
+
+.method public static getPrivateKey()[B
+    .registers 2
+
+    .prologue
+    .line 137
+    const-string v0, "BqeVGXJf+df/FhoWfFVDBw=="
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static saveFile2([B)V
+    .registers 5
+    .param p0, "data"    # [B
+
+    .prologue
+    .line 127
+    :try_start_0
+    new-instance v1, Ljava/io/FileOutputStream;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string v3, "/test2.txt"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+
+    .line 128
+    .local v1, "f":Ljava/io/FileOutputStream;
+    invoke-virtual {v1, p0}, Ljava/io/FileOutputStream;->write([B)V
+
+    .line 129
+    invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
+    :try_end_22
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_22} :catch_23
+
+    .line 133
+    .end local v1    # "f":Ljava/io/FileOutputStream;
+    :goto_22
+    return-void
+
+    .line 130
+    :catch_23
+    move-exception v0
+
+    .line 131
+    .local v0, "e":Ljava/io/IOException;
+    invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
+
+    goto :goto_22
+.end method
+
 
 
 .method public static g(Landroid/content/Context;)[B

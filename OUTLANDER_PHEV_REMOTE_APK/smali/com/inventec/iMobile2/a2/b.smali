@@ -4,11 +4,11 @@
 
 
 # static fields
-.field public static f:Z = true
+.field public static f:Z = false
 
-.field public static g:Z = true
+.field public static g:Z = false
 
-.field public static h:Z = true
+.field public static h:Z = false
 
 .field static i:Z = false
 
@@ -34,8 +34,6 @@
     .locals 2
 
     const/4 v1, 0x1
-
-    sput-boolean v1, Lcom/inventec/iMobile2/a2/b;->f:Z
 
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
@@ -89,7 +87,6 @@
     .locals 1
 
     const/4 v0, 0x1
-    sput-boolean v0, Lcom/inventec/iMobile2/a2/b;->f:Z
     :try_start_0
     sget-boolean v0, Lcom/inventec/iMobile2/a2/b;->f:Z
 
@@ -116,8 +113,6 @@
     .locals 18
 
     const/4 v0, 0x1
-
-    sput-boolean v0, Lcom/inventec/iMobile2/a2/b;->f:Z
 
     move-object/from16 v0, p0
 
@@ -1472,12 +1467,13 @@
 
     if-eqz v0, :cond_1
 
-    const-wide/16 v1, 0x3e8
+    const-wide/16 v1, 0x3a98
 
     const/4 v3, 0x0
 
     :try_start_0
     invoke-virtual {v0, v1, v2}, Ljava/lang/Thread;->join(J)V
+    const-wide/16 v1, 0x3e8
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2522,8 +2518,9 @@
 
     :try_start_4
     iget-object v2, p0, Lcom/inventec/iMobile2/a2/b;->e:Ljava/lang/Thread;
-
+    const-wide/16 v0, 0x3a98
     invoke-virtual {v2, v0, v1}, Ljava/lang/Thread;->join(J)V
+    const-wide/16 v0, 0x3e8
     :try_end_4
     .catch Ljava/lang/InterruptedException; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -2604,8 +2601,9 @@
 
     :try_start_a
     iget-object v2, p0, Lcom/inventec/iMobile2/a2/b;->e:Ljava/lang/Thread;
-
+    const-wide/16 v0, 0x3a98
     invoke-virtual {v2, v0, v1}, Ljava/lang/Thread;->join(J)V
+    const-wide/16 v0, 0x3e8
     :try_end_a
     .catch Ljava/lang/InterruptedException; {:try_start_a .. :try_end_a} :catch_3
     .catchall {:try_start_a .. :try_end_a} :catchall_3
@@ -2669,8 +2667,9 @@
 
     :try_start_e
     iget-object v2, p0, Lcom/inventec/iMobile2/a2/b;->e:Ljava/lang/Thread;
-
+    const-wide/16 v0, 0x3a98
     invoke-virtual {v2, v0, v1}, Ljava/lang/Thread;->join(J)V
+    const-wide/16 v0, 0x3e8
     :try_end_e
     .catch Ljava/lang/InterruptedException; {:try_start_e .. :try_end_e} :catch_4
     .catchall {:try_start_e .. :try_end_e} :catchall_4

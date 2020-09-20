@@ -11,6 +11,10 @@
 
     move-result-object p0
 
+    invoke-static {p1}, Lcom/inventec/iMobile2/a2/g;->getFilePath(Ljava/lang/String;)Ljava/io/File;
+
+    move-result-object p0
+
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result p1
@@ -29,7 +33,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-virtual {p0, p1, v0}, Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+    invoke-static {p1,v0}, Lcom/inventec/iMobile2/a2/g;->getOutputStream(Ljava/lang/String;I)Ljava/io/FileOutputStream;
 
     move-result-object p0
 
@@ -120,7 +124,7 @@
     new-array v0, v0, [B
 
     :try_start_0
-    invoke-virtual {p0, p1}, Landroid/content/Context;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+    invoke-static {p1}, Lcom/inventec/iMobile2/a2/g;->getInputStream(Ljava/lang/String;)Ljava/io/FileInputStream;
 
     move-result-object p1
 
@@ -260,7 +264,7 @@
     new-array v0, v0, [B
 
     :try_start_0
-    invoke-virtual {p0, p1, v4}, Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+    invoke-static {p1,v4}, Lcom/inventec/iMobile2/a2/g;->getOutputStream(Ljava/lang/String;I)Ljava/io/FileOutputStream;
 
     move-result-object p1
 

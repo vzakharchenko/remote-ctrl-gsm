@@ -391,6 +391,8 @@
 
     move-result-object v2
 
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getPrivateKey()[B
+    move-result-object v0
     invoke-direct {v1, v0, v2}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
 
     return-object v1
