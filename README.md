@@ -8,8 +8,7 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
  ![sessionManagment.png](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/master/img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg?raw=true)
 ![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)
 ![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)
-![img3](./img/Screenshot_20200920-135330_GSM%20Remote%20Ctrl.jpg)
-![img4](./img/Screenshot_20200920-135338_GSM%20Remote%20Ctrl.jpg)
+![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)
 ## Features
  - control vehicle through 3g,4g,lte
  - support unlimited number of registered devices
