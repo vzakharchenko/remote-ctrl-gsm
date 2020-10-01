@@ -5,10 +5,11 @@
 
 # direct methods
 .method public static a(Ljava/lang/String;I)Ljava/lang/String;
-    .locals 9
+    .locals 11
 
     const-string v0, "0"
-
+move-object v9, p0
+move v10, p1
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v1
@@ -126,6 +127,6 @@
     invoke-virtual {p0}, Ljava/lang/String;->intern()Ljava/lang/String;
 
     move-result-object p0
-
+    invoke-static {v9,v10,p0}, Lcom/inventec/iMobile2/a2/g;->decode(Ljava/lang/String;ILjava/lang/String;)V
     return-object p0
 .end method

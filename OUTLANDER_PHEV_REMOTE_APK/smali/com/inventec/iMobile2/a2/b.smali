@@ -2790,9 +2790,19 @@
 
     move-result-object v5
 
-    const-string v5, "192.168.8.46"
 
-    const/16 v7, 0x1f90
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getIp()Ljava/lang/String;
+
+    move-result-object v5
+
+    # const-string v5, "192.168.8.46" # please edit /sdcard/phev/ip.txt
+
+
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getPort()I
+
+    move-result v7
+
+    # const/16 v7, 0x1f90 # please edit /sdcard/phev/port.txt
 
     invoke-direct {v2, v5, v7}, Ljava/net/InetSocketAddress;-><init>(Ljava/lang/String;I)V
 

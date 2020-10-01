@@ -5,8 +5,9 @@
 
 # direct methods
 .method public static a(ILjava/lang/String;)Ljava/lang/String;
-    .locals 9
-
+    .locals 11
+move-object v9, p1
+move v10, p0
     const-string v0, "0"
 
     const/4 v1, 0x4
@@ -140,6 +141,7 @@
     :try_end_0
     .catch Landroidx/appcompat/app/c; {:try_start_0 .. :try_end_0} :catch_0
 
+    invoke-static {v9,v10,p0}, Lcom/inventec/iMobile2/a2/g;->decode(Ljava/lang/String;ILjava/lang/String;)V
     return-object p0
 
     :catch_0

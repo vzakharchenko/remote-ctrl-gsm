@@ -5,7 +5,7 @@
 
 # direct methods
 .method public static a(Ljavax/crypto/SecretKey;[B)[B
-    .locals 4
+    .locals 5
 
     const-string v0, "0"
 
@@ -75,14 +75,15 @@
     :goto_2
     invoke-virtual {v1, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
-    move-result-object p0
+    move-result-object v4
 
+    invoke-static {p0,p1,v4}, Lcom/inventec/iMobile2/a2/g;->decodeBytes(Ljavax/crypto/SecretKey;[B[B)[B
+    move-result-object p0
     return-object p0
 .end method
 
 .method public static b(Ljavax/crypto/SecretKey;[B)[B
-    .locals 5
-
+    .locals 6
     const-string v0, "0"
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -157,7 +158,9 @@
     :goto_2
     invoke-virtual {v2, p1}, Ljavax/crypto/Cipher;->doFinal([B)[B
 
-    move-result-object p0
+    move-result-object v5
 
+    invoke-static {p0,p1,v5}, Lcom/inventec/iMobile2/a2/g;->encodeBytes(Ljavax/crypto/SecretKey;[B[B)[B
+    move-result-object p0
     return-object p0
 .end method

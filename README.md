@@ -193,9 +193,8 @@ Where
 ## Port forwarding
 1. Mikrotik with Public Ip:
 ```add action=dst-nat chain=dstnat dst-port=8080 protocol=tcp to-addresses=192.168.8.46 to-ports=8080```
-2. set public ip in code in [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2794) and if needed the port [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/b.smali#L2796)
-3. rebuild application OUTLANDER_PHEV.apk
-4. setup OUTLANDER_PHEV.apk on smartphone
+2. set public ip on Phone storage ```/sdcard/phev/ip.txt```
+2. set port on Phone storage ```/sdcard/phev/port.txt```
 
 ## Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 
@@ -213,13 +212,11 @@ Connection paramters:
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
-2. Change mac-address in the code from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX [OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali](https://github.com/vzakharchenko/remote-ctrl-gsm/blob/5d9255fdd5b90e9d64a89290ba00c4e3b048091d/OUTLANDER_PHEV_REMOTE_APK/smali/com/inventec/iMobile2/a2/g.smali#L3798)
+2. Change mac-address in the file on Phone storage ```/sdcard/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX
 Where XX:XX:XX:XX:XX:XX is new Mac address
-3. build  OUTLANDER_PHEV.apk
-4. setup application OUTLANDER_PHEV.apk
 
 # Connection through Cloud
-1. Create a Virtula Machine on the Cloud with public IP.
+1. Create a Virtual Machine on the Cloud with public IP.
 2. Setup and configure PPTP server on  the  Virtual machine
 3. Setup routing using iptables
 4. forward the port using iptables or connect via vpn

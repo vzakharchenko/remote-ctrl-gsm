@@ -317,7 +317,7 @@
 
     :cond_7
 
-    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getMac()Ljava/lang/String;
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getMacAddress()Ljava/lang/String;
 
     move-result-object v3
 
