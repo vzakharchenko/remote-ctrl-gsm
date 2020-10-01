@@ -29,6 +29,7 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
+import java.util.Random;
 
 import javax.crypto.SecretKey;
 
@@ -199,7 +200,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static byte[] getPrivateKey() {
-        return Base64.decode("BqeVGXJf+df/FhoWfFVDBw==", Base64.DEFAULT);
+        byte[] bytes = new byte[16];
+        new Random().nextBytes(bytes);
+        return Base64.decode(readFromFile("privateKey.txt",
+                Base64.encodeToString(bytes,Base64.DEFAULT)), Base64.DEFAULT);
     }
 
 

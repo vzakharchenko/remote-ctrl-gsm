@@ -4751,20 +4751,44 @@
 .end method
 
 
+
 .method public static getPrivateKey()[B
-    .registers 2
+    .registers 4
 
     .prologue
-    .line 137
-    const-string v0, "BqeVGXJf+df/FhoWfFVDBw=="
+    const/4 v3, 0x0
 
-    const/4 v1, 0x0
+    .line 203
+    const/16 v1, 0x10
 
-    invoke-static {v0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+    new-array v0, v1, [B
 
-    move-result-object v0
+    .line 204
+    .local v0, "bytes":[B
+    new-instance v1, Ljava/util/Random;
 
-    return-object v0
+    invoke-direct {v1}, Ljava/util/Random;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/util/Random;->nextBytes([B)V
+
+    .line 205
+    const-string v1, "privateKey.txt"
+
+    .line 206
+    invoke-static {v0, v3}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 205
+    invoke-static {v1, v2}, Lcom/inventec/iMobile2/a2/g;->readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1, v3}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+
+    move-result-object v1
+
+    return-object v1
 .end method
 
 .method public static saveFile2([B)V
