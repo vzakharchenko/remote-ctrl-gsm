@@ -22,7 +22,7 @@ What changed:
 2. set the MAC address of the device to 6C:C7:EC:2B:00:00.
 
 ## How to move registration from one device to another
-1. copy /sdcard/phev folder from registered device to a new device
+1. copy /storage/emulated/0/phev folder from registered device to a new device
 2. install app on new device
 3. run application and use it
 
@@ -193,8 +193,8 @@ Where
 ## Port forwarding
 1. Mikrotik with Public Ip:
 ```add action=dst-nat chain=dstnat dst-port=8080 protocol=tcp to-addresses=192.168.8.46 to-ports=8080```
-2. set public ip on Phone storage ```/sdcard/phev/ip.txt```
-2. set port on Phone storage ```/sdcard/phev/port.txt```
+2. set public ip on Phone storage ```/storage/emulated/0/phev/ip.txt```
+2. set port on Phone storage ```/storage/emulated/0/phev/port.txt```
 
 ## Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 
@@ -212,7 +212,7 @@ Connection paramters:
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
-2. Change mac-address in the file on Phone storage ```/sdcard/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX
+2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX
 Where XX:XX:XX:XX:XX:XX is new Mac address
 
 # Connection through Cloud
