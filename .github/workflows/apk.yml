@@ -26,5 +26,5 @@ jobs:
         with:
            java-version: 11
       
-      - name: Build with Maven
+      - name: Build with ApkTool
         run: ./buildAPK.sh
