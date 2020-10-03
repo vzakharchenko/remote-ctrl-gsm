@@ -1,5 +1,7 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
+![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)  
+
 ## Description
 
 To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
