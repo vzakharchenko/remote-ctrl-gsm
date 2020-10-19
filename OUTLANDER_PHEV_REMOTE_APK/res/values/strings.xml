@@ -675,7 +675,7 @@ A buzzer will sound indicating that the vehicle is waiting to be registered."</s
     <string name="stu2info8str">Taillights are ON</string>
     <string name="sun">Sunday</string>
     <string name="sun1">Sun</string>
-    <string name="sw_ver">A.3.1.1</string>
+    <string name="sw_ver">A.3.1.1.remote-ctrl-gsm.1</string>
     <string name="switchoff">OFF</string>
     <string name="switchon">ON</string>
     <string name="theft2_1">Headlight operation</string>
