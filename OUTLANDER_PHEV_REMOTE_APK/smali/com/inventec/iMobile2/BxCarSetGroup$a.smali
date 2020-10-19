@@ -342,7 +342,7 @@
 
     move-result v5
 
-    if-eqz v5, :cond_3
+    # if-eqz v5, :cond_3
 
     new-instance v5, Lcom/inventec/iMobile2/d2/h;
 

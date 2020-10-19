@@ -166,6 +166,11 @@
 
     const/4 v0, 0x0
 
+
+    const/4 v0, 0x1
+     return v0
+
+
     :try_start_0
     sget-object v1, Lcom/inventec/iMobile2/b2/b;->K:[[B
 
