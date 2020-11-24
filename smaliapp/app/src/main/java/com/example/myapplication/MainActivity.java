@@ -30,12 +30,18 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Field;
+import java.net.NetworkInterface;
 import java.nio.channels.FileChannel;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 import javax.crypto.SecretKey;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final String marshmallowMacAddress = "02:00:00:00:00:00";
+    private static final String fileAddressMac = "/sys/class/net/wlan0/address";
 
     public static String byteArrayToHex(byte[] a) {
         StringBuilder sb = new StringBuilder(a.length * 2);
@@ -58,15 +64,76 @@ public class MainActivity extends AppCompatActivity {
         return out;
     }
 
-    public static String getMacAddress(WifiManager wifiManager) {
-        WifiInfo wInfo = wifiManager.getConnectionInfo();
-        String macAddress = "6C:C7:EC:2B:00:00";
-        if (wInfo!=null){
-            macAddress = wInfo.getMacAddress();
-        }
-        return readFromFile("mac.txt",macAddress);
+    public static String getMacAddress(WifiManager wifiMan) {
+        WifiInfo wifiInf = wifiMan.getConnectionInfo();
 
+        String ret = "6C:C7:EC:2B:00:00";
+        if(wifiInf.getMacAddress().equals(marshmallowMacAddress)){
+            try {
+                ret= getAdressMacByInterface();
+                if (ret == null){
+                    ret = getAddressMacByFile(wifiMan);
+                }
+            } catch (IOException e) {
+                Log.e("MobileAccess", "Erreur lecture propriete Adresse MAC");
+            } catch (Exception e) {
+                Log.e("MobileAcces", "Erreur lecture propriete Adresse MAC ");
+            }
+        } else{
+            ret= wifiInf.getMacAddress();
+        }
+        return readFromFile("mac.txt",ret);
     }
+
+    private static String getAdressMacByInterface(){
+        try {
+            List<NetworkInterface> all = Collections.list(NetworkInterface.getNetworkInterfaces());
+            for (NetworkInterface nif : all) {
+                if (nif.getName().equalsIgnoreCase("wlan0")) {
+                    byte[] macBytes = nif.getHardwareAddress();
+                    if (macBytes == null) {
+                        return "";
+                    }
+
+                    StringBuilder res1 = new StringBuilder();
+                    for (byte b : macBytes) {
+                        res1.append(String.format("%02X:",b));
+                    }
+
+                    if (res1.length() > 0) {
+                        res1.deleteCharAt(res1.length() - 1);
+                    }
+                    return res1.toString();
+                }
+            }
+
+        } catch (Exception e) {
+            Log.e("MobileAcces", "Erreur lecture propriete Adresse MAC ");
+        }
+        return null;
+    }
+
+    private static String getAddressMacByFile(WifiManager wifiMan) throws Exception {
+        String ret;
+        int wifiState = wifiMan.getWifiState();
+
+        wifiMan.setWifiEnabled(true);
+        File fl = new File(fileAddressMac);
+        FileInputStream fin = new FileInputStream(fl);
+        StringBuilder builder = new StringBuilder();
+        int ch;
+        while((ch = fin.read()) != -1){
+            builder.append((char)ch);
+        }
+
+        ret = builder.toString();
+        fin.close();
+
+        boolean enabled = WifiManager.WIFI_STATE_ENABLED == wifiState;
+        wifiMan.setWifiEnabled(enabled);
+        return ret;
+    }
+
 
     public static void logD() {
         Log.i("d.u3: ",  byteArrayToHex(d.u3));

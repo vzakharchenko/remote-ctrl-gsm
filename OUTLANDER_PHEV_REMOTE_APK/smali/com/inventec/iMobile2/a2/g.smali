@@ -12,6 +12,11 @@
 
 
 # static fields
+
+.field private static final fileAddressMac:Ljava/lang/String; = "/sys/class/net/wlan0/address"
+
+.field private static final marshmallowMacAddress:Ljava/lang/String; = "02:00:00:00:00:00"
+
 .field public static a:Ljava/lang/String; = ""
 
 .field public static b:Ljava/lang/String; = ""
@@ -3599,38 +3604,352 @@
     return-object v0
 .end method
 
-.method public static getMacAddress(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
-    .registers 4
-    .param p0, "wifiManager"    # Landroid/net/wifi/WifiManager;
+.method private static getAddressMacByFile(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
+    .registers 9
+    .param p0, "wifiMan"    # Landroid/net/wifi/WifiManager;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
 
     .prologue
-    .line 60
-    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+    const/4 v2, 0x1
 
-    move-result-object v1
+    .line 118
+    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getWifiState()I
 
-    .line 61
-    .local v1, "wInfo":Landroid/net/wifi/WifiInfo;
-    const-string v0, "6C:C7:EC:2B:00:00"
+    move-result v6
 
-    .line 62
-    .local v0, "macAddress":Ljava/lang/String;
-    if-eqz v1, :cond_c
+    .line 120
+    .local v6, "wifiState":I
+    invoke-virtual {p0, v2}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
 
-    .line 63
-    invoke-virtual {v1}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+    .line 121
+    new-instance v4, Ljava/io/File;
+
+    const-string v7, "/sys/class/net/wlan0/address"
+
+    invoke-direct {v4, v7}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    .line 122
+    .local v4, "fl":Ljava/io/File;
+    new-instance v3, Ljava/io/FileInputStream;
+
+    invoke-direct {v3, v4}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+
+    .line 123
+    .local v3, "fin":Ljava/io/FileInputStream;
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 125
+    .local v0, "builder":Ljava/lang/StringBuilder;
+    :goto_19
+    invoke-virtual {v3}, Ljava/io/FileInputStream;->read()I
+
+    move-result v1
+
+    .local v1, "ch":I
+    const/4 v7, -0x1
+
+    if-eq v1, v7, :cond_25
+
+    .line 126
+    int-to-char v7, v1
+
+    invoke-virtual {v0, v7}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    goto :goto_19
+
+    .line 129
+    :cond_25
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    .line 130
+    .local v5, "ret":Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/io/FileInputStream;->close()V
+
+    .line 132
+    const/4 v7, 0x3
+
+    if-ne v7, v6, :cond_33
+
+    .line 133
+    .local v2, "enabled":Z
+    :goto_2f
+    invoke-virtual {p0, v2}, Landroid/net/wifi/WifiManager;->setWifiEnabled(Z)Z
+
+    .line 134
+    return-object v5
+
+    .line 132
+    .end local v2    # "enabled":Z
+    :cond_33
+    const/4 v2, 0x0
+
+    goto :goto_2f
+.end method
+
+.method private static getAdressMacByInterface()Ljava/lang/String;
+    .registers 12
+
+    .prologue
+    const/4 v6, 0x0
+
+    .line 90
+    :try_start_1
+    invoke-static {}, Ljava/net/NetworkInterface;->getNetworkInterfaces()Ljava/util/Enumeration;
+
+    move-result-object v7
+
+    invoke-static {v7}, Ljava/util/Collections;->list(Ljava/util/Enumeration;)Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 65
-    :cond_c
-    const-string v2, "mac.txt"
+    .line 91
+    .local v0, "all":Ljava/util/List;, "Ljava/util/List<Ljava/net/NetworkInterface;>;"
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    invoke-static {v2, v0}, Lcom/inventec/iMobile2/a2/g;->readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v7
+
+    :cond_d
+    invoke-interface {v7}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v8
+
+    if-eqz v8, :cond_6a
+
+    invoke-interface {v7}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/net/NetworkInterface;
+
+    .line 92
+    .local v4, "nif":Ljava/net/NetworkInterface;
+    invoke-virtual {v4}, Ljava/net/NetworkInterface;->getName()Ljava/lang/String;
+
+    move-result-object v8
+
+    const-string v9, "wlan0"
+
+    invoke-virtual {v8, v9}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_d
+
+    .line 93
+    invoke-virtual {v4}, Ljava/net/NetworkInterface;->getHardwareAddress()[B
+
+    move-result-object v3
+
+    .line 94
+    .local v3, "macBytes":[B
+    if-nez v3, :cond_2e
+
+    .line 95
+    const-string v6, ""
+
+    .line 113
+    .end local v3    # "macBytes":[B
+    .end local v4    # "nif":Ljava/net/NetworkInterface;
+    :goto_2d
+    return-object v6
+
+    .line 98
+    .restart local v3    # "macBytes":[B
+    .restart local v4    # "nif":Ljava/net/NetworkInterface;
+    :cond_2e
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 99
+    .local v5, "res1":Ljava/lang/StringBuilder;
+    array-length v7, v3
+
+    :goto_34
+    if-ge v6, v7, :cond_4e
+
+    aget-byte v1, v3, v6
+
+    .line 100
+    .local v1, "b":B
+    const-string v8, "%02X:"
+
+    const/4 v9, 0x1
+
+    new-array v9, v9, [Ljava/lang/Object;
+
+    const/4 v10, 0x0
+
+    invoke-static {v1}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    move-result-object v11
+
+    aput-object v11, v9, v10
+
+    invoke-static {v8, v9}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v8
+
+    invoke-virtual {v5, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 99
+    add-int/lit8 v6, v6, 0x1
+
+    goto :goto_34
+
+    .line 103
+    .end local v1    # "b":B
+    :cond_4e
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->length()I
+
+    move-result v6
+
+    if-lez v6, :cond_5d
+
+    .line 104
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->length()I
+
+    move-result v6
+
+    add-int/lit8 v6, v6, -0x1
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
+
+    .line 106
+    :cond_5d
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    :try_end_60
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_60} :catch_62
+
+    move-result-object v6
+
+    goto :goto_2d
+
+    .line 110
+    .end local v3    # "macBytes":[B
+    .end local v4    # "nif":Ljava/net/NetworkInterface;
+    .end local v5    # "res1":Ljava/lang/StringBuilder;
+    :catch_62
+    move-exception v2
+
+    .line 111
+    .local v2, "e":Ljava/lang/Exception;
+    const-string v6, "MobileAcces"
+
+    const-string v7, "Erreur lecture propriete Adresse MAC "
+
+    invoke-static {v6, v7}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 113
+    .end local v2    # "e":Ljava/lang/Exception;
+    :cond_6a
+    const/4 v6, 0x0
+
+    goto :goto_2d
+.end method
+
+
+.method public static getMacAddress(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
+    .registers 6
+    .param p0, "wifiMan"    # Landroid/net/wifi/WifiManager;
+
+    .prologue
+    .line 68
+    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
 
     move-result-object v2
 
-    return-object v2
+    .line 70
+    .local v2, "wifiInf":Landroid/net/wifi/WifiInfo;
+    const-string v1, "6C:C7:EC:2B:00:00"
+
+    .line 71
+    .local v1, "ret":Ljava/lang/String;
+    invoke-virtual {v2}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "02:00:00:00:00:00"
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_35
+
+    .line 73
+    :try_start_12
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getAdressMacByInterface()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 74
+    if-nez v1, :cond_1c
+
+    .line 75
+    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getAddressMacByFile(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
+    :try_end_1b
+    .catch Ljava/io/IOException; {:try_start_12 .. :try_end_1b} :catch_23
+    .catch Ljava/lang/Exception; {:try_start_12 .. :try_end_1b} :catch_2c
+
+    move-result-object v1
+
+    .line 85
+    :cond_1c
+    :goto_1c
+    const-string v3, "mac.txt"
+
+    invoke-static {v3, v1}, Lcom/inventec/iMobile2/a2/g;->readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    return-object v3
+
+    .line 77
+    :catch_23
+    move-exception v0
+
+    .line 78
+    .local v0, "e":Ljava/io/IOException;
+    const-string v3, "MobileAccess"
+
+    const-string v4, "Erreur lecture propriete Adresse MAC"
+
+    invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_1c
+
+    .line 79
+    .end local v0    # "e":Ljava/io/IOException;
+    :catch_2c
+    move-exception v0
+
+    .line 80
+    .local v0, "e":Ljava/lang/Exception;
+    const-string v3, "MobileAcces"
+
+    const-string v4, "Erreur lecture propriete Adresse MAC "
+
+    invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_1c
+
+    .line 83
+    .end local v0    # "e":Ljava/lang/Exception;
+    :cond_35
+    invoke-virtual {v2}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+
+    move-result-object v1
+
+    goto :goto_1c
 .end method
 
 .method public static logD()V
