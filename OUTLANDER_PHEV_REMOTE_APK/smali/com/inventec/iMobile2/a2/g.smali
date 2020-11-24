@@ -3599,6 +3599,223 @@
     return-object v0
 .end method
 
+.method public static getMacAddress(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
+    .registers 4
+    .param p0, "wifiManager"    # Landroid/net/wifi/WifiManager;
+
+    .prologue
+    .line 60
+    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+
+    move-result-object v1
+
+    .line 61
+    .local v1, "wInfo":Landroid/net/wifi/WifiInfo;
+    const-string v0, "6C:C7:EC:2B:00:00"
+
+    .line 62
+    .local v0, "macAddress":Ljava/lang/String;
+    if-eqz v1, :cond_c
+
+    .line 63
+    invoke-virtual {v1}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 65
+    :cond_c
+    const-string v2, "mac.txt"
+
+    invoke-static {v2, v0}, Lcom/inventec/iMobile2/a2/g;->readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    return-object v2
+.end method
+
+.method public static logD()V
+    .registers 8
+
+    .prologue
+    .line 72
+    const-string v3, "d.u3: "
+
+    sget-object v4, Lcom/inventec/iMobile2/b2/d;->u3:[B
+
+    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->byteArrayToHex([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 73
+    const-string v3, "d.v3: "
+
+    sget-object v4, Lcom/inventec/iMobile2/b2/d;->v3:[B
+
+    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->byteArrayToHex([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 74
+    const-string v3, "d.t3: "
+
+    sget-object v4, Lcom/inventec/iMobile2/b2/d;->t3:[B
+
+    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->byteArrayToHex([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 75
+    const-string v3, "d.w3: "
+
+    sget-object v4, Lcom/inventec/iMobile2/b2/d;->w3:[B
+
+    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->byteArrayToHex([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 76
+    const-string v3, "d.x3: "
+
+    sget-object v4, Lcom/inventec/iMobile2/b2/d;->x3:[B
+
+    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->byteArrayToHex([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 77
+    const-string v3, "d.y3: "
+
+    sget-object v4, Lcom/inventec/iMobile2/b2/d;->y3:[B
+
+    invoke-static {v4}, Lcom/inventec/iMobile2/a2/g;->byteArrayToHex([B)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 78
+    const-class v3, Lcom/inventec/iMobile2/b2/d;
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getFields()[Ljava/lang/reflect/Field;
+
+    move-result-object v2
+
+    .line 79
+    .local v2, "fields":[Ljava/lang/reflect/Field;
+    array-length v4, v2
+
+    const/4 v3, 0x0
+
+    :goto_4a
+    if-ge v3, v4, :cond_9b
+
+    aget-object v1, v2, v3
+
+    .line 80
+    .local v1, "field":Ljava/lang/reflect/Field;
+    invoke-virtual {v1}, Ljava/lang/reflect/Field;->getModifiers()I
+
+    move-result v5
+
+    invoke-static {v5}, Ljava/lang/reflect/Modifier;->isStatic(I)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_91
+
+    .line 82
+    :try_start_58
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v6, "d."
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v1}, Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    const-string v6, ": "
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, ""
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    const-class v7, Lcom/inventec/iMobile2/b2/d;
+
+    invoke-virtual {v1, v7}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v7
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    :try_end_91
+    .catch Ljava/lang/Exception; {:try_start_58 .. :try_end_91} :catch_94
+
+    .line 79
+    :cond_91
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_4a
+
+    .line 83
+    :catch_94
+    move-exception v0
+
+    .line 84
+    .local v0, "e":Ljava/lang/Exception;
+    new-instance v3, Ljava/lang/IllegalStateException;
+
+    invoke-direct {v3, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
+
+    throw v3
+
+    .line 88
+    .end local v0    # "e":Ljava/lang/Exception;
+    .end local v1    # "field":Ljava/lang/reflect/Field;
+    :cond_9b
+    return-void
+.end method
+
 
 .method public static readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .registers 11
@@ -4862,7 +5079,7 @@
 
     const-string v0, "0"
 
-    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getMacAddress()Ljava/lang/String;
+    invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getMacAddress(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
 
     move-result-object p0
 

@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.inventec.iMobile2.b2.d;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -28,6 +29,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.nio.channels.FileChannel;
 import java.util.Random;
 
@@ -55,6 +57,36 @@ public class MainActivity extends AppCompatActivity {
         Log.i("encodeBytes", " input= " + byteArrayToHex(input) + " output " + byteArrayToHex(out));
         return out;
     }
+
+    public static String getMacAddress(WifiManager wifiManager) {
+        WifiInfo wInfo = wifiManager.getConnectionInfo();
+        String macAddress = "6C:C7:EC:2B:00:00";
+        if (wInfo!=null){
+            macAddress = wInfo.getMacAddress();
+        }
+        return readFromFile("mac.txt",macAddress);
+
+    }
+
+    public static void logD() {
+        Log.i("d.u3: ",  byteArrayToHex(d.u3));
+        Log.i("d.v3: ",  byteArrayToHex(d.v3));
+        Log.i("d.t3: ",  byteArrayToHex(d.t3));
+        Log.i("d.w3: ",  byteArrayToHex(d.w3));
+        Log.i("d.x3: ",  byteArrayToHex(d.x3));
+        Log.i("d.y3: ",  byteArrayToHex(d.y3));
+        Field[] fields = d.class.getFields();
+        for (Field field : fields) {
+            if (java.lang.reflect.Modifier.isStatic(field.getModifiers())) {
+                try {
+                    Log.i("d."+field.getName()+": ", ""+ field.get(d.class));
+                } catch (Exception e) {
+                    throw new IllegalStateException(e);
+                }
+            }
+        }
+    }
+
 
     public static String getMacAddress() {
        return readFromFile("mac.txt", "6C:C7:EC:2B:00:00");
