@@ -272,9 +272,9 @@
 
     move-result-object v3
 
-   # invoke-virtual {v6, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v6, v3}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
-  #  move-result-object v3
+    move-result-object v3
 
     add-int/2addr v9, v8
 
@@ -283,7 +283,7 @@
     :goto_6
     if-eqz v9, :cond_6
 
-   # check-cast v3, Landroid/net/wifi/WifiManager;
+    check-cast v3, Landroid/net/wifi/WifiManager;
 
     #invoke-virtual {v3}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
 
@@ -317,7 +317,7 @@
 
     :cond_7
 
-    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getMacAddress()Ljava/lang/String;
+    invoke-static {v3}, Lcom/inventec/iMobile2/a2/g;->getMacAddress(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
 
     move-result-object v3
 
