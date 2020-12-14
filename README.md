@@ -1,58 +1,58 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
-![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)  
-[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://secure.wayforpay.com/button/bca19c6085e34)  
+![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)    
+[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://secure.wayforpay.com/button/bca19c6085e34)    
 
 ## Description
 
-To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
-You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)
-The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.
-![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)
-![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)
-![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)
-![theft1.png](./img/theft1.png)
-![theft2.png](./img/theft2.png)
-![theft3.png](./img/theft3.png)
+To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)  
+You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)  
+The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.  
+![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)  
+![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)  
+![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)  
+![theft1.png](./img/theft1.png)  
+![theft2.png](./img/theft2.png)  
+![theft3.png](./img/theft3.png)  
 
-## Features
- - control vehicle through 3g,4g,lte
- - support unlimited number of registered devices
- - enable/disable Theft Alarm
- - installed as a separate application (GSM Remote Ctrl)
+## Features  
+ - control vehicle through 3g,4g,lte  
+ - support unlimited number of registered devices  
+ - enable/disable Theft Alarm  
+ - installed as a separate application (GSM Remote Ctrl)  
 
 ## Requirements
-1. Setup Mikrotik ltap mini lte kit to the vehicle
-2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.
+1. Setup Mikrotik ltap mini lte kit to the vehicle  
+2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.  
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
-What changed:
-1. Removed Wi-Fi connection requirement.
-2. set the MAC address of the device to 6C:C7:EC:2B:00:00.
+What changed:  
+1. Removed Wi-Fi connection requirement.  
+2. set the MAC address of the device to 6C:C7:EC:2B:00:00.  
 
-## How to move registration from one device to another
-1. copy /storage/emulated/0/phev folder from registered device to a new device
-2. install app on new device
-3. run application and use it
+## How to move registration from one device to another  
+1. copy /storage/emulated/0/phev folder from registered device to a new device  
+2. install app on new device  
+3. run application and use it  
 
-## Build Application
-1. Setup java JDK on computer.
-2. Create your own key for signing the application (once)
+## Build Application  
+1. Setup java JDK on computer.  
+2. Create your own key for signing the application (once)  
 '''
 ./generateKey.sh
 '''
-3. Build and signing application
+3. Build and signing application  
 '''
 ./buildAndSign.sh
 '''
-3. setup OUTLANDER_PHEV.apk on smartphone
+3. setup OUTLANDER_PHEV.apk on smartphone  
 
-## Ways to build a tunnel
-1. A convenient way, but not a secure way of port forwarding
-2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel
-![](./img/CarWiFI-Schema.png)
-or  
-![](./img/GarageWiFi-Schema.png)
+## Ways to build a tunnel   
+1. A convenient way, but not a secure way of port forwarding  
+2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel  
+![](./img/CarWiFI-Schema.png)  
+or    
+![](./img/GarageWiFi-Schema.png)  
 
 
 ## Setup Mikrotik with public IP (Mikrotik hap ac2 or analog)
@@ -196,42 +196,42 @@ set allowed-interface-list=LAN
 /tool mac-server mac-winbox
 set allowed-interface-list=LAN
 ```
-Where
-**YOUR_IP** - public ip of home router
-**MITSUBISHI_SSID** - Name of network in OUTLANDER PHEV (REMOTE55peee)
-**MITSUBISHI_PASSWORD** - password from network
+Where  
+**YOUR_IP** - public ip of home router  
+**MITSUBISHI_SSID** - Name of network in OUTLANDER PHEV (REMOTE55peee)  
+**MITSUBISHI_PASSWORD** - password from network  
 
-# Ways to build a tunnel
-## Port forwarding
-1. Mikrotik with Public Ip:
+# Ways to build a tunnel  
+## Port forwarding  
+1. Mikrotik with Public Ip:  
 ```add action=dst-nat chain=dstnat dst-port=8080 protocol=tcp to-addresses=192.168.8.46 to-ports=8080```
-2. set public ip on Phone storage ```/storage/emulated/0/phev/ip.txt```
-2. set port on Phone storage ```/storage/emulated/0/phev/port.txt```
+2. set public ip on Phone storage ```/storage/emulated/0/phev/ip.txt```  
+2. set port on Phone storage ```/storage/emulated/0/phev/port.txt```  
 
 ## Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 
-1. Create Vpn connection on smartphone
-Connection paramters:
-**Type**: L2TP/IPSec PSK
-**Server Address**: <YOUR_IP>
-**Shared IPSec Key**: 5TpfVoyORsfy72i3p2Cvmg8
-**username**: vpnUser
-**password**: vpnUser
-2. Open and use application GSM Remote Ctrl
+1. Create Vpn connection on smartphone  
+Connection paramters:  
+**Type**: L2TP/IPSec PSK  
+**Server Address**: <YOUR_IP>  
+**Shared IPSec Key**: 5TpfVoyORsfy72i3p2Cvmg8  
+**username**: vpnUser  
+**password**: vpnUser  
+2. Open and use application GSM Remote Ctrl  
 
-# Change Mac address
-1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)
+# Change Mac address    
+1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)  
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
 2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX
-Where XX:XX:XX:XX:XX:XX is new Mac address
+Where XX:XX:XX:XX:XX:XX is new Mac address  
 
 # Connection through Cloud
-1. Create a Virtual Machine on the Cloud with public IP.
-2. Setup and configure PPTP server on  the  Virtual machine
-3. Setup routing using iptables
-4. forward the port using iptables or connect via vpn
+1. Create a Virtual Machine on the Cloud with public IP.  
+2. Setup and configure PPTP server on  the  Virtual machine  
+3. Setup routing using iptables  
+4. forward the port using iptables or connect via vpn  
 
 # Registration
 
