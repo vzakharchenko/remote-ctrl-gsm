@@ -1,6 +1,7 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
-![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)
+![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)  
+[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://secure.wayforpay.com/button/bca19c6085e34)  
 
 ## Description
 
@@ -237,3 +238,5 @@ Where XX:XX:XX:XX:XX:XX is new Mac address
 ![](/img/Screenshot_20200920-140038_GSM%20Remote%20Ctrl.jpg)
 ![](/img/selectSSID.png)
 
+
+# If you find these useful, please [Donate](https://secure.wayforpay.com/button/bca19c6085e34)!  
