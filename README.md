@@ -20,6 +20,7 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
  - support unlimited number of registered devices  
  - enable/disable Theft Alarm  
  - installed as a separate application (GSM Remote Ctrl)  
+  - works well with original app, but you always need to connect to mikrotik WiFi
 
 ## Requirements
 1. Setup Mikrotik ltap mini lte kit to the vehicle  
