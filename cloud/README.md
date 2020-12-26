@@ -26,7 +26,7 @@ git clone https://github.com/vzakharchenko/remote-ctrl-gsm /opt/remote-ctrl-gsm
 ```
 sudo mkdir -p /opt/ppp
 sudo chown -R `whoami`:`whoami` /opt/ppp
-echo "USERNAME  pptpd PASSWORD	*" > /opt/ppp/chap-secrets
+echo "USERNAME  pptpd PASSWORD  *" > /opt/ppp/chap-secrets
 ```
 Where:
 - *USERNAME* - username
