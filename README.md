@@ -17,13 +17,16 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 
 ## Features
  - control vehicle through 3g,4g,lte
+ - works [through the cloud](./cloud) or through another microtik with a public ip
+ - Can be used as a Wi-Fi extender
  - support unlimited number of registered devices
  - enable/disable Theft Alarm
  - installed as a separate application (GSM Remote Ctrl)
+ 
 
 ## Requirements
 1. Setup Mikrotik ltap mini lte kit to the vehicle
-2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.
+2. Setup [Mikrotik Hap AC2](https://mikrotik.com/product/hap_ac2) (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
 What changed:
@@ -51,6 +54,8 @@ What changed:
 1. A convenient way, but not a secure way of port forwarding
 2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 ![](./img/CarWiFI-Schema.png)
+3. PPTP tunnel
+![](./img/CarWiFICloudSchema.png)
 
 ## Setup Mikrotik with public IP (Mikrotik hap ac2 or analog)
 ```/ip firewall filter
@@ -226,9 +231,7 @@ Where XX:XX:XX:XX:XX:XX is new Mac address
 
 # Connection through Cloud
 1. Create a Virtual Machine on the Cloud with public IP.
-2. Setup and configure PPTP server on  the  Virtual machine
-3. Setup routing using iptables
-4. forward the port using iptables or connect via vpn
+2. [setup docker container with pptp server](./cloud)
 
 # Registration
 
