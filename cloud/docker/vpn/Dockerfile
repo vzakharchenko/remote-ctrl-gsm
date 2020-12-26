@@ -8,7 +8,8 @@ COPY ./etc/rsyslog.conf /etc/rsyslog.conf
 COPY ./etc/rsyslog.d/50-default.conf /etc/rsyslog.d/50-default.conf
 COPY ./etc/pptpd.conf /etc/pptpd.conf
 COPY ./etc/ppp/pptpd-options /etc/ppp/pptpd-options
-COPY ./etc/ppp/ip-up.d/routes-up /etc/ip-up.d/routes-up
+COPY ./etc/ppp/ip-up.d/routes-up /etc/ppp/ip-up.d/routes-up
+RUN chmod +x /etc/ppp/ip-up.d/routes-up
 COPY entrypoint.sh /entrypoint.sh
 RUN  chmod +x /entrypoint.sh
 EXPOSE 1723
