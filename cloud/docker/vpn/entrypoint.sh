@@ -15,10 +15,8 @@ sudo iptables -A FORWARD -i ppp+ -j ACCEPT
 sudo iptables -A FORWARD -o ppp+ -j ACCEPT
 
 iptables -A FORWARD -p tcp -d 192.168.8.46 --dport 8080 -j ACCEPT
+sudo redir -s :7894 192.168.8.46:8080
 echo "configure iptables success"
 
-# sudo touch /var/log/auth.log
-# sudo chown -R rsyslog:rsyslog /var/log
 sudo service pptpd restart
 tail -f /var/log/messages
-#exec  "$@"
