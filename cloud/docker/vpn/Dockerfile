@@ -8,7 +8,6 @@ COPY ./etc/rsyslog.conf /etc/rsyslog.conf
 COPY ./etc/rsyslog.d/50-default.conf /etc/rsyslog.d/50-default.conf
 COPY ./etc/pptpd.conf /etc/pptpd.conf
 COPY ./etc/ppp/pptpd-options /etc/ppp/pptpd-options
-COPY ./etc/ppp/chap-secrets /etc/ppp/chap-secrets
 COPY entrypoint.sh /entrypoint.sh
 RUN  chmod +x /entrypoint.sh
 EXPOSE 1723
