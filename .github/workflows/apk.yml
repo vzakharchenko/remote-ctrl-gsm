@@ -25,6 +25,9 @@ jobs:
         uses: actions/setup-java@v1
         with:
            java-version: 11
-      
+
       - name: Build with ApkTool
         run: ./buildAPK.sh
+
+      - name: Build Cloud with ApkTool
+        run: ./cloud/buildCloudApk.sh test.com
