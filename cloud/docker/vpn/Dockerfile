@@ -13,5 +13,6 @@ RUN chmod +x /etc/ppp/ip-up.d/routes-up
 COPY entrypoint.sh /entrypoint.sh
 RUN  chmod +x /entrypoint.sh
 EXPOSE 1723
+EXPOSE 7894
 ENTRYPOINT ["/entrypoint.sh"]
 #CMD ["pptpd", "--fg"]
