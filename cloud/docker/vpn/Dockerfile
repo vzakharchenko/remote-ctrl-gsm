@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER Vasyl Zakharchenko <vaszakharchenko@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get install -y ppp pptpd iptables rsyslog  sudo iproute2
+RUN apt-get update && apt-get install -y ppp pptpd iptables rsyslog  sudo iproute2 redir net-tools
 #RUN mkdir -p /etc/`whoami`
 COPY ./etc/rsyslog.conf /etc/rsyslog.conf
 COPY ./etc/rsyslog.d/50-default.conf /etc/rsyslog.d/50-default.conf
