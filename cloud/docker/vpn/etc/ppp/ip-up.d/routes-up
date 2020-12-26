@@ -1,5 +1,5 @@
 #!/bin/sh
 /sbin/ip route add 192.168.8.0/24 dev  $1
 echo "192.168.8.0/24 -> $1"
-iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 7894 -j DNAT --to 192.168.8.46:8080
-echo "0.0.0.0:7894 <-> 192.168.8.46:8080"
+iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 8888 -j DNAT --to 192.168.8.46:8080
+echo "0.0.0.0:8888 <-> 192.168.8.46:8080"

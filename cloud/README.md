@@ -7,7 +7,7 @@ sudo apt-get update && sudo apt-get install -y iptables git
 2. install docker
 ```
 sudo apt-get remove docker docker.io containerd runc
-curl -sSL https://get.docker.com -o get-docker.sh | bash
+sudo curl -sSL https://get.docker.com | bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
@@ -15,6 +15,8 @@ newgrp docker
 3. Configure host machine
 ```
 sudo iptables -I FORWARD -p gre -j ACCEPT
+sudo sysctl -w net.ipv4.ip_forward=1
+sudo sysctl -w net.netfilter.nf_conntrack_helper=1
 ```
 4. clone project
 ```
@@ -34,5 +36,5 @@ Where:
 5. start docker image
 ```
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl . && docker run -d -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged remote-ctrl
+docker build -t remote-ctrl . && docker run -d -p 1723:1723 -p 8888:8888 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged remote-ctrl
 ```
