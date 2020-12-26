@@ -1,4 +1,4 @@
-## Cloud Configuration
+## Cloud Instalation
 
 1. install all dependencies
 ```
