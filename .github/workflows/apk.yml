@@ -28,6 +28,3 @@ jobs:
 
       - name: Build with ApkTool
         run: ./buildAPK.sh
-
-      - name: Build Cloud with ApkTool
-        run: cd cloud && ./buildCloudApk.sh test.com 7894
