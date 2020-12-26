@@ -13,6 +13,8 @@ sudo iptables -A INPUT -i ppp+ -j ACCEPT
 sudo iptables -A OUTPUT -o ppp+ -j ACCEPT
 sudo iptables -A FORWARD -i ppp+ -j ACCEPT
 sudo iptables -A FORWARD -o ppp+ -j ACCEPT
+
+iptables -A FORWARD -p tcp -d 192.168.8.46 --dport 8080 -j ACCEPT
 echo "configure iptables success"
 
 # sudo touch /var/log/auth.log
