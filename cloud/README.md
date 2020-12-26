@@ -36,5 +36,5 @@ Where:
 5. start docker image
 ```
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl . && docker run -d -p 1723:1723 -p 8888:8888 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged remote-ctrl
+docker build -t remote-ctrl . && docker run -d -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged remote-ctrl
 ```
