@@ -54,6 +54,8 @@ printf  "${CYAN}Starting configuring host${NC}\n"
 #rm -f /etc/network/if-up.d/firewall
 #cp -f /opt/remote-ctrl-gsm/cloud/host/etc/network/if-up.d/firewall /etc/network/if-up.d/firewall
 #chmod +x /etc/network/if-up.d/firewall
+echo "nf_nat_pptp" >> /etc/modules
+echo "ip_gre" >> /etc/modules
 iptables -I FORWARD -p gre -j ACCEPT
 sudo iptables-save > /etc/iptables/rules.v4
 printf "${GREEN}IpTables successfully configured${NC}"
@@ -65,3 +67,5 @@ printf "${CYAN}installing Docker image${NC}\n"
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
 docker build -t remote-ctrl .
 docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
+printf "${CYAN}Rebooting${NC}\n"
+reboot
