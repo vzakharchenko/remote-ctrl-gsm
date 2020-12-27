@@ -3856,100 +3856,132 @@
     goto :goto_2d
 .end method
 
-
 .method public static getMacAddress(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
-    .registers 6
+    .registers 7
     .param p0, "wifiMan"    # Landroid/net/wifi/WifiManager;
 
     .prologue
     .line 68
-    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+    if-nez p0, :cond_2d
+
+    const/4 v3, 0x0
+
+    .line 70
+    .local v3, "wifiInf":Landroid/net/wifi/WifiInfo;
+    :goto_3
+    const-string v2, "6C:C7:EC:2B:00:00"
+
+    .line 71
+    .local v2, "ret":Ljava/lang/String;
+    if-eqz v3, :cond_13
+
+    invoke-virtual {v3}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+
+    move-result-object v4
+
+    const-string v5, "02:00:00:00:00:00"
+
+    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_44
+
+    .line 73
+    :cond_13
+    :try_start_13
+    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getAdressMacByInterface()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 70
-    .local v2, "wifiInf":Landroid/net/wifi/WifiInfo;
-    const-string v1, "6C:C7:EC:2B:00:00"
-
-    .line 71
-    .local v1, "ret":Ljava/lang/String;
-    invoke-virtual {v2}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
-
-    move-result-object v3
-
-    const-string v4, "02:00:00:00:00:00"
-
-    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_35
-
-    .line 73
-    :try_start_12
-    invoke-static {}, Lcom/inventec/iMobile2/a2/g;->getAdressMacByInterface()Ljava/lang/String;
-
-    move-result-object v1
-
     .line 74
-    if-nez v1, :cond_1c
+    if-nez v2, :cond_1d
 
     .line 75
     invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getAddressMacByFile(Landroid/net/wifi/WifiManager;)Ljava/lang/String;
-    :try_end_1b
-    .catch Ljava/io/IOException; {:try_start_12 .. :try_end_1b} :catch_23
-    .catch Ljava/lang/Exception; {:try_start_12 .. :try_end_1b} :catch_2c
+    :try_end_1c
+    .catch Ljava/io/IOException; {:try_start_13 .. :try_end_1c} :catch_32
+    .catch Ljava/lang/Exception; {:try_start_13 .. :try_end_1c} :catch_3b
+
+    move-result-object v2
+
+    .line 85
+    :cond_1d
+    :goto_1d
+    const-string v4, "mac.txt"
+
+    invoke-static {v4, v2}, Lcom/inventec/iMobile2/a2/g;->readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 85
-    :cond_1c
-    :goto_1c
-    const-string v3, "mac.txt"
+    .line 86
+    .local v1, "macAddress":Ljava/lang/String;
+    if-nez v1, :cond_49
 
-    invoke-static {v3, v1}, Lcom/inventec/iMobile2/a2/g;->readFromFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .line 87
+    new-instance v4, Ljava/lang/IllegalStateException;
+
+    const-string v5, "First startup should be under wifi connection"
+
+    invoke-direct {v4, v5}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v4
+
+    .line 68
+    .end local v1    # "macAddress":Ljava/lang/String;
+    .end local v2    # "ret":Ljava/lang/String;
+    .end local v3    # "wifiInf":Landroid/net/wifi/WifiInfo;
+    :cond_2d
+    invoke-virtual {p0}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
 
     move-result-object v3
 
-    return-object v3
+    goto :goto_3
 
     .line 77
-    :catch_23
+    .restart local v2    # "ret":Ljava/lang/String;
+    .restart local v3    # "wifiInf":Landroid/net/wifi/WifiInfo;
+    :catch_32
     move-exception v0
 
     .line 78
     .local v0, "e":Ljava/io/IOException;
-    const-string v3, "MobileAccess"
+    const-string v4, "MobileAccess"
 
-    const-string v4, "Erreur lecture propriete Adresse MAC"
+    const-string v5, "Erreur lecture propriete Adresse MAC"
 
-    invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v5}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    goto :goto_1c
+    goto :goto_1d
 
     .line 79
     .end local v0    # "e":Ljava/io/IOException;
-    :catch_2c
+    :catch_3b
     move-exception v0
 
     .line 80
     .local v0, "e":Ljava/lang/Exception;
-    const-string v3, "MobileAcces"
+    const-string v4, "MobileAcces"
 
-    const-string v4, "Erreur lecture propriete Adresse MAC "
+    const-string v5, "Erreur lecture propriete Adresse MAC "
 
-    invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v5}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    goto :goto_1c
+    goto :goto_1d
 
     .line 83
     .end local v0    # "e":Ljava/lang/Exception;
-    :cond_35
-    invoke-virtual {v2}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+    :cond_44
+    invoke-virtual {v3}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v2
 
-    goto :goto_1c
+    goto :goto_1d
+
+    .line 89
+    .restart local v1    # "macAddress":Ljava/lang/String;
+    :cond_49
+    return-object v1
 .end method
 
 .method public static logD()V
@@ -4142,125 +4174,131 @@
     .param p1, "defaultValue"    # Ljava/lang/String;
 
     .prologue
-    const/4 v6, 0x0
+    const/4 v5, 0x0
 
-    .line 71
+    .line 175
     invoke-static {p0}, Lcom/inventec/iMobile2/a2/g;->getStorageDir(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 72
+    .line 176
     .local v4, "storageDir":Ljava/lang/String;
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 73
+    .line 177
     .local v3, "file":Ljava/io/File;
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
-    move-result v5
+    move-result v6
 
-    if-nez v5, :cond_27
+    if-nez v6, :cond_29
 
-    .line 75
-    :try_start_10
+    .line 178
+    if-eqz p1, :cond_40
+
+    .line 180
+    :try_start_12
     invoke-virtual {v3}, Ljava/io/File;->createNewFile()Z
 
-    .line 76
+    .line 181
     new-instance v1, Ljava/io/FileOutputStream;
 
     invoke-direct {v1, v3}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
-    :try_end_18
-    .catch Ljava/io/IOException; {:try_start_10 .. :try_end_18} :catch_43
+    :try_end_1a
+    .catch Ljava/io/IOException; {:try_start_12 .. :try_end_1a} :catch_46
 
     .local v1, "bw":Ljava/io/FileOutputStream;
-    const/4 v5, 0x0
+    const/4 v6, 0x0
 
-    .line 77
-    :try_start_19
+    .line 182
+    :try_start_1b
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v7
 
     invoke-virtual {v1, v7}, Ljava/io/FileOutputStream;->write([B)V
-    :try_end_20
-    .catch Ljava/lang/Throwable; {:try_start_19 .. :try_end_20} :catch_4e
-    .catchall {:try_start_19 .. :try_end_20} :catchall_89
+    :try_end_22
+    .catch Ljava/lang/Throwable; {:try_start_1b .. :try_end_22} :catch_51
+    .catchall {:try_start_1b .. :try_end_22} :catchall_91
 
-    .line 78
-    if-eqz v1, :cond_27
+    .line 183
+    if-eqz v1, :cond_29
 
-    if-eqz v6, :cond_4a
+    if-eqz v5, :cond_4d
 
-    :try_start_24
+    :try_start_26
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
-    :try_end_27
-    .catch Ljava/lang/Throwable; {:try_start_24 .. :try_end_27} :catch_3e
-    .catch Ljava/io/IOException; {:try_start_24 .. :try_end_27} :catch_43
+    :try_end_29
+    .catch Ljava/lang/Throwable; {:try_start_26 .. :try_end_29} :catch_41
+    .catch Ljava/io/IOException; {:try_start_26 .. :try_end_29} :catch_46
 
-    .line 84
+    .line 192
     .end local v1    # "bw":Ljava/io/FileOutputStream;
-    :cond_27
-    :goto_27
-    :try_start_27
+    :cond_29
+    :goto_29
+    :try_start_29
     new-instance v0, Ljava/io/BufferedReader;
 
-    new-instance v5, Ljava/io/FileReader;
+    new-instance v6, Ljava/io/FileReader;
 
-    invoke-direct {v5, v3}, Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+    invoke-direct {v6, v3}, Ljava/io/FileReader;-><init>(Ljava/io/File;)V
 
-    invoke-direct {v0, v5}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
-    :try_end_31
-    .catch Ljava/io/IOException; {:try_start_27 .. :try_end_31} :catch_6a
+    invoke-direct {v0, v6}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    :try_end_33
+    .catch Ljava/io/IOException; {:try_start_29 .. :try_end_33} :catch_6d
 
     .local v0, "br":Ljava/io/BufferedReader;
-    const/4 v5, 0x0
+    const/4 v7, 0x0
 
-    .line 85
-    :try_start_32
+    .line 193
+    :try_start_34
     invoke-virtual {v0}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
-    :try_end_35
-    .catch Ljava/lang/Throwable; {:try_start_32 .. :try_end_35} :catch_75
-    .catchall {:try_start_32 .. :try_end_35} :catchall_77
+    :try_end_37
+    .catch Ljava/lang/Throwable; {:try_start_34 .. :try_end_37} :catch_78
+    .catchall {:try_start_34 .. :try_end_37} :catchall_8c
 
-    move-result-object v7
+    move-result-object v6
 
-    .line 86
-    if-eqz v0, :cond_3d
+    .line 194
+    if-eqz v0, :cond_3f
 
-    if-eqz v6, :cond_71
+    if-eqz v5, :cond_74
 
-    :try_start_3a
+    :try_start_3c
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
-    :try_end_3d
-    .catch Ljava/lang/Throwable; {:try_start_3a .. :try_end_3d} :catch_65
-    .catch Ljava/io/IOException; {:try_start_3a .. :try_end_3d} :catch_6a
+    :try_end_3f
+    .catch Ljava/lang/Throwable; {:try_start_3c .. :try_end_3f} :catch_68
+    .catch Ljava/io/IOException; {:try_start_3c .. :try_end_3f} :catch_6d
 
-    .line 85
-    :cond_3d
-    :goto_3d
-    return-object v7
+    :cond_3f
+    :goto_3f
+    move-object v5, v6
 
-    .line 78
+    .line 193
     .end local v0    # "br":Ljava/io/BufferedReader;
+    :cond_40
+    return-object v5
+
+    .line 183
     .restart local v1    # "bw":Ljava/io/FileOutputStream;
-    :catch_3e
+    :catch_41
     move-exception v7
 
-    :try_start_3f
-    invoke-virtual {v5, v7}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
-    :try_end_42
-    .catch Ljava/io/IOException; {:try_start_3f .. :try_end_42} :catch_43
+    :try_start_42
+    invoke-virtual {v6, v7}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    :try_end_45
+    .catch Ljava/io/IOException; {:try_start_42 .. :try_end_45} :catch_46
 
-    goto :goto_27
+    goto :goto_29
 
-    .line 79
+    .line 184
     .end local v1    # "bw":Ljava/io/FileOutputStream;
-    :catch_43
+    :catch_46
     move-exception v2
 
-    .line 80
+    .line 185
     .local v2, "e":Ljava/io/IOException;
     new-instance v5, Ljava/lang/IllegalStateException;
 
@@ -4268,28 +4306,28 @@
 
     throw v5
 
-    .line 78
+    .line 183
     .end local v2    # "e":Ljava/io/IOException;
     .restart local v1    # "bw":Ljava/io/FileOutputStream;
-    :cond_4a
-    :try_start_4a
+    :cond_4d
+    :try_start_4d
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
-    :try_end_4d
-    .catch Ljava/io/IOException; {:try_start_4a .. :try_end_4d} :catch_43
+    :try_end_50
+    .catch Ljava/io/IOException; {:try_start_4d .. :try_end_50} :catch_46
 
-    goto :goto_27
+    goto :goto_29
 
-    .line 76
-    :catch_4e
+    .line 181
+    :catch_51
     move-exception v5
 
-    :try_start_4f
+    :try_start_52
     throw v5
-    :try_end_50
-    .catchall {:try_start_4f .. :try_end_50} :catchall_50
+    :try_end_53
+    .catchall {:try_start_52 .. :try_end_53} :catchall_53
 
-    .line 78
-    :catchall_50
+    .line 183
+    :catchall_53
     move-exception v6
 
     move-object v8, v6
@@ -4298,55 +4336,55 @@
 
     move-object v5, v8
 
-    :goto_54
-    if-eqz v1, :cond_5b
+    :goto_57
+    if-eqz v1, :cond_5e
 
-    if-eqz v6, :cond_61
+    if-eqz v6, :cond_64
 
-    :try_start_58
-    invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
-    :try_end_5b
-    .catch Ljava/lang/Throwable; {:try_start_58 .. :try_end_5b} :catch_5c
-    .catch Ljava/io/IOException; {:try_start_58 .. :try_end_5b} :catch_43
-
-    :cond_5b
-    :goto_5b
     :try_start_5b
+    invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
+    :try_end_5e
+    .catch Ljava/lang/Throwable; {:try_start_5b .. :try_end_5e} :catch_5f
+    .catch Ljava/io/IOException; {:try_start_5b .. :try_end_5e} :catch_46
+
+    :cond_5e
+    :goto_5e
+    :try_start_5e
     throw v5
 
-    :catch_5c
+    :catch_5f
     move-exception v7
 
     invoke-virtual {v6, v7}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
-    goto :goto_5b
+    goto :goto_5e
 
-    :cond_61
+    :cond_64
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
-    :try_end_64
-    .catch Ljava/io/IOException; {:try_start_5b .. :try_end_64} :catch_43
+    :try_end_67
+    .catch Ljava/io/IOException; {:try_start_5e .. :try_end_67} :catch_46
 
-    goto :goto_5b
+    goto :goto_5e
 
-    .line 86
+    .line 194
     .end local v1    # "bw":Ljava/io/FileOutputStream;
     .restart local v0    # "br":Ljava/io/BufferedReader;
-    :catch_65
-    move-exception v6
+    :catch_68
+    move-exception v5
 
-    :try_start_66
-    invoke-virtual {v5, v6}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
-    :try_end_69
-    .catch Ljava/io/IOException; {:try_start_66 .. :try_end_69} :catch_6a
+    :try_start_69
+    invoke-virtual {v7, v5}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    :try_end_6c
+    .catch Ljava/io/IOException; {:try_start_69 .. :try_end_6c} :catch_6d
 
-    goto :goto_3d
+    goto :goto_3f
 
-    .line 87
+    .line 195
     .end local v0    # "br":Ljava/io/BufferedReader;
-    :catch_6a
+    :catch_6d
     move-exception v2
 
-    .line 88
+    .line 196
     .restart local v2    # "e":Ljava/io/IOException;
     new-instance v5, Ljava/lang/IllegalStateException;
 
@@ -4354,66 +4392,84 @@
 
     throw v5
 
-    .line 86
+    .line 194
     .end local v2    # "e":Ljava/io/IOException;
     .restart local v0    # "br":Ljava/io/BufferedReader;
-    :cond_71
-    :try_start_71
+    :cond_74
+    :try_start_74
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
-    :try_end_74
-    .catch Ljava/io/IOException; {:try_start_71 .. :try_end_74} :catch_6a
+    :try_end_77
+    .catch Ljava/io/IOException; {:try_start_74 .. :try_end_77} :catch_6d
 
-    goto :goto_3d
+    goto :goto_3f
 
-    .line 84
-    :catch_75
+    .line 192
+    :catch_78
     move-exception v6
 
-    :try_start_76
+    :try_start_79
     throw v6
-    :try_end_77
-    .catchall {:try_start_76 .. :try_end_77} :catchall_77
+    :try_end_7a
+    .catchall {:try_start_79 .. :try_end_7a} :catchall_7a
 
-    .line 86
-    :catchall_77
+    .line 194
+    :catchall_7a
     move-exception v5
 
-    if-eqz v0, :cond_7f
+    :goto_7b
+    if-eqz v0, :cond_82
 
-    if-eqz v6, :cond_85
+    if-eqz v6, :cond_88
 
-    :try_start_7c
-    invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
-    :try_end_7f
-    .catch Ljava/lang/Throwable; {:try_start_7c .. :try_end_7f} :catch_80
-    .catch Ljava/io/IOException; {:try_start_7c .. :try_end_7f} :catch_6a
-
-    :cond_7f
-    :goto_7f
     :try_start_7f
+    invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
+    :try_end_82
+    .catch Ljava/lang/Throwable; {:try_start_7f .. :try_end_82} :catch_83
+    .catch Ljava/io/IOException; {:try_start_7f .. :try_end_82} :catch_6d
+
+    :cond_82
+    :goto_82
+    :try_start_82
     throw v5
 
-    :catch_80
+    :catch_83
     move-exception v7
 
     invoke-virtual {v6, v7}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
-    goto :goto_7f
+    goto :goto_82
 
-    :cond_85
+    :cond_88
     invoke-virtual {v0}, Ljava/io/BufferedReader;->close()V
-    :try_end_88
-    .catch Ljava/io/IOException; {:try_start_7f .. :try_end_88} :catch_6a
+    :try_end_8b
+    .catch Ljava/io/IOException; {:try_start_82 .. :try_end_8b} :catch_6d
 
-    goto :goto_7f
+    goto :goto_82
 
-    .line 78
+    :catchall_8c
+    move-exception v6
+
+    move-object v8, v6
+
+    move-object v6, v5
+
+    move-object v5, v8
+
+    goto :goto_7b
+
+    .line 183
     .end local v0    # "br":Ljava/io/BufferedReader;
     .restart local v1    # "bw":Ljava/io/FileOutputStream;
-    :catchall_89
-    move-exception v5
+    :catchall_91
+    move-exception v6
 
-    goto :goto_54
+    move-object v8, v6
+
+    move-object v6, v5
+
+    move-object v5, v8
+
+    goto :goto_57
 .end method
 
 
