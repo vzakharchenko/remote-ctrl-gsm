@@ -10,7 +10,7 @@ chmod +x ubuntu.install
 
 1. install all dependencies
 ```
-sudo apt-get update && sudo apt-get install -y iptables git curl
+sudo apt-get update && sudo apt-get install -y iptables git iptables-persistent
 ```
 2. install docker
 ```
@@ -20,18 +20,25 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
-3. Configure host machine
+3. clone project
 ```
-sudo iptables -I FORWARD -p gre -j ACCEPT
-sudo sysctl -w net.ipv4.ip_forward=1
-sudo sysctl -w net.netfilter.nf_conntrack_helper=1
-```
-4. clone project
-```
-sudo mkdir -p /opt/remote-ctrl-gsm
-sudo chown -R `whoami`:`whoami` /opt/remote-ctrl-gsm
+rm -rf /opt/remote-ctrl-gsm
+mkdir -p /opt/remote-ctrl-gsm
 git clone https://github.com/vzakharchenko/remote-ctrl-gsm /opt/remote-ctrl-gsm
+chown -R $(whoami):$(whoami) /opt/remote-ctrl-gsm
 ```
+4. Configure host machine
+```
+echo "nf_nat_pptp" >> /etc/modules
+echo "ip_gre" >> /etc/modules
+iptables -I FORWARD -p gre -j ACCEPT
+sudo iptables-save > /etc/iptables/rules.v4
+sysctl -w net.ipv4.ip_forward=1
+sysctl -w net.netfilter.nf_conntrack_helper=1
+sudo echo "net.ipv4.ip_forward=1">/etc/sysctl.conf
+sudo echo "net.netfilter.nf_conntrack_helper=1">/etc/sysctl.conf
+```
+
 5. create chap secrets
 ```
 sudo mkdir -p /opt/ppp
@@ -49,7 +56,8 @@ docker build -t remote-ctrl . && docker run -d --name=remote-ctrl -p 1723:1723 -
 if you want to change port from 7894 to another for example 9999 than you need to run
 ```
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl . && docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
+docker build -t remote-ctrl .
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
 ```
 
 6. build cloud apk
