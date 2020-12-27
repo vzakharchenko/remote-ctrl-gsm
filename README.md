@@ -63,7 +63,7 @@ or
 1. A convenient way, but not a secure way of port forwarding
 2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel
 ![](./img/CarWiFI-Schema.png)
-3. PPTP tunnel
+3. [PPTP tunnel](./cloud)
 ![](./img/CarWiFICloudSchema.png)
 
 ## Setup Mikrotik with public IP (Mikrotik hap ac2 or analog)
