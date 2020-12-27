@@ -14,14 +14,14 @@ fi
 printf "${CYAN}Configuring VPN secrets${NC}\n"
 read -p 'PPTP username: ' USER_NAME
 
-if [[ "x${USER_NAME}" == "x" ]]; then
+if [ "x${USER_NAME}" -eq "x" ]; then
   printf "${RED}Error: username is empty${NC}\n"
   exit 1
 fi
 
-read -p -s 'PPTP password: ' USER_PASSWORD
+read -s -p 'PPTP password: ' USER_PASSWORD
 
-if [[ "x${USER_NAME}" == "x" ]]; then
+if [ "x${USER_NAME}" -eq "x" ]; then
   printf  "${RED}Error: password is empty${NC}\n"
   exit 1
 fi
