@@ -55,10 +55,11 @@ interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX
 2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX  
 Where XX:XX:XX:XX:XX:XX is new Mac address  
 
-# Connection through Cloud
-
-1. Create a Virtual Machine on the Cloud with public IP.
-2. [setup docker container with pptp server](./cloud)
+## Change Car Gateway Ip and Port
+1. Ip (default is 192.168.8.46): 
+```/storage/emulated/0/phev/ip.txt```  
+2. Port(default is 8080):
+```/storage/emulated/0/phev/port.txt```
 
 
 # Registration
