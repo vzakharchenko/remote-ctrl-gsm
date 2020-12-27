@@ -19,3 +19,5 @@ my-keystore.keystore
 OUTLANDER_PHEV_REMOTE_APK/dist/
 OUTLANDER_PHEV_REMOTE_APK/build/
 *.apk
+chap-secrets
+/cloud/OUTLANDER_PHEV_CLOUD_APK

@@ -65,10 +65,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static String getMacAddress(WifiManager wifiMan) {
-        WifiInfo wifiInf = wifiMan.getConnectionInfo();
+        WifiInfo wifiInf = wifiMan == null ? null: wifiMan.getConnectionInfo();
 
         String ret = "6C:C7:EC:2B:00:00";
-        if(wifiInf.getMacAddress().equals(marshmallowMacAddress)){
+        if(wifiInf == null || wifiInf.getMacAddress().equals(marshmallowMacAddress)){
             try {
                 ret= getAdressMacByInterface();
                 if (ret == null){
@@ -82,7 +82,11 @@ public class MainActivity extends AppCompatActivity {
         } else{
             ret= wifiInf.getMacAddress();
         }
-        return readFromFile("mac.txt",ret);
+        String macAddress = readFromFile("mac.txt", ret);
+        if (macAddress  == null){
+            throw new IllegalStateException("First startup should be under wifi connection");
+        }
+        return macAddress;
     }
 
     private static String getAdressMacByInterface(){
@@ -171,13 +175,17 @@ public class MainActivity extends AppCompatActivity {
         String storageDir = getStorageDir(fileName);
         File file = new File(storageDir);
         if (!file.exists()){
-            try {
-                file.createNewFile();
-                try (FileOutputStream bw = new FileOutputStream(file)) {
-                    bw.write(defaultValue.getBytes());
+            if (defaultValue != null) {
+                try {
+                    file.createNewFile();
+                    try (FileOutputStream bw = new FileOutputStream(file)) {
+                        bw.write(defaultValue.getBytes());
+                    }
+                } catch (IOException e) {
+                    throw new IllegalStateException(e);
                 }
-            } catch (IOException e) {
-                throw new IllegalStateException(e);
+            } else {
+                return null;
             }
         }
         try {

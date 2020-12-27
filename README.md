@@ -5,23 +5,29 @@
 
 ## Description
 
-To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)  
-You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)  
-The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.  
-![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)![theft1.png](./img/theft1.png)![theft2.png](./img/theft2.png)![theft3.png](./img/theft3.png)
+To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
+You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/)
+The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.
+![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)
+![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)
+![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)
+![theft1.png](./img/theft1.png)
+![theft2.png](./img/theft2.png)
+![theft3.png](./img/theft3.png)
 
-## Features  
- - control vehicle through 3g,4g,lte  
- - support unlimited number of registered devices  
- - enable/disable Theft Alarm  
- - installed as a separate application (GSM Remote Ctrl)  
- - [WiFi extender](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/WiFi-Extender)  
- - works well with original app, but you always need to connect to mikrotik WiFi
-## WiFi extender
-[WiFi extender Wiki Page](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/WiFi-Extender)  
+## Features
+ - control vehicle through 3g,4g,lte
+ - works [through the cloud](./cloud) or through another microtik with a public ip
+ - Can be used as a Wi-Fi extender
+ - support unlimited number of registered devices
+ - enable/disable Theft Alarm
+ - installed as a separate application (GSM Remote Ctrl)
+ 
+
 ## Requirements
-1. Setup Mikrotik ltap mini lte kit to the vehicle  
-2. Setup (Mikrotik Hap AC2)[https://mikrotik.com/product/hap_ac2] (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.  
+1. Setup Mikrotik ltap mini lte kit to the vehicle
+2. Setup [Mikrotik Hap AC2](https://mikrotik.com/product/hap_ac2) (or analog) at home with public IP or buy the virtual machine with public IP on the cloud.
+
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
 What changed:  
@@ -52,6 +58,13 @@ What changed:
 or    
 ![](./img/GarageWiFi-Schema.png)  
 
+
+## Ways to build a tunnel
+1. A convenient way, but not a secure way of port forwarding
+2. Fully secure VPN tunnel. To gain access, you need to raise a tunnel
+![](./img/CarWiFI-Schema.png)
+3. PPTP tunnel
+![](./img/CarWiFICloudSchema.png)
 
 ## Setup Mikrotik with public IP (Mikrotik hap ac2 or analog)
 ```/ip firewall filter
@@ -226,10 +239,10 @@ interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX
 Where XX:XX:XX:XX:XX:XX is new Mac address  
 
 # Connection through Cloud
-1. Create a Virtual Machine on the Cloud with public IP.  
-2. Setup and configure PPTP server on  the  Virtual machine  
-3. Setup routing using iptables  
-4. forward the port using iptables or connect via vpn  
+
+1. Create a Virtual Machine on the Cloud with public IP.
+2. [setup docker container with pptp server](./cloud)
+
 
 # Registration
 
