@@ -60,7 +60,7 @@ docker build -t remote-ctrl .
 docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
 ```
 
-6. build cloud apk
+## Build cloud apk
 ```
 generateKey.sh # only once
 cd cloud
