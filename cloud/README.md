@@ -1,8 +1,14 @@
-## Cloud Instalation
+# Cloud Installation
+## Automatic cloud installation
+```
+sudo apt-get update && sudo apt-get install -y curl
+sudo curl -sSL https://raw.githubusercontent.com/vzakharchenko/remote-ctrl-gsm/master/cloud/ubuntu.install| bash
+```
+## Manual Cloud Installation(Ubuntu)
 
 1. install all dependencies
 ```
-sudo apt-get update && sudo apt-get install -y iptables git
+sudo apt-get update && sudo apt-get install -y iptables git curl
 ```
 2. install docker
 ```
