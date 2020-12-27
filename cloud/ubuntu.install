@@ -7,32 +7,32 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 if [ "$EUID" -ne 0 ]; then
-  echo  -e "${RED}Please run as root${NC}"
+  printf "${RED}Please run as root${NC}\n"
   exit 1
 fi
 
-echo  -e "${CYAN}Configuring VPN secrets${NC}"
+printf "${CYAN}Configuring VPN secrets${NC}\n"
 read -p 'PPTP username: ' USER_NAME
 
 if [[ "x${USER_NAME}" == "x" ]]; then
-  echo  -e "${RED}Error: username is empty${NC}"
+  printf "${RED}Error: username is empty${NC}\n"
   exit 1
 fi
 
 read -p -s 'PPTP password: ' USER_PASSWORD
 
 if [[ "x${USER_NAME}" == "x" ]]; then
-  echo  -e  "${RED}Error: password is empty${NC}"
+  printf  "${RED}Error: password is empty${NC}\n"
   exit 1
 fi
 
 mkdir -p /opt/ppp
-echo  -e "${USER_NAME}  pptpd ${USER_PASSWORD}  *" >/opt/ppp/chap-secrets
+printf "${USER_NAME}  pptpd ${USER_PASSWORD}  *" >/opt/ppp/chap-secrets
 chown -R $(whoami):$(whoami) /opt/ppp
 
-echo  -e "${GREEN}PPTP secret created${NC}"
+printf "${GREEN}PPTP secret created${NC}\n"
 
-echo  -e "${CYAN}Starting installing Docker${NC}"
+printf "${CYAN}Starting installing Docker${NC}\n"
 apt-get update && sudo apt-get install -y iptables git
 apt-get remove docker docker.io containerd runc
 curl -sSL https://get.docker.com | bash
@@ -40,24 +40,24 @@ groupadd docker
 usermod -aG docker $USER
 newgrp docker
 
-echo  -e "${GREEN}Docker successfully installed${NC}"
+printf "${GREEN}Docker successfully installed${NC}\n"
 
-echo  -e  "${CYAN}Starting configuring host${NC}"
+printf  "${CYAN}Starting configuring host${NC}\n"
 rm -f /etc/network/if-up.d/firewall
 cp -f ./host/etc/network/if-up.d/firewall /etc/network/if-up.d/firewall
-echo  -e "${GREEN}IpTables successfully configured${NC}"
+printf "${GREEN}IpTables successfully configured${NC}"
 sysctl -w net.ipv4.ip_forward=1
 sysctl -w net.netfilter.nf_conntrack_helper=1
-echo  -e "${GREEN}enabled IP forwarding${NC}"
+printf "${GREEN}enabled IP forwarding${NC}\n"
 
-echo  -e "${CYAN}Cloning Project${NC}"
+printf "${CYAN}Cloning Project${NC}\n"
 rm -rf /opt/remote-ctrl-gsm
 mkdir -p /opt/remote-ctrl-gsm
 git clone https://github.com/vzakharchenko/remote-ctrl-gsm /opt/remote-ctrl-gsm
 chown -R $(whoami):$(whoami) /opt/remote-ctrl-gsm
-echo -e "${GREEN}remote-ctrl-gsm cloned${NC}"
+printf "${GREEN}remote-ctrl-gsm cloned${NC}\n"
 
-echo -e "${CYAN}installing Docker image${NC}"
+printf "${CYAN}installing Docker image${NC}\n"
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
 docker build -t remote-ctrl .
 docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
