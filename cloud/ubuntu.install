@@ -32,7 +32,7 @@ chown -R $(whoami):$(whoami) /opt/ppp
 printf "${GREEN}PPTP secret created${NC}\n"
 
 printf "${CYAN}Starting installing Docker${NC}\n"
-apt-get update && sudo apt-get install -y iptables git
+apt-get update && sudo apt-get install -y iptables git iptables-persistent
 apt-get remove docker docker.io containerd runc
 curl -sSL https://get.docker.com | bash
 set +e
@@ -51,8 +51,11 @@ chown -R $(whoami):$(whoami) /opt/remote-ctrl-gsm
 printf "${GREEN}remote-ctrl-gsm cloned${NC}\n"
 
 printf  "${CYAN}Starting configuring host${NC}\n"
-rm -f /etc/network/if-up.d/firewall
-cp -f /opt/remote-ctrl-gsm/cloud/host/etc/network/if-up.d/firewall /etc/network/if-up.d/firewall
+#rm -f /etc/network/if-up.d/firewall
+#cp -f /opt/remote-ctrl-gsm/cloud/host/etc/network/if-up.d/firewall /etc/network/if-up.d/firewall
+#chmod +x /etc/network/if-up.d/firewall
+iptables -I FORWARD -p gre -j ACCEPT
+sudo iptables-save > /etc/iptables/rules.v4
 printf "${GREEN}IpTables successfully configured${NC}"
 sysctl -w net.ipv4.ip_forward=1
 sysctl -w net.netfilter.nf_conntrack_helper=1
