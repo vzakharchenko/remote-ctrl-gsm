@@ -5,8 +5,7 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 CYAN='\033[0;36m'
 NC='\033[0m'
-
-if [ "$EUID" -ne 0 ]; then
+if [[ "x${$EUID}" != "x0" ]]; then
   printf "${RED}Please run as root${NC}\n"
   exit 1
 fi
@@ -14,14 +13,14 @@ fi
 printf "${CYAN}Configuring VPN secrets${NC}\n"
 read -p 'PPTP username: ' USER_NAME
 
-if [ "x${USER_NAME}" -eq "x" ]; then
+if [[ "x${USER_NAME}" = "x" ]]; then
   printf "${RED}Error: username is empty${NC}\n"
   exit 1
 fi
 
 read -s -p 'PPTP password: ' USER_PASSWORD
 
-if [ "x${USER_NAME}" -eq "x" ]; then
+if [[ "x${USER_PASSWORD}" = "x" ]]; then
   printf  "${RED}Error: password is empty${NC}\n"
   exit 1
 fi

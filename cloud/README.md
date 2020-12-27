@@ -2,6 +2,7 @@
 ## Automatic cloud installation
 ```
 sudo apt-get update && sudo apt-get install -y curl
+
 sudo curl -sSL https://raw.githubusercontent.com/vzakharchenko/remote-ctrl-gsm/master/cloud/ubuntu.install| bash
 ```
 ## Manual Cloud Installation(Ubuntu)
