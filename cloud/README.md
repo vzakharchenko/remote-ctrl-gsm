@@ -36,12 +36,12 @@ Where:
 5. start docker image
 ```
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl . && docker run -d -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged remote-ctrl
+docker build -t remote-ctrl . && docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
 ```
 if you want to change port from 7894 to another for example 9999 than you need to run
 ```
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl . && docker run -d -p 1723:1723 -p 9999:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged remote-ctrl
+docker build -t remote-ctrl . && docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
 ```
 
 6. build cloud apk

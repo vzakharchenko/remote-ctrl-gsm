@@ -1,0 +1,65 @@
+#!/bin/sh
+set -e
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+if [ "$EUID" -ne 0 ]
+  then echo "${RED}Please run as root${NC}"
+  exit 1
+fi
+
+echo "${CYAN}Configuring VPN secrets${NC}"
+read -p 'PPTP username: ' USER_NAME
+
+if [[ "x${USER_NAME}" = "x" ]]; then
+  echo "Error: username is empty"
+  exit 1;
+fi
+
+read -p -s 'PPTP password: ' USER_PASSWORD
+
+if [[ "x${USER_NAME}" = "x" ]]; then
+  echo "Error: password is empty"
+  exit 1;
+fi
+
+mkdir -p /opt/ppp
+echo "${USER_NAME}  pptpd ${USER_PASSWORD}  *" > /opt/ppp/chap-secrets
+chown -R `whoami`:`whoami` /opt/ppp
+
+echo "${GREEN}PPTP secret created${NC}"
+
+echo "${CYAN}Starting installing Docker${NC}"
+apt-get update && sudo apt-get install -y iptables git
+apt-get remove docker docker.io containerd runc
+curl -sSL https://get.docker.com | bash
+groupadd docker
+usermod -aG docker $USER
+newgrp docker
+
+echo "${GREEN}Docker successfully installed${NC}"
+
+echo "${CYAN}Starting configuring host${NC}"
+rm -f /etc/network/if-up.d/firewall
+cp -f ./host/etc/network/if-up.d/firewall /etc/network/if-up.d/firewall
+echo "${GREEN}IpTables successfully configured${NC}"
+sysctl -w net.ipv4.ip_forward=1
+sysctl -w net.netfilter.nf_conntrack_helper=1
+echo "${GREEN}enabled IP forwarding${NC}"
+
+echo "${CYAN}Cloning Project${NC}"
+rm -rf /opt/remote-ctrl-gsm
+mkdir -p /opt/remote-ctrl-gsm
+git clone https://github.com/vzakharchenko/remote-ctrl-gsm /opt/remote-ctrl-gsm
+chown -R `whoami`:`whoami` /opt/remote-ctrl-gsm
+echo "${GREEN}remote-ctrl-gsm cloned${NC}"
+
+echo "${CYAN}installing Docker image${NC}"
+cd /opt/remote-ctrl-gsm/cloud/docker/vpn
+docker build -t remote-ctrl .
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
+
+
