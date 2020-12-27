@@ -36,24 +36,24 @@ What changed:
 
 ## Build Application
 1. Setup java JDK on computer.
-2. Create your own key for signing the application (once)
+2. Create your own key for signing the application (once)  
 '''
 ./generateKey.sh
 '''
-3. Build and signing application
+3. Build and signing application  
 '''
 ./buildAndSign.sh
 '''
-3. setup OUTLANDER_PHEV.apk on smartphone
+3. setup OUTLANDER_PHEV.apk on smartphone  
 
 
 # Change Mac address
-1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)
+1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)  
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
-2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX
-Where XX:XX:XX:XX:XX:XX is new Mac address
+2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX  
+Where XX:XX:XX:XX:XX:XX is new Mac address  
 
 # Connection through Cloud
 
