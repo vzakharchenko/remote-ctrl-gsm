@@ -61,6 +61,8 @@ sudo iptables-save > /etc/iptables/rules.v4
 printf "${GREEN}IpTables successfully configured${NC}"
 sysctl -w net.ipv4.ip_forward=1
 sysctl -w net.netfilter.nf_conntrack_helper=1
+sudo echo "net.ipv4.ip_forward=1">/etc/sysctl.conf
+sudo echo "net.netfilter.nf_conntrack_helper=1">/etc/sysctl.conf
 printf "${GREEN}enabled IP forwarding${NC}\n"
 
 printf "${CYAN}installing Docker image${NC}\n"
