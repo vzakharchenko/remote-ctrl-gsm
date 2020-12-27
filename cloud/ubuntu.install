@@ -5,7 +5,7 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 CYAN='\033[0;36m'
 NC='\033[0m'
-if [[ "x${$EUID}" != "x0" ]]; then
+if [[ "x${EUID}" != "x0" ]]; then
   printf "${RED}Please run as root${NC}\n"
   exit 1
 fi
