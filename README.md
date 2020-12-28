@@ -15,14 +15,15 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 ## Features
  - control vehicle through 3g,4g,lte
  - simultaneous access to the internet and car network via a separate WiFI SSID
- - you can [change the MAC address](#change-mac-address) that the app sends to the EV Remote.
  - works [through the cloud](./cloud) or through [another microtik with a public ip](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-home)  
  - [Can be used as a Wi-Fi extender](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/WiFi-Extender)  
  - [example working with scaleway cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-scaleway-cloud)
   -[example working with hetzner cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-hetzner-cloud)
  - support unlimited number of registered devices
  - all vehicle settings are visible.
+ - you can [change the MAC address](#change-mac-address) that the app sends to the EV Remote.  
  - installed as a separate application (GSM Remote Ctrl)
+ 
 
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
