@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+export DEBIAN_FRONTEND=noninteractive
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -58,7 +59,7 @@ printf "${CYAN}running docker image${NC}\n"
 set +e
 docker stop remote-ctrl
 docker rm remote-ctrl
-docker image prune -a
+docker image prune -a -f
 set -e
 docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always vassio/remote-ctrl-gsm:latest
 printf "${CYAN}Rebooting${NC}\n"
