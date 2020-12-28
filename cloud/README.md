@@ -1,12 +1,18 @@
-# Cloud Installation
-## Automatic cloud installation
+# Docker Image with PPTP Server for Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
+
+## Description
+[GitHub Project](https://github.com/vzakharchenko/remote-ctrl-gsm)  
+[Github Wiki](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki) 
+
+## Cloud Installation
+### Automatic cloud installation
 ```
 sudo apt-get update && sudo apt-get install -y curl
 curl -sSL https://raw.githubusercontent.com/vzakharchenko/remote-ctrl-gsm/master/cloud/ubuntu.install -o ubuntu.install
 chmod +x ubuntu.install
 ./ubuntu.install
 ```
-## Manual Cloud Installation(Ubuntu)
+### Manual Cloud Installation(Ubuntu)
 
 1. install all dependencies
 ```
