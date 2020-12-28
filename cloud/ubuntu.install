@@ -68,6 +68,6 @@ printf "${GREEN}enabled IP forwarding${NC}\n"
 printf "${CYAN}installing Docker image${NC}\n"
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
 docker build -t remote-ctrl .
-docker run -d --name=remote-ctrl --cap-add=NET_ADMIN -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --restart=always remote-ctrl
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
 printf "${CYAN}Rebooting${NC}\n"
 reboot
