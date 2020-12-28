@@ -26,14 +26,8 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
-3. clone project
-```
-rm -rf /opt/remote-ctrl-gsm
-mkdir -p /opt/remote-ctrl-gsm
-git clone https://github.com/vzakharchenko/remote-ctrl-gsm /opt/remote-ctrl-gsm
-chown -R $(whoami):$(whoami) /opt/remote-ctrl-gsm
-```
-4. Configure host machine
+
+3. Configure host machine
 ```
 echo "nf_nat_pptp" >> /etc/modules
 echo "ip_gre" >> /etc/modules
@@ -45,7 +39,7 @@ sudo echo "net.ipv4.ip_forward=1">/etc/sysctl.conf
 sudo echo "net.netfilter.nf_conntrack_helper=1">/etc/sysctl.conf
 ```
 
-5. create chap secrets
+4. create chap secrets
 ```
 sudo mkdir -p /opt/ppp
 sudo chown -R `whoami`:`whoami` /opt/ppp
@@ -56,18 +50,18 @@ Where:
 - *PASSWORD* - password
 5. start docker image
 ```
-cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl . && docker run -d --name=remote-ctrl --cap-add=NET_ADMIN -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --restart=always remote-ctrl
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always vassio/remote-ctrl-gsm:latest
+
 ```
 if you want to change port from 7894 to another for example 9999 than you need to run
 ```
-cd /opt/remote-ctrl-gsm/cloud/docker/vpn
-docker build -t remote-ctrl .
-docker run -d --name=remote-ctrl --cap-add=NET_ADMIN -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
+docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always vassio/remote-ctrl-gsm:latest
 ```
 
 ## Build cloud apk
 ```
+git clone https://github.com/vzakharchenko/remote-ctrl-gsm
+cd remote-ctrl-gsm
 generateKey.sh # only once
 cd cloud
 buildAndSignCloudApk.sh

@@ -42,18 +42,7 @@ usermod -aG docker $USER
 set -e
 printf "${GREEN}Docker successfully installed${NC}\n"
 
-
-printf "${CYAN}Cloning Project${NC}\n"
-rm -rf /opt/remote-ctrl-gsm
-mkdir -p /opt/remote-ctrl-gsm
-git clone https://github.com/vzakharchenko/remote-ctrl-gsm /opt/remote-ctrl-gsm
-chown -R $(whoami):$(whoami) /opt/remote-ctrl-gsm
-printf "${GREEN}remote-ctrl-gsm cloned${NC}\n"
-
 printf  "${CYAN}Starting configuring host${NC}\n"
-#rm -f /etc/network/if-up.d/firewall
-#cp -f /opt/remote-ctrl-gsm/cloud/host/etc/network/if-up.d/firewall /etc/network/if-up.d/firewall
-#chmod +x /etc/network/if-up.d/firewall
 echo "nf_nat_pptp" >> /etc/modules
 echo "ip_gre" >> /etc/modules
 iptables -I FORWARD -p gre -j ACCEPT
@@ -68,6 +57,6 @@ printf "${GREEN}enabled IP forwarding${NC}\n"
 printf "${CYAN}installing Docker image${NC}\n"
 cd /opt/remote-ctrl-gsm/cloud/docker/vpn
 docker build -t remote-ctrl .
-docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always remote-ctrl
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always vassio/remote-ctrl-gsm:latest
 printf "${CYAN}Rebooting${NC}\n"
 reboot
