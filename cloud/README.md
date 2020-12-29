@@ -71,6 +71,12 @@ docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/config.json:/
 ```
 6. reboot server
 
+## Troubleshooting
+Viewing logs in docker container:
+```
+docker logs remote-ctrl -f
+```
+
 ## Build cloud apk
 ```
 generateKey.sh # only once
