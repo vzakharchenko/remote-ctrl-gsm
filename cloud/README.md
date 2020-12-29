@@ -1,7 +1,7 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
 ## Description
-[GitHub Project](https://github.com/vzakharchenko/remote-ctrl-gsm)  
+[GitHub Project](https://github.com/vzakharchenko/remote-ctrl-gsm)
 [Github Wiki](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki)
 
 ## Cloud Installation
@@ -39,23 +39,40 @@ sudo echo "net.ipv4.ip_forward=1">/etc/sysctl.conf
 sudo echo "net.netfilter.nf_conntrack_helper=1">/etc/sysctl.conf
 ```
 
-4. create chap secrets
-```
-sudo mkdir -p /opt/ppp
-sudo chown -R `whoami`:`whoami` /opt/ppp
-echo "USERNAME  pptpd PASSWORD  *" > /opt/ppp/chap-secrets
-```
-Where:
-- *USERNAME* - username
-- *PASSWORD* - password
+4.  create /opt/config.json
+   ```
+   {
+      "users":{
+         "USERNAME":{
+            "password":"password1",
+            "ip":"192.168.122.10",
+            "forwarding":[
+               {
+                  "sourceIp":"192.168.8.46",
+                  "sourcePort":"8080",
+                  "destinationPort":7894
+               }
+            ],
+            "routing":[
+               {
+                  "route":"192.168.8.0/24"
+               }
+            ]
+         }
+      }
+   }
+   ```
+   Where:
+   - *USERNAME* - username
+   - *PASSWORD* - password
 5. start docker image
 ```
-docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always vassio/remote-ctrl-gsm:latest
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/pptp-port-forwarding:latest
 
 ```
 if you want to change port from 7894 to another for example 9999 than you need to run
 ```
-docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/ppp/chap-secrets:/etc/ppp/chap-secrets --privileged --restart=always vassio/remote-ctrl-gsm:latest
+docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/pptp-port-forwarding:latest
 ```
 
 ## Build cloud apk
