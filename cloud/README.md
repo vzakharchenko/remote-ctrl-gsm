@@ -44,18 +44,13 @@ sudo echo "net.netfilter.nf_conntrack_helper=1">/etc/sysctl.conf
    {
       "users":{
          "USERNAME":{
-            "password":"password1",
+            "password":"PASSWORD",
             "ip":"192.168.122.10",
             "forwarding":[
                {
                   "sourceIp":"192.168.8.46",
                   "sourcePort":"8080",
                   "destinationPort":7894
-               }
-            ],
-            "routing":[
-               {
-                  "route":"192.168.8.0/24"
                }
             ]
          }
@@ -74,6 +69,7 @@ if you want to change port from 7894 to another for example 9999 than you need t
 ```
 docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/pptp-port-forwarding:latest
 ```
+6. reboot server
 
 ## Build cloud apk
 ```

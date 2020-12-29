@@ -28,7 +28,7 @@ if [[ ! -f "$FILE" ]]; then
     exit 1
   fi
 
-  echo "{\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}],\"routing\":[{\"route\":\"192.168.8.0/24\"}]}}}" >/opt/config.json
+  echo "{\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}]}}}" >/opt/config.json
   chown -R $(whoami):$(whoami) /opt/config.json
 
   printf "${GREEN}PPTP secret created${NC}\n"
