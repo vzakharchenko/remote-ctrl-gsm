@@ -29,7 +29,10 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
 What changed:
 1. Removed Wi-Fi connection requirement.
-2. set the MAC address of the device to 6C:C7:EC:2B:00:00.
+2. The ability to change MAC address.
+3. The ability to change the Ip address and port of EV module.
+4. The ability to share registrations between devices
+5. changed name of application (GSM/Cloud Remote Ctrl)
 
 ## How to move registration from one device to another
 1. copy /storage/emulated/0/phev folder from registered device to a new device
@@ -56,6 +59,8 @@ interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX
 ```
 2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX  
 Where XX:XX:XX:XX:XX:XX is new Mac address  
+3. on Device
+```/storage/emulated/0/phev/mac.txt```
 
 ## Change Car Gateway Ip and Port
 1. Ip (default is 192.168.8.46): 
