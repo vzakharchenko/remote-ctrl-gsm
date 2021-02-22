@@ -66,6 +66,6 @@ docker stop remote-ctrl
 docker rm remote-ctrl
 docker image prune -a -f
 set -e
-docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/pptp-port-forwarding:latest
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-pptp:latest
 printf "${CYAN}Rebooting${NC}\n"
 reboot
