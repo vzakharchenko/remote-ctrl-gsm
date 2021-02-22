@@ -1,4 +1,4 @@
-FROM vassio/docker-l2tp-ipsec-radius-docker
+FROM vassio/l2tp-ipsec-radius-docker
 MAINTAINER Vasyl Zakharchenko <vaszakharchenko@gmail.com>
 LABEL author="Vasyl Zakharchenko"
 LABEL email="vaszakharchenko@gmail.com"
