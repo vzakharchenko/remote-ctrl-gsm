@@ -1,0 +1,59 @@
+name: ci
+
+on:
+  push:
+    branches: master
+
+jobs:
+  multi:
+    runs-on: ubuntu-latest
+    environment: DOCKER
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      -
+        name: Login to DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_SECRET }}
+      -
+        name: Build and push remote-ctrl-l2tp-radius
+        uses: docker/build-push-action@v2
+        with:
+          context: ./docker/l2tp-radius
+          file: ./docker/l2tp-radius/Dockerfile
+          platforms: linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7
+          push: true
+          tags: |
+            vassio/remote-ctrl-l2tp-radius:1.0.0
+            vassio/remote-ctrl-l2tp-radius:latest
+      -
+        name: Build and push remote-ctrl-l2tp
+        uses: docker/build-push-action@v2
+        with:
+          context: ./docker/l2tp
+          file: ./docker/l2tp/Dockerfile
+          platforms: linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7
+          push: true
+          tags: |
+            vassio/remote-ctrl-l2tp:1.0.0
+            vassio/remote-ctrl-l2tp:latest
+      -
+        name: Build and push remote-ctrl-pptp
+        uses: docker/build-push-action@v2
+        with:
+          context: ./docker/pptp
+          file: ./docker/pptp/Dockerfile
+          platforms: linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7
+          push: true
+          tags: |
+            vassio/remote-ctrl-pptp:1.0.0
+            vassio/remote-ctrl-pptp:latest
