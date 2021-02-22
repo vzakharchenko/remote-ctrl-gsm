@@ -1,0 +1,50 @@
+#!/bin/bash
+set -e
+export DEBIAN_FRONTEND=noninteractive
+export CONFIG_PATH=/opt/config.json
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+if [[ "x${EUID}" != "x0" ]]; then
+  printf "${RED}Please run as root${NC}\n"
+  exit 1
+fi
+
+FILE=/opt/config.json
+if [[ ! -f "$FILE" ]]; then
+    echo "$FILE does not exist."
+    exit 1
+fi
+
+printf "${CYAN}Starting installing Docker${NC}\n"
+apt-get update && sudo apt-get install -y iptables git iptables-persistent nodejs linux-modules-extra-$(uname -r)
+apt-get remove docker docker.io containerd runc
+curl -sSL https://get.docker.com | bash
+set +e
+groupadd docker
+usermod -aG docker $USER
+#newgrp docker
+set -e
+printf "${GREEN}Docker successfully installed${NC}\n"
+
+printf  "${CYAN}Starting configuring host${NC}\n"
+sudo iptables-save > /etc/iptables/rules.v4
+printf "${GREEN}IpTables successfully configured${NC}"
+sysctl -w net.ipv4.ip_forward=1
+sysctl -w net.netfilter.nf_conntrack_helper=1
+sudo echo "net.ipv4.ip_forward=1">>/etc/sysctl.conf
+sudo echo "net.netfilter.nf_conntrack_helper=1">>/etc/sysctl.conf
+printf "${GREEN}enabled IP forwarding${NC}\n"
+
+printf "${CYAN}running docker image${NC}\n"
+set +e
+docker stop remote-ctrl
+docker rm remote-ctrl
+docker image prune -a -f
+set -e
+
+printf "${CYAN}installing Docker image${NC}\n"
+export CONFIG_PATH=/opt/config.json
+curl -sSL https://github.com/vzakharchenko/remote-ctrl-gsm/raw/master/docker/l2tp-radius/generateDockerCommands.js -o generateDockerCommands.js
+`node generateDockerCommands.js`
