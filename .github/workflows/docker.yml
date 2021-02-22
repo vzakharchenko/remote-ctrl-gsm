@@ -30,7 +30,7 @@ jobs:
         with:
           context: ./docker/l2tp-radius
           file: ./docker/l2tp-radius/Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7
+          platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
             vassio/remote-ctrl-l2tp-radius:1.0.0
@@ -41,7 +41,7 @@ jobs:
         with:
           context: ./docker/l2tp
           file: ./docker/l2tp/Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7
+          platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
             vassio/remote-ctrl-l2tp:1.0.0
@@ -52,7 +52,7 @@ jobs:
         with:
           context: ./docker/pptp
           file: ./docker/pptp/Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7
+          platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
             vassio/remote-ctrl-pptp:1.0.0
