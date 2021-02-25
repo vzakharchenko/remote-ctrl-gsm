@@ -1,29 +1,31 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
-![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)  
-[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://secure.wayforpay.com/button/bca19c6085e34)  
+![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)
+[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://secure.wayforpay.com/button/bca19c6085e34)
 
 ## Description
 
-To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)  
-You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/).  
-The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.  
+To access Mitsubishi Outlander Remote Control module via the Internet, you need a mikrotik lte wireless access point for example [ltap mini lte kit](https://mikrotik.com/product/ltap_mini_lte_kit)
+You also need a mikrotik router at home or anywhere else with a WHITE IP (Public Ip) or Cloud with a white IP(a cheap cloud can be bought for example [here](https://www.scaleway.com/en/).
+The main idea of project is access to outlander phev Wifi module through VPN tunnel, and then control  the vehicle through a modified native application.
 ![img1](./img/Screenshot_20200920-135109_GSM%20Remote%20Ctrl.jpg)
 ![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)
 ![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)
 
 ## Features
- - control vehicle through 3g,4g,lte
- - simultaneous access to the internet and car network via a separate WiFI SSID
- - works [through the cloud](./cloud) or through [another microtik with a public ip](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-home)  
- - [Can be used as a Wi-Fi extender](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/WiFi-Extender)  
- - [example working with scaleway cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-scaleway-cloud)  
- - [example working with hetzner cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-hetzner-cloud)  
- - support unlimited number of registered devices  
- - all vehicle settings are visible.
- - you can [change the MAC address](#change-mac-address) that the app sends to the EV Remote.  
- - installed as a separate application (GSM Remote Ctrl)
- 
+- control vehicle through 3g,4g,lte
+- simultaneous access to the internet and car network via a separate WiFI SSID
+- works [through the cloud](./cloud) or through [another microtik with a public ip](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-home)
+- [Can be used as a Wi-Fi extender](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/WiFi-Extender)
+- [example working with scaleway cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-scaleway-cloud)
+- [example working with hetzner cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-hetzner-cloud)
+- docker images include [phevctl](https://github.com/phev-remote/phevctl)
+- docker images include [Smartthings application server](https://github.com/vzakharchenko/smartthings-phevctl)
+- support unlimited number of registered devices
+- all vehicle settings are visible.
+- you can [change the MAC address](#change-mac-address) that the app sends to the EV Remote.
+- installed as a separate application (GSM Remote Ctrl)
+
 
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
@@ -41,30 +43,30 @@ What changed:
 
 ## Build Application
 1. Setup java JDK on computer.
-2. Create your own key for signing the application (once)  
+2. Create your own key for signing the application (once)
 '''
 ./generateKey.sh
 '''
-3. Build and signing application  
+3. Build and signing application
 '''
 ./buildAndSign.sh
 '''
-3. setup OUTLANDER_PHEV.apk on smartphone  
+3. setup OUTLANDER_PHEV.apk on smartphone
 
 
 # Change Mac address
-1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)  
+1.  [Mikrotik in the car] (https://mikrotik.com/product/ltap_mini_lte_kit)
 ```
 interface wireless set MitsubihiWiFI station-bridge-clone-mac="XX:XX:XX:XX:XX:XX" mac-address="XX:XX:XX:XX:XX:XX"
 ```
-2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX  
-Where XX:XX:XX:XX:XX:XX is new Mac address  
+2. Change mac-address in the file on Phone storage ```/storage/emulated/0/phev/mac.txt``` from 6C:C7:EC:2B:00:00 to XX:XX:XX:XX:XX:XX
+Where XX:XX:XX:XX:XX:XX is new Mac address
 3. on Device
 ```/storage/emulated/0/phev/mac.txt```
 
 ## Change Car Gateway Ip and Port
-1. Ip (default is 192.168.8.46): 
-```/storage/emulated/0/phev/ip.txt```  
+1. Ip (default is 192.168.8.46):
+```/storage/emulated/0/phev/ip.txt```
 2. Port(default is 8080):
 ```/storage/emulated/0/phev/port.txt```
 

@@ -34,6 +34,13 @@ if [[ ! -f "$FILE" ]]; then
     exit 1
   fi
 
+  export SMARTTHINGS_PAGE=' '
+  read -p "Do you need Smartthings integration? " -n 1 -r
+  echo    # (optional) move to a new line
+  if [[ $REPLY =~ ^[Yy]$ ]]
+  then
+      export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 '
+  fi
 
   echo "{\"ipsec\":{\"secret\":\"${IPSEC_PASSWORD}\"},\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}]}}}" >/opt/config.json
   chown -R $(whoami):$(whoami) /opt/config.json
@@ -69,4 +76,4 @@ docker stop remote-ctrl
 docker rm remote-ctrl
 docker image prune -a -f
 set -e
-docker run -d --name=remote-ctrl -p 500:500/udp -p 4500:4500/udp  -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-l2tp:latest
+docker run -d --name=remote-ctrl -p 500:500/udp -p 4500:4500/udp ${SMARTTHINGS_PAGE}  -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-l2tp:latest

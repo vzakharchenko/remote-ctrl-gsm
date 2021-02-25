@@ -30,7 +30,7 @@ function parseFile(cJson) {
             }));
         }
     }
-    console.log('docker run -d --name=remote-ctrl -p 500:500/udp -p 4500:4500/udp -p 3799:3799/udp ' + redir +
+    console.log('docker run -d --name=remote-ctrl -p 8080:8080 -p 8099:8099 -p 500:500/udp -p 4500:4500/udp -p 3799:3799/udp ' + redir +
         `-v ${configPath}:/opt/config.json ${radsec} --privileged --restart=always vassio/remote-ctrl-l2tp-radius:latest`)
 }
 

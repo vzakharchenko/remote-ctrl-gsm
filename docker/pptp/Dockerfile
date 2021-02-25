@@ -15,5 +15,8 @@ RUN cd /opt/phevctl/msg-core && mkdir build && cd build && cmake .. && make && m
 RUN cd /opt/phevctl/phevcore && mkdir build && cd build && cmake .. && make && make install
 RUN cd /opt/phevctl/phevctl && mkdir -p build && cd build && cmake .. && make
 RUN ln -sf /opt/phevctl/phevctl/build/phevctl /usr/bin/phevctl
+RUN npm i smartthings-phevctl@1.1.0 -g
+EXPOSE 8099
+EXPOSE 8080
 EXPOSE 1723
 ENTRYPOINT ["/entrypoint.sh"]
