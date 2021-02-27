@@ -28,9 +28,9 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 - installed as a separate application (GSM Remote Ctrl)
 
 ## Smartthings Integration
-![smartthings.gif](./img/smartthings.gif)
-![smartthings.gif](./img/smartthings1.gif)
-[Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
+- ![smartthings.gif](./img/smartthings.gif)
+- ![smartthings.gif](./img/smartthings1.gif)
+- [Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
 
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
