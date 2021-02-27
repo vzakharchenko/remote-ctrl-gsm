@@ -31,6 +31,12 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 - ![smartthings.gif](./img/smartthings.gif)
 - ![smartthings.gif](./img/smartthings1.gif)
 - [Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
+- Smartthings entry point:
+```
+http://<CLOUD_HOST>:8080
+```
+- Login: admin
+- Default password: admin
 
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
