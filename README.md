@@ -22,6 +22,7 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 - [example working with hetzner cloud](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki/gsm-extender-hetzner-cloud)
 - docker images include [phevctl](https://github.com/phev-remote/phevctl)
 - docker images include [Smartthings application server](https://github.com/vzakharchenko/smartthings-phevctl)
+- smartthings works on [android](https://play.google.com/store/apps/details?id=com.samsung.android.oneconnect) and [apple](https://apps.apple.com/us/app/smartthings/id1222822904)
 - support unlimited number of registered devices
 - all vehicle settings are visible.
 - you can [change the MAC address](#change-mac-address) that the app sends to the EV Remote.
