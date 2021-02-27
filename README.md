@@ -12,6 +12,7 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 ![img2](./img/Screenshot_20200920-135328_GSM%20Remote%20Ctrl.jpg)
 ![img4](./img/Screenshot_20200920-135343_GSM%20Remote%20Ctrl.jpg)
 
+
 ## Features
 - control vehicle through 3g,4g,lte
 - simultaneous access to the internet and car network via a separate WiFI SSID
@@ -26,6 +27,10 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 - you can [change the MAC address](#change-mac-address) that the app sends to the EV Remote.
 - installed as a separate application (GSM Remote Ctrl)
 
+## Smartthings Integration
+![smartthings.gif](./img/smartthings.gif)
+![smartthings.gif](./img/smartthings1.gif)
+[Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
 
 
 ## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2

@@ -1,7 +1,7 @@
 # Mitsubishi Outlander PHEV remote control over GSM(3g, 4g, LTE)
 
 ## Description
-[GitHub Project](https://github.com/vzakharchenko/remote-ctrl-gsm)  
+[GitHub Project](https://github.com/vzakharchenko/remote-ctrl-gsm)
 [Github Wiki](https://github.com/vzakharchenko/remote-ctrl-gsm/wiki)
 
 ## Cloud Installation
@@ -68,9 +68,13 @@ sudo echo "net.netfilter.nf_conntrack_helper=1">/etc/sysctl.conf
    - *USERNAME* - username
    - *PASSWORD* - password
 5. start docker image
+- with Smartthings
+```
+docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -p 8080:8080 -p 8099:8099 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/pptp-port-forwarding:latest
+```
+- without Smartthings
 ```
 docker run -d --name=remote-ctrl -p 1723:1723 -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/pptp-port-forwarding:latest
-
 ```
 if you want to change port from 7894 to another for example 9999 than you need to run
 ```

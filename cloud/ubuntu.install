@@ -28,8 +28,9 @@ if [[ ! -f "$FILE" ]]; then
     exit 1
   fi
   export SMARTTHINGS_PAGE=' '
-  read -p "Do you need Smartthings integration? " -n 1 -r
-  echo    # (optional) move to a new line
+  echo
+  read -p "Do you need Smartthings integration [y/n]? " -n 1 -r
+  echo
   if [[ $REPLY =~ ^[Yy]$ ]]
   then
       FILE=/opt/remote-ctrl-gsm.json
