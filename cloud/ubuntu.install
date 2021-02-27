@@ -27,6 +27,18 @@ if [[ ! -f "$FILE" ]]; then
     printf  "${RED}Error: password is empty${NC}\n"
     exit 1
   fi
+
+  echo "{\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}]}}}" >/opt/config.json
+  chown -R $(whoami):$(whoami) /opt/config.json
+
+  printf "${GREEN}PPTP secret created${NC}\n"
+else
+  printf "${GREEN}PPTP secret exists${NC}\n"
+fi
+
+printf "${CYAN}Configuring Samsung Smartthings Integration${NC}\n"
+SMARTTHINGS_FILE=/opt/remote-ctrl-gsm.json
+if [[ ! -f "$SMARTTHINGS_FILE" ]]; then
   export SMARTTHINGS_PAGE=' '
   echo
   read -p "Do you need Smartthings integration [y/n]? " -n 1 -r
@@ -39,14 +51,12 @@ if [[ ! -f "$FILE" ]]; then
       fi
       export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
   fi
-
-  echo "{\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}]}}}" >/opt/config.json
-  chown -R $(whoami):$(whoami) /opt/config.json
-
-  printf "${GREEN}PPTP secret created${NC}\n"
+  printf "${GREEN}Smartthings integration configured${NC}\n"
 else
-  printf "${GREEN}PPTP secret exists${NC}\n"
+  export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
+  printf "${GREEN}Smartthings integration already configured${NC}\n"
 fi
+
 
 
 printf "${CYAN}Starting installing Docker${NC}\n"
