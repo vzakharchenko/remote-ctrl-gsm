@@ -82,6 +82,14 @@ docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/config.json:/
 ```
 6. reboot server
 
+## Smartthings Application Server
+- Smartthings entry point:
+```
+http://<CLOUD_HOST>:8080
+```
+- Login: admin
+- Default password: admin
+
 ## Troubleshooting
 Viewing logs in docker container:
 ```
