@@ -83,6 +83,9 @@ docker run -d --name=remote-ctrl -p 1723:1723 -p 9999:7894 -v /opt/config.json:/
 6. reboot server
 
 ## Smartthings Application Server
+- ![smartthings.gif](./img/smartthings.gif)
+- ![smartthings.gif](./img/smartthings1.gif)
+- [Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
 - Smartthings entry point:
 ```
 http://<CLOUD_HOST>:8080
