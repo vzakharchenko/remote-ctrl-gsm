@@ -29,9 +29,8 @@ The main idea of project is access to outlander phev Wifi module through VPN tun
 
 ## Smartthings Integration
 - [Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
-- ![smartthings.gif](./img/smartthings.gif)
-- ![smartthings.gif](./img/smartthings1.gif)
-- ![Charger.png](./img/Charger.png)
+- ![smartthings.gif](./img/smartthings.gif) ![smartthings.gif](./img/smartthings1.gif)
+- ![Charger.png](./img/Charger.png) ![doorLock.png](./img/doorLock.png)
 - [Smartthings application configuration](https://github.com/vzakharchenko/smartthings-phevctl)
 - Smartthings entry point:
 ```
