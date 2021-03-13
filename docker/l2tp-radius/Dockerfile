@@ -17,7 +17,8 @@ RUN cd /opt/phevctl/phevctl && mkdir -p build && cd build && cmake .. && make
 RUN ln -sf /opt/phevctl/phevctl/build/phevctl /usr/bin/phevctl
 COPY entrypointRC.sh /entrypointRC.sh
 RUN chmod +x /entrypointRC.sh
-RUN npm i smartthings-phevctl@1.3.4 -g
+RUN npm i smartthings-phevctl@1.3.5 -g
+ENV SMARTTHINGS='true'
 EXPOSE 4500/udp
 EXPOSE 3799/udp
 EXPOSE 500/udp

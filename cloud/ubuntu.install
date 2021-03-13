@@ -11,6 +11,41 @@ if [[ "x${EUID}" != "x0" ]]; then
   exit 1
 fi
 
+printf "${CYAN}Configuring Samsung Smartthings Integration${NC}\n"
+export SMARTTHINGS=''
+
+SMARTTHINGS_FILE=/opt/remote-ctrl-gsm.json
+if [[ ! -f "$SMARTTHINGS_FILE" ]]; then
+  export SMARTTHINGS_PAGE=' '
+  echo
+  read -p "Do you need Smartthings integration [y/n]? " -n 1 -r
+  echo
+  if [[ $REPLY =~ ^[Yy]$ ]]
+    then
+      echo
+      read -p "Do you run smarthings-phevctl on the raspberry Pi or analog inside Outlander PHEV [y/n]? " -n 1 -r
+      echo
+        if [[ $REPLY =~ ^[Yy]$ ]]
+          then
+            export SMARTTHINGS='false'
+            export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -p 8098:8098 '
+          else
+            read -p 'Smartthings Admin password: ' ADMIN_PASSWORD
+            if [[ "x${ADMIN_PASSWORD}" = "x" ]]; then
+              printf "${RED}Error: admin password is empty${NC}\n"
+              exit 1
+            fi
+            export SMARTTHINGS='true'
+            echo '{"port":8099,"portUI":8080,"portSMS":8098,"smartthings":{"devices":[]},"smartapp":["https://graph.api.smartthings.com","https://graph-na02-useast1.api.smartthings.com","https://graph-na04-useast2.api.smartthings.com","https://graph-eu01-euwest1.api.smartthings.com","https://graph-ap02-apnortheast2.api.smartthings.com"],"users":[{"id":"0","username":"admin","password":"'"${ADMIN_PASSWORD}"'"}],"connectionType":"local"}' >/opt/remote-ctrl-gsm.json
+            export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -p 8098:8098 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
+          fi
+    fi
+  printf "${GREEN}Smartthings integration configured${NC}\n"
+else
+  export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -p 8098:8098 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
+  printf "${GREEN}Smartthings integration already configured${NC}\n"
+fi
+
 printf "${CYAN}Configuring VPN secrets${NC}\n"
 FILE=/opt/config.json
 if [[ ! -f "$FILE" ]]; then
@@ -27,39 +62,43 @@ if [[ ! -f "$FILE" ]]; then
     printf  "${RED}Error: password is empty${NC}\n"
     exit 1
   fi
+  export PORT_FORWARD=''
+  echo
+  read -p "Do you need PortForward EV-REMOTE(unsecured) [y/n]? " -n 1 -r
+  echo
+  if [[ $REPLY =~ ^[Yy]$ ]]
+    then
+      export PORT_FORWARD='{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}'
+  fi
 
-  echo "{\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[{\"sourceIp\":\"192.168.8.46\",\"sourcePort\":\"8080\",\"destinationPort\":7894}]}}}" >/opt/config.json
+  if [[ "x${SMARTTHINGS}" = "xfalse" ]]; then
+
+      echo
+      read -p 'Smartthings-PhevCtrl IP address(RaspberryPI): ' RASPBERRY_PI_IP
+      echo
+
+       if [[ "x${RASPBERRY_PI_IP}" = "x" ]]; then
+        printf "${RED}Error: IP is empty${NC}\n"
+        exit 1
+       fi
+
+      export PORT_FORWARD_SMARTTHINGS="{\"sourceIp\":\"${RASPBERRY_PI_IP}\",\"sourcePort\":\"8080\",\"destinationPort\":8080},{\"sourceIp\":\"${RASPBERRY_PI_IP}\",\"sourcePort\":\"8099\",\"destinationPort\":8099},{\"sourceIp\":\"${RASPBERRY_PI_IP}\",\"sourcePort\":\"8098\",\"destinationPort\":8098}"
+
+
+      if [[ "x${PORT_FORWARD}" = "x" ]]; then
+         PORT_FORWARD="${PORT_FORWARD_SMARTTHINGS}"
+       else
+         PORT_FORWARD="${PORT_FORWARD},${PORT_FORWARD_SMARTTHINGS}"
+      fi
+  fi
+
+  echo "{\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[${PORT_FORWARD}]}}}" >/opt/config.json
   chown -R $(whoami):$(whoami) /opt/config.json
 
   printf "${GREEN}PPTP secret created${NC}\n"
 else
   printf "${GREEN}PPTP secret exists${NC}\n"
 fi
-
-printf "${CYAN}Configuring Samsung Smartthings Integration${NC}\n"
-SMARTTHINGS_FILE=/opt/remote-ctrl-gsm.json
-if [[ ! -f "$SMARTTHINGS_FILE" ]]; then
-  export SMARTTHINGS_PAGE=' '
-  echo
-  read -p "Do you need Smartthings integration [y/n]? " -n 1 -r
-  echo
-  if [[ $REPLY =~ ^[Yy]$ ]]
-    then
-      read -p 'Smartthings Admin password: ' ADMIN_PASSWORD
-        if [[ "x${ADMIN_PASSWORD}" = "x" ]]; then
-          printf "${RED}Error: admin password is empty${NC}\n"
-          exit 1
-    fi
-    echo '{"port":8099,"portUI":8080,"smartthings":{"devices":[]},"smartapp":["https://graph.api.smartthings.com","https://graph-na02-useast1.api.smartthings.com","https://graph-na04-useast2.api.smartthings.com","https://graph-eu01-euwest1.api.smartthings.com","https://graph-ap02-apnortheast2.api.smartthings.com"],"users":[{"id":"0","username":"admin","password":"'"${ADMIN_PASSWORD}"'"}],"connectionType":"local"}' >/opt/remote-ctrl-gsm.json
-    export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
-  fi
-  printf "${GREEN}Smartthings integration configured${NC}\n"
-else
-  export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
-  printf "${GREEN}Smartthings integration already configured${NC}\n"
-fi
-
-
 
 printf "${CYAN}Starting installing Docker${NC}\n"
 apt-get update && sudo apt-get install -y iptables git iptables-persistent
@@ -90,6 +129,9 @@ docker stop remote-ctrl
 docker rm remote-ctrl
 docker image prune -a -f
 set -e
-docker run -d --name=remote-ctrl ${SMARTTHINGS_PAGE} -p 1723:1723 -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-pptp:latest
+if [[ "x${SMARTTHINGS}" = "x" ]]; then
+  export SMARTTHINGS="false"
+fi
+docker run -d --name=remote-ctrl ${SMARTTHINGS_PAGE} -e SMARTTHINGS=${SMARTTHINGS} -p 1723:1723 -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-pptp:latest
 printf "${CYAN}Rebooting${NC}\n"
 reboot
