@@ -2,7 +2,7 @@
 
 - ![CI](https://github.com/vzakharchenko/remote-ctrl-gsm/workflows/CI/badge.svg)
 - [![docker](https://github.com/vzakharchenko/remote-ctrl-gsm/actions/workflows/docker.yml/badge.svg)](https://github.com/vzakharchenko/remote-ctrl-gsm/actions/workflows/docker.yml)
-
+- [![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://secure.wayforpay.com/button/bca19c6085e34)
 
 ## Description
 
