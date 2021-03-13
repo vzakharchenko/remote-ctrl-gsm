@@ -53,13 +53,13 @@ printf "${CYAN}Configuring VPN secrets${NC}\n"
 FILE=/opt/config.json
 if [[ ! -f "$FILE" ]]; then
   read -s -p 'IPSec Shared Password: ' IPSEC_PASSWORD
-
+  echo
   if [[ "x${IPSEC_PASSWORD}" = "x" ]]; then
     printf  "${RED}Error: IPSec Shared  password is empty${NC}\n"
     exit 1
   fi
   read -p 'L2TP username: ' USER_NAME
-
+  echo
   if [[ "x${USER_NAME}" = "x" ]]; then
     printf "${RED}Error: username is empty${NC}\n"
     exit 1
@@ -102,7 +102,7 @@ if [[ ! -f "$FILE" ]]; then
       fi
   fi
 
-  echo "{\"ipsec\":{\"secret\":\"${IPSEC_PASSWORD}\"},\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[[${PORT_FORWARD}]]}}}" >/opt/config.json
+  echo "{\"ipsec\":{\"secret\":\"${IPSEC_PASSWORD}\"},\"users\":\"${USER_NAME}\":\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[[${PORT_FORWARD}]]}}}" >/opt/config.json
 
   chown -R $(whoami):$(whoami) /opt/config.json
 
