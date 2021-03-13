@@ -102,7 +102,7 @@ if [[ ! -f "$FILE" ]]; then
       fi
   fi
 
-  echo "{\"ipsec\":{\"secret\":\"${IPSEC_PASSWORD}\"},\"users\":\"${USER_NAME}\":\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[[${PORT_FORWARD}]]}}}" >/opt/config.json
+  echo "{\"ipsec\":{\"secret\":\"${IPSEC_PASSWORD}\"},\"users\":{\"${USER_NAME}\":{\"password\":\"${USER_PASSWORD}\",\"ip\":\"192.168.122.10\",\"forwarding\":[[${PORT_FORWARD}]]}}}" >/opt/config.json
 
   chown -R $(whoami):$(whoami) /opt/config.json
 
