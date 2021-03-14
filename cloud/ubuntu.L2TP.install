@@ -30,7 +30,7 @@ if [[ ! -f "$SMARTTHINGS_FILE" ]]; then
       echo
         if [[ $REPLY =~ ^[Yy]$ ]]
           then
-            export SMARTTHINGS='false'
+            export SMARTTHINGS=false
             export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -p 8098:8098 '
           else
             read -p 'Smartthings Admin password: ' ADMIN_PASSWORD
@@ -38,7 +38,7 @@ if [[ ! -f "$SMARTTHINGS_FILE" ]]; then
               printf "${RED}Error: admin password is empty${NC}\n"
               exit 1
             fi
-            export SMARTTHINGS='true'
+            export SMARTTHINGS=true
             echo '{"port":8099,"portUI":8080,"portSMS":8098,"smartthings":{"devices":[]},"smartapp":["https://graph.api.smartthings.com","https://graph-na02-useast1.api.smartthings.com","https://graph-na04-useast2.api.smartthings.com","https://graph-eu01-euwest1.api.smartthings.com","https://graph-ap02-apnortheast2.api.smartthings.com"],"users":[{"id":"0","username":"admin","password":"'"${ADMIN_PASSWORD}"'"}],"connectionType":"local"}' >/opt/remote-ctrl-gsm.json
             export SMARTTHINGS_PAGE=' -p 8080:8080 -p 8099:8099 -p 8098:8098 -v /opt/remote-ctrl-gsm.json:/opt/config/remote-ctrl-gsm.json '
           fi
@@ -137,4 +137,7 @@ docker stop remote-ctrl
 docker rm remote-ctrl
 docker image prune -a -f
 set -e
-docker run -d --name=remote-ctrl -p 500:500/udp -p 4500:4500/udp ${SMARTTHINGS_PAGE}  -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-l2tp:latest
+if [[ "x${SMARTTHINGS}" = "x" ]]; then
+  export SMARTTHINGS=false
+fi 
+docker run -d --name=remote-ctrl -e SMARTTHINGS=${SMARTTHINGS}  -p 500:500/udp -p 4500:4500/udp ${SMARTTHINGS_PAGE}  -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-l2tp:latest
