@@ -139,5 +139,5 @@ docker image prune -a -f
 set -e
 if [[ "x${SMARTTHINGS}" = "x" ]]; then
   export SMARTTHINGS=false
-fi 
+fi
 docker run -d --name=remote-ctrl -e SMARTTHINGS=${SMARTTHINGS}  -p 500:500/udp -p 4500:4500/udp ${SMARTTHINGS_PAGE}  -p 7894:7894 -v /opt/config.json:/opt/config.json --privileged --restart=always vassio/remote-ctrl-l2tp:latest
