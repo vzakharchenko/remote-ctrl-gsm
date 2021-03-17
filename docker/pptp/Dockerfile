@@ -18,7 +18,7 @@ RUN ln -sf /opt/phevctl/phevctl/build/phevctl /usr/bin/phevctl
 COPY entrypointRC.sh /entrypointRC.sh
 RUN chmod +x /entrypointRC.sh
 RUN npm i pm2 -g
-RUN npm i smartthings-phevctl@1.4.1 -g
+RUN npm i smartthings-phevctl@1.5.0 -g
 EXPOSE 8099
 EXPOSE 8080
 EXPOSE 1723
