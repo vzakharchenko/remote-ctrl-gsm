@@ -23,7 +23,7 @@ function parseFile(cJson) {
                 const value = kv[1];
                 if (value.forwarding) {
                     value.forwarding.forEach(f => {
-                        redir = redir + `-p ${f.externalPort}:${f.externalPort} `
+                        redir = redir + `-p ${f.externalIP?`${f.externalIP}:`:''}${f.externalPort}:${f.externalPort} `
                     })
 
                 }
