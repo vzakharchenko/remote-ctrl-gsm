@@ -40,7 +40,7 @@ http://<CLOUD_HOST>:8080
 - Default password: admin
 
 
-## Modified application https://play.google.com/store/apps/details?id=com.inventec.iMobile2
+## Modified application [https://play.google.com/store/apps/details?id=com.inventec.iMobile2](https://github.com/vzakharchenko/remote-ctrl-gsm/releases)
 What changed:
 1. Removed Wi-Fi connection requirement.
 2. The ability to change MAC address.
