@@ -4,11 +4,11 @@
 
 
 # static fields
-.field public static f:Z = false
+.field public static f:Z = true
 
-.field public static g:Z = false
+.field public static g:Z = true
 
-.field public static h:Z = false
+.field public static h:Z = true
 
 .field static i:Z = false
 
